@@ -1,0 +1,47 @@
+l=13 k=10 orbit dim 1 signs (+1,-1) tr a2=-16 tr a3=81 tr a5=2694  (tr a5 mod l = 3)  <-- class
+l=17 k=14 orbit dim 1 signs (-1,+1) tr a2=64 tr a3=-729 tr a5=54654  (tr a5 mod l = 16)  <-- class
+l=19 k=16 orbit dim 1 signs (+1,+1) tr a2=-128 tr a3=-2187 tr a5=-314490  (tr a5 mod l = 17)  <-- class
+l=19 k=16 orbit dim 1 signs (-1,-1) tr a2=128 tr a3=2187 tr a5=77646  (tr a5 mod l = 12)
+l=19 k=16 orbit dim 1 signs (-1,+1) tr a2=128 tr a3=-2187 tr a5=-114810  (tr a5 mod l = 7)
+l=23 k=20 orbit dim 1 signs (-1,-1) tr a2=512 tr a3=19683 tr a5=1953390  (tr a5 mod l = 0)  <-- class
+l=23 k=20 orbit dim 1 signs (+1,-1) tr a2=-512 tr a3=19683 tr a5=-5849490  (tr a5 mod l = 8)
+l=23 k=20 orbit dim 1 signs (+1,+1) tr a2=-512 tr a3=-19683 tr a5=-3732474  (tr a5 mod l = 12)
+l=29 k=26 orbit dim 1 signs (-1,+1) tr a2=4096 tr a3=-531441 tr a5=-799327650  (tr a5 mod l = 17)
+l=29 k=26 orbit dim 1 signs (+1,-1) tr a2=-4096 tr a3=531441 tr a5=590425734  (tr a5 mod l = 2)
+l=29 k=26 orbit dim 1 signs (+1,+1) tr a2=-4096 tr a3=-531441 tr a5=-292754850  (tr a5 mod l = 5)  <-- class
+l=31 k=28 orbit dim 1 signs (-1,-1) tr a2=8192 tr a3=1594323 tr a5=1220703150  (tr a5 mod l = 30)
+l=31 k=28 orbit dim 1 signs (-1,+1) tr a2=8192 tr a3=-1594323 tr a5=2904255750  (tr a5 mod l = 11)  <-- class
+l=31 k=28 orbit dim 1 signs (+1,-1) tr a2=-8192 tr a3=1594323 tr a5=1992850350  (tr a5 mod l = 5)
+l=31 k=28 orbit dim 2 signs (+1,+1) tr a2=-16384 tr a3=-3188646 tr a5=291441036  (tr a5 mod l = 23)
+l=37 k=34 orbit dim 1 signs (-1,-1) tr a2=65536 tr a3=43046721 tr a5=-249151856250  (tr a5 mod l = 11)
+l=37 k=34 orbit dim 1 signs (-1,+1) tr a2=65536 tr a3=-43046721 tr a5=397843662750  (tr a5 mod l = 25)
+l=37 k=34 orbit dim 1 signs (+1,+1) tr a2=-65536 tr a3=-43046721 tr a5=-368836145250  (tr a5 mod l = 29)
+l=37 k=34 orbit dim 2 signs (+1,-1) tr a2=-131072 tr a3=86093442 tr a5=-9266183796  (tr a5 mod l = 4)  <-- class
+l=41 k=38 orbit dim 1 signs (-1,-1) tr a2=262144 tr a3=387420489 tr a5=4477461318150  (tr a5 mod l = 17)
+l=41 k=38 orbit dim 1 signs (+1,-1) tr a2=-262144 tr a3=387420489 tr a5=7011991417350  (tr a5 mod l = 40)
+l=41 k=38 orbit dim 1 signs (+1,+1) tr a2=-262144 tr a3=-387420489 tr a5=7687713618750  (tr a5 mod l = 17)
+l=41 k=38 orbit dim 2 signs (-1,+1) tr a2=524288 tr a3=-774840978 tr a5=-2817943749636  (tr a5 mod l = 1)  <-- class
+l=43 k=40 orbit dim 1 signs (+1,-1) tr a2=-524288 tr a3=1162261467 tr a5=-45682904651250  (tr a5 mod l = 25)
+l=43 k=40 orbit dim 2 signs (-1,-1) tr a2=1048576 tr a3=2324522934 tr a5=-34197246804324  (tr a5 mod l = 5)
+l=43 k=40 orbit dim 2 signs (-1,+1) tr a2=1048576 tr a3=-2324522934 tr a5=54702920206860  (tr a5 mod l = 11)
+l=43 k=40 orbit dim 2 signs (+1,+1) tr a2=-1048576 tr a3=-2324522934 tr a5=6873268566540  (tr a5 mod l = 35)  <-- class
+l=47 k=44 orbit dim 1 signs (-1,+1) tr a2=2097152 tr a3=-10460353203 tr a5=-1901385277568250  (tr a5 mod l = 26)
+l=47 k=44 orbit dim 2 signs (-1,-1) tr a2=4194304 tr a3=20920706406 tr a5=201636036099420  (tr a5 mod l = 11)  <-- class
+l=47 k=44 orbit dim 2 signs (+1,-1) tr a2=-4194304 tr a3=20920706406 tr a5=-981175039776420  (tr a5 mod l = 45)
+l=47 k=44 orbit dim 2 signs (+1,+1) tr a2=-4194304 tr a3=-20920706406 tr a5=99948841052556  (tr a5 mod l = 28)
+l=53 k=50 orbit dim 1 signs (-1,-1) tr a2=16777216 tr a3=282429536481 tr a5=-10447518741296250  (tr a5 mod l = 44)
+l=53 k=50 orbit dim 2 signs (-1,+1) tr a2=33554432 tr a3=-564859072962 tr a5=91349320035229500  (tr a5 mod l = 35)
+l=53 k=50 orbit dim 2 signs (+1,-1) tr a2=-33554432 tr a3=564859072962 tr a5=-110530698572899956  (tr a5 mod l = 30)
+l=53 k=50 orbit dim 2 signs (+1,+1) tr a2=-33554432 tr a3=-564859072962 tr a5=154689824750365500  (tr a5 mod l = 27)  <-- class
+# LMFDB values read 20 Nov 2026 (class orbit: label, signs at 2 and 3, trace of a5)
+13 6.10.a.a + - 2694
+17 6.14.a.a - + 54654
+19 6.16.a.a + + -314490
+23 6.20.a.c - - 1953390
+29 6.26.a.a + + -292754850
+31 6.28.a.b - + 2904255750
+37 6.34.a.d + - -9266183796
+41 6.38.a.d - + -2817943749636   (page shows -28...36; q-expansion gives half, -1408971874818)
+43 6.40.a.b + + 6873268566540    (page shows 68...40; q-expansion gives half, 3436634283270)
+47 6.44.a.d - - 201636036099420  (page shows 20...20; q-expansion gives half, 100818018049710)
+53 6.50.a.b + + 154689824750365500 (page shows 15...00; the four a5 sum to the trace form's 125060927471398794)
