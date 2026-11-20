@@ -3,9 +3,11 @@
 A computational study of the partition function p(n) modulo powers of a prime ℓ, and an independent recheck of it.
 
 For each prime ℓ ≥ 5, the numbers p(ℓ^b·n + δ_b), with 24·δ_b ≡ 1 (mod ℓ^b), form a "tower" with one level for each b.
-Going up two levels multiplies the deep levels by fixed ℓ-adic constants. This project computes those constants from
-newforms of weight ℓ − 3 on Γ0(6), followed in ℓ-adic families to weight −2, and tests them against exact partition
-numbers.
+Going up two levels multiplies the deep levels by fixed ℓ-adic constants. For ℓ ≥ 13 this project computes those
+constants from newforms of weight ℓ − 3 on Γ0(6), followed in ℓ-adic families to weight −2, and tests them against
+exact partition numbers. The primes 5, 7 and 11 are treated separately: no such newform exists there, the tower is first
+divided by the powers of ℓ that Watson's and Atkin's congruences give, and its one constant comes from a family of
+positive slope (statement C).
 
 ## Status, read this first
 
@@ -24,15 +26,16 @@ refereed), **computed**, or **conjectured**.
 
 | If you want | Read |
 |---|---|
-| One calculation, start to finish | `recheck/scripts/week2/example13.py` (ten lines; needs python-flint) |
-| The overview, with what is known, new and unproved | the surveys in `surveys/` |
-| The exact statements, A to H | `results/side_finds/STATEMENT.md` |
-| The draft proof of the main statement | `results/side_finds/NOTE.md` |
-| The short arguments for A3 and E1 | `results/side_finds/PROOF.md` |
-| Every finding with its status, and corrections | `results/side_finds/FINDINGS.md` |
-| What is open | `results/side_finds/NEXT.md` |
-| The day-by-day working notebook | `results/side_finds/README.md` |
-| What is in print | `results/side_finds/reports/Partition tower literature check.md` |
+| One calculation, start to finish | [`recheck/scripts/week2/example13.py`](recheck/scripts/week2/example13.py) (ten lines; needs python-flint) |
+| A plain-language guide (start here if you are new to the subject) | [Partition towers in plain words (PDF)](surveys/Partition%20towers%20in%20plain%20words.pdf) |
+| The technical survey: what is known, new and unproved, with sources | [The partition tower modulo prime powers: a computational survey (PDF)](surveys/The%20partition%20tower%20modulo%20prime%20powers%20a%20computational%20survey.pdf) |
+| The exact statements, A to H | [`STATEMENT.md`](results/side_finds/STATEMENT.md) |
+| The draft proof of the main statement | [`NOTE.md`](results/side_finds/NOTE.md) |
+| The short arguments for A3 and E1 | [`PROOF.md`](results/side_finds/PROOF.md) |
+| Every finding with its status, and corrections | [`FINDINGS.md`](results/side_finds/FINDINGS.md) |
+| What is open | [`NEXT.md`](results/side_finds/NEXT.md) |
+| The day-by-day working notebook | [`results/side_finds/README.md`](results/side_finds/README.md) |
+| What is in print | [literature check](results/side_finds/reports/Partition%20tower%20literature%20check.md) |
 
 ## Layout
 
@@ -54,11 +57,11 @@ wheel; those were run under WSL.
   families.
 - Some first digits were already in print (Ono 2000; Boylan–Webb 2013; Narayanan 2019). The literature report lists
   them.
+- Full rank of the tower (that it uses every form of the class) is computed, not proved. See `NOTE.md`, section 5.
+- The folder holds more than the surveys cover: digs on mock theta functions, moonshine series, poles of modular
+  functions and others. Those were not part of the independent recheck, except where the survey says so (section 7).
 - The notebook keeps a few references to material that is not in this repository (sums of three cubes, and other
   studies in the same workspace).
-- The folder holds more than the surveys cover: digs on mock theta functions, moonshine series, poles of
-  modular functions and others. Those were not part of the independent recheck, except where the survey
-  says so (section 7).
 
 ## Licence
 

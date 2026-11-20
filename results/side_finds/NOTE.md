@@ -237,8 +237,17 @@ The minimal polynomial of the step on the tower divides Q_ℓ. It equals Q_ℓ w
 - On lane ℓ the levels span at most as many directions as the degree of T_ℓ's minimal polynomial on S_ℓ mod ℓ.
 - At ℓ = 607 two Frobenius-conjugate forms of S_607 have the same a_607 on lane 607 (in F₆₀₇), so that degree is 24, not
   25. This matches Boylan–Webb's rank R − 1.
-- Theorem A shows the only possible obstruction is of this first kind (coinciding numbers), never a non-ordinary form.
-- The chance of such a coincidence is about 1/ℓ per prime, so about 0.7 were expected between 37 and 1297; one was seen.
+- Theorem A rules out one cause of a missing direction: a non-ordinary form. Two causes remain.
+  - **Coinciding numbers**, as at 607. The chance is about 1/ℓ per prime, so about 0.7 were expected between 37 and
+    1297; one was seen.
+  - **A form the tower does not use.** Even with distinct numbers, the tower could start with zero component along one
+    form, and the step would keep it at zero. Nothing here excludes that. "Which forms occur" is open in general
+    (PROOF.md, step 5).
+- So full rank is not proved. It is computed: Boylan–Webb found rank R_ℓ for every ℓ ≤ 1297 except 607, and the share
+  test on partition numbers finds R_ℓ full-size components at levels 1 to 3 at every prime from 13 to 613, 25 of them
+  at 607 (`share_test*.txt`).
+- *Reworded 20 Nov 2026 after an outside review. The earlier text said coinciding numbers were "the only possible
+  obstruction"; that overlooked the second cause.*
 
 ## 6. Numerical confirmation [computed; files in this folder]
 
