@@ -1,0 +1,23 @@
+37, level 1: 288 values of n (0 s)
+37, level 3: 288 values of n (1 s)
+37, level 5: 288 values of n (88 s)
+37, levels 1 → 3 over 288 values of n: turns of twin A [13], twin B [8], the whole tower 36 different
+73, level 1: 240 values of n (1 s)
+73, level 3: 240 values of n (17 s)
+73: strand 1 turns by θ = 191807 for 240 of 240 values of n
+ℓ = 13: notes ['constant 6: turn 5 of 12, 12 points']; the loop (lcm of the orders) 12; partitions_loops.txt: 12, the same
+ℓ = 17: notes ['constant 6: turn 15 of 16, 16 points']; the loop (lcm of the orders) 16; partitions_loops.txt: 16, the same
+ℓ = 19: notes ['constant 10: turn 17 of 18, 18 points']; the loop (lcm of the orders) 18; partitions_loops.txt: 18, the same
+ℓ = 23: notes ['constant 5: turn 1 of 22, 22 points']; the loop (lcm of the orders) 22; partitions_loops.txt: 22, the same
+ℓ = 29: notes ['constant 3: turn 5 of 28, 28 points']; the loop (lcm of the orders) 28; partitions_loops.txt: 28, the same
+ℓ = 31: notes ['constant 30: turn 15 of 30, 2 points']; the loop (lcm of the orders) 2; partitions_loops.txt: 2, the same
+ℓ = 37: notes ['constant 34: turn 8 of 36, 9 points', 'constant 15: turn 13 of 36, 36 points']; the loop (lcm of the orders) 36; partitions_loops.txt: 36, the same
+ℓ = 41: notes ['constant 31: turn 28 of 40, 10 points', 'constant 23: turn 36 of 40, 10 points']; the loop (lcm of the orders) 10; partitions_loops.txt: 10, the same
+ℓ = 43: notes ['constant 31: turn 34 of 42, 21 points', 'constant 6: turn 28 of 42, 3 points']; the loop (lcm of the orders) 21; partitions_loops.txt: 21, the same
+ℓ = 47: notes ['a group of 2 in the field of 47^2: turn 1 of 2208, 2208 points']; the loop (lcm of the orders) 2208; partitions_loops.txt: 2208, the same
+ℓ = 53: notes ['constant 43: turn 22 of 52, 26 points', 'constant 7: turn 14 of 52, 26 points']; the loop (lcm of the orders) 26; partitions_loops.txt: 26, the same
+ℓ = 59: notes ['a group of 2 in the field of 59^2: turn 748 of 3480, 870 points']; the loop (lcm of the orders) 870; partitions_loops.txt: 870, the same
+ℓ = 61: notes ['constant 32: turn 5 of 60, 12 points', 'a group of 2 in the field of 61^2: turn 1 of 3720, 3720 points']; the loop (lcm of the orders) 3720; partitions_loops.txt: 3720, the same
+ℓ = 73: notes ['a group of 3 in the field of 73^3: turn 191807 of 389016, 389016 points']; the loop (lcm of the orders) 389016
+ℓ = 97: notes ['constant 28: turn 3 of 96, 32 points', 'a group of 3 in the field of 97^3: turn 203820 of 912672, 76056 points']; the loop (lcm of the orders) 304224
+wrote chords_page_data2.json; the largest partition number used: p(623156580249);  seconds: 108

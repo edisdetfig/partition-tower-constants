@@ -1,0 +1,11 @@
+python-flint 0.9.0
+1  p(56628877314) by FLINT: 36 on lane 43, 63332 on lane 43³  (0 s)
+   PARI gave 23 and 62975 (twice), sympy 36 and 63332  →  sympy is right, PARI is wrong
+2  the law members and controls of partitions_split.txt: FLINT agrees with PARI at 15 of 15
+3  ℓ = 37 (constants from partitions_twins.txt): H_(b+4) − T·H_(b+2) + N·H_b divisible by ℓ^ [1, 1, 2] for levels (1,3,5), (2,4,6), (3,5,7)
+3  ℓ = 41 (constants from partitions_twins.txt): H_(b+4) − T·H_(b+2) + N·H_b divisible by ℓ^ [1, 1, 2] for levels (1,3,5), (2,4,6), (3,5,7)
+3  ℓ = 43 (constants from partitions_twins_43.txt): H_(b+4) − T·H_(b+2) + N·H_b divisible by ℓ^ [1, 1, 2] for levels (1,3,5), (2,4,6), (3,5,7)
+4  13: digits shared with the forms by the ratio of levels two apart (FLINT):  (4, 6): 4;  (5, 7): 5;  (6, 8): 6;  (7, 9): 7;  (8, 10): 8
+5  p(540584055355) (24N − 1 = 37·2999³·13) by FLINT: 0 on lane 37  →  a multiple of 37, as derived  (2 s)
+
+seconds: 5

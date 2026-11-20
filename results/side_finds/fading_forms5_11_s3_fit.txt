@@ -1,0 +1,5 @@
+ℓ = 11, slope 3: the groups kept in these files, carried to weight −2
+   read fading_forms5_11_s3_x4-15.jsonl: 11 groups at x = [4, 5, 6, 7, 8, 9, 10, 11, 12, 15]
+
+a group of 1 root of slope 3, weights x = [4, 5, 6, 7, 8, 9, 10, 11, 15] (k = [48, 58, 68, 78, 88, 98, 108, 118, 158]), carried to weight −2 modulo ℓ^24
+   its system on lane ℓ: (0, 4, 1)

@@ -1,0 +1,19 @@
+ℓ = 43, a level-1 form of weight -6: families through k₀ = 36, read at x = -1 (weight -6); 11 weights; modulo ℓ^11; FLINT 0.9.0
+   weight 36 (dimension 4): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 78 (dimension 7): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 120 (dimension 11): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 162 (dimension 14): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 204 (dimension 18): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 246 (dimension 21): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 288 (dimension 25): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 330 (dimension 28): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 372 (dimension 32): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 414 (dimension 35): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+   weight 456 (dimension 39): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [28, 28, 38, 34, 1]  (0 s)
+the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 5, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+the constants' polynomial at weight -6 (lowest first), on lane ℓ^11: [87987598790881975, 579806990506794028, 416926024823375910, 773866864821393500, 1];  on lane ℓ: [28, 28, 38, 34, 1]
+   x = 1 is a root to ℓ^11 (the Eisenstein family): True
+   on lane ℓ it factors as [([12, 1], 1), ([42, 1], 1), ([12, 23, 1], 1)]
+   the cusp forms' polynomial (lowest first), on lane ℓ^11: [841306140680340732, 261499150173546704, 773866864821393501, 1]
+
+seconds: 0

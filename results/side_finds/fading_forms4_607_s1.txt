@@ -1,0 +1,39 @@
+ℓ = 607, slope 1, weights −2 + 606·(x + 1) for x = 1..3, modulo ℓ^24; FLINT 0.9.0
+   weight 1210 (dimension 1211): 50 forms new at 2 and 3 with the class's signs (to ℓ^24), in 5 systems  (1142 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1
+      a system of degree 2 on lane ℓ: 2 forms; slopes 0×2
+      a system of degree 8 on lane ℓ: 8 forms; slopes 1×8;  its 8 roots of slope 1: G known to ℓ^16, factors on lane ℓ of degrees [8]
+      a system of degree 17 on lane ℓ: 17 forms; slopes 1×17;  its 17 roots of slope 1: G known to ℓ^7, factors on lane ℓ of degrees [17]
+      a system of degree 22 on lane ℓ: 22 forms; slopes 0×22
+   weight 1816 (dimension 1817): 76 forms new at 2 and 3 with the class's signs (to ℓ^24), in 9 systems  (3008 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1
+      a system of degree 2 on lane ℓ: 2 forms; slopes 2×2
+      a system of degree 2 on lane ℓ: 2 forms; slopes 0×2
+      a system of degree 8 on lane ℓ: 8 forms; slopes 1×8;  its 8 roots of slope 1: G known to ℓ^16, factors on lane ℓ of degrees [8]
+      a system of degree 10 on lane ℓ: 10 forms; slopes 2×10
+      a system of degree 13 on lane ℓ: 13 forms; slopes 24/13×13
+      a system of degree 17 on lane ℓ: 17 forms; slopes 1×17;  its 17 roots of slope 1: G known to ℓ^7, factors on lane ℓ of degrees [17]
+      a system of degree 22 on lane ℓ: 22 forms; slopes 0×22
+   weight 2422 (dimension 2423): 101 forms new at 2 and 3 with the class's signs (to ℓ^24), in 12 systems  (5488 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1
+      a system of degree 2 on lane ℓ: 2 forms; slopes 3×2
+      a system of degree 2 on lane ℓ: 2 forms; slopes 2×2
+      a system of degree 2 on lane ℓ: 2 forms; slopes 0×2
+      a system of degree 6 on lane ℓ: 6 forms; slopes 3×6
+      a system of degree 8 on lane ℓ: 8 forms; slopes 1×8;  its 8 roots of slope 1: G known to ℓ^16, factors on lane ℓ of degrees [8]
+      a system of degree 10 on lane ℓ: 10 forms; slopes 2×10
+      a system of degree 13 on lane ℓ: 13 forms; slopes 24/13×13
+      a system of degree 17 on lane ℓ: 17 forms; slopes 1×17;  its 17 roots of slope 1: G known to ℓ^7, factors on lane ℓ of degrees [17]
+      a system of degree 17 on lane ℓ: 17 forms; slopes 24/17×17
+      a system of degree 22 on lane ℓ: 22 forms; slopes 0×22
+
+a group of 8 roots of slope 1 (system of degree 8), carried through weights x = [1, 2, 3] (each to ℓ^4 or more):
+   at weight −2, the polynomial of the constants (3|ℓ)·u/ℓ^1: coefficients lowest first, each as digits lowest first: [[408, 535, 103, 223], [488, 69, 473, 102], [399, 338, 319, 209], [534, 350, 260, 47], [463, 236, 133, 279], [282, 400, 103, 348], [588, 441, 443, 422], [195, 544, 142, 202], [1, 0, 0, 0]]
+   its factors on lane ℓ: degrees [3, 5]
+a group of 17 roots of slope 1 (system of degree 17), carried through weights x = [1, 2, 3] (each to ℓ^4 or more):
+   at weight −2, the polynomial of the constants (3|ℓ)·u/ℓ^1: coefficients lowest first, each as digits lowest first: [[262, 420, 538, 378], [560, 284, 354, 251], [23, 574, 278, 169], [288, 446, 209, 499], [92, 172, 120, 330], [477, 140, 537, 448], [1, 226, 371, 314], [566, 545, 521, 359], [283, 14, 116, 586], [244, 561, 173, 233], [72, 153, 288, 405], [83, 416, 56, 465], [159, 101, 256, 90], [175, 181, 149, 148], [123, 214, 374, 251], [541, 499, 246, 131], [121, 388, 190, 176], [1, 0, 0, 0]]
+   its factors on lane ℓ: degrees [1, 1, 6, 9]
+
+seconds: 9638

@@ -1,0 +1,22 @@
+ℓ = 13, slope 2, weights −2 + 156·(x + 1) for x = 0..6, modulo ℓ^28 (N = 8 and 20 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-10 form (U₂ = -1·2^4, U₃ = +1·3^4), the only one of its class; T_q numbers {5: 3, 7: 5, 11: 5}
+   --sys: the piece is taken instead with the Hecke numbers {5: 11, 7: 8, 11: 0} (the slope-2 form found by --any)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 154 (dimension 155): the piece [6, 2, 2, 2], new at 2 and 3 with the class's signs: 2 (to ℓ^28); slopes of T_ℓ there: 6×1, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^24; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 9, 9, 2, 9, 8, 12, 11]  (1 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 310 (dimension 311): the piece [10, 4, 4, 4], new at 2 and 3 with the class's signs: 4 (to ℓ^28); slopes of T_ℓ there: 10×2, 6×1, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^20; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 7, 9, 0, 1, 8, 0, 10]  (3 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 466 (dimension 467): the piece [16, 6, 6, 6], new at 2 and 3 with the class's signs: 6 (to ℓ^28); slopes of T_ℓ there: 26/5×5, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^16; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 5, 6, 9, 12, 5, 9, 9]  (9 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 622 (dimension 623): the piece [23, 8, 8, 8], new at 2 and 3 with the class's signs: 8 (to ℓ^28); slopes of T_ℓ there: 26/7×7, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^12; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 3, 0, 3, 6, 12, 6, 12]  (20 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 778 (dimension 779): the piece [30, 10, 10, 10], new at 2 and 3 with the class's signs: 10 (to ℓ^28); slopes of T_ℓ there: 26/9×9, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^8; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 1, 4, 7, 8, 11, 2, 1]  (36 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 934 (dimension 935): the piece [36, 11, 11, 11], new at 2 and 3 with the class's signs: 11 (to ℓ^28); slopes of T_ℓ there: 13/5×10, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^6; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 12, 4, 9, 7, 0]  (67 s)
+      its Hecke numbers on lane ℓ: {5: 11, 7: 8, 11: 0}; the class's: {5: 3, 7: 5, 11: 5}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 1090 (dimension 1091): the piece [43, 13, 13, 13], new at 2 and 3 with the class's signs: 13 (to ℓ^28); slopes of T_ℓ there: 13/6×12, 2×1; u/ℓ^2 on lane ℓ: 10, known to ℓ^2; (3|ℓ)·u/ℓ^2, digits lowest first: [10, 10]  (103 s)
+the differences are divisible by ℓ to Lagrange through x = [0, 1, 2, 3, 4, 5, 6]
+(3|ℓ)·u(−2)/ℓ^2, digits lowest first (the first 2 are the reach of 7 weights): [10, 11]
+the fading note measured from partition numbers (tower_fading.txt): [10, 11, 6, 2, 10, 10]  →  the first 2 digits agree
+
+seconds: 239

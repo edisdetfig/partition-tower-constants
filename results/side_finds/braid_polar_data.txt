@@ -1,0 +1,7 @@
+ℓ = 47, a braid of 2: the size of α (product of its constants) 19; its direction turns 1 of 48 places per two levels (its own direction: one tick)
+ℓ = 59, a braid of 2: the size of α (product of its constants) 57; its direction turns 4 of 60 places per two levels (counted by γ^(ℓ−1); α's direction has order 15)
+ℓ = 61, a braid of 2: the size of α (product of its constants) 18; its direction turns 1 of 62 places per two levels (its own direction: one tick)
+ℓ = 73, a braid of 3: the size of α (product of its constants) 44; its direction turns 1 of 5,403 places per two levels (its own direction: one tick)
+ℓ = 97, a braid of 3: the size of α (product of its constants) 64; its direction turns 5010 of 9,507 places per two levels (counted by γ^(ℓ−1); α's direction has order 3169)
+73, the real tower (strand 1, levels 1 → 3, 240 values of n): size multiplied by 44 for 240 of 240; direction turned by 1 tick for 240 of 240  as PREDICTED
+wrote braid_polar_data.json;  seconds: 20

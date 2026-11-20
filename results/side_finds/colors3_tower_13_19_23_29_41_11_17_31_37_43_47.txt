@@ -1,0 +1,1 @@
+p₃(n) modulo ℓ^K for n < 300000000 (FLINT 0.9.0, WSL)

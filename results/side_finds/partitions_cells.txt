@@ -1,0 +1,62 @@
+p(n) for every n up to 2400000, kept on the lane 5·7·11·13·17·19·23 (12 s); p(100) comes out right: True
+
+1  IS p(N) ≡ μ·p(N*) (mod ℓ) WITH ONE μ PER CLASS?  (every prime Q from 5 to 139 whose classes hold at least 12 members each)
+   ℓ =  5:  Radu's class: 31 of 31;  the other class: 0 of 31;  ℓ | m: a law already (p(N) is always a multiple)
+   ℓ =  7:  Radu's class: 31 of 31;  the other class: 0 of 31;  ℓ | m: a law already (p(N) is always a multiple)
+   ℓ = 11:  Radu's class: 0 of 31;  the other class: 0 of 31;  ℓ | m: a law already (p(N) is always a multiple)
+   ℓ = 13:  Radu's class: 31 of 31;  the other class: 0 of 31;  ℓ | m: 20 of 20
+   ℓ = 17:  Radu's class: 0 of 31;  the other class: 0 of 31;  ℓ | m: 17 of 17
+   ℓ = 19:  Radu's class: 1 of 31 (Q = 103);  the other class: 0 of 31;  ℓ | m: 16 of 16
+   ℓ = 23:  Radu's class: 0 of 31;  the other class: 0 of 31;  ℓ | m: 14 of 14
+
+2  A FORMULA FOR μ IN RADU'S CLASS, ℓ = 5, 7, 13. Fitted on Q < 140: μ ≡ Q⁻²·[ (3|Q)·(1 + Q) − (−3|Q)·(m|Q) ]  (mod ℓ),
+   where (a|Q) is the sign of a on lane Q. Checked on every member, for every prime Q up to 7589:
+   ℓ =  5:  Q < 140 (where it was fitted): 31 primes, 43466 members, 0 wrong;  140 < Q ≤ 7589 (not seen in the fit): 215 primes, 1137 members, 0 wrong
+   ℓ =  7:  Q < 140 (where it was fitted): 31 primes, 61487 members, 0 wrong;  140 < Q ≤ 7589 (not seen in the fit): 215 primes, 1186 members, 0 wrong
+   ℓ = 13:  Q < 140 (where it was fitted): 31 primes, 79540 members, 0 wrong;  140 < Q ≤ 7589 (not seen in the fit): 151 primes, 1173 members, 0 wrong
+
+3  WHERE μ IS 0: A LAW. By the formula, μ ≡ 0 exactly when Q ≡ −2 (mod ℓ) and (−m|Q) = −1. Counted:
+   ℓ =  5:  the 241 primes Q ≡ −2 up to 7589 (13, 23, 43, 53, 73, 83, …): 4300 members, 4300 of them multiples of 5;  any other class all multiples: none
+   ℓ =  7:  the 162 primes Q ≡ −2 up to 7589 (5, 19, 47, 61, 89, 103, …): 18402 members, 18402 of them multiples of 7;  any other class all multiples: none
+   ℓ = 13:  the 82 primes Q ≡ −2 up to 7589 (11, 37, 89, 167, 193, 271, …): 4677 members, 4677 of them multiples of 13;  any other class all multiples: none
+   Where Q ≡ −1 (mod ℓ), the formula's first part, (3|Q)·(1 + Q)·Q⁻², is 0. In the Hecke rule that part alone links p at Q³·m' to
+   p at Q·m', so p(N) should be a multiple whenever Q³ divides 24N − 1 exactly (N in Radu's class; laws of the kind in Ahlgren,
+   Allen and Tang's Theorem 1.1). DERIVED from the formula, then counted:
+   ℓ =  5:  Q = 19, 29, 59, 79, 89, 109, 139, 149, 179, 199, 229, 239, 269, 349, 359, 379: 179 members, 179 of them multiples
+   ℓ =  7:  Q = 13, 41, 83, 97, 139, 167, 181, 223, 251, 293, 307, 349: 451 members, 451 of them multiples
+   ℓ = 13:  Q = 103, 181, 233, 311, 337: 1 members, 1 of them multiples
+   the laws as progressions (every member up to 2400000 checked):
+   p(875·n + B) ≡ 0 (mod 7)  [875 = 7·5³] for 6 values of B (B = 24, 274, 424, 549, 774, 799);  members 16456, not multiples 0
+   p(10985·n + B) ≡ 0 (mod 5)  [10985 = 5·13³] for 12 values of B (B = 331, 1176, 2697, 3711, 5232, 6077, 6922, 7091, 7767, 9626, 10302, 10471);  members 2621, not multiples 0
+   p(17303·n + B) ≡ 0 (mod 13)  [17303 = 13·11³] for 30 values of B (B = 237, 358, 600, 1931, 2778, 4230, …);  members 4159, not multiples 0;  Atkin's own example 237 is among them: True
+   p(60835·n + B) ≡ 0 (mod 5)  [60835 = 5·23³] for 22 values of B (B = 1036, 3681, 8971, 13732, 14261, 16906, …);  members 868, not multiples 0
+   p(48013·n + B) ≡ 0 (mod 7)  [48013 = 7·19³] for 27 values of B (B = 346, 2873, 3595, 3956, 5400, 8649, …);  members 1350, not multiples 0
+
+4  HOW MUCH OF THE EXTRA MULTIPLES THESE LAWS ACCOUNT FOR. "Struck": N in Radu's class with a Q ≡ −2 law (Q² exactly, (−m|Q) = −1)
+   or a Q ≡ −1 law (Q³ exactly). Prediction: the old laws, plus 1 for struck N, plus chance (1/ℓ) everywhere else; the share of
+   struck N from each prime's own odds, (Q − 1)/2Q³ and (Q − 1)/Q⁴, multiplied over all primes up to 2,000,000.
+   ℓ =  5:  ℓ | 24N − 1: 1.00000 of 480000;  the other class: 0.20076 of 960000;  Radu's class, struck: 1.00000 of 4473;  not struck: 0.20592 of 955527  (1/ℓ = 0.20000)
+           struck share of Radu's class: counted 0.00466, from the odds 0.00465;  all N: counted 0.36415, predicted 0.36149
+           extra multiples over the old laws plus chance: 0.00415, of which the laws of 3 account for 0.00149 (36%)
+   ℓ =  7:  ℓ | 24N − 1: 1.00000 of 342857;  the other class: 0.14304 of 1028571;  Radu's class, struck: 1.00000 of 18814;  not struck: 0.14453 of 1009758  (1/ℓ = 0.14286)
+           struck share of Radu's class: counted 0.01829, from the odds 0.01828;  all N: counted 0.27281, predicted 0.27202
+           extra multiples over the old laws plus chance: 0.00750, of which the laws of 3 account for 0.00672 (90%)
+   ℓ = 13:  ℓ | 24N − 1: 0.09330 of 184615;  the other class: 0.07718 of 1107692;  Radu's class, struck: 1.00000 of 4677;  not struck: 0.07683 of 1103016  (1/ℓ = 0.07692)
+           struck share of Radu's class: counted 0.00422, from the odds 0.00423;  all N: counted 0.08006, predicted 0.07999
+
+5  WHAT IS LEFT OVER
+   ℓ = 5, Radu's class, not struck, 24N − 1 with no square factor at all: 0.20641 of 911849 multiples (z = +15.3 against 1/5);
+      with a square factor (not struck): 0.19561 of 43678;  the core share by size: 0.2042, 0.2067, 0.2064
+      the core share in each of 177 classes (N mod 8, N mod 9, 24N − 1 mod 25, 24N − 1 mod each prime 5 to 31): from 0.2013 to 0.2124
+      the core values on lane 5: 0: 0.2064, 1: 0.1988, 2: 0.1979, 3: 0.1985, 4: 0.1984
+   ℓ = 7, Radu's class, not struck, 24N − 1 with no square factor at all: 0.14460 of 957457 multiples (z = +4.9 against 1/7);
+      with a square factor (not struck): 0.14313 of 52301;  the core share by size: 0.1441, 0.1447, 0.1446
+      the core share in each of 186 classes (N mod 8, N mod 9, 24N − 1 mod 49, 24N − 1 mod each prime 5 to 31): from 0.1396 to 0.1491
+      the core values on lane 7: 0: 0.1446, 1: 0.1428, 2: 0.1424, 3: 0.1430, 4: 0.1425, 5: 0.1421, 6: 0.1426
+   ℓ = 13, the class 13 | 24N − 1: p(13n + 6) ≡ 11·[qⁿ] ∏(1 − qᵏ)¹¹ (mod 13), checked for every n ≤ 184614:
+      True;  multiples of 13 among them: 0.09330 of 184615 (1/13 = 0.07692)
+   ℓ = 17, the class 17 | 24N − 1: multiples 0.06126 of 141177 (1/17 = 0.05882)
+   ℓ = 19, the class 19 | 24N − 1: multiples 0.05557 of 126316 (1/19 = 0.05263)
+   ℓ = 23, the class 23 | 24N − 1: multiples 0.04993 of 104348 (1/23 = 0.04348)
+
+seconds: 18

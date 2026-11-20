@@ -1,0 +1,11 @@
+the first-step families (seed Sym^(ℓ−7) ⊗ det): the ghost series at the tower's weight −2, primes 29 … 613
+   ℓ =  29: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 24; first slope at −2: 1; second form arrives at x = 25
+   ℓ =  31: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 26; first slope at −2: 1; second form arrives at x = 27
+   ℓ =  37: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 32; first slope at −2: 1; second form arrives at x = 33
+   ℓ =  41: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 36; first slope at −2: 1; second form arrives at x = 37
+   ℓ =  43: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 38; first slope at −2: 1; second form arrives at x = 39
+   ℓ =  47: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 42; first slope at −2: 1; second form arrives at x = 43
+   ℓ =  53: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 48; first slope at −2: 1; second form arrives at x = 49
+   ℓ =  59: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 54; first slope at −2: 1; second form arrives at x = 55
+   ℓ =  61: d = [0, 1, 1] …, D = [2, 4, 6] …; v(g_1) = 1, v(g_2) = 56; first slope at −2: 1; second form arrives at x = 57
+   first slope exactly 1 at 103 of 103 primes; v(g_2) ranges over 24 … 608

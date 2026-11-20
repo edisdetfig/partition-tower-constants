@@ -1,0 +1,23 @@
+
+ℓ = 13: the constant on lane 13² is 45;  f (weight 10): (3|ℓ)·a_ℓ(f) on lane ℓ = 6, on lane ℓ² = 136
+   weight 154, level 6: 25 newforms in 4 Galois orbits, degrees [6, 6, 6, 7]  (2 s)
+   IN f's FAMILY: orbit 4 (degree 7): (3|ℓ)·a_ℓ on lane ℓ² = 0  →  not equal (the constant is 45)
+   IN f's FAMILY: orbit 4 (degree 7): (3|ℓ)·a_ℓ on lane ℓ² = 45  →  EQUAL to the constant
+   the 21 other embeddings into the ℓ-adic integers: (3|ℓ)·a_ℓ on lane ℓ² takes 3 values; the constant 45 is not among them
+   (3 s)
+
+ℓ = 17: the constant on lane 17² is 210;  f (weight 14): (3|ℓ)·a_ℓ(f) on lane ℓ = 6, on lane ℓ² = 57
+   weight 270, level 6: 45 newforms in 4 Galois orbits, degrees [11, 11, 11, 12]  (23 s)
+   IN f's FAMILY: orbit 4 (degree 12): (3|ℓ)·a_ℓ on lane ℓ² = 0  →  not equal (the constant is 210)
+   IN f's FAMILY: orbit 4 (degree 12): (3|ℓ)·a_ℓ on lane ℓ² = 210  →  EQUAL to the constant
+   the 39 other embeddings into the ℓ-adic integers: (3|ℓ)·a_ℓ on lane ℓ² takes 5 values; the constant 210 is not among them
+   (29 s)
+
+ℓ = 19: the constant on lane 19² is 48;  f (weight 16): (3|ℓ)·a_ℓ(f) on lane ℓ = 10, on lane ℓ² = 352
+   weight 340, level 6: 57 newforms in 4 Galois orbits, degrees [14, 14, 14, 15]  (67 s)
+   IN f's FAMILY: orbit 4 (degree 15): (3|ℓ)·a_ℓ on lane ℓ² = 0  →  not equal (the constant is 48)
+   IN f's FAMILY: orbit 4 (degree 15): (3|ℓ)·a_ℓ on lane ℓ² = 48  →  EQUAL to the constant
+   the 53 other embeddings into the ℓ-adic integers: (3|ℓ)·a_ℓ on lane ℓ² takes 5 values; the constant 48 is not among them
+   (79 s)
+
+ℓ = 23: the constant on lane 23² is 465;  f (weight 20): (3|ℓ)·a_ℓ(f) on lane ℓ = 5, on lane ℓ² = 511

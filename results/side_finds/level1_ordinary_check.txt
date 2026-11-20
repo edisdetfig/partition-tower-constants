@@ -1,0 +1,76 @@
+Level 1, weight ℓ − 1, on lane ℓ: d = dim S_(ℓ−1), R = ⌊(ℓ + 12)/24⌋, the ordinary part (rank of T_ℓ^(d+1)) and the non-ordinary room
+   ℓ =  13: d =  1, R =  1, ordinary  1, not ordinary  0  as PREDICTED (d − R)
+   ℓ =  17: d =  1, R =  1, ordinary  1, not ordinary  0  as PREDICTED (d − R)
+   ℓ =  19: d =  1, R =  1, ordinary  1, not ordinary  0  as PREDICTED (d − R)
+   ℓ =  23: d =  1, R =  1, ordinary  1, not ordinary  0  as PREDICTED (d − R)
+   ℓ =  29: d =  2, R =  1, ordinary  2, not ordinary  0  NOT as predicted
+   ℓ =  31: d =  2, R =  1, ordinary  2, not ordinary  0  NOT as predicted
+   ℓ =  37: d =  3, R =  2, ordinary  3, not ordinary  0  NOT as predicted
+   ℓ =  41: d =  3, R =  2, ordinary  3, not ordinary  0  NOT as predicted
+   ℓ =  43: d =  3, R =  2, ordinary  3, not ordinary  0  NOT as predicted
+   ℓ =  47: d =  3, R =  2, ordinary  3, not ordinary  0  NOT as predicted
+   ℓ =  53: d =  4, R =  2, ordinary  4, not ordinary  0  NOT as predicted
+   ℓ =  59: d =  4, R =  2, ordinary  4, not ordinary  0  NOT as predicted
+   ℓ =  61: d =  5, R =  3, ordinary  5, not ordinary  0  NOT as predicted
+   ℓ =  67: d =  5, R =  3, ordinary  5, not ordinary  0  NOT as predicted
+   ℓ =  71: d =  5, R =  3, ordinary  5, not ordinary  0  NOT as predicted
+   ℓ =  73: d =  6, R =  3, ordinary  6, not ordinary  0  NOT as predicted
+   ℓ =  79: d =  6, R =  3, ordinary  6, not ordinary  0  NOT as predicted
+   ℓ =  83: d =  6, R =  3, ordinary  6, not ordinary  0  NOT as predicted
+   ℓ =  89: d =  7, R =  4, ordinary  7, not ordinary  0  NOT as predicted
+   ℓ =  97: d =  8, R =  4, ordinary  8, not ordinary  0  NOT as predicted
+   ℓ = 101: d =  8, R =  4, ordinary  8, not ordinary  0  NOT as predicted
+   ℓ = 103: d =  8, R =  4, ordinary  8, not ordinary  0  NOT as predicted
+   ℓ = 107: d =  8, R =  4, ordinary  8, not ordinary  0  NOT as predicted
+   ℓ = 109: d =  9, R =  5, ordinary  9, not ordinary  0  NOT as predicted
+   ℓ = 113: d =  9, R =  5, ordinary  9, not ordinary  0  NOT as predicted
+   ℓ = 127: d = 10, R =  5, ordinary 10, not ordinary  0  NOT as predicted
+   ℓ = 131: d = 10, R =  5, ordinary 10, not ordinary  0  NOT as predicted
+   ℓ = 137: d = 11, R =  6, ordinary 11, not ordinary  0  NOT as predicted
+   ℓ = 139: d = 11, R =  6, ordinary 11, not ordinary  0  NOT as predicted
+   ℓ = 149: d = 12, R =  6, ordinary 12, not ordinary  0  NOT as predicted
+   ℓ = 151: d = 12, R =  6, ordinary 12, not ordinary  0  NOT as predicted
+   ℓ = 157: d = 13, R =  7, ordinary 13, not ordinary  0  NOT as predicted
+   ℓ = 163: d = 13, R =  7, ordinary 13, not ordinary  0  NOT as predicted
+   ℓ = 167: d = 13, R =  7, ordinary 13, not ordinary  0  NOT as predicted
+   ℓ = 173: d = 14, R =  7, ordinary 14, not ordinary  0  NOT as predicted
+   ℓ = 179: d = 14, R =  7, ordinary 14, not ordinary  0  NOT as predicted
+   ℓ = 181: d = 15, R =  8, ordinary 15, not ordinary  0  NOT as predicted
+   ℓ = 191: d = 15, R =  8, ordinary 15, not ordinary  0  NOT as predicted
+   ℓ = 193: d = 16, R =  8, ordinary 16, not ordinary  0  NOT as predicted
+   ℓ = 197: d = 16, R =  8, ordinary 16, not ordinary  0  NOT as predicted
+   ℓ = 199: d = 16, R =  8, ordinary 16, not ordinary  0  NOT as predicted
+   ℓ = 211: d = 17, R =  9, ordinary 17, not ordinary  0  NOT as predicted
+   ℓ = 223: d = 18, R =  9, ordinary 18, not ordinary  0  NOT as predicted
+   ℓ = 227: d = 18, R =  9, ordinary 18, not ordinary  0  NOT as predicted
+   ℓ = 229: d = 19, R = 10, ordinary 19, not ordinary  0  NOT as predicted
+   ℓ = 233: d = 19, R = 10, ordinary 19, not ordinary  0  NOT as predicted
+   ℓ = 239: d = 19, R = 10, ordinary 19, not ordinary  0  NOT as predicted
+   ℓ = 241: d = 20, R = 10, ordinary 20, not ordinary  0  NOT as predicted
+   ℓ = 251: d = 20, R = 10, ordinary 20, not ordinary  0  NOT as predicted
+   ℓ = 257: d = 21, R = 11, ordinary 21, not ordinary  0  NOT as predicted
+   ℓ = 263: d = 21, R = 11, ordinary 21, not ordinary  0  NOT as predicted
+   ℓ = 269: d = 22, R = 11, ordinary 22, not ordinary  0  NOT as predicted
+   ℓ = 271: d = 22, R = 11, ordinary 22, not ordinary  0  NOT as predicted
+   ℓ = 277: d = 23, R = 12, ordinary 23, not ordinary  0  NOT as predicted
+   ℓ = 281: d = 23, R = 12, ordinary 23, not ordinary  0  NOT as predicted
+   ℓ = 283: d = 23, R = 12, ordinary 23, not ordinary  0  NOT as predicted
+   ℓ = 293: d = 24, R = 12, ordinary 24, not ordinary  0  NOT as predicted
+   ℓ = 307: d = 25, R = 13, ordinary 25, not ordinary  0  NOT as predicted
+   ℓ = 311: d = 25, R = 13, ordinary 25, not ordinary  0  NOT as predicted
+   ℓ = 313: d = 26, R = 13, ordinary 26, not ordinary  0  NOT as predicted
+   ℓ = 317: d = 26, R = 13, ordinary 26, not ordinary  0  NOT as predicted
+   ℓ = 331: d = 27, R = 14, ordinary 27, not ordinary  0  NOT as predicted
+   ℓ = 337: d = 28, R = 14, ordinary 28, not ordinary  0  NOT as predicted
+   ℓ = 347: d = 28, R = 14, ordinary 28, not ordinary  0  NOT as predicted
+   ℓ = 349: d = 29, R = 15, ordinary 29, not ordinary  0  NOT as predicted
+   ℓ = 353: d = 29, R = 15, ordinary 29, not ordinary  0  NOT as predicted
+   ℓ = 359: d = 29, R = 15, ordinary 29, not ordinary  0  NOT as predicted
+   ℓ = 367: d = 30, R = 15, ordinary 30, not ordinary  0  NOT as predicted
+   ℓ = 373: d = 31, R = 16, ordinary 31, not ordinary  0  NOT as predicted
+   ℓ = 379: d = 31, R = 16, ordinary 31, not ordinary  0  NOT as predicted
+   ℓ = 383: d = 31, R = 16, ordinary 31, not ordinary  0  NOT as predicted
+   ℓ = 389: d = 32, R = 16, ordinary 32, not ordinary  0  NOT as predicted
+   ℓ = 397: d = 33, R = 17, ordinary 33, not ordinary  0  NOT as predicted
+
+4 of 73 primes as predicted; not: [29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397];  seconds: 4

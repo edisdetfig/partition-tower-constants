@@ -1,0 +1,48 @@
+
+ℓ = 5, lane ℓ^12: tower levels 0..10 from n < 16000000 (5 s)
+   weight 4: dimension 1, the images in the target space: True; the composite on lane ℓ (in y): [0, 1]; ordinary part 0
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^12: [1];  differences' valuations []
+   lane ℓ, the ordinary part χ(y)     [1]: smallest depth over n ≥ 1 (of 1), by level:  1: 0  2: 0  3: 1  4: 1  5: 1  6: 1  7: 1  8: 1  9: 1  10: 1   (96 checks)
+   lane ℓ, y^1·χ(y)                   [0, 1]: smallest depth over n ≥ 1 (of 1), by level:  1: 1  2: 1  3: 1  4: 1  5: 1  6: 1  7: 1  8: 1   (74 checks)
+   every digit: χ(y) at weight 0      [1]: smallest depth over n ≥ 1 (of 12), by level:  1: 0  2: 0  3: 1  4: 1  5: 2  6: 2  7: 3  8: 3  9: 4  10: 5   (96 checks)
+   every digit: y^1·χ(y)              [0, 1]: smallest depth over n ≥ 1 (of 12), by level:  1: 1  2: 1  3: 2  4: 2  5: 3  6: 3  7: 4  8: 5   (74 checks)
+
+ℓ = 7, lane ℓ^10: tower levels 0..8 from n < 16000000 (5 s)
+   weight 6: dimension 1, the images in the target space: True; the composite on lane ℓ (in y): [1, 1]; ordinary part 1
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^10: [244768896, 1];  differences' valuations [[0, 1, 3, 4, 4, 5, 6, 7, 9, 12, 10, 10, 10]]
+   lane ℓ, the ordinary part χ(y)     [1, 1]: smallest depth over n ≥ 1 (of 1), by level:  1: 1  2: 1  3: 1  4: 1  5: 1  6: 1   (57 checks)
+   every digit: χ(y) at weight 0      [1, 1]: smallest depth over n ≥ 1 (of 10), by level:  1: 1  2: 2  3: 3  4: 4  5: 5  6: 6   (57 checks)
+
+ℓ = 11, lane ℓ^8: tower levels 0..6 from n < 16000000 (5 s)
+   weight 10: dimension 2, the images in the target space: True; the composite on lane ℓ (in y): [0, 2, 1]; ordinary part 1
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^8: [104748437, 1];  differences' valuations [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10]]
+   lane ℓ, the ordinary part χ(y)     [2, 1]: smallest depth over n ≥ 1 (of 1), by level:  1: 0  2: 0  3: 1  4: 1   (41 checks)
+   lane ℓ, y^1·χ(y)                   [0, 2, 1]: smallest depth over n ≥ 1 (of 1), by level:  1: 1  2: 1   (19 checks)
+   every digit: χ(y) at weight 0      [2, 1]: smallest depth over n ≥ 1 (of 8), by level:  1: 0  2: 0  3: 1  4: 1   (41 checks)
+   every digit: y^1·χ(y)              [0, 2, 1]: smallest depth over n ≥ 1 (of 8), by level:  1: 1  2: 1   (19 checks)
+
+ℓ = 13, lane ℓ^8: tower levels 0..6 from n < 16000000 (5 s)
+   weight 12: dimension 3, the images in the target space: True; the composite on lane ℓ (in y): [12, 11, 1, 1]; ordinary part 3
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^8: [515843327, 629827521, 460424680, 1];  differences' valuations [[0, 1, 2, 3, 4, 5, 6, 7, 9, 9, 10, 10, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10]]
+   lane ℓ, the ordinary part χ(y)     [12, 11, 1, 1]: smallest depth over n ≥ 1 (of 1), by level:  no level span   (0 checks)
+   every digit: χ(y) at weight 0      [12, 11, 1, 1]: smallest depth over n ≥ 1 (of 8), by level:  no level span   (0 checks)
+
+ℓ = 17, lane ℓ^7: tower levels 0..5 from n < 16000000 (5 s)
+   weight 16: dimension 4, the images in the target space: True; the composite on lane ℓ (in y): [16, 4, 13, 13, 1]; ordinary part 4
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^7: [306854674, 330261112, 253536398, 364150519, 1];  differences' valuations [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9], [0, 1, 2, 3, 4, 5, 7, 7, 8, 9, 9, 9, 9], [0, 2, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9]]
+   lane ℓ, the ordinary part χ(y)     [16, 4, 13, 13, 1]: smallest depth over n ≥ 1 (of 1), by level:  no level span   (0 checks)
+   every digit: χ(y) at weight 0      [16, 4, 13, 13, 1]: smallest depth over n ≥ 1 (of 7), by level:  no level span   (0 checks)
+
+ℓ = 19, lane ℓ^7: tower levels 0..5 from n < 16000000 (5 s)
+   weight 18: dimension 4, the images in the target space: True; the composite on lane ℓ (in y): [13, 18, 18, 12, 1]; ordinary part 4
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^7: [617724859, 27990856, 569319894, 675935842, 1];  differences' valuations [[0, 1, 2, 4, 4, 5, 6, 7, 8, 9, 9, 9, 9], [0, 1, 2, 3, 5, 5, 6, 7, 8, 9, 9, 9, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9]]
+   lane ℓ, the ordinary part χ(y)     [13, 18, 18, 12, 1]: smallest depth over n ≥ 1 (of 1), by level:  no level span   (0 checks)
+   every digit: χ(y) at weight 0      [13, 18, 18, 12, 1]: smallest depth over n ≥ 1 (of 7), by level:  no level span   (0 checks)
+
+ℓ = 23, lane ℓ^6: tower levels 0..5 from n < 16000000 (5 s)
+   weight 22: dimension 5, the images in the target space: True; the composite on lane ℓ (in y): [17, 9, 5, 2, 12, 1]; ordinary part 5
+   the families' polynomial χ(y) at weight 0 (lowest first), modulo ℓ^6: [52839734, 101425294, 88202429, 146001426, 108925735, 1];  differences' valuations [[0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8], [0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8], [0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8], [0, 1, 2, 3, 4, 6, 6, 7, 8, 8, 8, 8, 8], [0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8]]
+   lane ℓ, the ordinary part χ(y)     [17, 9, 5, 2, 12, 1]: smallest depth over n ≥ 1 (of 1), by level:  no level span   (0 checks)
+   every digit: χ(y) at weight 0      [17, 9, 5, 2, 12, 1]: smallest depth over n ≥ 1 (of 6), by level:  no level span   (0 checks)
+
+seconds: 39

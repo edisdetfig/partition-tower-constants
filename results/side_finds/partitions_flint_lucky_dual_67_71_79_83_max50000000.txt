@@ -1,0 +1,55 @@
+primes ℓ: [67, 71, 79, 83]; the lighter test at every prime Q up to 50000000
+
+ℓ = 67 (weight 64): the class has 3 forms; on lane ℓ its pieces have degrees [1, 2]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (240 s)
+   class ε=+1  expected      10.0 (derived)   counted     11   (counted − expected)/√expected = +0.32
+      below 10,000: []
+      all: [2654833, 3930767, 6132569, 6878671, 7367447, 19873933, 37825499, 42213923, 45050987, 45651769, 49699579]
+   class ε=−1  expected      10.0 (derived)   counted     10   (counted − expected)/√expected = +0.01
+      below 10,000: []
+      all: [665279, 2670373, 9994757, 10088311, 16342267, 17328347, 27753259, 33519751, 38160449, 46299119]
+   Ono         expected      10.0 (derived)   counted      7   (counted − expected)/√expected = -0.94
+      below 10,000: []
+      all: [16212257, 19192819, 20204003, 29415517, 38674249, 40569713, 46848101]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 241
+
+ℓ = 71 (weight 68): the class has 3 forms; on lane ℓ its pieces have degrees [3]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (251 s)
+   class ε=+1  expected       8.4 (derived)   counted      8   (counted − expected)/√expected = -0.13
+      below 10,000: []
+      all: [27028633, 34994251, 36263417, 37920329, 41483839, 43139029, 44981039, 47008727]
+   class ε=−1  expected       8.4 (derived)   counted     12   (counted − expected)/√expected = +1.25
+      below 10,000: []
+      all: [7701497, 8804287, 19668599, 21794261, 23901877, 31404211, 33915883, 34576559, 37895699, 39315443, 43455569, 44144281]
+   Ono         expected       8.4 (derived)   counted      8   (counted − expected)/√expected = -0.13
+      below 10,000: []
+      all: [351929, 21213583, 22810159, 24108407, 29017631, 38387407, 41160841, 43219669]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 251
+
+ℓ = 79 (weight 76): the class has 3 forms; on lane ℓ its pieces have degrees [1, 2]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (289 s)
+   class ε=+1  expected       6.1 (derived)   counted     10   (counted − expected)/√expected = +1.59
+      below 10,000: []
+      all: [5041271, 6089537, 8401219, 14642119, 15780937, 27289271, 30846799, 38197231, 47813267, 48820399]
+   class ε=−1  expected       6.1 (derived)   counted      5   (counted − expected)/√expected = -0.44
+      below 10,000: []
+      all: [8240447, 13144393, 26848769, 41936227, 44767927]
+   Ono         expected       6.1 (derived)   counted      3   (counted − expected)/√expected = -1.25
+      below 10,000: []
+      all: [3846229, 37031303, 39977891]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 289
+
+ℓ = 83 (weight 80): the class has 3 forms; on lane ℓ its pieces have degrees [1, 2]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (293 s)
+   class ε=+1  expected       5.2 (derived)   counted      6   (counted − expected)/√expected = +0.33
+      below 10,000: []
+      all: [1260437, 4680353, 23571967, 26161483, 39525571, 47213293]
+   class ε=−1  expected       5.2 (derived)   counted      6   (counted − expected)/√expected = +0.33
+      below 10,000: []
+      all: [14339207, 15571291, 23340409, 31492859, 35108779, 44297633]
+   Ono         expected       5.3 (derived)   counted      6   (counted − expected)/√expected = +0.33
+      below 10,000: []
+      all: [5659559, 20896847, 35456867, 44128043, 44545159, 46408301]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 294
+
+seconds: 546

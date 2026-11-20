@@ -1,0 +1,30 @@
+1  THE LOOPS, from the constants (counted; c₁ in two-level steps, so 2·c₁ levels)
+   ℓ =  5: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [1, 1]; partitions_constants.txt, 33 digits): loop on lane ℓ c₁ = 2 (largest possible 4); return depth v = 1
+   ℓ =  7: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [2, 1]; partitions_constants.txt, 14 digits): loop on lane ℓ c₁ = 6 (largest possible 6, a primitive root); return depth v = 1
+   ℓ = 11: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [2, 1]; partitions_constants.txt, 4 digits): loop on lane ℓ c₁ = 5 (largest possible 10); return depth v = 1
+   ℓ = 13: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [7, 1]; partitions_flint_family_13_N30.txt, 30 digits): loop on lane ℓ c₁ = 12 (largest possible 12, a primitive root); return depth v = 1
+   ℓ = 17: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [11, 1]; partitions_flint_family_17.txt, 30 digits): loop on lane ℓ c₁ = 16 (largest possible 16, a primitive root); return depth v = 1
+   ℓ = 19: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [9, 1]; partitions_flint_family_19.txt, 30 digits): loop on lane ℓ c₁ = 18 (largest possible 18, a primitive root); return depth v = 1
+   ℓ = 23: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [18, 1]; partitions_flint_family_23.txt, 30 digits): loop on lane ℓ c₁ = 22 (largest possible 22, a primitive root); return depth v = 1
+   ℓ = 29: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [26, 1]; partitions_flint_family_29.txt, 30 digits): loop on lane ℓ c₁ = 28 (largest possible 28, a primitive root); return depth v = 1
+   ℓ = 31: 1 constant (pieces of degree [1] on lane ℓ; polynomial on lane ℓ [1, 1]; partitions_flint_family_31.txt, 30 digits): loop on lane ℓ c₁ = 2 (largest possible 30); return depth v = 1
+   ℓ = 37: 2 constants (pieces of degree [1, 1] on lane ℓ; polynomial on lane ℓ [29, 25, 1]; partitions_flint_family_37_N20.txt, 20 digits): loop on lane ℓ c₁ = 36 (largest possible 36); return depth v = 1
+   ℓ = 41: 2 constants (pieces of degree [1, 1] on lane ℓ; polynomial on lane ℓ [16, 28, 1]; partitions_flint_family_41.txt, 20 digits): loop on lane ℓ c₁ = 10 (largest possible 40); return depth v = 1
+   ℓ = 43: 2 constants (pieces of degree [1, 1] on lane ℓ; polynomial on lane ℓ [14, 6, 1]; partitions_flint_family_43.txt, 20 digits): loop on lane ℓ c₁ = 21 (largest possible 42); return depth v = 1
+   ℓ = 47: 2 constants (pieces of degree [2] on lane ℓ; polynomial on lane ℓ [19, 18, 1]; partitions_flint_family_47_N20.txt, 20 digits): loop on lane ℓ c₁ = 2208 (largest possible 2208); return depth v = 1
+   ℓ = 53: 2 constants (pieces of degree [1, 1] on lane ℓ; polynomial on lane ℓ [36, 3, 1]; partitions_flint_family_53.txt, 20 digits): loop on lane ℓ c₁ = 26 (largest possible 52); return depth v = 1
+   ℓ = 59: 2 constants (pieces of degree [2] on lane ℓ; polynomial on lane ℓ [57, 53, 1]; partitions_flint_family_59.txt, 20 digits): loop on lane ℓ c₁ = 870 (largest possible 3480); return depth v = 1
+   ℓ = 61: 3 constants (pieces of degree [1, 2] on lane ℓ; polynomial on lane ℓ [34, 15, 31, 1]; partitions_flint_family_61_N20.txt, 20 digits): loop on lane ℓ c₁ = 3720 (largest possible 3720); return depth v = 1
+   predicted share of primitive roots for one constant: 13: 0.33, 17: 0.50, 19: 0.33, 23: 0.45, 29: 0.43, 31: 0.27
+
+2  THE SHORTEST LOOPS ON EXACT PARTITION NUMBERS (FLINT; counted)
+   ℓ =  5, b = 1: H′_1 on lane ℓ [1, 1, 2, 3, 0, 3, 2, 2, 0, 0];  H′_5 [1, 1, 2, 3, 0, 3, 2, 2, 0, 0]  →  back after 4 levels: yes;  H′_3 ≡ 4·H′_1: yes  (0 s)
+   ℓ =  5, b = 2: H′_2 on lane ℓ [3, 1, 0, 0, 0, 3, 0, 0, 0, 0];  H′_6 [3, 1, 0, 0, 0, 3, 0, 0, 0, 0]  →  back after 4 levels: yes;  H′_4 ≡ 4·H′_2: yes  (0 s)
+   ℓ = 31, b = 1: H′_1 on lane ℓ [10, 29, 3, 11, 1, 18, 16, 28, 23, 13];  H′_5 [10, 29, 3, 11, 1, 18, 16, 28, 23, 13]  →  back after 4 levels: yes;  H′_3 ≡ 30·H′_1: yes  (1 s)
+   ℓ = 31, b = 2: H′_2 on lane ℓ [11, 0, 10, 13, 18, 6, 5, 15, 13, 10];  H′_6 [11, 0, 10, 13, 18, 6, 5, 15, 13, 10]  →  back after 4 levels: yes;  H′_4 ≡ 30·H′_2: yes  (1 s)
+   ℓ = 11, b = 1: H′_1 on lane ℓ [1, 5, 8, 8, 9, 7, 5, 10, 5, 1];  H′_11 [1, 5, 8, 8, 9, 7, 5, 10, 5, 1]  →  back after 10 levels: yes;  H′_3 ≡ 9·H′_1: yes  (119 s)
+   ℓ = 11, b = 2: H′_2 on lane ℓ [4, 2, 5, 6, 3, 0, 10, 8, 8, 1];  H′_12 [4, 2, 5, 6, 3, 0, 10, 8, 8, 1]  →  back after 10 levels: yes;  H′_4 ≡ 9·H′_2: yes  (119 s)
+   ℓ =  7, b = 1: H′_1 on lane ℓ [1, 4, 0, 5, 0, 0, 0, 5, 6, 0];  H′_13 [1, 4, 0, 5, 0, 0, 0, 5, 6, 0]  →  back after 12 levels: yes;  H′_3 ≡ 5·H′_1: yes  (41 s)
+   ℓ =  7, b = 2: H′_2 on lane ℓ [5, 4, 2, 3, 5, 3, 4, 6, 6, 5];  H′_14 [5, 4, 2, 3, 5, 3, 4, 6, 6, 5]  →  back after 12 levels: yes;  H′_4 ≡ 5·H′_2: yes  (41 s)
+
+seconds: 161

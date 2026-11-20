@@ -1,0 +1,14 @@
+Q = 5: differences of a_Q divisible by 7 to [0, 2, 4, 7, 8, 10, 12]
+Q = 11: differences of a_Q divisible by 7 to [0, 2, 4, 6, 8, 10, 12]
+Q = 13: differences of a_Q divisible by 7 to [0, 2, 4, 6, 8, 11, 12]
+level 1 (Watson's factor 7^1 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 1 / 1;  Q = 5, ε = -1: 1 / 1;  Q = 11, ε = +1: 1 / 1;  Q = 11, ε = -1: 2 / 2;  Q = 13, ε = +1: 1 / 1;  Q = 13, ε = -1: 1 / 1  (0 s)
+level 2 (Watson's factor 7^2 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 2 / 2;  Q = 5, ε = -1: 2 / 2;  Q = 11, ε = +1: 2 / 2;  Q = 11, ε = -1: 2 / 2;  Q = 13, ε = +1: 2 / 2;  Q = 13, ε = -1: 3 / 2  (0 s)
+level 3 (Watson's factor 7^2 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 4 / 2;  Q = 5, ε = -1: 4 / 2;  Q = 11, ε = +1: 4 / 2;  Q = 11, ε = -1: 5 / 2;  Q = 13, ε = +1: 4 / 2;  Q = 13, ε = -1: 4 / 2  (0 s)
+level 4 (Watson's factor 7^3 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 5 / 2;  Q = 5, ε = -1: 5 / 2;  Q = 11, ε = +1: 5 / 2;  Q = 11, ε = -1: 5 / 2;  Q = 13, ε = +1: 5 / 2;  Q = 13, ε = -1: 6 / 2  (0 s)
+level 5 (Watson's factor 7^3 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 7 / 2;  Q = 5, ε = -1: 7 / 2;  Q = 11, ε = +1: 7 / 2;  Q = 11, ε = -1: 8 / 2;  Q = 13, ε = +1: 7 / 2;  Q = 13, ε = -1: 7 / 2  (0 s)
+level 6 (Watson's factor 7^4 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 8 / 2;  Q = 5, ε = -1: 8 / 2;  Q = 11, ε = +1: 8 / 2;  Q = 11, ε = -1: 8 / 2;  Q = 13, ε = +1: 8 / 2;  Q = 13, ε = -1: 9 / 2  (0 s)
+level 7 (Watson's factor 7^4 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 10 / 2;  Q = 5, ε = -1: 10 / 2;  Q = 11, ε = +1: 10 / 2;  Q = 11, ε = -1: 11 / 2;  Q = 13, ε = +1: 10 / 2;  Q = 13, ε = -1: 10 / 2  (1 s)
+level 8 (Watson's factor 7^5 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 11 / 2;  Q = 5, ε = -1: 11 / 2;  Q = 11, ε = +1: 11 / 2;  Q = 11, ε = -1: 11 / 2;  Q = 13, ε = +1: 11 / 2;  Q = 13, ε = -1: 12 / 2  (17 s)
+level 9 (Watson's factor 7^5 out): digits shared with weight −2 / with E7's rule:  Q = 5, ε = +1: 12 / 2;  Q = 5, ε = -1: 12 / 2;  Q = 11, ε = +1: 12 / 2;  Q = 11, ε = -1: 12 / 2;  Q = 13, ε = +1: 12 / 2;  Q = 13, ε = -1: 12 / 2  (192 s)
+
+seconds: 284

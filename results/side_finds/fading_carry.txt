@@ -1,0 +1,12 @@
+
+ℓ = 13: weights known to 8 digits or more: [154, 310, 466, 622, 778]
+   through 2 weights: (3|ℓ)·u(−2)/ℓ² = [10, 11, 9, 4, 4, 9] …;  measured on partition numbers: [10, 11, 6, 2, 10, 10]  →  2 of 6 digits agree
+   through 3 weights: (3|ℓ)·u(−2)/ℓ² = [10, 11, 6, 2, 11, 7] …;  measured on partition numbers: [10, 11, 6, 2, 10, 10]  →  4 of 6 digits agree
+   through 4 weights: (3|ℓ)·u(−2)/ℓ² = [10, 11, 6, 2, 10, 10] …;  measured on partition numbers: [10, 11, 6, 2, 10, 10]  →  6 of 6 digits agree
+   through 5 weights: (3|ℓ)·u(−2)/ℓ² = [10, 11, 6, 2, 10, 10] …;  measured on partition numbers: [10, 11, 6, 2, 10, 10]  →  6 of 6 digits agree
+
+ℓ = 17: weights known to 8 digits or more: [270, 542, 814, 1086, 1358]
+   through 2 weights: (3|ℓ)·u(−2)/ℓ² = [3, 9, 15, 13, 13, 13] …;  measured on partition numbers: [3, 9, 1, 13, 4, 3]  →  2 of 6 digits agree
+   through 3 weights: (3|ℓ)·u(−2)/ℓ² = [3, 9, 1, 13, 14, 10] …;  measured on partition numbers: [3, 9, 1, 13, 4, 3]  →  4 of 6 digits agree
+   through 4 weights: (3|ℓ)·u(−2)/ℓ² = [3, 9, 1, 13, 4, 3] …;  measured on partition numbers: [3, 9, 1, 13, 4, 3]  →  6 of 6 digits agree
+   through 5 weights: (3|ℓ)·u(−2)/ℓ² = [3, 9, 1, 13, 4, 3] …;  measured on partition numbers: [3, 9, 1, 13, 4, 3]  →  6 of 6 digits agree

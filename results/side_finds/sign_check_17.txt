@@ -1,0 +1,7 @@
+ℓ = 17: the systems of each of the four sign classes (forms new at 2 and 3), at level 6ℓ and level 6, x = [0, 1]; each system should occur in one class only
+   x = 0 (weight 14), level 6ℓ: 21 systems over the four sign classes; in more than one class: none
+   x = 0 (weight 14), level 6: 1 systems over the four sign classes; in more than one class: none
+   x = 1 (weight 30), level 6ℓ: 28 systems over the four sign classes; in more than one class: none
+   x = 1 (weight 30), level 6: 5 systems over the four sign classes; in more than one class: none
+
+systems found in more than one sign class: 0  (29 s)

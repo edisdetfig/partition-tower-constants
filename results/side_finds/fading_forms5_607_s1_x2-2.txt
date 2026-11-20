@@ -1,0 +1,19 @@
+ℓ = 607, slope 1, weights −2 + 606·(x + 1) for x = 2..2, modulo ℓ^24; FLINT 0.9.0; each weight's G also goes to fading_forms5_607_s1_x2-2.jsonl
+   weight 1816 (dimension 1817): 76 forms new at 2 and 3 with the class's signs (to ℓ^24), in 9 systems  (3208 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1
+      a system of degree 2 on lane ℓ: 2 forms; slopes 2×2
+      a system of degree 2 on lane ℓ: 2 forms; slopes 0×2
+      a system of degree 8 on lane ℓ: 8 forms; slopes 1×8;  its 8 roots of slope 1: G known to ℓ^16, factors on lane ℓ of degrees [8]
+         G (roots root/ℓ^1), coefficients lowest first, each as digits lowest first: [[97, 18, 340, 278, 401, 600, 355, 419, 579, 584, 124, 293, 529, 599, 375, 206], [69, 80, 51, 489, 409, 279, 264, 195, 20, 590, 521, 334, 61, 282, 387, 103], [546, 271, 261, 290, 145, 289, 423, 492, 281, 506, 564, 505, 323, 485, 72, 23], [437, 421, 410, 125, 52, 551, 84, 266, 260, 131, 412, 357, 491, 322, 379, 582], [297, 559, 9, 35, 199, 527, 491, 302, 554, 35, 262, 8, 541, 233, 509, 210], [245, 9, 264, 444, 199, 279, 478, 567, 355, 289, 71, 237, 343, 550, 46, 487], [531, 435, 291, 179, 371, 482, 183, 186, 531, 415, 394, 120, 255, 80, 408, 594], [390, 226, 194, 542, 448, 243, 544, 184, 349, 374, 152, 251, 362, 46, 193, 524], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 10 on lane ℓ: 10 forms; slopes 2×10
+      a system of degree 13 on lane ℓ: 13 forms; slopes 24/13×13
+      a system of degree 17 on lane ℓ: 17 forms; slopes 1×17;  its 17 roots of slope 1: G known to ℓ^7, factors on lane ℓ of degrees [17]
+         G (roots root/ℓ^1), coefficients lowest first, each as digits lowest first: [[147, 600, 290, 531, 8, 420, 158], [38, 237, 30, 259, 117, 439, 440], [111, 287, 451, 87, 1, 464, 44], [589, 481, 270, 319, 383, 75, 136], [17, 310, 565, 469, 445, 125, 432], [576, 329, 429, 602, 255, 83, 307], [42, 502, 19, 478, 279, 338, 598], [8, 316, 588, 167, 179, 14, 236], [364, 208, 255, 423, 394, 177, 492], [302, 83, 497, 3, 534, 168, 384], [249, 581, 502, 545, 188, 215, 13], [465, 216, 102, 217, 289, 430, 366], [495, 327, 48, 425, 220, 276, 56], [284, 604, 565, 433, 39, 340, 20], [10, 504, 180, 511, 127, 498, 226], [343, 117, 464, 57, 132, 162, 281], [242, 197, 344, 424, 461, 299, 288], [1, 0, 0, 0, 0, 0, 0]]
+      a system of degree 22 on lane ℓ: 22 forms; slopes 0×22
+
+a group in the system ((403, 252, 297, 268, 605, 573, 95, 135, 1), (4, 30, 309, 474, 251, 51, 606, 341, 1), (313, 247, 457, 368, 244, 137, 13, 363, 1), (456, 62, 221, 57, 388, 347, 442, 260, 1)), at x = [2]: not carried (it needs two or more weights of one degree, each known to ℓ^4)
+
+a group in the system ((245, 126, 347, 71, 110, 596, 386, 503, 283, 268, 548, 142, 69, 181, 372, 150, 128, 1), (313, 605, 496, 417, 282, 487, 471, 559, 237, 577, 125, 323, 451, 574, 53, 556, 430, 1), (457, 32, 576, 42, 302, 475, 464, 146, 446, 11, 335, 78, 196, 253, 216, 521, 341, 1), (499, 47, 202, 476, 238, 360, 517, 217, 281, 139, 383, 132, 84, 315, 258, 538, 514, 1)), at x = [2]: not carried (it needs two or more weights of one degree, each known to ℓ^4)
+
+seconds: 3209

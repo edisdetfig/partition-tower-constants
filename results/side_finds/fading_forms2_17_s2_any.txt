@@ -1,0 +1,10 @@
+ℓ = 17, slope 2, weights −2 + 272·(x + 1) for x = 0..4, modulo ℓ^28 (N = 8 and 20 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-14 form (U₂ = +1·2^6, U₃ = -1·3^6), the only one of its class; T_q numbers {5: 16, 7: 12, 11: 15, 13: 12}
+      its Hecke numbers on lane ℓ: {5: 4, 7: 2, 11: 9, 13: 7}; the class's: {5: 16, 7: 12, 11: 15, 13: 12}; θ-twists j with a_q ≡ q^j·a_q(class) for every q: none
+   weight 270 (dimension 271): the piece [15], new at 2 and 3 with the class's signs: 12 (to ℓ^28); slopes of T_ℓ there: 13/5×10, 2×1, 0×1; u/ℓ^2 on lane ℓ: 14, known to ℓ^6; (3|ℓ)·u/ℓ^2, digits lowest first: [3, 13, 6, 12, 14, 5]  (2 s)
+   weight 542: the piece [31], new at 2 and 3: 22 (to ℓ^27); slopes 9/7×21, 0×1: no single root of slope 2; skipped
+   weight 814: the piece [46], new at 2 and 3: 34 (to ℓ^28); slopes 28/33×33, 0×1: no single root of slope 2; skipped
+   weight 1086: the piece [61], new at 2 and 3: 45 (to ℓ^28); slopes 7/11×44, 0×1: no single root of slope 2; skipped
+   weight 1358: the piece [78], new at 2 and 3: 57 (to ℓ^28); slopes 1/2×56, 0×1: no single root of slope 2; skipped
+
+seconds: 287

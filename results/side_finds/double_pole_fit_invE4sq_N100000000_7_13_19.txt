@@ -1,0 +1,20 @@
+1/E₄² towers: level1_tower_invE4sq_N100000000_7_13_19.json (n < 100000000)
+ℓ = 7, lane ℓ^10: the two-term law x² − s·x + p fitted from 57 equations; s and p known to ℓ^6; every equation holds to ℓ^6; v(s) = 1, v(p) = 2
+   the two unit parts y (digits lowest first, to ℓ^4): [[1, 5, 0, 4], [4, 0, 1, 3]]
+   u⁻¹² digits: [1, 5, 0, 4]
+   root [1, 5, 0, 4]: agrees with u⁻¹² to 4 of 4 digits
+   root [4, 0, 1, 3]: agrees with u⁻¹² to 0 of 4 digits
+   2-term law (57 equations, unique on lane ℓ^7, known to ℓ^4): coefficient valuations [2, 1, 0]; slope-1 factor of degree 2 (to ℓ^2); at y = u⁻¹² it vanishes to ℓ^2 of 2
+   3-term law (46 equations, to ℓ^3): valuations of its coefficients [3, 2, 1, 0]; no slope-1 factor
+ℓ = 13, lane ℓ^8: the two-term law x² − s·x + p fitted from 34 equations; s and p known to ℓ^5; every equation holds to ℓ^4; v(s) = 1, v(p) = 2
+   the two unit parts y (digits lowest first, to ℓ^3): [[1, 9, 9], [8, 0, 0]]
+   u⁻¹² digits: [1, 0, 6]
+   root [1, 9, 9]: agrees with u⁻¹² to 1 of 3 digits
+   root [8, 0, 0]: agrees with u⁻¹² to 0 of 3 digits
+   2-term law (34 equations, to ℓ^2): valuations of its coefficients [2, 1, 0]; no slope-1 factor
+   3-term law (23 equations, to ℓ^2): valuations of its coefficients [2, 2, 1, 0]; no slope-1 factor
+ℓ = 19, lane ℓ^7: the two-term law x² − s·x + p fitted from 24 equations; s and p known to ℓ^4; every equation holds to ℓ^4; v(s) = 1, v(p) = 2
+   the two unit parts y (digits lowest first, to ℓ^2): not distinct on lane ℓ
+   u⁻¹² digits: [1, 12]
+   2-term law (24 equations, to ℓ^2): valuations of its coefficients [2, 1, 0]; no slope-1 factor
+   3-term law (13 equations, to ℓ^2): valuations of its coefficients [2, 2, 1, 0]; no slope-1 factor

@@ -1,0 +1,22 @@
+ℓ = 19 (3 colours), k₀ = 14, level 2, 15 weights, modulo ℓ^15; FLINT 0.9.0
+1  the class at weight 14 on lane ℓ: 1 form;  T_ℓ polynomial on lane ℓ [7, 1]
+2  weight 14 (dimension 4, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 32 (dimension 9, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 50 (dimension 13, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 68 (dimension 18, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 86 (dimension 22, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 104 (dimension 27, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 122 (dimension 31, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 140 (dimension 36, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 158 (dimension 40, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 176 (dimension 45, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 194 (dimension 49, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 212 (dimension 54, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 230 (dimension 58, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 248 (dimension 63, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+2  weight 266 (dimension 67, ordinary part 4): the class's piece 1; U_ℓ polynomial on lane ℓ [7, 1]  (0 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]]
+   the polynomial of u(−4) (lowest first) on lane ℓ: [7, 1];  on lane ℓ^15: [12113444202603506086, 1]
+   u(−4), digits lowest first: [12, 7, 9, 0, 10, 8, 6, 4, 16, 11, 4, 0, 18, 15, 3];  −u(−4): [7, 11, 9, 18, 8, 10, 12, 14, 2, 7, 14, 18, 0, 3, 15]
+
+seconds: 1

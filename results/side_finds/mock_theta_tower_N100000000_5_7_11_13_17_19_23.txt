@@ -1,0 +1,24 @@
+f(q) by its definition: [1, 1, -2, 3, -3, 3, -5, 7, -6, 6, -10] …; the Appell–Lerch identity agrees for n < 400: True
+
+ℓ = 5, lane ℓ^12 (44 s): levels 0..11; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: degree 2, [1, 0, 1] (lowest first), from 87 equations, unique: True;  from level 2: degree 2, [1, 0, 1] (lowest first), from 76 equations, unique: True
+
+ℓ = 7, lane ℓ^10 (44 s): levels 0..9; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: degree 2, [6, 0, 1] (lowest first), from 67 equations, unique: True;  from level 2: degree 2, [6, 0, 1] (lowest first), from 56 equations, unique: True
+
+ℓ = 11, lane ℓ^8 (43 s): levels 0..7; (3|ℓ) = +1, (−1|ℓ) = -1
+   the data alone: from level 1: degree 4, [1, 0, 2, 0, 1] (lowest first), from 26 equations, unique: True;  from level 2: degree 4, [1, 0, 2, 0, 1] (lowest first), from 15 equations, unique: True
+
+ℓ = 13, lane ℓ^8 (48 s): levels 0..7; (3|ℓ) = +1, (−1|ℓ) = +1
+   the data alone: from level 1: degree 4, [12, 0, 0, 0, 1] (lowest first), from 23 equations, unique: True;  from level 2: degree 4, [12, 0, 0, 0, 1] (lowest first), from 12 equations, unique: True
+
+ℓ = 17, lane ℓ^7 (44 s): levels 0..6; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: none of degree ≤ 4 (14 equations);  from level 2: none of degree ≤ 3 (14 equations)
+
+ℓ = 19, lane ℓ^7 (49 s): levels 0..6; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 4 (12 equations);  from level 2: none of degree ≤ 3 (12 equations)
+
+ℓ = 23, lane ℓ^6 (43 s): levels 0..5; (3|ℓ) = +1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 4 (11 equations);  from level 2: none of degree ≤ 3 (11 equations)
+
+seconds: 316

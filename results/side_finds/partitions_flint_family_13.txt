@@ -1,0 +1,28 @@
+ℓ = 13, k₀ = 10, 17 weights, modulo ℓ^17; FLINT 0.9.0
+1  the class at weight 10: dimension 1 (predicted ⌊(ℓ + 12)/24⌋ = 1)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [3, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [5, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [8, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [7, 1]
+2  weight 10 (dimension 11, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 22 (dimension 23, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 34 (dimension 35, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 46 (dimension 47, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 58 (dimension 59, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 70 (dimension 71, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 82 (dimension 83, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 94 (dimension 95, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 106 (dimension 107, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 118 (dimension 119, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 130 (dimension 131, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 142 (dimension 143, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 154 (dimension 155, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 166 (dimension 167, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 178 (dimension 179, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 190 (dimension 191, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+2  weight 202 (dimension 203, ordinary part 11): the piece has dimension 1 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [7, 1]  (0 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]]
+   the constants' polynomial (lowest first) on lane ℓ: [7, 1];  on lane ℓ^17: [6365933387005792724, 1]
+   a constant on lane ℓ, digits lowest first: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6, 8, 2, 8, 5, 3]
+
+seconds: 2

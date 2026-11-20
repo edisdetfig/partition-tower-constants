@@ -1,0 +1,25 @@
+Part A: a pole on the repeating curve (the canonical lift) against the drifting pole at j = 2; weight −12, u⁻¹⁴
+
+ℓ = 5, lane ℓ^11: the lift j = -32768 (aₗ = -3) and j = 2 (aₗ = -3) reduce to the same curve; s = v_ℓ(2 − j_lift) = 1; slope-1 families at weight −12: 0
+   P(x)·(x − u⁻¹⁴)        pole ON the lift (repeats)  depth by starting level: 1: 5  2: 7  3: 9  4: 11  5: 11  6: 11  7: 11  8: 11  (75 checks)
+   P(x)·(x − u⁻¹⁴)        pole at j = 2 (drifts)      depth by starting level: 1: 2  2: 3  3: 4  4: 5  5: 6  6: 7  7: 8  8: 9  (75 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole ON the lift (repeats)  depth by starting level: 1: 5  2: 7  3: 9  4: 11  5: 11  6: 11  7: 11  8: 11  (75 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole at j = 2 (drifts)      depth by starting level: 1: 2  2: 3  3: 4  4: 5  5: 6  6: 7  7: 8  8: 9  (75 checks)
+
+ℓ = 7, lane ℓ^10: the lift j = 54000 (aₗ = -4) and j = 2 (aₗ = -4) reduce to the same curve; s = v_ℓ(2 − j_lift) = 2; slope-1 families at weight −12: 1
+   P(x)·(x − u⁻¹⁴)        pole ON the lift (repeats)  depth by starting level: 1: 2  2: 3  3: 4  4: 5  5: 6  6: 7  (57 checks)
+   P(x)·(x − u⁻¹⁴)        pole at j = 2 (drifts)      depth by starting level: 1: 2  2: 3  3: 4  4: 5  5: 6  6: 7  (57 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole ON the lift (repeats)  depth by starting level: 1: 6  2: 8  3: 10  4: 10  5: 10  (46 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole at j = 2 (drifts)      depth by starting level: 1: 4  2: 5  3: 6  4: 7  5: 8  (46 checks)
+
+ℓ = 11, lane ℓ^8: the lift j = -3375 (aₗ = 4) and j = 2 (aₗ = 4) reduce to the same curve; s = v_ℓ(2 − j_lift) = 1; slope-1 families at weight −12: 1
+   P(x)·(x − u⁻¹⁴)        pole ON the lift (repeats)  depth by starting level: 1: 2  2: 3  3: 4  4: 5  (42 checks)
+   P(x)·(x − u⁻¹⁴)        pole at j = 2 (drifts)      depth by starting level: 1: 2  2: 3  3: 4  4: 5  (42 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole ON the lift (repeats)  depth by starting level: 1: 5  2: 7  3: 8  (31 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole at j = 2 (drifts)      depth by starting level: 1: 3  2: 4  3: 5  (31 checks)
+
+ℓ = 19, lane ℓ^7: the lift j = 54000 (aₗ = -8) and j = 2 (aₗ = -8) reduce to the same curve; s = v_ℓ(2 − j_lift) = 1; slope-1 families at weight −12: 2
+   P(x)·(x − u⁻¹⁴)        pole ON the lift (repeats)  depth by starting level: 1: 2  2: 3  3: 4  (28 checks)
+   P(x)·(x − u⁻¹⁴)        pole at j = 2 (drifts)      depth by starting level: 1: 2  2: 3  3: 4  (28 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole ON the lift (repeats)  depth by starting level: 1: 6  (6 checks)
+   P(x)·(x − u⁻¹⁴)·S(x)   pole at j = 2 (drifts)      depth by starting level: 1: 4  (6 checks)

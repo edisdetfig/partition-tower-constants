@@ -1,0 +1,16 @@
+ℓ = 31, weight -36 = 24 + -2·(ℓ − 1): 33 basis vectors (Katz degrees 0..12), working modulo ℓ^13, the series wanted modulo ℓ^10; FLINT 0.9.0
+   Dwork's bound v(C[r][c]) − (ℓ·i(r) − i(c))/(ℓ+1): smallest value -0.250 (the scaling below needs ≥ −1)
+   the scaled matrix: smallest valuation of each row (by Katz degree), the last rows: [10, 11, 11, 11, 11, 11]
+   det(1 − X·U) modulo ℓ^10: valuations of c_0 … c_16: [0, 0, 0, 0, 1, 2, 4, 6, 8, 10, 10, 10, 10, 10, 10, 10, 10]
+   its Newton polygon (slope, length), while below ℓ^10: [('0.000', 3), ('1.000', 2), ('2.000', 3)]
+   slope 0: 3 roots;  slope 1: 2 roots
+   the slope-0 factor ∏(z − λ) modulo ℓ^10, lowest first: [540405870310990, 209284922100140, 69937494569670, 1]
+      λ = 1 (digits [1, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+      λ = 122896172086618 (digits [13, 0, 26, 9, 17, 30, 27, 2, 20, 4])
+      λ = 626794620324512 (digits [22, 6, 2, 19, 13, 16, 2, 28, 21, 23])
+   after the slope-0 factor: v(q_t) for t = 0 … 14: [0, 1, 2, 4, 6, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10] (the last known at t = 5, slope into it 2.00)
+   the slope-1 factor ∏(y − λ/ℓ) modulo ℓ^4 (truncated at t = 6), lowest first: [814301, 908457, 1]
+      on lane ℓ: [24, 2, 1]; its roots on lane ℓ: [15, 14]
+      y = λ/ℓ, digits lowest first: [14, 3, 19, 17]
+      y = λ/ℓ, digits lowest first: [15, 17, 27, 13]
+seconds: 0

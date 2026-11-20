@@ -1,0 +1,4 @@
+ℓ = 43, the law with the constants 1 and 30 (x² − 31·x + 30): from level 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; from level 2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  →  holds
+ℓ = 41, the law with the constants 1 and 33 (x² − 34·x + 33): from level 1: [0, 33, 35, 4, 15, 6, 3, 33, 31, 9, 25, 33]; from level 2: [0, 15, 1, 13, 18, 40, 20, 15, 29, 19, 30, 15]  →  does NOT hold
+ℓ = 41, the law with the constants 1 and 34 (x² − 35·x + 34): from level 1: [0, 20, 25, 24, 3, 3, 30, 36, 12, 30, 14, 38]; from level 2: [0, 4, 5, 13, 17, 17, 6, 40, 27, 6, 11, 24]  →  does NOT hold
+ℓ = 41, the law with the constants 33 and 34 (x² − 26·x + 15): from level 1: [6, 36, 11, 24, 9, 18, 21, 39, 40, 28, 26, 6]; from level 2: [6, 36, 11, 24, 9, 18, 21, 39, 40, 28, 26, 6]  →  does NOT hold

@@ -1,0 +1,6 @@
+ℓ = 607, weight 604: the class has 25 forms, known to 607^4  (39 s)
+   T_607 on lane 607: the repeated factors [([240, 1], 2)]
+   the root 367: a piece of dimension 2; T_607 there is a·I on lane 607: True
+   C = (T_607 − a)/607 there: characteristic polynomial on lane 607 [484, 70, 1], factors [([484, 70, 1], 1)];  the pair's discriminant has 607-adic valuation 2 (2 + 0)
+   T₅ on the piece, on lane 607: characteristic polynomial [66, 561, 1]
+seconds: 39

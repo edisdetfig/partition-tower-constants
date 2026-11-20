@@ -1,0 +1,8 @@
+ℓ = 599 (weight 596): the class on lane ℓ has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: characteristic polynomial of degree 25, MINIMAL polynomial of degree 25  →  the levels fill at most 25 directions  (48 s)
+ℓ = 601 (weight 598): the class on lane ℓ has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: characteristic polynomial of degree 25, MINIMAL polynomial of degree 25  →  the levels fill at most 25 directions  (51 s)
+ℓ = 607 (weight 604): the class on lane ℓ has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: characteristic polynomial of degree 25, MINIMAL polynomial of degree 24  →  the levels fill at most 24 directions  (75 s)
+   repeated factor of degree 1, 2 times: 2 independent eigenvectors (T_ℓ acts there as one number); T₅ on them: characteristic polynomial [66, 561, 1], minimal of degree 2 (T₅ tells them apart)
+ℓ = 613 (weight 610): the class on lane ℓ has 26 forms (⌊(ℓ + 12)/24⌋ = 26); T_ℓ on it: characteristic polynomial of degree 26, MINIMAL polynomial of degree 26  →  the levels fill at most 26 directions  (67 s)
+ℓ = 499 (weight 496): the class exactly (21 of the 22 on lane ℓ) has 21 forms (⌊(ℓ + 12)/24⌋ = 21); T_ℓ on it: characteristic polynomial of degree 21, MINIMAL polynomial of degree 21  →  the levels fill at most 21 directions  (39 s)
+
+seconds: 280

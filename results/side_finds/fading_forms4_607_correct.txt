@@ -1,0 +1,13 @@
+607: the braids carried to weight -2 by fading_forms4.py (plain Lagrange through x = 1, 2, 3), first digits
+braid of 8:
+   printed, first digits lowest first: [408, 488, 399, 534, 463, 282, 588, 195, 1]
+   printed, factor degrees on lane 607: [3, 5] (the run printed [3, 5])
+   corrected by (-1)^j/c_j, lowest first: [458, 176, 331, 412, 360, 410, 588, 195, 1]
+   corrected, factor degrees on lane 607: [8]
+   corrected: product of the roots 458, sum of the roots 412 (derived from its coefficients)
+braid of 17:
+   printed, first digits lowest first: [262, 560, 23, 288, 92, 477, 1, 566, 283, 244, 72, 83, 159, 175, 123, 541, 121, 1]
+   printed, factor degrees on lane 607: [1, 1, 6, 9] (the run printed [1, 1, 6, 9])
+   corrected by (-1)^j/c_j, lowest first: [315, 423, 171, 125, 236, 389, 297, 460, 584, 262, 424, 472, 300, 473, 153, 541, 121, 1]
+   corrected, factor degrees on lane 607: [17]
+   corrected: product of the roots 292, sum of the roots 486 (derived from its coefficients)

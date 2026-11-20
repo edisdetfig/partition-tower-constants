@@ -1,0 +1,18 @@
+ℓ = 37: weight 34; the tower's sign class: a₂ < 0, a₃ > 0;  predicted smallest dimension 3 (m = 18: 3, m = 19: 9);  orbits up to dimension 9
+   level-6 newform 4: field of degree 2 (y^2 - y - 7187088385710), a₂ = -65536, a₃ = +43046721; primes above 37 of degree 1: 2
+   2 targets
+   level    37:    2 newforms; orbits of dimension ≤ 9: 1 1  (0 s)
+   level    74:    4 newforms; orbits of dimension ≤ 9: 2 2  (0 s)
+   level   111:    7 newforms; orbits of dimension ≤ 9: 3 4  (0 s)
+   level   222:    5 newforms; orbits of dimension ≤ 9: 1 1 1 1 1  (0 s)
+   level  1369:   94 newforms; orbits of dimension ≤ 9: 1 1 1 1 1 1 2 2 3 3 3 3  (2 s)
+   level  2738:  110 newforms; orbits of dimension ≤ 9: 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 6 6 6 6 9 9  (17 s)
+   level  4107:  221 newforms; orbits of dimension ≤ 9: 1 1 2 3 3 3 4 4 4 5 5 6 9 9  (29 s)
+   level  8214:  223 newforms; orbits of dimension ≤ 9: 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 6 6 9 9 9 9  (240 s)
+   MATCH: level 8214, dimension 3, field y^3 - 3*y - 1 = Q(ζ_18)⁺, target f4, y ↦ 25, twist d = 37
+   MATCH: level 8214, dimension 3, field y^3 - 3*y - 1 = Q(ζ_18)⁺, target f4, y ↦ 13, twist d = 37
+   MATCH: level 8214, dimension 3, field y^3 - 3*y - 1 = Q(ζ_18)⁺, target f4, y ↦ 13, twist d = 1
+   MATCH: level 8214, dimension 3, field y^3 - 3*y - 1 = Q(ζ_18)⁺, target f4, y ↦ 25, twist d = 1
+   smallest dimension found: 3
+
+seconds: 288

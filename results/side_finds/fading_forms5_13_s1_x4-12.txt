@@ -1,0 +1,40 @@
+ℓ = 13, slope 1, weights −2 + 12·(x + 1) for x = 4..12, modulo ℓ^28; FLINT 0.9.0; each weight's G also goes to fading_forms5_13_s1_x4-12.jsonl
+   weight 58 (dimension 59): 3 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1  [system (2, 12, 5)]
+   weight 70 (dimension 71): 3 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1  [system (2, 12, 5)]
+   weight 82 (dimension 83): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 94 (dimension 95): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 106 (dimension 107): 5 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 118 (dimension 119): 5 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 130 (dimension 131): 6 forms new at 2 and 3 with the class's signs (to ℓ^28), in 3 systems  (0 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 9×1, 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 142 (dimension 143): 6 forms new at 2 and 3 with the class's signs (to ℓ^27), in 3 systems  (1 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 9×1, 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+   weight 154 (dimension 155): 7 forms new at 2 and 3 with the class's signs (to ℓ^28), in 4 systems  (1 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 10×1  [system (7, 6, 3)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1  [system (11, 8, 0)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 9×1, 0×1  [system (3, 5, 5)]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 4×2  [system (2, 12, 5)]
+
+seconds: 3

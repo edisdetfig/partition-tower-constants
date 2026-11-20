@@ -1,0 +1,8 @@
+level b: N* at exact level b (odd levels outside the square rule), N with 24N − 1 = Q²·(24N* − 1); c = p/7^law on lane 343
+   level 3: one multiplier per class for 13 of 13 primes;  E7 formula fits on lane 343: none  (2 s)
+   level 4: one multiplier per class for 13 of 13 primes;  E7 formula fits on lane 343: none  (6 s)
+   level 5: one multiplier per class for 13 of 13 primes;  E7 formula fits on lane 343: none  (33 s)
+   level 6: one multiplier per class for 6 of 6 primes;  E7 formula fits on lane 343: none  (21 s)
+   (on lane 49 the same search finds a = 19 at levels 2, 3, 4: partitions_curve49.txt)
+
+seconds: 62

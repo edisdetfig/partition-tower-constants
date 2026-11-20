@@ -1,0 +1,43 @@
+ℓ = 19: the forms of level 6ℓ = 114 and of level 6, counted by system, at the weights k = −2 + 18·(x + 1), x = 0..1
+the class: U_2 = (2|ℓ)^(x+1)·2^((k−2)/2), U_3 = (3|ℓ)^(x+1)·3^((k−2)/2) exactly, with (2|ℓ) = -1, (3|ℓ) = -1; systems by T_q mod ℓ for q = [5, 7, 11, 13]
+precision: the pool mod ℓ^50 before saturation; the counts at level 6ℓ mod ℓ^12, at level 6 mod ℓ^30; FLINT 0.9.0
+
+weight 16 (x = 0): M_k(Γ0(114)) has dimension 304 (formula), Sturm's bound 320; 304 forms independent over Q among the first 608 of the pool (by their factors: X·Y only 304)  (0 s)
+   saturation: 2 rounds, 27 divisions by ℓ (the products' span has index ℓ^27); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 321 coefficients: yes; they commute: yes  (5 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 12, (+,−) 13, (−,+) 12, (−,−) 13; together 50 (formula 50: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 0, (−,−) 1; together 3 (formula 3: right)
+   the class (−,−): 1 forms at level 6, 13 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 7 systems; each system of level 6 found at least twice at level 6ℓ: yes
+   its whole generalized eigenspace mod ℓ (the class and every form congruent to it on lane ℓ): 1 forms at level 6, 15 at level 6ℓ
+      system (17, 17, 9, 9): level 6: 1, level 6ℓ: 2, new at ℓ: 0;  with the congruent forms: 1 and 2;  slopes of T_ℓ at level 6: 0×1
+      system (0, 7, 16, 8): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 2;  slopes of T_ℓ at level 6: —
+      system (0, 9, 6, 0): level 6: 0, level 6ℓ: 1, new at ℓ: 1;  with the congruent forms: 0 and 1;  slopes of T_ℓ at level 6: —
+      system (12, 14, 15, 13): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+      system (16, 16, 18, 10): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 2;  slopes of T_ℓ at level 6: —
+      system (4, 3, 12, 0): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 2;  slopes of T_ℓ at level 6: —
+      system (6, 4, 5, 10): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 2;  slopes of T_ℓ at level 6: —
+   (6 s for this weight)
+
+weight 34 (x = 1): M_k(Γ0(114)) has dimension 664 (formula), Sturm's bound 680; 664 forms independent over Q among the first 1328 of the pool (by their factors: X·Y only 664)  (1 s)
+   saturation: 1 rounds, 35 divisions by ℓ (the products' span has index ℓ^35); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 681 coefficients: yes; they commute: yes  (31 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 28, (+,−) 27, (−,+) 28, (−,−) 27; together 110 (formula 110: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 2, (−,−) 1; together 5 (formula 5: right)
+   the class (+,+): 1 forms at level 6, 28 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 9 systems; each system of level 6 found at least twice at level 6ℓ: yes
+   its whole generalized eigenspace mod ℓ (the class and every form congruent to it on lane ℓ): 1 forms at level 6, 35 at level 6ℓ
+      system (17, 17, 9, 9): level 6: 1, level 6ℓ: 4, new at ℓ: 2;  with the congruent forms: 1 and 4;  slopes of T_ℓ at level 6: 0×1
+      system (0, 10, 0, 2): level 6: 0, level 6ℓ: 1, new at ℓ: 1;  with the congruent forms: 0 and 1;  slopes of T_ℓ at level 6: —
+      system (0, 7, 16, 8): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+      system (0, 9, 6, 0): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  with the congruent forms: 0 and 2;  slopes of T_ℓ at level 6: —
+      system (1, 18, 18, 12): level 6: 0, level 6ℓ: 1, new at ℓ: 1;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+      system (12, 14, 15, 13): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  with the congruent forms: 0 and 8;  slopes of T_ℓ at level 6: —
+      system (16, 16, 18, 10): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+      system (4, 3, 12, 0): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+      system (6, 4, 5, 10): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  with the congruent forms: 0 and 4;  slopes of T_ℓ at level 6: —
+   (38 s for this weight)
+
+THE PREDICTION (README, written before the run): at a waiting step, 0 forms at level 6 and at least 2 new at ℓ; at an earlier step, at most 1 new at ℓ
+
+THE SAME READING FOR EVERY SYSTEM of the class at level 6 (the ghost picture for its first form): the steps before it first appears with at least 2 new at ℓ are its zeros z; its smallest slope at step x is predicted to be the sum over z of 1 + v_ℓ(x − z)
+   system (17, 17, 9, 9): first at x = 0 with 1 form; its zeros z = []; predicted/counted smallest slope: x = 0: 0/0; x = 1: 0/0
+   agreeing: 2 of 2 (system, weight) pairs
+
+seconds: 43

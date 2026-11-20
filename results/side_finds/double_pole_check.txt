@@ -1,0 +1,118 @@
+
+E4overj towers: level1_tower_E4overj_N16000000_5_7_11_13_17_19_23_29_31_37_41_43.json (n < 16000000), weight 4
+ℓ = 5 (ρ supersingular), lane ℓ^12; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1, 3]; at the last level, unit part digits [4, 4, 4]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [4, 4, 4]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 7;  2: 10;  3: 12;  4: 12;  5: 12;  6: 12;  7: 12;  8: 12
+ℓ = 7 (ρ ordinary), lane ℓ^10; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7]: [0, 1, 2, 3, 4, 5, 6, 7]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 9;  3: 10;  4: 10;  5: 10;  6: 10
+ℓ = 11 (ρ supersingular), lane ℓ^8; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5]: [0, 1, 2, 3, 4, 5]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [10, 10, 10]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [10, 10, 10]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 8;  3: 8;  4: 8
+ℓ = 13 (ρ ordinary), lane ℓ^8; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5]: [0, 1, 2, 3, 4, 5]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 8;  3: 8;  4: 8
+ℓ = 17 (ρ supersingular), lane ℓ^7; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [16, 16, 16]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [16, 16, 16]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 7;  3: 7
+ℓ = 19 (ρ ordinary), lane ℓ^7; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 7;  3: 7
+ℓ = 23 (ρ supersingular), lane ℓ^6; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [22, 22]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [22, 22]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 6;  3: 6
+ℓ = 29 (ρ supersingular), lane ℓ^6; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [0, 1, 2, 3]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [28, 28, 28]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [28, 28, 28]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 6
+ℓ = 31 (ρ ordinary), lane ℓ^6; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [0, 1, 2, 3]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 6;  2: 6
+ℓ = 37 (ρ ordinary), lane ℓ^5; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [0, 1, 2, 3]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 5;  2: 5
+ℓ = 41 (ρ supersingular), lane ℓ^5; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [0, 1, 2, 3]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [40, 40]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [40, 40]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 5;  2: 5
+ℓ = 43 (ρ ordinary), lane ℓ^5; P = x − 1 (the Eisenstein family; weight 4 has no cusp form)
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [0, 1, 2, 3]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 0]
+   predicted ℓ·u^(w−4) = ℓ·u^0: valuation 1, unit part digits [1, 0]
+   the law P(x)·(x − ℓ·u^0) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 5;  2: 5
+
+invE4sq towers: level1_tower_invE4sq_N16000000_5_7_11_13_17_19_23_29_31_37_41_43.json (n < 16000000), weight -8
+ℓ = 5 (ρ supersingular), lane ℓ^11; P = the weight −8 families, on lane ℓ [4, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: [3, 4, 5, 6, 7, 8, 9, 10, 11, 11]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [4]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 5;  2: 6;  3: 7;  4: 8;  5: 9;  6: 10;  7: 11;  8: 11
+ℓ = 7 (ρ ordinary), lane ℓ^10; P = the weight −8 families, on lane ℓ [6, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7]: [0, 1, 2, 3, 4, 5, 6, 7]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [1, 3, 5]
+   predicted ℓ·u^(w−4) = ℓ·u^-12: valuation 1, unit part digits [1, 5, 0]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 3;  2: 4;  3: 5;  4: 6;  5: 7;  6: 8
+ℓ = 11 (ρ supersingular), lane ℓ^8; P = the weight −8 families, on lane ℓ [1, 9, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [2, 4, 6, 8, 8]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [2]; at the last level, unit part digits [1, 1]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [10, 10]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 5;  2: 7;  3: 8
+ℓ = 13 (ρ ordinary), lane ℓ^8; P = the weight −8 families, on lane ℓ [12, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5]: [0, 1, 2, 3, 4, 5]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [0, 1, 2]; at the last level, unit part digits [2, 7, 9]
+   predicted ℓ·u^(w−4) = ℓ·u^-12: valuation 1, unit part digits [1, 0, 6]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2;  2: 3;  3: 4;  4: 5
+ℓ = 17 (ρ supersingular), lane ℓ^7; P = the weight −8 families, on lane ℓ [16, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [0, 1, 2, 4]; at the last level, unit part digits [7, 2, 10]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [16, 16, 16]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2;  2: 3;  3: 4
+ℓ = 19 (ρ ordinary), lane ℓ^7; P = the weight −8 families, on lane ℓ [18, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [7, 6, 16]
+   predicted ℓ·u^(w−4) = ℓ·u^-12: valuation 1, unit part digits [1, 12, 14]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2;  2: 3;  3: 4
+ℓ = 23 (ρ supersingular), lane ℓ^6; P = the weight −8 families, on lane ℓ [22, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [0, 1, 2, 3, 4]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [21, 11]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [22, 22]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2;  2: 3;  3: 4
+ℓ = 29 (ρ supersingular), lane ℓ^6; P = the weight −8 families, on lane ℓ [18, 10, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2]: [0, 1, 2]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1]; at the last level, unit part digits [3, 3, 0, 22]
+   compare (−3|ℓ)·ℓ: valuation 1, unit part digits [28, 28, 28, 28]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2
+ℓ = 31 (ρ ordinary), lane ℓ^6; P = the weight −8 families, on lane ℓ [21, 9, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1, 2]: [0, 1, 2]
+   the extra constant from the data: valuations of G_(b+1)/G_b seen [1, 2]; at the last level, unit part digits [30, 19, 7, 23]
+   predicted ℓ·u^(w−4) = ℓ·u^-12: valuation 1, unit part digits [2, 7, 29, 28]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: 1: 2
+ℓ = 37 (ρ ordinary), lane ℓ^5; P = the weight −8 families, on lane ℓ [28, 5, 3, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1]: [0, 1]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: no level span
+ℓ = 41 (ρ supersingular), lane ℓ^5; P = the weight −8 families, on lane ℓ [13, 12, 15, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1]: [0, 1]
+   the law P(x)·(x − (−3|ℓ)·ℓ) from levels b ≥ 1, smallest depth over n ≥ 1: no level span
+ℓ = 43 (ρ ordinary), lane ℓ^5; P = the weight −8 families, on lane ℓ [37, 25, 23, 1]
+   P's law alone, smallest depth over n ≥ 1 from levels [0, 1]: [0, 1]
+   the law P(x)·(x − ℓ·u^-12) from levels b ≥ 1, smallest depth over n ≥ 1: no level span

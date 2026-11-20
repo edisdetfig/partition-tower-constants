@@ -1,0 +1,33 @@
+1  THE FORMULA ON LANE 49: for N* at exact level b (24N* − 1 = 7ᵇ·m, 7 not dividing m; at odd levels outside the square rule)
+   and N with 24N − 1 = Q²·(24N* − 1): c(N) ≡ μ_ε·c(N*), with μ_ε = λ + ε·δ, ε = the sign of 24N* − 1 at Q, and the prediction
+   λ = (3|Q)·Q¹⁹·a_Q, δ = −(−3|Q)·Q⁴⁰ (on lane 49). One member of each class per prime, exact values throughout.
+   level 2: 74 of 74 primes from 11 to 397 right
+   level 3: 42 of 42 primes from 11 to 199 right
+   level 4: 21 of 21 primes from 11 to 97 right
+
+2  WHAT IT PREDICTS: one prime, two extra factors of 7 at level 2 (Watson's law gives 7², Jameson's corollaries 7³)
+   (a) a_Q = 0 makes λ ≡ 0 on lane 49 (any power, in fact), so p(N) ≡ 0 (mod 7⁴) whenever 24N − 1 = 49·Q³·m with Q and 7 not
+       dividing m. The first 12 such N for each Q; Q = 41 (a_Q = −6) as the control:
+       Q = 31 (a_Q = +0): powers of 7 in p(N): [4, 4, 4, 5, 4, 4, 5, 4, 5, 4, 4, 4]
+       Q = 47 (a_Q = +0): powers of 7 in p(N): [4, 4, 4, 4, 4, 4, 4, 6, 4, 5, 4, 4]
+       Q = 41 (a_Q = -6): powers of 7 in p(N): [2, 3, 3, 2, 2, 4, 2, 2, 2, 2, 2, 3]
+   (b) a_Q ≡ ±1 on lane 49 (a_Q = ±48 or ±50, possible only from Q = 577 on) makes μ_ε ≡ 0 for one class ε: 8 members of that
+       class at level 2 for each such Q, and 8 of the other class:
+       primes 577 to 2000 with a_Q ≡ ±1 on lane 49: 607 (+48), 751 (+48), 1009 (+50), 1039 (-48), 1151 (-48), 1201 (+50), 1213 (-50), 1231 (+48), 1297 (+50), 1301 (-50), 1487 (-48), 1553 (+50), 1567 (-48), 1583 (+48)
+       Q =  607 (a_Q = +48), class -1: [4, 4, 4, 4, 4, 4, 4, 4];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+       Q =  751 (a_Q = +48), class +1: [4, 4, 5, 4, 4, 4, 4, 4];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+       Q = 1009 (a_Q = +50), class +1: [6, 4, 4, 4, 4, 4, 4, 4];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+       Q = 1039 (a_Q = -48), class +1: [4, 6, 4, 4, 4, 4, 4, 4];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+       Q = 1151 (a_Q = -48), class +1: [4, 4, 4, 4, 4, 4, 4, 5];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+       Q = 1201 (a_Q = +50), class +1: [4, 4, 4, 4, 4, 4, 4, 4];  other class: [2, 2, 2, 2, 2, 2, 2, 2]
+
+3  HOW MANY PRIMES GIVE SUCH LAWS. Counted: primes 5 ≤ Q ≤ 30,000 (Q ≠ 7) with a_Q ≡ 0, +1, −1 on lane 49. Derived: the share
+   of matrices in GL2(Z/49) with those traces (the share of primes, if the curve's 7-adic Galois image is all of GL2(Z₇))
+   |GL2(Z/49)| = 4840416 (counted);  traces 0, +1, −1: 100842, 98441, 98441 each
+   a_Q ≡ 0 on lane 49: counted 0.0207 of 3242 primes;  matrices: 0.0208
+   a_Q ≡ +1 on lane 49: counted 0.0225 of 3242 primes;  matrices: 0.0203
+   a_Q ≡ −1 on lane 49: counted 0.0170 of 3242 primes;  matrices: 0.0203
+   a_Q is even for 3242 of the 3242 primes (counted), so a_Q ≡ ±1 on lane 49 needs |a_Q| ≥ 48, and with |a_Q| ≤ 2√Q those two shares
+   come only from primes above 577
+
+seconds: 119

@@ -1,0 +1,7 @@
+ℓ = 5: poles of 1/(E₄³ − j₀Δ) with j₀ ≡ 2 (mod 5), drifting toward the lift j = -32768; law P(x)·(x − u⁻¹⁴)
+   j₀ =  -32768 (ON the lift): measured [5, 7, 9, 11, 11, 11, 11, 11];  predicted [5, 7, 9, 11, 11, 11, 11, 11];  8 of 8 levels as predicted (75 checks)
+   j₀ =       2 (s = 1): measured [2, 3, 4, 5, 6, 7, 8, 9];  predicted [2, 3, 4, 5, 6, 7, 8, 9];  8 of 8 levels as predicted (75 checks)
+   j₀ =  -32743 (s = 2): measured [3, 4, 5, 6, 7, 8, 9, 10];  predicted [3, 4, 5, 6, 7, 8, 9, 10];  8 of 8 levels as predicted (75 checks)
+   j₀ =  -32643 (s = 3): measured [4, 5, 6, 7, 8, 9, 10, 11];  predicted [4, 5, 6, 7, 8, 9, 10, 11];  8 of 8 levels as predicted (75 checks)
+   j₀ =  -32143 (s = 4): measured [5, 6, 7, 8, 9, 10, 11, 11];  predicted [5, 6, 7, 8, 9, 10, 11, 11];  8 of 8 levels as predicted (75 checks)
+   j₀ =  -17143 (s = 6): measured [5, 7, 9, 10, 11, 11, 11, 11];  predicted [5, 7, 9, 10, 11, 11, 11, 11];  8 of 8 levels as predicted (75 checks)

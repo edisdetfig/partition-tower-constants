@@ -1,0 +1,18 @@
+ℓ = 43: weight 40; the tower's sign class: a₂ < 0, a₃ < 0;  predicted smallest dimension 5 (m = 21: 6, m = 22: 5);  orbits up to dimension 6
+   level-6 newform 4: field of degree 2 (y^2 - y - 3231324102), a₂ = -524288, a₃ = -1162261467; primes above 43 of degree 1: 2
+   2 targets
+   level    43:    3 newforms; orbits of dimension ≤ 6: 1 2  (0 s)
+   level    86:    4 newforms; orbits of dimension ≤ 6: 2 2  (0 s)
+   level   129:    7 newforms; orbits of dimension ≤ 6: 1 1 2 3  (0 s)
+   level   258:    7 newforms; orbits of dimension ≤ 6: 1 1 1 1 1 1 1  (0 s)
+   level  1849:  130 newforms; orbits of dimension ≤ 6: 1 1 1 1 2 2 2 2 3 3 3 3  (4 s)
+   level  3698:  150 newforms; orbits of dimension ≤ 6: 1 1 2 2 2 2 2 2 5 5 6 6 6 6  (23 s)
+   level  5547:  301 newforms; orbits of dimension ≤ 6: 1 1 1 1 2 2 2 2 2 3 3 3 3 3 3 3 6 6  (100 s)
+   level 11094:  301 newforms; orbits of dimension ≤ 6: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 3 3 5 5 6 6 6 6 6 6  (736 s)
+   MATCH: level 11094, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f4, y ↦ 3, twist d = -43
+   MATCH: level 11094, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f4, y ↦ 3, twist d = 1
+   MATCH: level 11094, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f4, y ↦ 41, twist d = -43
+   MATCH: level 11094, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f4, y ↦ 41, twist d = 1
+   smallest dimension found: 6
+
+seconds: 864

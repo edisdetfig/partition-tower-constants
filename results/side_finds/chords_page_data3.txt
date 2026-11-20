@@ -1,0 +1,2 @@
+97's braided triple, primes Q from 5 to 1000000 (78495): silent at 1 (class +1 [], class −1 [], Ono [782147]); expected 0.26 (derived)  (23 s)
+wrote chords_page_data3.json

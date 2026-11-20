@@ -1,0 +1,9 @@
+ℓ = 607, weight 604: the class has 25 forms (to 607^2)  (29 s)
+   the lone note: 1 form; T₆₀₇ factor [406, 1]; constant 406; T₅ there: polynomial of degree 1, factors of degrees [1]
+   the pair: 2 forms; T₆₀₇ factor [240, 1] (T₆₀₇ = 367·I there on lane 607); constant 240; T₅ there: polynomial of degree 2, factors of degrees [2]
+   the braid of 22: 22 forms; T₆₀₇ factor of degree 22; constant in the field with 607^22 elements; T₅ there: polynomial of degree 22, factors of degrees [22]
+the pieces' T₅ polynomials pairwise coprime on lane 607 (the step at 5 tells the pieces apart): True
+T₅ on the whole class: 25 distinct roots in the bigger fields (the step at 5 tells every form apart): True
+the lone note's number at 5: a₅ ≡ 142, so (3|5)·a₅ ≡ 465 (its multiplier at 5)
+wrote prism607_data.json
+seconds: 29

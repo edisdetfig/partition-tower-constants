@@ -1,0 +1,31 @@
+First the control rule on laws known before (37, 43, 53): two controls each, the other class at the same Q
+   ℓ = 37, Q =  6599, ε = +1: control p(738481167) ≡ 14, predicted 2ε(−3|Q)Q⁻²·p(17) = 14  as PREDICTED
+   ℓ = 37, Q =  6599, ε = +1: control p(2349712804) ≡ 26, predicted 2ε(−3|Q)Q⁻²·p(54) = 26  as PREDICTED
+   ℓ = 37, Q =  7541, ε = +1: control p(964364132) ≡  6, predicted 2ε(−3|Q)Q⁻²·p(17) =  6  as PREDICTED
+   ℓ = 37, Q =  7541, ε = +1: control p(7276565723) ≡ 19, predicted 2ε(−3|Q)Q⁻²·p(128) = 19  as PREDICTED
+   ℓ = 37, Q =  9547, ε = -1: control p(1545670836) ≡ 35, predicted 2ε(−3|Q)Q⁻²·p(17) = 35  as PREDICTED
+   ℓ = 37, Q =  9547, ε = -1: control p(11662789035) ≡  6, predicted 2ε(−3|Q)Q⁻²·p(128) =  6  as PREDICTED
+   ℓ = 43, Q =  4049, ε = +1: control p(146866509) ≡ 33, predicted 2ε(−3|Q)Q⁻²·p(9) = 33  as PREDICTED
+   ℓ = 43, Q =  4049, ε = +1: control p(2966703481) ≡ 39, predicted 2ε(−3|Q)Q⁻²·p(181) = 39  as PREDICTED
+   ℓ = 43, Q =  8941, ε = -1: control p(716142434) ≡ 22, predicted 2ε(−3|Q)Q⁻²·p(9) = 22  as PREDICTED
+   ℓ = 43, Q =  8941, ε = -1: control p(4153626117) ≡  4, predicted 2ε(−3|Q)Q⁻²·p(52) =  4  as PREDICTED
+   ℓ = 53, Q =   467, ε = -1: control p(20709368) ≡ 34, predicted 2ε(−3|Q)Q⁻²·p(95) = 34  as PREDICTED
+   ℓ = 53, Q =   467, ε = -1: control p(43826802) ≡ 46, predicted 2ε(−3|Q)Q⁻²·p(201) = 46  as PREDICTED
+   ℓ = 53, Q =  3797, ε = -1: control p(2133146215) ≡ 42, predicted 2ε(−3|Q)Q⁻²·p(148) = 42  as PREDICTED
+   ℓ = 53, Q =  3797, ε = -1: control p(2897258292) ≡ 17, predicted 2ε(−3|Q)Q⁻²·p(201) = 17  as PREDICTED
+
+lists from partitions_flint_lucky_dual_73_61_max50000000.txt; members computed up to N = 3e+16
+
+ℓ = 73
+   class ε=+1  Q = 11421973: members p(18650553916953050), p(28174241023482267) on lane ℓ: [0, 0];  control p(9126866810423833): 61, predicted 2ε(−3|Q)Q⁻²·p(70) = 61  as PREDICTED  (1106 s)
+   class ε=+1  Q = 22076447: smallest members p(69673533173558695), p(105251507560056752), control p(34095558787060638): past N = 3e+16, not computed
+   class ε=−1  Q = 11367817: members p(9040523964878168), p(27907704413319562) on lane ℓ: [0, 0];  control p(18474114189098865): 54, predicted 2ε(−3|Q)Q⁻²·p(143) = 54  as PREDICTED  (944 s)
+   class ε=−1  Q = 24700997: smallest members p(42684325226714213), p(87224490680676870), control p(131764656134639527): past N = 3e+16, not computed
+
+ℓ = 61
+   class ε=+1  Q =  4425853: members p(6522046026994730), p(7716924688428879) on lane ℓ: [0, 0];  control p(547652719823985): 29, predicted 2ε(−3|Q)Q⁻²·p(28) = 29  as PREDICTED  (414 s)
+   class ε=+1  Q =  7643683: members p(1633490502450505), p(5197469780524334) on lane ℓ: [0, 0];  control p(8761449058598163): 30, predicted 2ε(−3|Q)Q⁻²·p(150) = 30  as PREDICTED  (385 s)
+   class ε=−1  Q = 11452607: members p(19668865972504998), p(27669760605388387) on lane ℓ: [0, 0];  control p(3667076706738220): 17, predicted 2ε(−3|Q)Q⁻²·p(28) = 17  as PREDICTED  (779 s)
+   class ε=−1  Q = 11534903: members p(19952554166777208), p(28068847387161157) on lane ℓ: [0, 0];  control p(3719967726009310): 23, predicted 2ε(−3|Q)Q⁻²·p(28) = 23  as PREDICTED  (718 s)
+
+seconds: 4347

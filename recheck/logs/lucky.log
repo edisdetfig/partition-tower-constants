@@ -1,0 +1,16 @@
+l=37 Q=6599 eps=-1: members zero mod l: 0 of 8 (largest N=18462029174); controls (other sign) zero: 8 of 8  [4 s]
+l=37 Q=7541 eps=+1: members zero mod l: 8 of 8 (largest N=38837573678); controls (other sign) zero: 0 of 8  [8 s]
+l=37 Q=9547 eps=-1: members zero mod l: 8 of 8 (largest N=65620752763); controls (other sign) zero: 0 of 8  [12 s]
+l=43 Q=4049 eps=-1: members zero mod l: 0 of 8 (largest N=7901418182); controls (other sign) zero: 8 of 8  [14 s]
+l=43 Q=8941 eps=-1: members zero mod l: 8 of 8 (largest N=72903299777); controls (other sign) zero: 0 of 8  [18 s]
+l=37 Q=2999 (both multipliers 0):  [(13, 540584055355, 0), (37, 1538585388318, 0), (61, 2536586721281, 0)]  [34 s]
+   controls with 2999^2 only: [(11, 152523267, 9), (35, 485301304, 22), (59, 818079341, 32), (83, 1150857378, 27)]
+67 example: modulus factors {67: 1, 665279: 3}
+   24*N0-1 = {5: 1, 67: 1, 665279: 2}  divisible by Q^2: True  by 67: True
+   M= 335  (M|Q)= -1
+   p(N0) mod 67 = 0  [13 s]
+Traceback (most recent call last):
+  File "lucky.py", line 44, in <module>
+    if (Q*Q*Mm+1)%24==0 and Mm%Q and jacobi_symbol(Mm%Q,Q)==-eps and (Q*Q*Mm+1)//24<4e13:
+                                                                     ^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'flint.types.fmpz.fmpz' and 'float'

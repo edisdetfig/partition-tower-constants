@@ -1,0 +1,8 @@
+ℓ = 17: level 1734 = 2·3·17², field y^2 - 2, y ↦ 6 on lane 17: agrees with the tower at 165 of 165 primes up to 1000
+   a_Q of the surface (y as above), and on lane 17 / what the tower needs:  a_5 = y + 2 → 8 / 8;  a_7 = -2*y + 2 → 7 / 7;  a_11 = 4 → 4 / 4;  a_13 = -2*y → 5 / 5;  a_19 = 2*y - 4 → 8 / 8;  a_23 = 2*y + 6 → 1 / 1
+ℓ = 19: level 2166 = 2·3·19², field y^2 - y - 1, y ↦ 5 on lane 19: agrees with the tower at 165 of 165 primes up to 1000
+   a_Q of the surface (y as above), and on lane 19 / what the tower needs:  a_5 = y + 2 → 7 / 7;  a_7 = -y + 2 → 16 / 16;  a_11 = y + 1 → 6 / 6;  a_13 = 4*y - 2 → 18 / 18;  a_17 = 2*y + 2 → 12 / 12;  a_23 = -4*y → 18 / 18
+ℓ = 23: level 3174 = 2·3·23², field y^2 - 3, y ↦ 7 on lane 23: agrees with the tower at 165 of 165 primes up to 1000
+   a_Q of the surface (y as above), and on lane 23 / what the tower needs:  a_5 = 0 → 0 / 0;  a_7 = y → 7 / 7;  a_11 = y → 7 / 7;  a_13 = 4 → 4 / 4;  a_17 = -2*y → 9 / 9;  a_19 = 0 → 0 / 0
+
+seconds: 195

@@ -1,0 +1,12 @@
+1/E4 at l=7: a_l(y^2=x^3+1)=-4; u^-6 digits [1, 6, 6, 1, 4, 0, 5, 3, 6, 5]   (92 s)
+   n=1: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 1, 'agree', 1), (1, 'v', 1, 'agree', 3), (2, 'v', 1, 'agree', 5), (3, 'v', 1, 'agree', 7), (4, 'v', 1, 'agree', 9), (5, 'v', 1, 'agree', 11), (6, 'v', 1, 'agree', 13)]
+   n=2: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 1, 'agree', 1), (1, 'v', 1, 'agree', 3), (2, 'v', 1, 'agree', 5), (3, 'v', 1, 'agree', 7), (4, 'v', 1, 'agree', 9), (5, 'v', 1, 'agree', 11)]
+   n=3: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 1, 'agree', 2), (1, 'v', 1, 'agree', 4), (2, 'v', 1, 'agree', 6), (3, 'v', 1, 'agree', 8), (4, 'v', 1, 'agree', 10), (5, 'v', 1, 'agree', 12)]
+1/E4 at l=13: a_l(y^2=x^3+1)=2; u^-6 digits [12, 12, 9, 12, 3, 12, 10, 10, 0, 6]   (167 s)
+   n=1: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 0, 'agree', 1), (1, 'v', 0, 'agree', 2), (2, 'v', 0, 'agree', 3), (3, 'v', 0, 'agree', 4), (4, 'v', 0, 'agree', 5)]
+   n=2: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 0, 'agree', 1), (1, 'v', 0, 'agree', 2), (2, 'v', 0, 'agree', 3), (3, 'v', 0, 'agree', 4)]
+   n=3: G_(b+1)/G_b vs u^-6, by level b: [(0, 'v', 0, 'agree', 1), (1, 'v', 0, 'agree', 2), (2, 'v', 0, 'agree', 3), (3, 'v', 0, 'agree', 4)]
+j at 13, n=1: c(13^(b+1)n)/c(13^b n) vs the project's constant [8, 10, 11, 9, 11, 0]: [(0, 'agree', 0, [1]), (1, 'agree', 1, [8, 11]), (2, 'agree', 2, [8, 10, 4]), (3, 'agree', 3, [8, 10, 11, 6]), (4, 'agree', 4, [8, 10, 11, 9, 6]), (5, 'agree', 5, [8, 10, 11, 9, 11, 9])]
+j at 13, n=2: c(13^(b+1)n)/c(13^b n) vs the project's constant [8, 10, 11, 9, 11, 0]: [(0, 'agree', 0, [12]), (1, 'agree', 1, [8, 3]), (2, 'agree', 2, [8, 10, 8]), (3, 'agree', 3, [8, 10, 11, 4]), (4, 'agree', 4, [8, 10, 11, 9, 7])]
+j at 13, n=3: c(13^(b+1)n)/c(13^b n) vs the project's constant [8, 10, 11, 9, 11, 0]: [(0, 'agree', 1, [8, 12]), (1, 'agree', 1, [8, 6]), (2, 'agree', 2, [8, 10, 0]), (3, 'agree', 3, [8, 10, 11, 8]), (4, 'agree', 4, [8, 10, 11, 9, 5])]
+seconds 295

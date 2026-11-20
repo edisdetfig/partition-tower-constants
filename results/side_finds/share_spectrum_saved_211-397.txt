@@ -1,0 +1,35 @@
+THE SAVED SHARE TESTS (full grids, modulo ℓ⁵) against the slope spectrum with unit starts, levels 1, 2, 3
+ℓ = 211 (grid 19): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 223 (grid 20): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 227 (grid 20): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 229 (grid 21): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 233 (grid 21): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 239 (grid 21): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 241 (grid 22): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 251 (grid 22): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 257 (grid 23): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 263 (grid 23): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 269 (grid 24): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 271 (grid 24): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 277 (grid 25): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 281 (grid 25): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 283 (grid 25): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 293 (grid 26): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 307 (grid 27): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 311 (grid 27): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 313 (grid 28): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 317 (grid 28): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 331 (grid 29): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 337 (grid 30): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 347 (grid 30): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 349 (grid 31): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 353 (grid 31): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 359 (grid 31): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 367 (grid 32): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 373 (grid 33): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 379 (grid 33): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 383 (grid 33): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 389 (grid 34): level 1 as predicted; level 2 as predicted; level 3 as predicted
+ℓ = 397 (grid 35): level 1 as predicted; level 2 as predicted; level 3 as predicted
+
+as predicted at 32 of 32 primes; not: none  (7 s)

@@ -1,0 +1,5 @@
+ℓ = 7, slope 4: the groups kept in these files, carried to weight −2
+   read fading_forms5_7_s4_x6-17.jsonl: 6 groups at x = [6, 7, 8, 13, 14, 15]
+
+a group of 1 root of slope 4, weights x = [6, 7, 8, 13, 14, 15] (k = [40, 46, 52, 82, 88, 94]), carried to weight −2 modulo ℓ^20
+   its system on lane ℓ: (5, 6, 0)

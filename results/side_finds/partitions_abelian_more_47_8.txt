@@ -1,0 +1,16 @@
+ℓ = 47: weight 44; the tower's sign class: a₂ > 0, a₃ > 0;  predicted smallest dimension 4 (m = 23: 11, m = 24: 4);  orbits up to dimension 8
+   level-6 newform 2: field of degree 2 (y^2 - y - 118780096383848578140), a₂ = +2097152, a₃ = +10460353203; its primes above 47 have residue degrees [2]
+   1 targets
+   level    47:    4 newforms; orbits of dimension ≤ 8: 4  (0 s)
+   level    94:    3 newforms; orbits of dimension ≤ 8: 1 2  (0 s)
+   level   141:    7 newforms; orbits of dimension ≤ 8: 1 1 1 1 1 2  (0 s)
+   level   282:    9 newforms; orbits of dimension ≤ 8: 1 1 2 2 3  (0 s)
+   level  2209:  157 newforms; orbits of dimension ≤ 8: 1 1 3 3 4 5 8  (7 s)
+   level  4418:  181 newforms; orbits of dimension ≤ 8: 1 1 1 2 2 2 2 2 2 3 3 4 4 4 4 8 8  (70 s)
+   level  6627:  361 newforms; orbits of dimension ≤ 8: 1 1 1 1 1 1 1 1 1 2 2 2 2 2 3 3 3 3 4 4 4 4 4 4 6 8  (159 s)
+   level 13254:  359 newforms; orbits of dimension ≤ 8: 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 4 4 4 4 4 6 6 6 8 8 8 8 8 8 8  (4613 s)
+   MATCH: level 13254, dimension 8, field y^8 - 24*y^6 + 170*y^4 - 408*y^2 + 169, target f2 at the prime t^2 + 46*t + 1, twist d = -47
+   MATCH: level 13254, dimension 8, field y^8 - 24*y^6 + 170*y^4 - 408*y^2 + 169, target f2 at the prime t^2 + 46*t + 1, twist d = 1
+   smallest dimension found: 8
+
+seconds: 4849

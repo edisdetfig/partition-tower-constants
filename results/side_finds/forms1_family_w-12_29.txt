@@ -1,0 +1,20 @@
+ℓ = 29, a level-1 form of weight -12: families through k₀ = 16, read at x = -1 (weight -12); 11 weights; modulo ℓ^11; FLINT 0.9.0
+   weight 16 (dimension 2): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 44 (dimension 4): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 72 (dimension 7): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 100 (dimension 9): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 128 (dimension 11): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 156 (dimension 14): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 184 (dimension 16): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 212 (dimension 18): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 240 (dimension 21): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 268 (dimension 23): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+   weight 296 (dimension 25): the ordinary part has 2 forms; U_ℓ polynomial on lane ℓ [23, 5, 1]  (0 s)
+the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+the constants' polynomial at weight -12 (lowest first), on lane ℓ^11: [3851969179982047, 8348540585723781, 1];  on lane ℓ: [23, 5, 1]
+   x = 1 is a root to ℓ^11 (the Eisenstein family): True
+   on lane ℓ it factors as [([6, 1], 1), ([28, 1], 1)]
+   the cusp forms' polynomial (lowest first), on lane ℓ^11: [8348540585723782, 1]
+   the cusp form's constant, digits lowest first: [23, 26, 17, 22, 15, 20, 4, 4, 15, 4, 9]
+
+seconds: 0

@@ -1,0 +1,38 @@
+p(n) for every n up to 2400000 on the lanes 5²¹, 7¹⁸, 11¹⁴, 13¹³ (59 s)
+exact values (sympy) against the recurrence on lane 5²¹ for 201 values of n up to 2400000: 0 differ
+
+1  PREDICTIONS FROM THE DATA ALONE, CHECKED WITH EXACT VALUES
+   From the data: for each pair of levels, the constant λ with H_(b+2)(n) ≡ λ·H_b(n) for every n, to as many digits as one λ
+   allows; "settled" = the digits on which the last two pairs agree. Prediction: H_b(0) ≡ λ^((b − b₀)/2)·H_b₀(0) to the settled
+   digits, from the deepest data level b₀ of the same parity.
+   ℓ =  5: pairs (1,3) 3 digits, (2,4) 6 digits, (3,5) 8 digits, (4,6) 11 digits, (5,7) 12 digits, (6,8) 13 digits;  settled: 12 digits: 4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0;  deepest data levels with n = 0: [8, 9]
+   ℓ =  7: pairs (1,3) 1 digits, (2,4) 2 digits, (3,5) 4 digits, (4,6) 5 digits, (5,7) 7 digits;  settled: 5 digits: 5, 6, 1, 1, 2;  deepest data levels with n = 0: [6, 7]
+   ℓ = 11: pairs (1,3) 1 digits, (2,4) 2 digits, (3,5) 2 digits;  settled: 2 digits: 9, 3;  deepest data levels with n = 0: [5, 6]
+   ℓ = 13: pairs (1,3) 1 digits, (2,4) 2 digits, (3,5) 3 digits;  settled: 2 digits: 6, 3;  deepest data levels with n = 0: [4, 5]
+   ℓ =  5, the 12 settled digits predicted at each deeper level, right:  b = 10 (N = 9358724, 3401 digits, 0 s): 12 of 12;  b = 11 (N = 38655599, 6918 digits, 0 s): 12 of 12;  b = 12 (N = 233968099, 17031 digits, 1 s): 12 of 12;  b = 13 (N = 966389974, 34622 digits, 2 s): 12 of 12;  b = 14 (N = 5849202474, 85189 digits, 12 s): 12 of 12;  b = 15 (N = 24159749349, 173144 digits, 47 s): 12 of 12;  b = 16 (N = 146230061849, 425986 digits, 284 s): 12 of 12
+   ℓ =  7, the 5 settled digits predicted at each deeper level, right:  b = 8 (N = 5524601, 2611 digits, 0 s): 5 of 5;  b = 9 (N = 28583805, 5948 digits, 0 s): 5 of 5;  b = 10 (N = 270705447, 18320 digits, 1 s): 5 of 5;  b = 11 (N = 1400606443, 41682 digits, 3 s): 5 of 5;  b = 12 (N = 13264566901, 128292 digits, 26 s): 5 of 5;  b = 13 (N = 68629715705, 291829 digits, 139 s): 5 of 5
+   ℓ = 11, the 2 settled digits predicted at each deeper level, right:  b = 7 (N = 10555551, 3612 digits, 0 s): 2 of 2;  b = 8 (N = 205427261, 15958 digits, 1 s): 2 of 2;  b = 9 (N = 1277221666, 39803 digits, 3 s): 2 of 2;  b = 10 (N = 24856698576, 175624 digits, 47 s): 2 of 2
+   ℓ = 13, the 2 settled digits predicted at each deeper level, right:  b = 6 (N = 4625692, 2389 digits, 0 s): 2 of 2;  b = 7 (N = 28759737, 5966 digits, 0 s): 2 of 2;  b = 8 (N = 781741941, 31138 digits, 2 s): 2 of 2;  b = 9 (N = 4860395546, 77655 digits, 10 s): 2 of 2
+   every exact value is also divisible by the law's power (checked)
+
+2  THE CONSTANTS FROM THE EXACT VALUES: r_b = H_(b+2)(0)/H_b(0) as an ℓ-adic number; how many digits r_b shares with r_(b+1)
+   ℓ =  5: shared digits [3, 5, 8, 10, 13, 15, 18, 20, 23, 25, 28, 30, 33];  settled: 33 digits: 4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0
+   ℓ =  7: shared digits [1, 2, 4, 5, 7, 8, 10, 11, 13, 14];  settled: 14 digits: 5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1
+   ℓ = 11: shared digits [1, 2, 2, 3, 3, 4, 4];  settled: 4 digits: 9, 3, 2, 0
+   ℓ = 13: shared digits [1, 2, 3, 4, 5, 6];  settled: 6 digits: 6, 3, 1, 2, 5, 8
+   how fast: digits gained per two levels, from the last shared counts: 5: 5, 7: 3, 11: 1, 13: 2
+
+3  THE SAME FOR 17, 19, 23, 29, 31 (no laws; level b uses n = 0, except 23 at even levels, where n = 0 lies one level deeper)
+   ℓ = 17: levels 1 to 8 (largest N = 6685100881); shared digits [1, 2, 3, 4, 5];  settled: 5 digits: 6, 12, 12, 7, 7
+   ℓ = 19: levels 1 to 8 (largest N = 16275914581); shared digits [1, 2, 4, 4, 5];  settled: 5 digits: 10, 2, 10, 8, 10
+   ℓ = 23: levels 1 to 7 (largest N = 289903616); shared digits [1, 2, 3, 4];  settled: 4 digits: 5, 20, 8, 4
+   ℓ = 29: levels 1 to 7 (largest N = 13656152078); shared digits [1, 1, 3, 2];  settled: 2 digits: 3, 14
+   ℓ = 31: levels 1 to 7 (largest N = 19488101662); shared digits [1, 1, 2, 2];  settled: 2 digits: 30, 6
+   first digits in the literature (QUOTED): 5 for 7 and 4·5 ≡ 9 for 11 (the factors per level in Watson's and Atkin's
+   generating functions, as Jameson's Cor. 2.2 and 2.3 state them: 5^⌊j/2⌋ and 4^(3(j−1)/2)); 6 and 45 = 6 + 3·13 for 13 (Folsom,
+   Kent and Ono, A₁₃(1,3,1) and A₁₃(2,4,2)); −1 = 4 for 5 is section 2 of partitions_tower_link.txt. Beyond the first digit (and
+   45 for 13) I found none of these digits stated anywhere.
+
+4  ARE THEY SIMPLE NUMBERS?  The smallest whole-number relation c₀ + c₁α + … + c_dα^d ≡ 0 (lane ℓ^K) that lattice
+   reduction (LLL) finds, against the same search on 50 random ℓ-adic numbers with as many digits (their smallest and median);
+   and unit roots of x² − a·x ± ℓ^k with |a| ≤ 2ℓ^(k/2) (Hecke polynomials of classical eigenforms of weight k + 1)

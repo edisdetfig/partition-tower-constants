@@ -1,0 +1,63 @@
+THE SPLIT TOWERS (the pair f, f′; t and n are the trace and norm of (3|Q)·a_Q(f), on lane ℓ)
+
+ℓ = 37: field y^2 - y - 7187088385710, discriminant [457, 1; 62906681713, 1]; ℓ splits: two rules on lane 37, from y ↦ [13, 25]
+   at small Q:  Q = 5: λ = [1, 32], t = 33, n = 32;  Q = 7: λ = [33, 10], t = 6, n = 34;  Q = 11: λ = [22, 0], t = 22, n = 0;  Q = 13: λ = [7, 6], t = 13, n = 5
+   1  along Q, the two-step law: 48 of 48 chains right (Q = 5: 12 of 12, Q = 7: 12 of 12, Q = 11: 12 of 12, Q = 13: 12 of 12);  one rule alone (either λ): 9 of 48
+   2  primes Q < 10000 with both numbers in place for a class (24N − 1 = Q²·ℓ·n, class (n|Q)): 6599 ((n|Q) = -1), 7541 ((n|Q) = +1), 9547 ((n|Q) = -1)
+      with both numbers 0 (24N − 1 = ℓ·Q³·m, Q ∤ m): 2999   (11 s so far)
+      Ahlgren–Allen–Tang (QUOTED): "we have a congruence (1.6) when Q = 6599, 7541, and 9547"; their examples: 6599 with (n|6599) = −1, 7541 with (n|7541) = 1
+      Q = 6599: members p(8794639352) ≡ 0, p(12017102626) ≡ 0;  the other class: p(738481167) ≡ 14  (p(N) on lane 37, exact)
+      Q = 7541: members p(3068431329) ≡ 0, p(5172498526) ≡ 0;  the other class: p(964364132) ≡ 6  (p(N) on lane 37, exact)
+      Q = 9547: members p(4918043569) ≡ 0, p(8290416302) ≡ 0;  the other class: p(1545670836) ≡ 35  (p(N) on lane 37, exact)
+   3  along ℓ (n = 0 to 9): H₁ = [1, 23, 17, 34, 25, 33, 35, 3, 28, 13], H₃ = [15, 27, 26, 30, 7, 18, 29, 21, 35, 10], H₅ = [3, 27, 4, 3, 25, 36, 36, 17, 15, 2]
+      H₅ ≡ T·H₃ − N·H₁ holds for (T, N) = [(12, 29)];  PREDICTED from a_37 of the pair: T = 12, N = 29 (the two numbers: [15, 34])
+      one constant from level 1 (H₃ ≡ A·H₁): none;  from level 3 (H₅ ≡ A·H₃): none
+      along Q at levels ≥ 3 (ℓ³ dividing 24N − 1), one multiplier per class?  Q = 5: 4/4 values;  Q = 7: 4/4 values;  Q = 11: 4/4 values;  Q = 13: 4/5 values
+      (184 s)
+
+ℓ = 41: field y^2 - y - 62801230922892, discriminant [6661, 1; 33617, 1; 1121837, 1]; ℓ splits: two rules on lane 41, from y ↦ [6, 36]
+   at small Q:  Q = 5: λ = [38, 2], t = 40, n = 35;  Q = 7: λ = [28, 22], t = 9, n = 1;  Q = 11: λ = [12, 13], t = 25, n = 33;  Q = 13: λ = [28, 11], t = 39, n = 21
+   1  along Q, the two-step law: 48 of 48 chains right (Q = 5: 12 of 12, Q = 7: 12 of 12, Q = 11: 12 of 12, Q = 13: 12 of 12);  one rule alone (either λ): 6 of 48
+   2  primes Q < 10000 with both numbers in place for a class (24N − 1 = Q²·ℓ·n, class (n|Q)): none
+      with both numbers 0 (24N − 1 = ℓ·Q³·m, Q ∤ m): none   (12 s so far)
+   3  along ℓ (n = 0 to 9): H₁ = [36, 4, 3, 31, 19, 12, 14, 6, 3, 26], H₃ = [31, 40, 11, 11, 21, 30, 14, 24, 38, 25], H₅ = [32, 5, 13, 16, 10, 34, 40, 11, 36, 32]
+      H₅ ≡ T·H₃ − N·H₁ holds for (T, N) = [(13, 16)];  PREDICTED from a_41 of the pair: T = 13, N = 16 (the two numbers: [23, 31])
+      one constant from level 1 (H₃ ≡ A·H₁): none;  from level 3 (H₅ ≡ A·H₃): none
+      along Q at levels ≥ 3 (ℓ³ dividing 24N − 1), one multiplier per class?  Q = 5: 4/4 values;  Q = 7: 5/4 values;  Q = 11: 5/4 values;  Q = 13: 4/4 values
+      (25 s)
+
+ℓ = 43: field y^2 - y - 3231324102, discriminant [109, 1; 118580701, 1]; ℓ splits: two rules on lane 43, from y ↦ [3, 41]
+   at small Q:  Q = 5: λ = [21, 30], t = 8, n = 28;  Q = 7: λ = [29, 19], t = 5, n = 35;  Q = 11: λ = [1, 17], t = 18, n = 17;  Q = 13: λ = [40, 14], t = 11, n = 1
+   1  along Q, the two-step law: 48 of 48 chains right (Q = 5: 12 of 12, Q = 7: 12 of 12, Q = 11: 12 of 12, Q = 13: 12 of 12);  one rule alone (either λ): 0 of 48
+   2  primes Q < 10000 with both numbers in place for a class (24N − 1 = Q²·ℓ·n, class (n|Q)): 4049 ((n|Q) = -1), 8941 ((n|Q) = -1)
+      with both numbers 0 (24N − 1 = ℓ·Q³·m, Q ∤ m): none   (18 s so far)
+      Q = 4049: members p(851825752) ≡ 0, p(1556784995) ≡ 0;  the other class: p(146866509) ≡ 33  (p(N) on lane 43, exact)
+      Q = 8941: members p(14466077166) ≡ 0, p(41965946630) ≡ 0;  the other class: p(716142434) ≡ 22  (p(N) on lane 43, exact)
+   3  along ℓ (n = 0 to 9): H₁ = [30, 25, 40, 29, 12, 3, 3, 1, 2, 18], H₃ = [20, 42, 26, 36, 31, 12, 2, 27, 10, 21], H₅ = [19, 0, 15, 23, 33, 15, 32, 39, 41, 9]
+      H₅ ≡ T·H₃ − N·H₁ holds for (T, N) = [(37, 14)];  PREDICTED from a_43 of the pair: T = 37, N = 14 (the two numbers: [31, 6])
+      one constant from level 1 (H₃ ≡ A·H₁): none;  from level 3 (H₅ ≡ A·H₃): none
+      along Q at levels ≥ 3 (ℓ³ dividing 24N − 1), one multiplier per class?  Q = 5: 4/4 values;  Q = 7: 4/4 values;  Q = 11: 5/4 values;  Q = 13: 5/3 values
+      (527 s)
+
+ℓ = 47: field y^2 - y - 118780096383848578140, discriminant [71, 1; 52889, 1; 126526052978719, 1]; ℓ stays whole (inert): the two rules live in the field with 47² elements
+   at small Q:  Q = 5:  t = 36, n = 45;  Q = 7:  t = 28, n = 14;  Q = 11:  t = 21, n = 30;  Q = 13:  t = 44, n = 30
+   the numbers leave the field with 47 elements at 56 of the 59 primes 5 ≤ Q ≤ 300 (first: [5, 7, 11, 13, 17])
+   1  along Q, the two-step law: 48 of 48 chains right (Q = 5: 12 of 12, Q = 7: 12 of 12, Q = 11: 12 of 12, Q = 13: 12 of 12)
+   2  primes Q < 10000 with both numbers in place for a class (24N − 1 = Q²·ℓ·n, class (n|Q)): none
+      with both numbers 0 (24N − 1 = ℓ·Q³·m, Q ∤ m): none   (18 s so far)
+   3  along ℓ (n = 0 to 9): H₁ = [2, 1, 14, 45, 10, 1, 16, 40, 28, 0], H₃ = [24, 28, 9, 19, 26, 37, 3, 36, 11, 30], H₅ = [0, 41, 42, 25, 0, 20, 18, 2, 22, 24]
+      H₅ ≡ T·H₃ − N·H₁ holds for (T, N) = [(29, 19)];  PREDICTED from a_47 of the pair: T = 29, N = 19
+      one constant from level 1 (H₃ ≡ A·H₁): none;  from level 3 (H₅ ≡ A·H₃): none
+      along Q at levels ≥ 3 (ℓ³ dividing 24N − 1), one multiplier per class?  Q = 5: 4/4 values;  Q = 7: 4/5 values;  Q = 11: 4/4 values;  Q = 13: 4/4 values
+      (50 s)
+
+THE CONTROL: ONE FORM (13 to 31). Is the constant of the levels, H₃ ≡ A·H₁ (n = 0 to 9), equal to (3|ℓ)·a_ℓ(f)?
+   (the first digit of each constant in partitions_constants.txt: 13 → 6, 17 → 6, 19 → 10, 23 → 5, 29 → 3, 31 → 30)
+   ℓ = 13: A = [6];  (3|ℓ)·a_ℓ(f) on lane ℓ = [6] (forms in the class: 1);  equal
+   ℓ = 17: A = [6];  (3|ℓ)·a_ℓ(f) on lane ℓ = [6] (forms in the class: 1);  equal
+   ℓ = 19: A = [10];  (3|ℓ)·a_ℓ(f) on lane ℓ = [10] (forms in the class: 1);  equal
+   ℓ = 23: A = [5];  (3|ℓ)·a_ℓ(f) on lane ℓ = [5] (forms in the class: 1);  equal
+   ℓ = 29: A = [3];  (3|ℓ)·a_ℓ(f) on lane ℓ = [3] (forms in the class: 1);  equal
+   ℓ = 31: A = [30];  (3|ℓ)·a_ℓ(f) on lane ℓ = [30] (forms in the class: 1);  equal
+
+seconds: 786

@@ -1,0 +1,25 @@
+ℓ = 37, k₀ = 34, 12 weights, modulo ℓ^12; FLINT 0.9.0
+1  the class at weight 34: dimension 2 (predicted ⌊(ℓ + 12)/24⌋ = 2)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [32, 4, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [34, 31, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [0, 15, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [5, 24, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 37: polynomial [29, 25, 1]
+2  weight 34 (dimension 35, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (0 s)
+2  weight 70 (dimension 71, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (0 s)
+2  weight 106 (dimension 107, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (0 s)
+2  weight 142 (dimension 143, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (0 s)
+2  weight 178 (dimension 179, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (1 s)
+2  weight 214 (dimension 215, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (1 s)
+2  weight 250 (dimension 251, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (1 s)
+2  weight 286 (dimension 287, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (1 s)
+2  weight 322 (dimension 323, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (2 s)
+2  weight 358 (dimension 359, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (3 s)
+2  weight 394 (dimension 395, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (3 s)
+2  weight 430 (dimension 431, ordinary part 35): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [29, 25, 1]  (4 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]]
+   the constants' polynomial (lowest first) on lane ℓ: [29, 25, 1];  on lane ℓ^12: [5604497902988178037, 841628930086075536, 1]
+   a constant on lane ℓ, digits lowest first: [34, 30, 35, 25, 2, 25, 28, 28, 1, 14, 0, 0]
+   a constant on lane ℓ, digits lowest first: [15, 4, 4, 3, 1, 10, 35, 5, 36, 21, 9, 32]
+
+seconds: 17

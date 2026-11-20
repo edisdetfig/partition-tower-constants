@@ -1,0 +1,5 @@
+53: our polynomial (lowest first) from partitions_flint_family_53.txt, on lane 53^20
+   lane 53^1: ours [36, 3, 1];  Boylan–Webb's relation times c₀: [36, 3, 1]  →  the same
+   lane 53^2: ours [89, 957, 1];  Boylan–Webb's relation times c₀: [89, 957, 1]  →  the same
+37: our polynomial on lane 37: x² + 25·x + 29 (partitions_flint_family_37_N20.txt); the order of its companion matrix: 36;  Boylan–Webb's period c_37 = 36  →  the same
+41: our polynomial on lane 41: x² + 28·x + 16 (partitions_flint_family_41.txt); the order of its companion matrix: 10;  Boylan–Webb's period c_41 = 10  →  the same

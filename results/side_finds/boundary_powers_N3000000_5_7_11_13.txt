@@ -1,0 +1,9 @@
+squares, ℓ = 5 (237 s): c(0..11) = [1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 4]; levels 0..9;  from level 1: no law of degree ≤ 6 (the last search had 22 equations);  from level 2: no law of degree ≤ 6 (the last search had 10 equations)
+squares, ℓ = 7 (247 s): c(0..11) = [1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 4]; levels 0..7;  from level 1: no law of degree ≤ 6 (the last search had 16 equations);  from level 2: no law of degree ≤ 5 (the last search had 16 equations)
+squares, ℓ = 11 (241 s): c(0..11) = [1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 4]; levels 0..6;  from level 1: no law of degree ≤ 5 (the last search had 14 equations);  from level 2: no law of degree ≤ 4 (the last search had 14 equations)
+squares, ℓ = 13 (323 s): c(0..11) = [1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 4]; levels 0..5;  from level 1: no law of degree ≤ 5 (the last search had 9 equations);  from level 2: no law of degree ≤ 4 (the last search had 9 equations)
+cubes, ℓ = 5 (24 s): c(0..11) = [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]; levels 0..9;  from level 1: no law of degree ≤ 6 (the last search had 22 equations);  from level 2: no law of degree ≤ 6 (the last search had 10 equations)
+cubes, ℓ = 7 (23 s): c(0..11) = [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]; levels 0..7;  from level 1: no law of degree ≤ 6 (the last search had 16 equations);  from level 2: no law of degree ≤ 5 (the last search had 16 equations)
+cubes, ℓ = 11 (23 s): c(0..11) = [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]; levels 0..6;  from level 1: no law of degree ≤ 5 (the last search had 14 equations);  from level 2: no law of degree ≤ 4 (the last search had 14 equations)
+cubes, ℓ = 13 (22 s): c(0..11) = [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]; levels 0..5;  from level 1: no law of degree ≤ 5 (the last search had 9 equations);  from level 2: no law of degree ≤ 4 (the last search had 9 equations)
+seconds: 1139

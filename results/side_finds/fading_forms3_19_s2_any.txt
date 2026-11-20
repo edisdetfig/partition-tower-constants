@@ -1,0 +1,7 @@
+ℓ = 19, slope 2, weights −2 + 342·(x + 1) for x = 0..0, modulo ℓ^38 (N = 8 and 30 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-16 form, the only one of its class; T_q numbers {5: 17, 7: 17, 11: 9, 13: 9}
+   weight 340 (dimension 341), every system: the piece [18], new at 2 and 3 with the class's signs: 15 (to ℓ^38); slopes of T_ℓ: 17/6×12, 2×2, 0×1; 2 roots of slope 2, u/ℓ^2 on lane ℓ: 6, 17  (5 s)
+      the root with u/ℓ^2 ≡ 6: known to ℓ^10; (3|ℓ)·u/ℓ^2, digits lowest first: [13, 4, 3, 14, 9, 14, 3, 9]; its Hecke numbers on lane ℓ: {5: 0, 7: 7, 11: 16, 13: 8}; θ-twists of the class: none
+      the root with u/ℓ^2 ≡ 17: known to ℓ^10; (3|ℓ)·u/ℓ^2, digits lowest first: [2, 17, 4, 17, 12, 3, 9, 12]; its Hecke numbers on lane ℓ: {5: 16, 7: 16, 11: 18, 13: 10}; θ-twists of the class: none
+
+seconds: 5

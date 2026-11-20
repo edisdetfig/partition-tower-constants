@@ -1,0 +1,9 @@
+ℓ = 13, b = 1 (lane ℓ^1): γ = 11, λ = 0, K_b = γ + 2λ − 1 = 10 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 1; coefficients beyond the fit that agree: 399 of 399 (0 s)
+ℓ = 13, b = 2 (lane ℓ^2): γ = 23, λ = 144, K_b = γ + 2λ − 1 = 310 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 13; coefficients beyond the fit that agree: 387 of 387 (0 s)
+ℓ = 17, b = 1 (lane ℓ^1): γ = 7, λ = 4, K_b = γ + 2λ − 1 = 14 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 1; coefficients beyond the fit that agree: 399 of 399 (0 s)
+ℓ = 17, b = 2 (lane ℓ^2): γ = 23, λ = 260, K_b = γ + 2λ − 1 = 542 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 22; coefficients beyond the fit that agree: 378 of 378 (0 s)
+ℓ = 19, b = 2 (lane ℓ^2): γ = 23, λ = 330, K_b = γ + 2λ − 1 = 682 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 28; coefficients beyond the fit that agree: 372 of 372 (0 s)
+ℓ = 23, b = 2 (lane ℓ^2): γ = 23, λ = 494, K_b = γ + 2λ − 1 = 1010 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 41; coefficients beyond the fit that agree: 359 of 359 (0 s)
+ℓ = 29, b = 2 (lane ℓ^2): γ = 23, λ = 800, K_b = γ + 2λ − 1 = 1622 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 67; coefficients beyond the fit that agree: 333 of 333 (0 s)
+ℓ = 13, b = 3 (lane ℓ^3): γ = 11, λ = 1008, K_b = γ + 2λ − 1 = 2026 (≡ −2 mod (ℓ−1)ℓ^(b−1): True);  dim M_λ = 85; coefficients beyond the fit that agree: 315 of 315 (0 s)
+seconds: 0

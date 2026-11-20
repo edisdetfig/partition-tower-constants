@@ -1,0 +1,15 @@
+
+ℓ = 73 (≡ 1 mod 24): 3 forms in the class; P_ℓ on lane ℓ (lowest first) = [29, 71, 65, 1]; (3|Q)·a_Q polynomials for Q = [5, 7, 11, 13]
+   along ℓ: the 4-term law from P_ℓ holds for 10 of 10 values of n; laws with fewer terms two levels apart (dimension of the fits): 2-term: 0, 3-term: 0  (95 s)
+   along Q: the 3-step law from the forms holds at Q = 5: 12 of 12 (laws of degree 2 fitting all 12: dimension 0);  Q = 7: 12 of 12 (laws of degree 2 fitting all 12: dimension 0);  Q = 11: 12 of 12 (laws of degree 2 fitting all 12: dimension 0);  Q = 13: 12 of 12 (laws of degree 2 fitting all 12: dimension 0)  (95 s)
+
+ℓ = 97 (≡ 1 mod 24): 4 forms in the class; P_ℓ on lane ℓ (lowest first) = [46, 3, 63, 22, 1]; (3|Q)·a_Q polynomials for Q = [5, 7, 11, 13]
+   along Q: the 4-step law from the forms holds at Q = 5: 12 of 12 (laws of degree 3 fitting all 12: dimension 0);  Q = 7: 12 of 12 (laws of degree 3 fitting all 12: dimension 0);  Q = 11: 12 of 12 (laws of degree 3 fitting all 12: dimension 0);  Q = 13: 12 of 12 (laws of degree 3 fitting all 12: dimension 0)  (4 s)
+
+One level at a time: the space of laws Σ κᵢ·H_(1+i)(n) ≡ 0 (mod ℓ), i = 0 … d, fitting every n checked
+   ℓ = 73 (≡  1 mod 24), levels 1 to 7, n = 0 … 9: d = 1: 0;  d = 2: 0;  d = 3: 0;  d = 4: 0;  d = 5: 0;  d = 6: 1  (0 s)
+   ℓ = 97 (≡  1 mod 24), levels 1 to 5, n = 0 … 12: d = 1: 0;  d = 2: 0;  d = 3: 0;  d = 4: 0  (1 s)
+   ℓ = 71 (≡ 23 mod 24), levels 1 to 4, n = 0 … 11: d = 1: 0;  d = 2: 0;  d = 3: 0  (0 s)
+   ℓ = 79 (≡  7 mod 24), levels 1 to 4, n = 0 … 11: d = 1: 0;  d = 2: 0;  d = 3: 0  (0 s)
+
+seconds: 100

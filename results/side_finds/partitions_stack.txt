@@ -1,0 +1,27 @@
+p(n) for every n up to 2400000 on the lane 5⁷·7⁵·11⁵ (14 s); p(100) right: True
+
+1  THE STEP RULE ON DEEPER LANES: one multiplier per class (ε = ±1)? Primes Q from 5 to 37 with at least 6 pairs in each class;
+   classes where the square rule already makes c a multiple of ℓ are left out
+   ℓ =  5, level 1: lane 5^1: 9 of 9 primes;  lane 5^2: 9 of 9 primes;  lane 5^3: 9 of 9 primes
+   ℓ =  5, level 2: lane 5^1: 9 of 9 primes;  lane 5^2: 9 of 9 primes;  lane 5^3: 9 of 9 primes
+   ℓ =  5, level 3: lane 5^1: 8 of 8 primes;  lane 5^2: 8 of 8 primes;  lane 5^3: 8 of 8 primes
+   ℓ =  7, level 1: lane 7^1: 9 of 9 primes;  lane 7^2: 0 of 9 primes;  lane 7^3: 0 of 9 primes
+   ℓ =  7, level 2: lane 7^1: 9 of 9 primes;  lane 7^2: 9 of 9 primes;  lane 7^3: 0 of 9 primes
+   ℓ = 11, level 1: lane 11^1: 9 of 9 primes;  lane 11^2: 0 of 9 primes;  lane 11^3: 0 of 9 primes
+   ℓ = 11, level 2: lane 11^1: 9 of 9 primes;  lane 11^2: 9 of 9 primes;  lane 11^3: 0 of 9 primes
+   the zero classes found on lane ℓ (Q: class): ℓ = 5, level 1: 13: -1, 23: +1;  ℓ = 5, level 2: 13: -1, 23: +1;  ℓ = 7, level 1: 13: +1, 23: -1;  ℓ = 7, level 2: 13: +1, 23: -1;  ℓ = 11, level 1: 5: -1;  ℓ = 11, level 2: 5: -1
+   the same classes from the theorems' formulas: 12 of 12 agree
+   from the formulas, beyond Q = 37: ℓ = 11, Q = 67: class -1 at level 1, -1 at level 2;  ℓ = 5, Q = 43: class +1 at level 1
+
+2  TWO ZERO STEPS IN A ROW (12 members each, the smallest; exact values of p(N))
+   ℓ =  5, level 1 (law: 5^1), Q = 13 and 23: powers of 5 in p(N): [3, 3, 3, 3, 3, 5, 3, 3, 3, 3, 3, 3];  every class flipped: [1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2]  (largest N = 31644229, p(N) of 6259 digits; 2 s)
+   ℓ =  5, level 2 (law: 5^2), Q = 13 and 23: powers of 5 in p(N): [4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4];  every class flipped: [2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2]  (largest N = 348570774, p(N) of 20790 digits; 12 s)
+   ℓ =  7, level 2 (law: 7^2), Q = 13 and 23: powers of 7 in p(N): [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4];  every class flipped: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]  (largest N = 337127446, p(N) of 20445 digits; 10 s)
+   ℓ = 11, level 2 (law: 11^2), Q = 5 and 67: powers of 11 in p(N): [4, 5, 4, 4, 5, 4, 4, 4, 4, 4, 5, 4];  every class flipped: [2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2]  (largest N = 773450024, p(N) of 30972 digits; 27 s)
+   ℓ =  7, level 1 (law: 7^1), Q = 13 and 23: powers of 7 in p(N): [2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2];  every class flipped: [1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 2, 1]  (largest N = 76791734, p(N) of 9754 digits; 3 s)
+   ℓ = 11, level 1 (law: 11^1), Q = 5 and 67: powers of 11 in p(N): [4, 3, 2, 3, 3, 2, 2, 2, 3, 2, 3, 2];  every class flipped: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  (largest N = 77206124, p(N) of 9780 digits; 3 s)
+
+3  THREE ZERO STEPS FOR 5 (4 members each)
+   ℓ =  5, level 1 (law: 5^1), Q = 13 and 23 and 43: powers of 5 in p(N): [4, 4, 4, 4];  every class flipped: [1, 1, 2, 1]  (largest N = 58510179344, p(N) of 269455 digits; 411 s)
+
+seconds: 482

@@ -1,0 +1,58 @@
+ℓ, weight ℓ − 5, R_ℓ(3) (BLMT), level 2: newforms with U₂ = +2^((k−2)/2) and with −2^((k−2)/2); the predicted sign (2|ℓ); level 6 (ℓ ≤ 151): the four classes (U₂, U₃ signs ++, +−, −+, −−)
+   ℓ =  11, weight   6: R = 0;  level 2: 0 (+), 0 (−);  predicted sign -1: 0  →  as predicted;  level 6: 0 1 0 0
+   ℓ =  13, weight   8: R = 1;  level 2: 0 (+), 1 (−);  predicted sign -1: 1  →  as predicted;  level 6: 1 0 0 0
+   ℓ =  17, weight  12: R = 0;  level 2: 0 (+), 0 (−);  predicted sign +1: 0  →  as predicted;  level 6: 1 0 1 1
+   ℓ =  19, weight  14: R = 1;  level 2: 1 (+), 1 (−);  predicted sign -1: 1  →  as predicted;  level 6: 0 1 0 0
+   ℓ =  23, weight  18: R = 1;  level 2: 1 (+), 0 (−);  predicted sign +1: 1  →  as predicted;  level 6: 0 1 1 1
+   ℓ =  29, weight  24: R = 1;  level 2: 0 (+), 1 (−);  predicted sign -1: 1  →  as predicted;  level 6: 2 1 1 1
+   ℓ =  31, weight  26: R = 2;  level 2: 2 (+), 1 (−);  predicted sign +1: 2  →  as predicted;  level 6: 0 1 1 1
+   ℓ =  37, weight  32: R = 2;  level 2: 1 (+), 2 (−);  predicted sign -1: 2  →  as predicted;  level 6: 2 1 1 1
+   ℓ =  41, weight  36: R = 1;  level 2: 1 (+), 1 (−);  predicted sign +1: 1  →  as predicted;  level 6: 2 1 2 2
+   ℓ =  43, weight  38: R = 2;  level 2: 2 (+), 2 (−);  predicted sign -1: 2  →  as predicted;  level 6: 1 2 1 1
+   ℓ =  47, weight  42: R = 2;  level 2: 2 (+), 1 (−);  predicted sign +1: 2  →  as predicted;  level 6: 1 2 2 2
+   ℓ =  53, weight  48: R = 2;  level 2: 1 (+), 2 (−);  predicted sign -1: 2  →  as predicted;  level 6: 3 2 2 2
+   ℓ =  59, weight  54: R = 2;  level 2: 2 (+), 2 (−);  predicted sign -1: 2  →  as predicted;  level 6: 2 3 2 2
+   ℓ =  61, weight  56: R = 3;  level 2: 2 (+), 3 (−);  predicted sign -1: 3  →  as predicted;  level 6: 3 2 2 2
+   ℓ =  67, weight  62: R = 3;  level 2: 3 (+), 3 (−);  predicted sign -1: 3  →  as predicted;  level 6: 2 3 2 2
+   ℓ =  71, weight  66: R = 3;  level 2: 3 (+), 2 (−);  predicted sign +1: 3  →  as predicted;  level 6: 2 3 3 3
+   ℓ =  73, weight  68: R = 3;  level 2: 3 (+), 3 (−);  predicted sign +1: 3  →  as predicted;  level 6: 3 2 3 3
+   ℓ =  79, weight  74: R = 4;  level 2: 4 (+), 3 (−);  predicted sign +1: 4  →  as predicted;  level 6: 2 3 3 3
+   ℓ =  83, weight  78: R = 3;  level 2: 3 (+), 3 (−);  predicted sign -1: 3  →  as predicted;  level 6: 3 4 3 3
+   ℓ =  89, weight  84: R = 3;  level 2: 3 (+), 3 (−);  predicted sign +1: 3  →  as predicted;  level 6: 4 3 4 4
+   ℓ =  97, weight  92: R = 4;  level 2: 4 (+), 4 (−);  predicted sign +1: 4  →  as predicted;  level 6: 4 3 4 4
+   ℓ = 101, weight  96: R = 4;  level 2: 3 (+), 4 (−);  predicted sign -1: 4  →  as predicted;  level 6: 5 4 4 4
+   ℓ = 103, weight  98: R = 5;  level 2: 5 (+), 4 (−);  predicted sign +1: 5  →  as predicted;  level 6: 3 4 4 4
+   ℓ = 107, weight 102: R = 4;  level 2: 4 (+), 4 (−);  predicted sign -1: 4  →  as predicted;  level 6: 4 5 4 4
+   ℓ = 109, weight 104: R = 5;  level 2: 4 (+), 5 (−);  predicted sign -1: 5  →  as predicted;  level 6: 5 4 4 4
+   ℓ = 113, weight 108: R = 4;  level 2: 4 (+), 4 (−);  predicted sign +1: 4  →  as predicted;  level 6: 5 4 5 5
+   ℓ = 127, weight 122: R = 6;  level 2: 6 (+), 5 (−);  predicted sign +1: 6  →  as predicted;  level 6: 4 5 5 5
+   ℓ = 131, weight 126: R = 5;  level 2: 5 (+), 5 (−);  predicted sign -1: 5  →  as predicted;  level 6: 5 6 5 5
+   ℓ = 137, weight 132: R = 5;  level 2: 5 (+), 5 (−);  predicted sign +1: 5  →  as predicted;  level 6: 6 5 6 6
+   ℓ = 139, weight 134: R = 6;  level 2: 6 (+), 6 (−);  predicted sign -1: 6  →  as predicted;  level 6: 5 6 5 5
+   ℓ = 149, weight 144: R = 6;  level 2: 5 (+), 6 (−);  predicted sign -1: 6  →  as predicted;  level 6: 7 6 6 6
+   ℓ = 151, weight 146: R = 7;  level 2: 7 (+), 6 (−);  predicted sign +1: 7  →  as predicted;  level 6: 5 6 6 6
+   ℓ = 157, weight 152: R = 7;  level 2: 6 (+), 7 (−);  predicted sign -1: 7  →  as predicted
+   ℓ = 163, weight 158: R = 7;  level 2: 7 (+), 7 (−);  predicted sign -1: 7  →  as predicted
+   ℓ = 167, weight 162: R = 7;  level 2: 7 (+), 6 (−);  predicted sign +1: 7  →  as predicted
+   ℓ = 173, weight 168: R = 7;  level 2: 6 (+), 7 (−);  predicted sign -1: 7  →  as predicted
+   ℓ = 179, weight 174: R = 7;  level 2: 7 (+), 7 (−);  predicted sign -1: 7  →  as predicted
+   ℓ = 181, weight 176: R = 8;  level 2: 7 (+), 8 (−);  predicted sign -1: 8  →  as predicted
+   ℓ = 191, weight 186: R = 8;  level 2: 8 (+), 7 (−);  predicted sign +1: 8  →  as predicted
+   ℓ = 193, weight 188: R = 8;  level 2: 8 (+), 8 (−);  predicted sign +1: 8  →  as predicted
+   ℓ = 197, weight 192: R = 8;  level 2: 7 (+), 8 (−);  predicted sign -1: 8  →  as predicted
+   ℓ = 199, weight 194: R = 9;  level 2: 9 (+), 8 (−);  predicted sign +1: 9  →  as predicted
+   ℓ = 211, weight 206: R = 9;  level 2: 9 (+), 9 (−);  predicted sign -1: 9  →  as predicted
+   ℓ = 223, weight 218: R = 10;  level 2: 10 (+), 9 (−);  predicted sign +1: 10  →  as predicted
+   ℓ = 227, weight 222: R = 9;  level 2: 9 (+), 9 (−);  predicted sign -1: 9  →  as predicted
+   ℓ = 229, weight 224: R = 10;  level 2: 9 (+), 10 (−);  predicted sign -1: 10  →  as predicted
+   ℓ = 233, weight 228: R = 9;  level 2: 9 (+), 9 (−);  predicted sign +1: 9  →  as predicted
+   ℓ = 239, weight 234: R = 10;  level 2: 10 (+), 9 (−);  predicted sign +1: 10  →  as predicted
+   ℓ = 241, weight 236: R = 10;  level 2: 10 (+), 10 (−);  predicted sign +1: 10  →  as predicted
+   ℓ = 251, weight 246: R = 10;  level 2: 10 (+), 10 (−);  predicted sign -1: 10  →  as predicted
+
+level 2 with the predicted sign: 50 of 50 primes match R_ℓ(3)
+level 6, signs -1 -1: 14 of 32 match
+level 6, signs -1 +1: 14 of 32 match
+level 6, signs +1 -1: 16 of 32 match
+level 6, signs +1 +1: 11 of 32 match
+seconds: 26

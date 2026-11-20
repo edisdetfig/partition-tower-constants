@@ -1,0 +1,38 @@
+p(n) for every n up to 2400000 on the lane 5⁴·7⁴·11³·13·17·19·23 (19 s); p(100) right: True
+
+1  WHERE IT SHOWS: N whose 24N − 1 has no square factor at all; share of p(N) that are multiples of ℓ (z: standard errors above 1/ℓ)
+   ℓ =  5:  Atkin's class 0.20641 (z = +15.3);  the other class 0.20077 (z = +1.8)
+   ℓ =  7:  Atkin's class 0.14460 (z = +4.9);  the other class 0.14303 (z = +0.5)
+   ℓ = 11:  Atkin's class 0.09105 (z = +0.5);  the other class 0.09056 (z = -1.2)
+   ℓ = 13:  Atkin's class 0.07699 (z = +0.3);  the other class 0.07731 (z = +1.5);  ℓ divides 24N − 1 once 0.08935 (z = +18.4)
+   ℓ = 17:  Atkin's class 0.05890 (z = +0.3);  the other class 0.05864 (z = -0.8);  ℓ divides 24N − 1 once 0.05906 (z = +0.4)
+   ℓ = 19:  Atkin's class 0.05238 (z = -1.2);  the other class 0.05231 (z = -1.5);  ℓ divides 24N − 1 once 0.05266 (z = +0.0)
+   ℓ = 23:  Atkin's class 0.04356 (z = +0.4);  the other class 0.04319 (z = -1.5);  ℓ divides 24N − 1 once 0.04413 (z = +1.0)
+   inside the laws (p(N) divided by the law's power, on lane ℓ; N with ℓᵇ dividing 24N − 1 and M' = (24N − 1)/ℓᵇ with no square factor):
+   ℓ =  5, level 1 (÷5^1):  M' a square on lane 5: 0.20387 of 182371 (z = +4.1);  M' not a square on lane 5: 0.20668 of 182388 (z = +7.1)
+   ℓ =  5, level 2 (÷5^2):  M' a square on lane 5: 1.00000 of 36505 (all: the square rule);  M' not a square on lane 5: 0.20451 of 36462 (z = +2.2)
+   ℓ =  7, level 1 (÷7^1):  M' a square on lane 7: 1.00000 of 136813 (all: the square rule);  M' not a square on lane 7: 0.14850 of 136752 (z = +6.0)
+   ℓ =  7, level 2 (÷7^2):  M' a square on lane 7: 0.14869 of 19537 (z = +2.3);  M' not a square on lane 7: 0.14519 of 19561 (z = +0.9)
+   ℓ = 11, level 1 (÷11^1):  M' a square on lane 11: 0.09807 of 91203 (z = +7.5);  M' not a square on lane 11: 0.09642 of 91157 (z = +5.8)
+   ℓ = 11, level 2 (÷11^2):  M' a square on lane 11: 0.09458 of 8279 (z = +1.2);  M' not a square on lane 11: 0.09401 of 8318 (z = +1.0)
+
+2  WHAT IT DOES NOT DEPEND ON (Atkin's class, 24N − 1 with no square factor)
+   ℓ = 5: by the number of prime factors of 24N − 1: 1: 0.2059, 2: 0.2069, 3: 0.2066, 4: 0.2042, 5: 0.1961
+          with / without a prime factor in each class on lane 5: ≡ 1: 0.2061 / 0.2066, ≡ 2: 0.2060 / 0.2070, ≡ 3: 0.2069 / 0.2059, ≡ 4: 0.2066 / 0.2063
+          in each of 177 residue classes (N on lanes 8, 9; 24N − 1 on lanes 25 and 5 to 31): from 0.2013 to 0.2124;  by size of N (to 100,000 / 1,000,000 / 2,400,000): 0.2042, 0.2067, 0.2064
+   ℓ = 7: by the number of prime factors of 24N − 1: 1: 0.1452, 2: 0.1449, 3: 0.1436, 4: 0.1442, 5: 0.1489
+          with / without a prime factor in each class on lane 7: ≡ 1: 0.1442 / 0.1448, ≡ 2: 0.1439 / 0.1449, ≡ 3: 0.1451 / 0.1444, ≡ 4: 0.1435 / 0.1452, ≡ 5: 0.1442 / 0.1448, ≡ 6: 0.1455 / 0.1443
+          in each of 186 residue classes (N on lanes 8, 9; 24N − 1 on lanes 49 and 5 to 31): from 0.1396 to 0.1491;  by size of N (to 100,000 / 1,000,000 / 2,400,000): 0.1441, 0.1447, 0.1446
+
+3  HOW DEEP THE EXTRA MULTIPLES GO (Atkin's class, 24N − 1 with no square factor): share of p(N) with exactly ℓ⁰, ℓ¹, ℓ², and ℓ³ or more
+   ℓ = 5: 0.79359 0.16495 0.03325 0.00821  (chance: 0.80000 0.16000 0.03200 0.00800);  of the multiples, the share with ℓ² or more: 0.2009 (chance 0.2000)
+   ℓ = 7: 0.85540 0.12396 0.01762 0.00302  (chance: 0.85714 0.12245 0.01749 0.00292);  of the multiples, the share with ℓ² or more: 0.1427 (chance 0.1429)
+
+4  IS IT THE CLASS NUMBERS? For N ≤ 3,000 in Atkin's class for 5 with 24N − 1 = M with no square factor: p(N) on lane 5 against
+   the class number h of four quadratic fields. One fixed ratio (per class of M on lane 5) would mean p(N) ≡ C·h.
+   Q(√−M)    1137 numbers: p/h on lane 5 takes the values 0..4 [156, 201, 194, 173, 185] times;  5 divides h for 228 of them, and p(N) for 46 of those
+   Q(√−5M)   1137 numbers: p/h on lane 5 takes the values 0..4 [155, 174, 161, 179, 182] times;  5 divides h for 286 of them, and p(N) for 47 of those
+   Q(√−3M)   1137 numbers: p/h on lane 5 takes the values 0..4 [159, 177, 170, 171, 191] times;  5 divides h for 269 of them, and p(N) for 43 of those
+   Q(√−15M)  1137 numbers: p/h on lane 5 takes the values 0..4 [157, 182, 181, 172, 187] times;  5 divides h for 258 of them, and p(N) for 45 of those
+
+seconds: 48

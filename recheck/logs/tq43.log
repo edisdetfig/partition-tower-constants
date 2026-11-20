@@ -1,0 +1,8 @@
+l=43 weight 40: class dimension 2 (rank bound 2); series to 366597 terms (13 s)
+   Q=5: a_Q on the class basis [1, 1], a_1 [1, 0] -> one number c: [1, 'none'] ; Q^-2=31, (-1|Q)=+1, so +(-1|Q)Q^-2=31 and -(-1|Q)Q^-2=12 ; full matrix: charpoly [17, 8, 1] NOT scalar
+   Q=7: a_Q on the class basis [23, 18], a_1 [1, 0] -> one number c: [23, 'none'] ; Q^-2=36, (-1|Q)=-1, so +(-1|Q)Q^-2=7 and -(-1|Q)Q^-2=36 ; full matrix: charpoly [35, 5, 1] NOT scalar
+   Q=11: a_Q on the class basis [24, 3], a_1 [1, 0] -> one number c: [24, 'none'] ; Q^-2=16, (-1|Q)=-1, so +(-1|Q)Q^-2=27 and -(-1|Q)Q^-2=16 ; full matrix: charpoly [17, 25, 1] NOT scalar
+   Q=13: a_Q on the class basis [8, 22], a_1 [1, 0] -> one number c: [8, 'none'] ; Q^-2=14, (-1|Q)=+1, so +(-1|Q)Q^-2=14 and -(-1|Q)Q^-2=29 ; full matrix: charpoly [1, 32, 1] NOT scalar
+   Q=4049: a_Q on the class basis [36, 0], a_1 [1, 0] -> one number c: [36] ; Q^-2=36, (-1|Q)=+1, so +(-1|Q)Q^-2=36 and -(-1|Q)Q^-2=7 ; full matrix: charpoly [6, 14, 1] scalar
+   Q=8941: a_Q on the class basis [19, 0], a_1 [1, 0] -> one number c: [19] ; Q^-2=24, (-1|Q)=+1, so +(-1|Q)Q^-2=24 and -(-1|Q)Q^-2=19 ; full matrix: charpoly [17, 5, 1] scalar
+seconds 13

@@ -1,0 +1,71 @@
+h₆ (weight 6, level 6, U₂ = +4, U₃ = −9, so w₂ = −1, w₃ = +1): first coefficients [0, 1, 4, -9, 16, -66, -36]
+   a_p for primes p < 10000000 computed (61 s); checks: a₅ = -66, a₇ = 176, a₁₁ = -60, a₁₃ = -658
+   primes 5 ≤ p < 10000000 with p | a_p(h₆) (h₆ non-ordinary at p): [859]
+
+Part B: does T_ℓ have the eigenvalue 0 on lane ℓ, class by class (weight ℓ − 3, Γ0(6), classes over the ℓ-adic integers, class_padic)?
+   classes named by (w₂, w₃) relative to ((2|ℓ), (3|ℓ)): "−,−" is the partition class; "−,+" is the one h₆ predicts
+   ℓ = 13 (0 s): −,−: 1 forms;  −,+: empty;  +,−: empty;  +,+: empty
+   ℓ = 17 (0 s): −,−: 1 forms;  −,+: empty;  +,−: empty;  +,+: empty
+   ℓ = 19 (0 s): −,−: 1 forms;  −,+: empty;  +,−: 1 forms;  +,+: 1 forms
+   ℓ = 23 (0 s): −,−: 1 forms;  −,+: empty;  +,−: 1 forms;  +,+: 1 forms
+   ℓ = 29 (0 s): −,−: 1 forms;  −,+: 1 forms;  +,−: 1 forms;  +,+: empty
+   ℓ = 31 (0 s): −,−: 1 forms;  −,+: 1 forms;  +,−: 2 forms;  +,+: 1 forms
+   ℓ = 37 (0 s): −,−: 2 forms;  −,+: 1 forms;  +,−: 1 forms;  +,+: 1 forms
+   ℓ = 41 (0 s): −,−: 2 forms;  −,+: 1 forms;  +,−: 1 forms;  +,+: 1 forms
+   ℓ = 43 (0 s): −,−: 2 forms;  −,+: 1 forms;  +,−: 2 forms;  +,+: 2 forms
+   ℓ = 47 (0 s): −,−: 2 forms;  −,+: 1 forms;  +,−: 2 forms;  +,+: 2 forms
+   ℓ = 53 (0 s): −,−: 2 forms;  −,+: 2 forms;  +,−: 2 forms;  +,+: 1 forms
+   ℓ = 59 (0 s): −,−: 2 forms;  −,+: 2 forms;  +,−: 3 forms;  +,+: 2 forms
+   ℓ = 61 (0 s): −,−: 3 forms;  −,+: 2 forms;  +,−: 2 forms;  +,+: 2 forms
+   ℓ = 67 (0 s): −,−: 3 forms;  −,+: 2 forms;  +,−: 3 forms;  +,+: 3 forms
+   ℓ = 71 (0 s): −,−: 3 forms;  −,+: 2 forms;  +,−: 3 forms;  +,+: 3 forms
+   ℓ = 73 (0 s): −,−: 3 forms;  −,+: 3 forms;  +,−: 3 forms;  +,+: 2 forms
+   ℓ = 79 (0 s): −,−: 3 forms;  −,+: 3 forms;  +,−: 4 forms;  +,+: 3 forms
+   ℓ = 83 (0 s): −,−: 3 forms;  −,+: 3 forms;  +,−: 4 forms;  +,+: 3 forms
+   ℓ = 89 (0 s): −,−: 4 forms;  −,+: 3 forms;  +,−: 3 forms;  +,+: 3 forms
+   ℓ = 97 (0 s): −,−: 4 forms;  −,+: 4 forms;  +,−: 4 forms;  +,+: 3 forms
+   ℓ = 101 (0 s): −,−: 4 forms;  −,+: 4 forms;  +,−: 4 forms;  +,+: 3 forms
+   ℓ = 103 (0 s): −,−: 4 forms;  −,+: 4 forms;  +,−: 5 forms;  +,+: 4 forms
+   ℓ = 107 (0 s): −,−: 4 forms;  −,+: 4 forms;  +,−: 5 forms;  +,+: 4 forms
+   ℓ = 109 (0 s): −,−: 5 forms;  −,+: 4 forms;  +,−: 4 forms;  +,+: 4 forms
+   ℓ = 113 (0 s): −,−: 5 forms;  −,+: 4 forms;  +,−: 4 forms;  +,+: 4 forms
+   ℓ = 127 (0 s): −,−: 5 forms;  −,+: 5 forms;  +,−: 6 forms;  +,+: 5 forms
+   ℓ = 131 (0 s): −,−: 5 forms;  −,+: 5 forms;  +,−: 6 forms;  +,+: 5 forms
+   ℓ = 137 (0 s): −,−: 6 forms;  −,+: 5 forms;  +,−: 5 forms;  +,+: 5 forms
+   ℓ = 139 (1 s): −,−: 6 forms;  −,+: 5 forms;  +,−: 6 forms;  +,+: 6 forms
+   ℓ = 149 (1 s): −,−: 6 forms;  −,+: 6 forms;  +,−: 6 forms;  +,+: 5 forms
+   ℓ = 151 (1 s): −,−: 6 forms;  −,+: 6 forms;  +,−: 7 forms;  +,+: 6 forms
+   ℓ = 157 (1 s): −,−: 7 forms;  −,+: 6 forms;  +,−: 6 forms;  +,+: 6 forms
+   ℓ = 163 (1 s): −,−: 7 forms;  −,+: 6 forms;  +,−: 7 forms;  +,+: 7 forms
+   ℓ = 167 (1 s): −,−: 7 forms;  −,+: 6 forms;  +,−: 7 forms;  +,+: 7 forms
+   ℓ = 173 (1 s): −,−: 7 forms;  −,+: 7 forms;  +,−: 7 forms;  +,+: 6 forms
+   ℓ = 179 (1 s): −,−: 7 forms;  −,+: 7 forms;  +,−: 8 forms;  +,+: 7 forms
+   ℓ = 181 (1 s): −,−: 8 forms;  −,+: 7 forms;  +,−: 7 forms;  +,+: 7 forms
+   ℓ = 191 (1 s): −,−: 8 forms;  −,+: 7 forms;  +,−: 8 forms;  +,+: 8 forms
+   ℓ = 193 (1 s): −,−: 8 forms;  −,+: 8 forms;  +,−: 8 forms;  +,+: 7 forms
+   ℓ = 197 (1 s): −,−: 8 forms;  −,+: 8 forms;  +,−: 8 forms;  +,+: 7 forms
+   ℓ = 199 (1 s): −,−: 8 forms;  −,+: 8 forms;  +,−: 9 forms;  +,+: 8 forms
+   ℓ = 211 (2 s): −,−: 9 forms;  −,+: 8 forms;  +,−: 9 forms;  +,+: 9 forms
+   ℓ = 223 (2 s): −,−: 9 forms;  −,+: 9 forms;  +,−: 10 forms;  +,+: 9 forms
+   ℓ = 227 (2 s): −,−: 9 forms;  −,+: 9 forms;  +,−: 10 forms;  +,+: 9 forms
+   ℓ = 229 (2 s): −,−: 10 forms;  −,+: 9 forms;  +,−: 9 forms;  +,+: 9 forms
+   ℓ = 233 (3 s): −,−: 10 forms;  −,+: 9 forms;  +,−: 9 forms;  +,+: 9 forms
+   ℓ = 239 (3 s): −,−: 10 forms;  −,+: 9 forms;  +,−: 10 forms;  +,+: 10 forms
+   ℓ = 241 (3 s): −,−: 10 forms;  −,+: 10 forms;  +,−: 10 forms;  +,+: 9 forms
+   ℓ = 251 (3 s): −,−: 10 forms;  −,+: 10 forms;  +,−: 11 forms;  +,+: 10 forms
+   ℓ = 257 (3 s): −,−: 11 forms;  −,+: 10 forms;  +,−: 10 forms;  +,+: 10 forms
+   ℓ = 263 (3 s): −,−: 11 forms;  −,+: 10 forms;  +,−: 11 forms;  +,+: 11 forms
+   ℓ = 269 (3 s): −,−: 11 forms;  −,+: 11 forms;  +,−: 11 forms;  +,+: 10 forms
+   ℓ = 271 (4 s): −,−: 11 forms;  −,+: 11 forms;  +,−: 12 forms;  +,+: 11 forms
+   ℓ = 277 (3 s): −,−: 12 forms;  −,+: 11 forms;  +,−: 11 forms;  +,+: 11 forms
+   ℓ = 281 (4 s): −,−: 12 forms;  −,+: 11 forms;  +,−: 11 forms;  +,+: 11 forms
+   ℓ = 283 (4 s): −,−: 12 forms;  −,+: 11 forms;  +,−: 12 forms;  +,+: 12 forms
+   ℓ = 293 (4 s): −,−: 12 forms;  −,+: 12 forms;  +,−: 12 forms;  +,+: 11 forms
+   ℓ = 853 (83 s): −,−: 36 forms;  −,+: 35 forms;  +,−: 35 forms;  +,+: 35 forms
+   ℓ = 857 (80 s): −,−: 36 forms;  −,+: 35 forms;  +,−: 35 forms;  +,+: 35 forms
+   ℓ = 859 (79 s): −,−: 36 forms;  −,+: 35 forms, EIGENVALUE 0;  +,−: 36 forms;  +,+: 36 forms
+   ℓ = 863 (80 s): −,−: 36 forms;  −,+: 35 forms;  +,−: 36 forms;  +,+: 36 forms
+
+non-ordinary forms found, by class: {'−,+': [859]}
+h₆'s non-ordinary primes among the ℓ tested: [859]
+seconds: 446

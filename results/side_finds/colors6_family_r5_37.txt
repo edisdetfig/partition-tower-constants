@@ -1,0 +1,17 @@
+ℓ = 37, 5 colours, k₀ = 30, level 6, U₂ sign +1, U₃ sign -1 at k₀, 11 weights, modulo ℓ^11; FLINT 0.9.0
+1  the class at weight 30: 2 forms;  T_ℓ polynomial on lane ℓ [17, 11, 1]
+2  weight 30 (dimension 31, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (0 s)
+2  weight 66 (dimension 67, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (0 s)
+2  weight 102 (dimension 103, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (0 s)
+2  weight 138 (dimension 139, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (1 s)
+2  weight 174 (dimension 175, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (1 s)
+2  weight 210 (dimension 211, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (1 s)
+2  weight 246 (dimension 247, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (2 s)
+2  weight 282 (dimension 283, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (3 s)
+2  weight 318 (dimension 319, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (2 s)
+2  weight 354 (dimension 355, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (3 s)
+2  weight 390 (dimension 391, ordinary part 31): the class's piece 2; U_ℓ polynomial on lane ℓ [17, 11, 1]  (5 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+   the polynomial of u(−6) (lowest first) on lane ℓ: [17, 11, 1];  on lane ℓ^11: [65405560815793524, 58170363519549720, 1]
+
+seconds: 17

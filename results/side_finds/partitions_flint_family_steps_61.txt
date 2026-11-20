@@ -1,0 +1,23 @@
+ℓ = 61, k₀ = 58, 7 weights, modulo ℓ^7; FLINT 0.9.0
+1  the class at weight 58 (found exactly, over the integers): dimension 3 (predicted ⌊(ℓ + 12)/24⌋ = 3)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [5, 26, 2, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [31, 30, 34, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [52, 30, 37, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [42, 54, 59, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 61: polynomial [34, 15, 31, 1]
+2  weight 58 (dimension 59, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (0 s)
+2  weight 118 (dimension 119, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (0 s)
+2  weight 178 (dimension 179, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (1 s)
+2  weight 238 (dimension 239, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (1 s)
+2  weight 298 (dimension 299, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (2 s)
+2  weight 358 (dimension 359, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (2 s)
+2  weight 418 (dimension 419, ordinary part 59): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [34, 15, 31, 1]  (3 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6], [0, 1, 2, 3, 4, 5, 6], [0, 1, 2, 3, 4, 5, 6]]
+   the constants' polynomial (lowest first) on lane ℓ: [34, 15, 31, 1];  on lane ℓ^7: [1399182007899, 2527997883936, 1968789980228, 1]
+   a constant on lane ℓ, digits lowest first: [32, 40, 3, 28, 17, 11, 0]
+   two constants A ± B·√2 (no square root of 2 on lane ℓ): A [60, 24, 40, 28, 20, 18, 11], B [49, 14, 33, 55, 8, 59, 49]
+4  the step numbers at Q = 5, λ = (3|Q)·a_Q(F at weight −2): the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 6, 6], [0, 1, 2, 3, 4, 5, 6], [0, 1, 2, 3, 4, 5, 6]]
+   their polynomial (lowest first) on lane ℓ: [5, 26, 2, 1];  on lane ℓ^7: [812612290016, 1640493825121, 1047273126085, 1]
+   a root on lane ℓ, digits lowest first: [30, 21, 46, 41, 17, 13, 19];  the rest (lowest first) on lane ℓ^7: [580585529414, 2037384848852, 1]
+
+seconds: 10

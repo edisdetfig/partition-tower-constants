@@ -1,0 +1,50 @@
+
+ℓ = 13: the constant α = 6, 3, 1, 2, 5, 8, 0, 9 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 2]  (smallest 1); 1 skipped (H ≡ 0 on lane ℓ)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [3, 3, 3, 3, 3, 3, 4]  (smallest 3); 1 skipped (H ≡ 0 on lane ℓ)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [5, 5, 5, 5, 5, 5, 6]  (smallest 5); 1 skipped (H ≡ 0 on lane ℓ)  (0 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [7, 7, 7, 7, 7, 7, 8]  (smallest 7); 1 skipped (H ≡ 0 on lane ℓ)  (1 s)
+   levels  9 → 11: digits shared with α, n = 0 … 7: [9, 9, 9, 9, 9, 9, 10]  (smallest 9); 1 skipped (H ≡ 0 on lane ℓ)  (24 s)
+   levels 11 → 13: digits shared with α, n = 0 … 7: [11, 11, 11, 11, 11, 11, 12]  (smallest 11); 1 skipped (H ≡ 0 on lane ℓ)  (496 s)
+   levels 13 → 15: past N = 3e+15, not computed
+
+ℓ = 17: the constant α = 6, 12, 12, 7, 7, 5, 16, 3 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 1, 1]  (smallest 1)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [3, 3, 3, 3, 3, 3, 3, 3]  (smallest 3)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [5, 5, 5, 5, 5, 5, 5, 5]  (smallest 5)  (0 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [7, 7, 7, 7, 7, 7, 7, 7]  (smallest 7)  (2 s)
+   levels  9 → 11: digits shared with α, n = 0 … 7: [9, 9, 9, 9, 9, 9, 9, 9]  (smallest 9)  (101 s)
+   levels 11 → 13: digits shared with α, n = 0 … 0: [11]  (smallest 11)  (105 s)
+   levels 13 → 15: past N = 3e+15, not computed
+
+ℓ = 19: the constant α = 10, 2, 10, 8, 10, 1, 16, 5 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 1, 1]  (smallest 1)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [4, 3, 3, 3, 3, 3, 3, 4]  (smallest 3)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [5, 5, 5, 5, 6, 5, 5, 5]  (smallest 5)  (0 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [7, 7, 7, 7, 7, 7, 7, 7]  (smallest 7)  (5 s)
+   levels  9 → 11: digits shared with α, n = 0 … 7: [9, 9, 9, 9, 9, 9, 9, 9]  (smallest 9)  (210 s)
+   levels 11 → 13: past N = 3e+15, not computed
+
+ℓ = 23: the constant α = 5, 20, 8, 4, 19, 3, 6, 6 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 1, 1]  (smallest 1)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [3, 3, 3, 3, 3, 3, 3, 3]  (smallest 3)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [5, 5, 5, 5, 5, 5, 5, 5]  (smallest 5)  (0 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [7, 7, 7, 7, 7, 8, 7, 7]  (smallest 7)  (15 s)
+   levels  9 → 11: digits shared with α, n = 0 … 3: [9, 9, 9, 9]  (smallest 9)  (230 s)
+   levels 11 → 13: past N = 3e+15, not computed
+
+ℓ = 29: the constant α = 3, 14, 17, 22, 28, 6, 14, 19 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 1, 1]  (smallest 1)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [2, 2, 2, 2, 2, 2, 2, 2]  (smallest 2)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [3, 3, 3, 3, 3, 3, 3, 3]  (smallest 3)  (1 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [4, 4, 4, 4, 4, 4, 4, 4]  (smallest 4)  (67 s)
+   levels 9 → 11: past N = 3e+15, not computed
+
+ℓ = 31: the constant α = 30, 6, 2, 28, 1, 8, 3, 15 … (14 digits used)
+   levels  1 →  3: digits shared with α, n = 0 … 7: [1, 1, 1, 1, 1, 1, 1, 1]  (smallest 1)  (0 s)
+   levels  3 →  5: digits shared with α, n = 0 … 7: [2, 2, 2, 2, 2, 2, 2, 2]  (smallest 2)  (0 s)
+   levels  5 →  7: digits shared with α, n = 0 … 7: [3, 3, 3, 3, 3, 3, 3, 3]  (smallest 3)  (1 s)
+   levels  7 →  9: digits shared with α, n = 0 … 7: [4, 4, 4, 4, 4, 4, 4, 4]  (smallest 4)  (94 s)
+   levels 9 → 11: past N = 3e+15, not computed
+
+the largest partition number used: p(2898129680321528);  seconds: 1353

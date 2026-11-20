@@ -1,0 +1,5 @@
+ℓ = 7: is θ^(ℓ−1)·f ≡ θ^(ℓ−2)·G mod ℓ for each seed f, G the weight-(ℓ+1) Eisenstein series of level 6 with matching U_2, U_3? Coefficients compared for n = 0 … ℓ² + ℓ − 2 = 54 (Sturm's bound at that weight on Γ0(6))
+   family (5, 6, 0), seed weight 6·ω^5: θ^(ℓ−1)·f ≡ θ^(ℓ−2)·G with (U_2, U_3) of G = (1, 1): all 55 coefficients agree. PROVEN: ρ̄ ≅ ω^5 ⊕ ω^4
+   family (4, 5, 1), seed weight 8·ω^1: not Eisenstein of this kind (its a_2, a_3 fit no such G)
+
+proven Eisenstein: 1 of 2 seeds  (0 s)

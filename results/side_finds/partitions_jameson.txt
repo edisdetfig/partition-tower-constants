@@ -1,0 +1,54 @@
+p(n) for every n up to 2400000 on the lane 5⁶·7⁴·11³ (14 s); p(100) right: True
+
+1  THE TWO CURVES
+   E7 [1, 1, 1, -4, 5]: discriminant -16128 = {2: 8, 3: 2, 7: 1, -1: 1}, so its bad primes are [2, 3, 7];  1 + Q − #E(F_Q) for Q = 5 to 47: 5: -2, 11: -4, 13: +6, 17: +2, 19: -4, 23: +8, 29: -2, 31: +0, 37: -10, 41: -6, 43: -4, 47: +0
+   E11 [1, 0, 1, -14, 20]: discriminant -39204 = {2: 2, 3: 4, 11: 2, -1: 1}, so its bad primes are [2, 3, 11];  1 + Q − #E(F_Q) for Q = 5 to 47: 5: -1, 7: -4, 13: +5, 17: -7, 19: +0, 23: +0, 29: -7, 31: -8, 37: -5, 41: -11, 43: +8, 47: +4
+
+2  THEIR THEOREMS ON EVERY VALUE WE HAVE: p(N) ≡ [multiplier]·p(N*) − Q^e·p(N**) (mod ℓ^(law + 1)), where
+   24N − 1 = Q²(24N* − 1), 24N** − 1 = (24N* − 1)/Q², N* runs over the law's progression ℓʲn + β(j), and the multiplier
+   is Lovejoy–Ono's (15|Q)(1 + Q − …) for 5 and Jameson's Q^e·(3|Q)·(1 + Q − #E(F_Q) − …) for 7 and 11
+   ℓ =  5, j = 1 (mod 5^2): 134 primes Q, 24434 checks, 0 wrong
+   ℓ =  5, j = 2 (mod 5^3): 62 primes Q, 4840 checks, 0 wrong
+   ℓ =  5, j = 3 (mod 5^4): 33 primes Q, 954 checks, 0 wrong
+   ℓ =  5, j = 4 (mod 5^5): 15 primes Q, 179 checks, 0 wrong
+   ℓ =  5, j = 5 (mod 5^6): 8 primes Q, 32 checks, 0 wrong
+   ℓ =  7, j = 1 (mod 7^2): 122 primes Q, 24165 checks, 0 wrong
+   ℓ =  7, j = 2 (mod 7^3): 45 primes Q, 3411 checks, 0 wrong
+   ℓ =  7, j = 3 (mod 7^3): 22 primes Q, 479 checks, 0 wrong
+   ℓ =  7, j = 4 (mod 7^4): 8 primes Q, 61 checks, 0 wrong
+   ℓ =  7, j = 5 (mod 7^4): 3 primes Q, 8 checks, 0 wrong
+   ℓ = 11, j = 1 (mod 11^2): 112 primes Q, 18039 checks, 0 wrong
+   ℓ = 11, j = 2 (mod 11^3): 31 primes Q, 1605 checks, 0 wrong
+
+3  THE PRIMES THAT GIVE LAWS ONE FACTOR HIGHER: 1 + Q − #E(F_Q) ≡ ±1 (mod ℓ) gives her Corollary 1.3 (progressions
+   modulo ℓʲ·Q³: our "μ = 0"), ≡ 0 gives her Corollary 1.2 (progressions modulo ℓʲ·Q⁴)
+   ℓ =  7, ≡ +0: counted 31, 47, 79, 97, 113, 127, 191;  her table: 31, 47, 79, 97, 113, 127, 191
+   ℓ =  7, ≡ +1: counted 23, 41, 71, 89, 103, 131, 173, 199;  her table: 23, 41, 71, 89, 103, 131, 173, 199
+   ℓ =  7, ≡ -1: counted 13, 53, 61, 149, 151, 163, 167;  her table: 13, 53, 61, 149, 151, 163, 167
+   ℓ = 11, ≡ +0: counted 19, 23, 41, 59, 107, 193;  her table: 11, 19, 23, 41, 59, 107, 193
+   ℓ = 11, ≡ +1: counted 67, 109, 131, 139, 149, 179;  her table: 67, 109, 131, 139, 149, 179
+   ℓ = 11, ≡ -1: counted 5, 101, 137, 167, 181;  her table: 5, 101, 137, 167, 181
+   partitions_tower.txt (section 2) counted μ = 0 at Q = 13, 23, 41, 53, 61, 71, 89 for 7 and at Q = 5, 67 for 11: the ≡ ±1 primes
+   below 90 and 70 above. The 1375 law, p(1375n + 149) and p(1375n + 424) ≡ 0 (mod 121), is her Corollary 1.3 with Q = 5.
+
+4  WHAT SHARE OF ALL PRIMES GIVES SUCH LAWS. Counted over the primes 5 ≤ Q ≤ 30,000 (Q ≠ ℓ); her counts for the
+   same range QUOTED; the limit DERIVED from her argument by counting the matrices of GL2 with each trace (Chebotarev)
+   ℓ =  7: 3242 primes; trace ≡ 0: 0.1434 (hers 0.1433; limit 294/2016 = 0.1458);  ≡ +1: 0.1456 (hers 0.1458; 287/2016 = 0.1424);  ≡ −1: 0.1527 (hers 0.1529; 0.1424)
+           together, a law one factor higher comes from 44.2% of all primes (limit 43.1%)
+   ℓ = 11: 3242 primes; trace ≡ 0: 0.0861 (hers 0.0860; limit 1210/13200 = 0.0917);  ≡ +1: 0.0876 (hers 0.0878; 1199/13200 = 0.0908);  ≡ −1: 0.0922 (hers 0.0924; 0.0908)
+           together, a law one factor higher comes from 26.6% of all primes (limit 27.3%)
+   ℓ =  5 (Lovejoy–Ono, no curve): Q ≡ 3 (mod 5) zeroes a class (0.2510 of the primes), Q ≡ 4 zeroes both (0.2473); limit 1/4 each, 1/2 together
+
+5  LAWS AT PRIMES WE HAD NOT TESTED, FAR BEYOND THE RECURRENCE (her corollaries with j = 1), checked with exact values of
+   p(N). Members: N = ℓ·Q²·n + β(1, Q) for the first 10 n from 1,000 on that satisfy the corollary's condition (every N above
+   2,400,000); control: the first 10 such n of the other class.
+   For 7 only n outside the square rule are used (p(7n + 5) is already a multiple of 49 when 24n + 17 is a square on lane 7)
+   ℓ =  7, Q = 103 (1 + Q − #E ≡ +1): p(7·103²·n + 52603) with ((24n + 17)|103) = +1 ≡ 0 (mod 7^2): 10 of 10 (largest N = 77063334);  control: 2 of 10
+   ℓ =  7, Q = 149 (1 + Q − #E ≡ -1): p(7·149²·n + 110080) with ((24n + 17)|149) = -1 ≡ 0 (mod 7^2): 10 of 10 (largest N = 161111732);  control: 1 of 10
+   ℓ =  7, Q =  31 (1 + Q − #E ≡ +0): p(7·31²·n + 4765) with 31 divides 24n + 17 once ≡ 0 (mod 7^2): 10 of 10 (largest N = 12294994);  control: 2 of 10
+   ℓ = 11, Q = 101 (1 + Q − #E ≡ -1): p(11·101²·n + 60781) with ((24n + 13)|101) = -1 ≡ 0 (mod 11^2): 10 of 10 (largest N = 114516001);  control: 5 of 10
+   ℓ = 11, Q = 109 (1 + Q − #E ≡ +1): p(11·109²·n + 70791) with ((24n + 13)|109) = +1 ≡ 0 (mod 11^2): 10 of 10 (largest N = 133898375);  control: 3 of 10
+   ℓ = 11, Q =  19 (1 + Q − #E ≡ +0): p(11·19²·n + 2151) with 19 divides 24n + 13 once ≡ 0 (mod 11^2): 10 of 10 (largest N = 4699844);  control: 2 of 10
+   ℓ =  5, Q = 113 (Lovejoy–Ono, Q ≡ 3 (mod 5)): p(5·113²·n + 50544) with ((−24n − 19)|113) = +1 ≡ 0 (mod 5^2): 10 of 10 (largest N = 65236289);  control: 4 of 10
+
+seconds: 50

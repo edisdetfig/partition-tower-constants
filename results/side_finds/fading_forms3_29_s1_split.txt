@@ -1,0 +1,40 @@
+ℓ = 29, slope 1, weights −2 + 812·(x + 1) for x = 0..2, modulo ℓ^38 (N = 8 and 30 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-26 form, the only one of its class; T_q numbers {5: 5, 7: 25, 11: 4, 13: 28}
+   weight 810 (dimension 811), every system: the piece [39], new at 2 and 3 with the class's signs: 34 (to ℓ^38); slopes of T_ℓ: 37/32×32, 1×1, 0×1 (NOT determined: the last coefficient is 0 to ℓ^38); 1 root of slope 1, u/ℓ^1 on lane ℓ: 6  (105 s)
+      the system {5: 27, 7: 0, 11: 26, 13: 27}: 1 form; slopes of T_ℓ: 26×1; 0 roots of slope 1
+      the system {5: 22, 7: 16, 11: 17, 13: 0}: 1 form; slopes of T_ℓ: 26×1; 0 roots of slope 1
+      the system {5: 21, 7: 10, 11: 22, 13: 0}: 1 form; slopes of T_ℓ: 12×1; 0 roots of slope 1
+      the system {5: 13, 7: 12, 11: 14, 13: 3}: 1 form; slopes of T_ℓ: 26×1; 0 roots of slope 1
+      the system {5: 0, 7: 10, 11: 22, 13: 22}: 2 forms; slopes of T_ℓ: 21×1, 3×1; 0 roots of slope 1
+      the system {5: 23, 7: 9, 11: 10, 13: 20}: 2 forms; slopes of T_ℓ: 15×1, 9×1; 0 roots of slope 1
+      the system {5: 20, 7: 9, 11: 4, 13: 7}: 2 forms; slopes of T_ℓ: 13×1, 11×1; 0 roots of slope 1
+      the system {5: 14, 7: 16, 11: 24, 13: 0}: 2 forms; slopes of T_ℓ: 16×1, 8×1; 0 roots of slope 1
+      the system {5: 12, 7: 2, 11: 26, 13: 10}: 2 forms; slopes of T_ℓ: 12×2; 0 roots of slope 1
+      the system {5: 11, 7: 8, 11: 24, 13: 11}: 2 forms; slopes of T_ℓ: 19×1, 5×1; 0 roots of slope 1
+      the system {5: 8, 7: 3, 11: 10, 13: 14}: 2 forms; slopes of T_ℓ: 22×1, 2×1; 0 roots of slope 1
+      the system {5: 25, 7: 20, 11: 12, 13: 5}: 2 forms; slopes of T_ℓ: 23×1, 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 6
+         the root with u/ℓ^1 ≡ 6: known to ℓ^36; (3|ℓ)·u/ℓ^1, digits lowest first: [23, 9, 28, 25, 19, 27, 10, 17]
+      the system {5: 25, 7: 5, 11: 24, 13: 6}: 2 forms; slopes of T_ℓ: 18×1, 6×1; 0 roots of slope 1
+      the system {5: 24, 7: 21, 11: 20, 13: 23}: 4 forms; slopes of T_ℓ: 15×2, 4×2 (its left end NOT determined: the last coefficient is 0 to ℓ^38); 0 roots of slope 1
+      the system {5: 5, 7: 25, 11: 4, 13: 28}: 2 forms; slopes of T_ℓ: 25×1, 0×1; 0 roots of slope 1
+      the system {5: 5, 7: 22, 11: 4, 13: 24}: 2 forms; slopes of T_ℓ: 17×1, 7×1; 0 roots of slope 1
+      the system {5: 5, 7: 21, 11: 24, 13: 27}: 4 forms; slopes of T_ℓ: 19/2×4 (its left end NOT determined: the last coefficient is 0 to ℓ^38); 0 roots of slope 1
+   weight 1622 (dimension 1623), every system: the piece [80], new at 2 and 3 with the class's signs: 67 (to ℓ^37); slopes of T_ℓ: 37/66×66, 0×1 (NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1, u/ℓ^1 on lane ℓ: —  (843 s)
+      the system {5: 22, 7: 16, 11: 17, 13: 0}: 1 form; slopes of T_ℓ: 26×1; 0 roots of slope 1
+      the system {5: 13, 7: 12, 11: 14, 13: 3}: 1 form; slopes of T_ℓ: 26×1; 0 roots of slope 1
+      the system {5: 21, 7: 10, 11: 22, 13: 0}: 2 forms; slopes of T_ℓ: 25×1, 12×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 27, 7: 0, 11: 26, 13: 27}: 3 forms; slopes of T_ℓ: 37/3×3 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 0, 7: 10, 11: 22, 13: 22}: 4 forms; slopes of T_ℓ: 34/3×3, 3×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 23, 7: 9, 11: 10, 13: 20}: 4 forms; slopes of T_ℓ: 28/3×3, 9×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 20, 7: 9, 11: 4, 13: 7}: 4 forms; slopes of T_ℓ: 37/4×4 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 14, 7: 16, 11: 24, 13: 0}: 4 forms; slopes of T_ℓ: 29/3×3, 8×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 12, 7: 2, 11: 26, 13: 10}: 4 forms; slopes of T_ℓ: 37/4×4 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 11, 7: 8, 11: 24, 13: 11}: 4 forms; slopes of T_ℓ: 32/3×3, 5×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 8, 7: 3, 11: 10, 13: 14}: 4 forms; slopes of T_ℓ: 35/3×3, 2×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 25, 7: 20, 11: 12, 13: 5}: 4 forms; slopes of T_ℓ: 12×3, 1×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 1 root of slope 1, u/ℓ^1 on lane ℓ: 6
+         the root with u/ℓ^1 ≡ 6: known to ℓ^33; (3|ℓ)·u/ℓ^1, digits lowest first: [23, 15, 23, 25, 2, 1, 12, 20]
+      the system {5: 25, 7: 5, 11: 24, 13: 6}: 4 forms; slopes of T_ℓ: 31/3×3, 6×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 24, 7: 21, 11: 20, 13: 23}: 8 forms; slopes of T_ℓ: 29/6×6, 4×2 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 5, 7: 25, 11: 4, 13: 28}: 4 forms; slopes of T_ℓ: 37/3×3, 0×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 5, 7: 22, 11: 4, 13: 24}: 4 forms; slopes of T_ℓ: 10×3, 7×1 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1
+      the system {5: 5, 7: 21, 11: 24, 13: 27}: 8 forms; slopes of T_ℓ: 37/8×8 (its left end NOT determined: the last coefficient is 0 to ℓ^37); 0 roots of slope 1

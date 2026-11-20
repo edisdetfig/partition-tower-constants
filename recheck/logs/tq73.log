@@ -1,0 +1,3 @@
+l=73 weight 70: class dimension 3 (rank bound 3); series to 11367833 terms (2066 s)
+   Q=11367817: a_Q on the class basis [32, 0, 0], a_1 [1, 0, 0] -> one number c: [32] ; Q^-2=41, (-1|Q)=+1, so +(-1|Q)Q^-2=41 and -(-1|Q)Q^-2=32
+seconds 2066

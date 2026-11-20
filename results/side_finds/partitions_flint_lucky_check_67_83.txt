@@ -1,0 +1,19 @@
+lists from partitions_flint_lucky_dual_67_71_79_83_max50000000.txt; members computed up to N = 3e+16
+
+ℓ = 67
+   class ε=+1  Q =  2654833: members p(570605526461597), p(1042830789740160) on lane ℓ: [0, 0];  control p(98380263183034): 61, predicted 2ε(−3|Q)Q⁻²·p(14) = 61  as PREDICTED  (94 s)
+   class ε=−1  Q =   665279: members p(6177904563614), p(95139730279655) on lane ℓ: [0, 0];  control p(35831846468961): 60, predicted 2ε(−3|Q)Q⁻²·p(81) = 60  as PREDICTED  (22 s)
+
+ℓ = 71
+   class ε=+1  Q = 27028633: smallest members p(209636550072163381), p(313374224334677219), control p(2161201547135705): past N = 3e+16, not computed
+   class ε=−1  Q =  7701497: members p(175467790787985), p(4386694769699624) on lane ℓ: [0, 0];  control p(25442829664257819): 51, predicted 2ε(−3|Q)Q⁻²·p(429) = 51  as PREDICTED  (613 s)
+
+ℓ = 79
+   class ε=+1  Q =  5041271: members p(1422148210657386), p(3429886860997225) on lane ℓ: [0, 0];  control p(5437625511337064): 1, predicted 2ε(−3|Q)Q⁻²·p(214) = 1  as PREDICTED  (319 s)
+   class ε=−1  Q =  8240447: members p(9164341138959223), p(14528833512984134) on lane ℓ: [0, 0];  control p(3799848764934312): 18, predicted 2ε(−3|Q)Q⁻²·p(56) = 18  as PREDICTED  (556 s)
+
+ℓ = 83
+   class ε=+1  Q =  1260437: members p(203287587271075), p(335149806041502) on lane ℓ: [0, 0];  control p(71425368500648): 16, predicted 2ε(−3|Q)Q⁻²·p(45) = 16  as PREDICTED  (54 s)
+   class ε=−1  Q = 14339207: smallest members p(9244011380107003), p(128705081523028272), control p(26309878543381470): past N = 3e+16, not computed
+
+seconds: 1657

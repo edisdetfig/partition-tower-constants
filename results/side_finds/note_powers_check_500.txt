@@ -1,0 +1,29 @@
+primes 37 to 500: the ordinary notes on lane ℓ, and which are powers of which
+   ℓ =  37: 2 forms (pieces [1, 1]); ordinary notes on lane ℓ: [15, 34];  34 = 15^20 (of 36); 15 not a power of 34
+   ℓ =  41: 2 forms (pieces [1, 1]); ordinary notes on lane ℓ: [23, 31];  31 = 23^3 (of 10); 23 = 31^7 (of 10)
+   ℓ =  43: 2 forms (pieces [1, 1]); ordinary notes on lane ℓ: [6, 31];  31 not a power of 6; 6 = 31^7 (of 21)
+   ℓ =  53: 2 forms (pieces [1, 1]); ordinary notes on lane ℓ: [7, 43];  43 = 7^9 (of 26); 7 = 43^3 (of 26)
+   ℓ = 113: 5 forms (pieces [1, 1, 3]); ordinary notes on lane ℓ: [63, 72];  72 = 63^15 (of 56); 63 = 72^15 (of 56)
+   ℓ = 139: 6 forms (pieces [1, 1, 2, 2]); ordinary notes on lane ℓ: [70, 84];  84 = 70^45 (of 138); 70 not a power of 84
+   ℓ = 149: 6 forms (pieces [1, 1, 4]); ordinary notes on lane ℓ: [23, 82];  82 = 23^2 (of 148); 23 not a power of 82
+   ℓ = 151: 6 forms (pieces [1, 1, 4]); ordinary notes on lane ℓ: [43, 58];  58 = 43^23 (of 75); 43 = 58^62 (of 75)
+   ℓ = 157: 7 forms (pieces [1, 1, 5]); ordinary notes on lane ℓ: [37, 138];  138 not a power of 37; 37 = 138^50 (of 78)
+   ℓ = 173: 7 forms (pieces [1, 1, 5]); ordinary notes on lane ℓ: [85, 104];  104 not a power of 85; 85 = 104^28 (of 172)
+   ℓ = 179: 7 forms (pieces [1, 1, 1, 4]); ordinary notes on lane ℓ: [11, 27, 99];  27 = 11^164 (of 178); 99 = 11^51 (of 178); 11 not a power of 27; 99 not a power of 27; 11 = 99^7 (of 178); 27 = 99^80 (of 178)
+   ℓ = 227: 9 forms (pieces [1, 1, 2, 2, 3]); ordinary notes on lane ℓ: [198, 213];  213 = 198^90 (of 226); 198 not a power of 213
+   ℓ = 251: 10 forms (pieces [1, 1, 2, 6]); ordinary notes on lane ℓ: [17, 151];  151 not a power of 17; 17 not a power of 151
+   ℓ = 269: 11 forms (pieces [1, 1, 1, 2, 2, 4]); ordinary notes on lane ℓ: [65, 244, 247];  244 = 65^59 (of 134); 247 not a power of 65; 65 = 244^25 (of 134); 247 not a power of 244; 65 = 247^34 (of 268); 244 = 247^130 (of 268)
+   ℓ = 277: 12 forms (pieces [1, 1, 3, 7]); ordinary notes on lane ℓ: [128, 248];  248 not a power of 128; 128 not a power of 248
+   ℓ = 313: 13 forms (pieces [1, 1, 11]); ordinary notes on lane ℓ: [128, 136];  136 not a power of 128; 128 not a power of 136
+   ℓ = 353: 15 forms (pieces [1, 1, 2, 11]); ordinary notes on lane ℓ: [80, 166];  166 = 80^80 (of 352); 80 not a power of 166
+   ℓ = 383: 16 forms (pieces [1, 1, 1, 2, 4, 7]); ordinary notes on lane ℓ: [162, 175, 353];  175 = 162^105 (of 191); 353 = 162^118 (of 191); 162 = 175^171 (of 191); 353 = 175^123 (of 191); 162 = 353^34 (of 191); 175 = 353^132 (of 191)
+   ℓ = 409: 17 forms (pieces [1, 1, 3, 12]); ordinary notes on lane ℓ: [112, 168];  168 not a power of 112; 112 = 168^333 (of 408)
+   ℓ = 419: 17 forms (pieces [1, 1, 2, 2, 5, 6]); ordinary notes on lane ℓ: [149, 391];  391 not a power of 149; 149 = 391^226 (of 418)
+   ℓ = 431: 18 forms (pieces [1, 1, 3, 3, 4, 6]); ordinary notes on lane ℓ: [198, 270];  270 = 198^139 (of 215); 198 = 270^99 (of 215)
+   ℓ = 449: 19 forms (pieces [1, 1, 1, 1, 3, 3, 9]); ordinary notes on lane ℓ: [17, 108, 142, 169];  108 = 17^301 (of 448); 142 = 17^81 (of 448); 169 = 17^82 (of 448); 17 not a power of 108; 142 not a power of 108; 169 not a power of 108; 17 = 142^177 (of 448); 108 = 142^413 (of 448); 169 = 142^178 (of 448); 17 not a power of 169; 108 not a power of 169; 142 not a power of 169
+   ℓ = 457: 19 forms (pieces [1, 1, 2, 2, 3, 3, 7]); ordinary notes on lane ℓ: [362, 393];  393 = 362^360 (of 456); 362 not a power of 393
+   ℓ = 467: 19 forms (pieces [1, 1, 2, 2, 13]); ordinary notes on lane ℓ: [106, 399];  399 = 106^417 (of 466); 106 = 399^19 (of 466)
+
+pairs (ordered): 70 over 24 primes; b a power of a: 43, against 43.4 expected for random pairs (derived)
+the exponents as fractions e/ord(a), in tenths: [3, 7, 4, 8, 4, 3, 6, 2, 4, 2];  chi-squared 8.9 on 9 degrees of freedom (about 9 ± 4 if even)
+seconds: 210

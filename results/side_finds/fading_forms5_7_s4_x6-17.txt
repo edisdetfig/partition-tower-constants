@@ -1,0 +1,46 @@
+ℓ = 7, slope 4, weights −2 + 6·(x + 1) for x = 6..17, modulo ℓ^28; FLINT 0.9.0; each weight's G also goes to fading_forms5_7_s4_x6-17.jsonl
+   weight 40 (dimension 41): 2 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1;  its 1 root of slope 4: G known to ℓ^24, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[6, 4, 1, 5, 6, 0, 3, 0, 0, 0, 3, 2, 6, 3, 4, 0, 1, 6, 0, 0, 1, 5, 6, 2], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 1 form; slopes 1×1
+   weight 46 (dimension 47): 2 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1;  its 1 root of slope 4: G known to ℓ^24, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[2, 1, 1, 2, 4, 3, 5, 3, 5, 5, 4, 3, 2, 3, 0, 1, 5, 2, 2, 1, 0, 5, 6, 2], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 1 form; slopes 1×1
+   weight 52 (dimension 53): 2 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1;  its 1 root of slope 4: G known to ℓ^24, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[6, 4, 0, 3, 3, 6, 1, 3, 3, 2, 6, 0, 3, 0, 3, 4, 0, 3, 5, 5, 2, 6, 3, 2], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 1 form; slopes 2×1
+   weight 58 (dimension 59): 2 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 5×1
+      a system of degree 1 on lane ℓ: 1 form; slopes 1×1
+   weight 64 (dimension 65): 3 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 5×1
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 70 (dimension 71): 3 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 5×1
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 76 (dimension 77): 3 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 5×1
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 82 (dimension 83): 3 forms new at 2 and 3 with the class's signs (to ℓ^27), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 1 form; slopes 4×1;  its 1 root of slope 4: G known to ℓ^23, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[6, 6, 6, 3, 5, 3, 2, 0, 3, 2, 3, 5, 0, 6, 0, 1, 1, 3, 6, 4, 0, 6, 4], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 88 (dimension 89): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 10×1, 4×1;  its 1 root of slope 4: G known to ℓ^20, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[2, 1, 3, 6, 0, 2, 2, 0, 3, 2, 2, 4, 3, 4, 6, 2, 0, 2, 0, 3], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 94 (dimension 95): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 10×1, 4×1;  its 1 root of slope 4: G known to ℓ^20, factors on lane ℓ of degrees [1]
+         G (roots root/ℓ^4), coefficients lowest first, each as digits lowest first: [[6, 2, 1, 1, 2, 4, 4, 6, 3, 6, 4, 5, 1, 0, 3, 1, 5, 6, 2, 2], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+      a system of degree 1 on lane ℓ: 2 forms; slopes 6×1, 2×1
+   weight 100 (dimension 101): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 9×1, 5×1
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+   weight 106 (dimension 107): 4 forms new at 2 and 3 with the class's signs (to ℓ^28), in 2 systems  (0 s)
+      a system of degree 1 on lane ℓ: 2 forms; slopes 10×1, 5×1
+      a system of degree 1 on lane ℓ: 2 forms; slopes 7×1, 1×1
+
+a group of 1 root of slope 4, weights x = [6, 7, 8, 13, 14, 15] (k = [40, 46, 52, 82, 88, 94]), carried to weight −2 modulo ℓ^20
+   its system on lane ℓ: (5, 6, 0)

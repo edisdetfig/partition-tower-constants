@@ -1,0 +1,29 @@
+∏(1 − qᵏ)¹¹ mod 13 to q^950400 (0 s)
+
+(0) PARTITIONS TO g: p(13n + 6) ≡ 11·[qⁿ]∏(1 − qᵏ)¹¹ (mod 13), every n with 13n + 6 ≤ 2,400,000
+   184615 values, wrong: 0
+
+THE NEWFORM f OF WEIGHT 10 AND LEVEL 6: +1·q^1 -16·q^2 +81·q^3 +256·q^4 +2694·q^5 -1296·q^6 -3544·q^7 …  (Ahlgren–Allen–Tang print q − 16q² + 81q³ + 256q⁴ + 2694q⁵)
+   written in the 21 products of E₂(z) − d·E₂(dz) (d = 2, 3, 6); denominators prime to 13: True
+   f mod 13 to q^63336 (12 s); its first 90 coefficients agree with the exact ones
+
+(1) THE TOWER'S EIGENFORM AGAINST f: λ(Q) = a(11Q²) + (3|Q)(−11|Q)·Q⁴ ≡ (3|Q)·a_Q(f) (mod 13), every prime 5 ≤ Q ≤ 1440
+   225 primes, wrong: 0   (Sturm bound for S₁₀(Γ0(864)): 10·1728/12 = 1440)
+   also, λ(Q) from partition numbers (the ratio p(13Q²n + β)/p(13n + 6) in each class, as in partitions_curves.txt)
+   is the same λ: checked at the primes 5 to 113 below, in (3)
+
+(2) f AGAINST THE CURVE: a_p(f) ≡ p⁴·a_p(E) (mod 13), E = 1014b1, every prime 5 ≤ p ≤ 63,336, p ≠ 13
+   6342 primes, wrong: 0   (2 s; Sturm bound for weight 58 on Γ0(6084): 58·13104/12 = 63,336)
+   1014b1 is the twist of 1014f1 by 13 (a_p(1014b) = (p|13)·a_p(1014f) for every prime p < 2000): True; so with 1014f1 the
+   same statement reads Q¹⁰·a_Q(1014f), since (Q|13) ≡ Q⁶ (mod 13)
+
+(3) THE STATEMENT ITSELF on partition numbers: p(13Q²n + β) ≡ (3|Q)·Q⁴·[a_Q − ((−24n − 11)|Q)]·p(13n + 6) − Q⁹·p(N**)
+   75 primes Q, 15673 values of n, wrong: 0
+
+WHAT IT GIVES (her corollaries 1.2 and 1.3, for 13). With i = a_Q mod 13:
+   i = ±1: p(13Q²(QN + r) + β) ≡ 0 (mod 13) for every r with ((−24r − 11)|Q) = i;
+   i = 0:  p(13Q²(Q²N + Qs + r) + β) ≡ 0 (mod 13) for r with Q | 24r + 11 and s with Q² ∤ 24(r + Qs) + 11.
+   primes below 200 with i = 0: 59, 73, 131, 167;  i = +1: 97, 103, 109, 191;  i = −1: 
+   Q = 59 (i = 0): β = 20741, r = 2 (24r + 11 = 59), s = 0: p(13·59²·(59²N + 2) + 20741) = p(13·59⁴·N + 111247), Atkin and O'Brien's and Ono's example
+
+seconds: 14

@@ -1,0 +1,496 @@
+F^(r) = E₄/(j − 2)^r, r = 1, 2, 3, weight 4; a(n) for n < 8000000 on lane p^K < 2^63 (FLINT 0.9.0)
+   exact a(1..8): r = 1: [1, -502, 177760, -54549192, 15402985694, -4096250285896, 1035475772392448, -249193982313696448];  r = 2: [0, 1, -1244, 903924, -501830864, 235667251436, -98532665231448, 37777425550269664];  r = 3: [0, 0, 1, -1986, 2180652, -1750356784, 1146918804186, -650103329723760]
+   Zhang: the cubic law reaches depth 3l − 2 − r at level l (Conj. 1.5); a(p) of F^(1) ≡ a_p(C)² mod p (Thm 1.3), ≡ 0 mod p² when p is supersingular (Conj. 1.4)
+
+p = 5, lane p^27 (33 s; the first 40 terms equal the exact ones): a_p(C) = -3 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 15407;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..9; n prime to p, n ≤ 200; "·" = no such n; depth 27 = the lane's full width)
+   r = 1: a(p) = 4 mod p, a_p(C)² = 4 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12, 15, 18, 21, 24]
+      L_1:                     [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      L_2:                     [1, 3, 5, 7, 9, 11, 13, 15, 17]
+      L_3:                     [1, 3, 6, 9, 12, 15, 18, 21, 24]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 10, 14, 17, 20, 23, 26]
+      L_5:                     [1, 3, 6, 10, 14, 17, 20, 23, 26]
+      L_6:                     [1, 3, 6, 10, 14, 17, 20, 23, 26]
+      L_3·(X − p³):            [1, 3, 6, 10, 14, 17, 20, 23, 26]
+      L_4·(X − p³):            [1, 3, 6, 9, 13, 17, 21, 25, 27]
+      L_5·(X − p³):            [1, 3, 6, 9, 13, 17, 22, 27, 27]
+      L_6·(X − p³):            [1, 3, 6, 9, 13, 17, 23, 27, 27]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11, 14, 17, 20, 23]
+      L_1:                     [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      L_2:                     [0, 2, 4, 6, 8, 10, 12, 14, 16]
+      L_3:                     [0, 2, 5, 8, 11, 14, 17, 20, 23]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 9, 13, 16, 19, 22, 25]
+      L_5:                     [0, 2, 5, 9, 13, 16, 19, 22, 25]
+      L_6:                     [0, 2, 5, 9, 13, 16, 19, 22, 25]
+      L_3·(X − p³):            [0, 2, 5, 9, 13, 16, 19, 22, 25]
+      L_4·(X − p³):            [0, 2, 5, 8, 12, 16, 20, 24, 27]
+      L_5·(X − p³):            [0, 2, 5, 8, 12, 17, 22, 27, 27]
+      L_6·(X − p³):            [0, 2, 5, 8, 12, 17, 22, 27, 27]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10, 13, 16, 19, 22]
+      L_1:                     [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      L_2:                     [0, 1, 3, 5, 7, 9, 11, 13, 15]
+      L_3:                     [0, 1, 4, 7, 10, 13, 16, 19, 22]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 8, 12, 15, 18, 21, 24]
+      L_5:                     [0, 1, 4, 8, 12, 15, 18, 21, 24]
+      L_6:                     [0, 1, 4, 8, 12, 15, 18, 21, 24]
+      L_3·(X − p³):            [0, 1, 4, 8, 12, 15, 18, 21, 24]
+      L_4·(X − p³):            [0, 1, 4, 7, 11, 15, 19, 23, 27]
+      L_5·(X − p³):            [0, 1, 4, 7, 11, 16, 21, 26, 27]
+      L_6·(X − p³):            [0, 1, 4, 7, 11, 16, 22, 27, 27]
+
+p = 7, lane p^22 (33 s; the first 40 terms equal the exact ones): a_p(C) = -4 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 69933;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..8; n prime to p, n ≤ 200; "·" = no such n; depth 22 = the lane's full width)
+   r = 1: a(p) = 2 mod p, a_p(C)² = 2 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12, 15, 18, 21]
+      L_1:                     [2, 3, 4, 5, 6, 7, 8, 10]
+      L_2:                     [1, 4, 7, 9, 11, 13, 15, 17]
+      L_3:                     [1, 3, 6, 9, 12, 15, 18, 21]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9, 12, 15, 18, 21]
+      L_5:                     [1, 3, 6, 9, 12, 15, 18, 21]
+      L_6:                     [1, 3, 6, 9, 12, 15, 18, 21]
+      L_3·(X − p³):            [1, 3, 6, 11, 15, 18, 21, 22]
+      L_4·(X − p³):            [1, 3, 6, 9, 14, 18, 22, 22]
+      L_5·(X − p³):            [1, 3, 6, 9, 13, 18, 22, 22]
+      L_6·(X − p³):            [1, 3, 6, 9, 13, 18, 22, 22]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11, 14, 17, 20]
+      L_1:                     [0, 1, 2, 3, 4, 5, 6, 8]
+      L_2:                     [0, 3, 5, 7, 9, 11, 13, 15]
+      L_3:                     [0, 2, 5, 8, 11, 14, 17, 20]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8, 11, 14, 17, 20]
+      L_5:                     [0, 2, 5, 8, 11, 14, 17, 20]
+      L_6:                     [0, 2, 5, 8, 11, 14, 17, 20]
+      L_3·(X − p³):            [0, 2, 5, 10, 13, 16, 19, 22]
+      L_4·(X − p³):            [0, 2, 5, 8, 13, 17, 21, 22]
+      L_5·(X − p³):            [0, 2, 5, 8, 12, 17, 21, 22]
+      L_6·(X − p³):            [0, 2, 5, 8, 12, 17, 21, 22]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10, 13, 16, 19]
+      L_1:                     [0, 1, 2, 3, 4, 5, 6, 8]
+      L_2:                     [0, 1, 3, 5, 7, 9, 11, 13]
+      L_3:                     [0, 1, 4, 7, 10, 13, 16, 19]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7, 10, 13, 16, 19]
+      L_5:                     [0, 1, 4, 7, 10, 13, 16, 19]
+      L_6:                     [0, 1, 4, 7, 10, 13, 16, 19]
+      L_3·(X − p³):            [0, 1, 4, 8, 11, 14, 17, 20]
+      L_4·(X − p³):            [0, 1, 4, 7, 12, 16, 20, 22]
+      L_5·(X − p³):            [0, 1, 4, 7, 11, 16, 20, 22]
+      L_6·(X − p³):            [0, 1, 4, 7, 11, 16, 20, 22]
+
+p = 11, lane p^18 (32 s; the first 40 terms equal the exact ones): a_p(C) = 4 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 317838;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..6; n prime to p, n ≤ 200; "·" = no such n; depth 18 = the lane's full width)
+   r = 1: a(p) = 5 mod p, a_p(C)² = 5 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12, 15]
+      L_1:                     [1, 2, 3, 4, 5, 6]
+      L_2:                     [1, 3, 5, 7, 9, 11]
+      L_3:                     [1, 3, 6, 9, 12, 15]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9, 12, 15]
+      L_5:                     [1, 3, 6, 9, 12, 15]
+      L_6:                     [1, 3, 6, 9, 12, 15]
+      L_3·(X − p³):            [1, 3, 6, 9, 12, 15]
+      L_4·(X − p³):            [1, 3, 6, 9, 13, 17]
+      L_5·(X − p³):            [1, 3, 6, 9, 13, 17]
+      L_6·(X − p³):            [1, 3, 6, 9, 13, 17]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11, 14]
+      L_1:                     [0, 1, 2, 3, 4, 5]
+      L_2:                     [0, 2, 4, 6, 8, 10]
+      L_3:                     [0, 2, 5, 8, 11, 14]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8, 11, 14]
+      L_5:                     [0, 2, 5, 8, 11, 14]
+      L_6:                     [0, 2, 5, 8, 11, 14]
+      L_3·(X − p³):            [0, 2, 5, 8, 11, 14]
+      L_4·(X − p³):            [0, 2, 5, 8, 12, 16]
+      L_5·(X − p³):            [0, 2, 5, 8, 12, 16]
+      L_6·(X − p³):            [0, 2, 5, 8, 12, 16]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10, 13]
+      L_1:                     [0, 1, 2, 3, 4, 5]
+      L_2:                     [0, 1, 3, 5, 7, 9]
+      L_3:                     [0, 1, 4, 7, 10, 13]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7, 10, 13]
+      L_5:                     [0, 1, 4, 7, 10, 13]
+      L_6:                     [0, 1, 4, 7, 10, 13]
+      L_3·(X − p³):            [0, 1, 4, 7, 10, 13]
+      L_4·(X − p³):            [0, 1, 4, 7, 11, 15]
+      L_5·(X − p³):            [0, 1, 4, 7, 11, 15]
+      L_6·(X − p³):            [0, 1, 4, 7, 11, 15]
+
+p = 13, lane p^17 (34 s; the first 40 terms equal the exact ones): a_p(C) = 1 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 4308136;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..6; n prime to p, n ≤ 200; "·" = no such n; depth 17 = the lane's full width)
+   r = 1: a(p) = 1 mod p, a_p(C)² = 1 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12, 15]
+      L_1:                     [1, 2, 3, 4, 5, 6]
+      L_2:                     [1, 3, 5, 7, 9, 11]
+      L_3:                     [1, 3, 6, 9, 12, 15]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 10, 13, 16]
+      L_5:                     [1, 3, 6, 10, 13, 16]
+      L_6:                     [1, 3, 6, 10, 13, 16]
+      L_3·(X − p³):            [1, 3, 6, 10, 13, 16]
+      L_4·(X − p³):            [1, 3, 6, 9, 13, 17]
+      L_5·(X − p³):            [1, 3, 6, 9, 13, 17]
+      L_6·(X − p³):            [1, 3, 6, 9, 13, 17]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11, 14]
+      L_1:                     [0, 1, 2, 3, 4, 5]
+      L_2:                     [0, 2, 4, 6, 8, 10]
+      L_3:                     [0, 2, 5, 8, 11, 14]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 9, 12, 15]
+      L_5:                     [0, 2, 5, 9, 12, 15]
+      L_6:                     [0, 2, 5, 9, 12, 15]
+      L_3·(X − p³):            [0, 2, 5, 9, 12, 15]
+      L_4·(X − p³):            [0, 2, 5, 8, 12, 16]
+      L_5·(X − p³):            [0, 2, 5, 8, 12, 16]
+      L_6·(X − p³):            [0, 2, 5, 8, 12, 16]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10, 13]
+      L_1:                     [0, 1, 2, 3, 4, 5]
+      L_2:                     [0, 1, 3, 5, 7, 9]
+      L_3:                     [0, 1, 4, 7, 10, 13]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 8, 11, 14]
+      L_5:                     [0, 1, 4, 8, 11, 14]
+      L_6:                     [0, 1, 4, 8, 11, 14]
+      L_3·(X − p³):            [0, 1, 4, 8, 11, 14]
+      L_4·(X − p³):            [0, 1, 4, 7, 11, 15]
+      L_5·(X − p³):            [0, 1, 4, 7, 11, 15]
+      L_6·(X − p³):            [0, 1, 4, 7, 11, 15]
+
+p = 17, lane p^15 (33 s; the first 40 terms equal the exact ones): a_p(C) = 3 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 12044843;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..5; n prime to p, n ≤ 200; "·" = no such n; depth 15 = the lane's full width)
+   r = 1: a(p) = 9 mod p, a_p(C)² = 9 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12]
+      L_1:                     [1, 2, 3, 4, 5]
+      L_2:                     [1, 3, 5, 7, 9]
+      L_3:                     [1, 3, 6, 9, 12]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9, 12]
+      L_5:                     [1, 3, 6, 9, 12]
+      L_6:                     [1, 3, 6, 9, 12]
+      L_3·(X − p³):            [1, 3, 6, 9, 12]
+      L_4·(X − p³):            [1, 3, 6, 9, 13]
+      L_5·(X − p³):            [1, 3, 6, 9, 13]
+      L_6·(X − p³):            [1, 3, 6, 9, 13]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11]
+      L_1:                     [0, 1, 2, 3, 4]
+      L_2:                     [0, 2, 4, 6, 8]
+      L_3:                     [0, 2, 5, 8, 11]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8, 11]
+      L_5:                     [0, 2, 5, 8, 11]
+      L_6:                     [0, 2, 5, 8, 11]
+      L_3·(X − p³):            [0, 2, 5, 8, 11]
+      L_4·(X − p³):            [0, 2, 5, 8, 12]
+      L_5·(X − p³):            [0, 2, 5, 8, 12]
+      L_6·(X − p³):            [0, 2, 5, 8, 12]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10]
+      L_1:                     [0, 1, 2, 3, 4]
+      L_2:                     [0, 1, 3, 5, 7]
+      L_3:                     [0, 1, 4, 7, 10]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7, 10]
+      L_5:                     [0, 1, 4, 7, 10]
+      L_6:                     [0, 1, 4, 7, 10]
+      L_3·(X − p³):            [0, 1, 4, 7, 10]
+      L_4·(X − p³):            [0, 1, 4, 7, 11]
+      L_5·(X − p³):            [0, 1, 4, 7, 11]
+      L_6·(X − p³):            [0, 1, 4, 7, 11]
+
+p = 19, lane p^14 (37 s; the first 40 terms equal the exact ones): a_p(C) = -8 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 42359960;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..5; n prime to p, n ≤ 200; "·" = no such n; depth 14 = the lane's full width)
+   r = 1: a(p) = 7 mod p, a_p(C)² = 7 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12]
+      L_1:                     [1, 2, 3, 4, 5]
+      L_2:                     [1, 3, 5, 7, 9]
+      L_3:                     [1, 3, 6, 9, 12]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9, 12]
+      L_5:                     [1, 3, 6, 9, 12]
+      L_6:                     [1, 3, 6, 9, 12]
+      L_3·(X − p³):            [1, 3, 6, 9, 12]
+      L_4·(X − p³):            [1, 3, 6, 9, 12]
+      L_5·(X − p³):            [1, 3, 6, 9, 12]
+      L_6·(X − p³):            [1, 3, 6, 9, 12]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11]
+      L_1:                     [0, 1, 2, 3, 4]
+      L_2:                     [0, 2, 4, 6, 8]
+      L_3:                     [0, 2, 5, 8, 11]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8, 11]
+      L_5:                     [0, 2, 5, 8, 11]
+      L_6:                     [0, 2, 5, 8, 11]
+      L_3·(X − p³):            [0, 2, 5, 8, 11]
+      L_4·(X − p³):            [0, 2, 5, 8, 11]
+      L_5·(X − p³):            [0, 2, 5, 8, 11]
+      L_6·(X − p³):            [0, 2, 5, 8, 11]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10]
+      L_1:                     [0, 1, 2, 3, 4]
+      L_2:                     [0, 1, 3, 5, 7]
+      L_3:                     [0, 1, 4, 7, 10]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7, 10]
+      L_5:                     [0, 1, 4, 7, 10]
+      L_6:                     [0, 1, 4, 7, 10]
+      L_3·(X − p³):            [0, 1, 4, 7, 10]
+      L_4·(X − p³):            [0, 1, 4, 7, 10]
+      L_5·(X − p³):            [0, 1, 4, 7, 10]
+      L_6·(X − p³):            [0, 1, 4, 7, 10]
+
+p = 23, lane p^13 (37 s; the first 40 terms equal the exact ones): a_p(C) = 4 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 44590334;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..5; n prime to p, n ≤ 200; "·" = no such n; depth 13 = the lane's full width)
+   r = 1: a(p) = 16 mod p, a_p(C)² = 16 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9, 12]
+      L_1:                     [1, 2, 3, 4, 6]
+      L_2:                     [1, 3, 5, 7, 10]
+      L_3:                     [1, 3, 6, 9, 12]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9, 12]
+      L_5:                     [1, 3, 6, 9, 12]
+      L_6:                     [1, 3, 6, 9, 12]
+      L_3·(X − p³):            [1, 3, 6, 9, 12]
+      L_4·(X − p³):            [1, 3, 6, 9, 12]
+      L_5·(X − p³):            [1, 3, 6, 9, 12]
+      L_6·(X − p³):            [1, 3, 6, 9, 12]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8, 11]
+      L_1:                     [0, 1, 2, 3, 5]
+      L_2:                     [0, 2, 4, 6, 9]
+      L_3:                     [0, 2, 5, 8, 11]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8, 11]
+      L_5:                     [0, 2, 5, 8, 11]
+      L_6:                     [0, 2, 5, 8, 11]
+      L_3·(X − p³):            [0, 2, 5, 8, 11]
+      L_4·(X − p³):            [0, 2, 5, 8, 11]
+      L_5·(X − p³):            [0, 2, 5, 8, 11]
+      L_6·(X − p³):            [0, 2, 5, 8, 11]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7, 10]
+      L_1:                     [0, 1, 2, 3, 5]
+      L_2:                     [0, 1, 3, 5, 8]
+      L_3:                     [0, 1, 4, 7, 10]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7, 10]
+      L_5:                     [0, 1, 4, 7, 10]
+      L_6:                     [0, 1, 4, 7, 10]
+      L_3·(X − p³):            [0, 1, 4, 7, 10]
+      L_4·(X − p³):            [0, 1, 4, 7, 10]
+      L_5·(X − p³):            [0, 1, 4, 7, 10]
+      L_6·(X − p³):            [0, 1, 4, 7, 10]
+
+p = 29, lane p^12 (37 s; the first 40 terms equal the exact ones): a_p(C) = 0 (supersingular)
+   (depths at levels l = 1..4; n prime to p, n ≤ 200; depth 12 = the lane's full width)
+   r = 1: a(p) = 0 mod p, a_p(C)² = 0 mod p (Thm 1.3: True); v_p(a(p)) = 2; least v_p(a(np)) over n prime to p: 2 (Conj 1.4 asks ≥ 2)
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9]
+      X + p:                   [1, 2, 3, 4]
+      X − p:                   [1, 2, 3, 4]
+      (X + p)(X − p):          [2, 5, 8, 11]
+      (X + p)²:                [1, 2, 3, 4]
+      Zhang: (X + p)²(X − p):  [1, 3, 6, 9]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [2, 2, 4, 7]
+      (X + p)³(X − p)²:        [1, 2, 3, 5]
+      (X² − p²)(X − p³):       [2, 5, 8, 11]
+      (X² − p²)(X + p³):       [2, 5, 8, 11]
+      (X² − p²)(X² − p⁶):      [2, 5, 8, 11]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8]
+      X + p:                   [1, 2, 3, 4]
+      X − p:                   [1, 2, 3, 4]
+      (X + p)(X − p):          [1, 4, 7, 10]
+      (X + p)²:                [1, 2, 3, 4]
+      Zhang: (X + p)²(X − p):  [1, 2, 5, 8]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [1, 2, 3, 6]
+      (X + p)³(X − p)²:        [1, 2, 3, 4]
+      (X² − p²)(X − p³):       [1, 4, 7, 10]
+      (X² − p²)(X + p³):       [1, 4, 7, 10]
+      (X² − p²)(X² − p⁶):      [1, 4, 7, 10]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7]
+      X + p:                   [0, 1, 2, 3]
+      X − p:                   [0, 1, 2, 3]
+      (X + p)(X − p):          [0, 3, 6, 9]
+      (X + p)²:                [0, 1, 2, 3]
+      Zhang: (X + p)²(X − p):  [0, 1, 4, 7]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [0, 2, 2, 5]
+      (X + p)³(X − p)²:        [0, 1, 2, 3]
+      (X² − p²)(X − p³):       [0, 3, 6, 9]
+      (X² − p²)(X + p³):       [0, 3, 6, 9]
+      (X² − p²)(X² − p⁶):      [0, 3, 6, 9]
+
+p = 31, lane p^12 (37 s; the first 40 terms equal the exact ones): a_p(C) = 0 (supersingular)
+   (depths at levels l = 1..4; n prime to p, n ≤ 200; depth 12 = the lane's full width)
+   r = 1: a(p) = 0 mod p, a_p(C)² = 0 mod p (Thm 1.3: True); v_p(a(p)) = 2; least v_p(a(np)) over n prime to p: 2 (Conj 1.4 asks ≥ 2)
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9]
+      X + p:                   [1, 2, 3, 4]
+      X − p:                   [1, 2, 3, 4]
+      (X + p)(X − p):          [2, 5, 8, 11]
+      (X + p)²:                [1, 2, 3, 4]
+      Zhang: (X + p)²(X − p):  [1, 3, 6, 9]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [2, 2, 4, 7]
+      (X + p)³(X − p)²:        [1, 2, 3, 5]
+      (X² − p²)(X − p³):       [2, 5, 8, 11]
+      (X² − p²)(X + p³):       [2, 5, 8, 11]
+      (X² − p²)(X² − p⁶):      [2, 5, 8, 11]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8]
+      X + p:                   [1, 2, 3, 4]
+      X − p:                   [1, 2, 3, 4]
+      (X + p)(X − p):          [1, 4, 7, 10]
+      (X + p)²:                [1, 2, 3, 4]
+      Zhang: (X + p)²(X − p):  [1, 2, 5, 8]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [1, 2, 3, 6]
+      (X + p)³(X − p)²:        [1, 2, 3, 4]
+      (X² − p²)(X − p³):       [1, 4, 7, 10]
+      (X² − p²)(X + p³):       [1, 4, 7, 10]
+      (X² − p²)(X² − p⁶):      [1, 4, 7, 10]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7]
+      X + p:                   [0, 1, 2, 3]
+      X − p:                   [0, 1, 2, 3]
+      (X + p)(X − p):          [0, 3, 6, 9]
+      (X + p)²:                [0, 1, 2, 3]
+      Zhang: (X + p)²(X − p):  [0, 1, 4, 7]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [0, 2, 2, 5]
+      (X + p)³(X − p)²:        [0, 1, 2, 3]
+      (X² − p²)(X − p³):       [0, 3, 6, 9]
+      (X² − p²)(X + p³):       [0, 3, 6, 9]
+      (X² − p²)(X² − p⁶):      [0, 3, 6, 9]
+
+p = 37, lane p^12 (33 s; the first 40 terms equal the exact ones): a_p(C) = -8 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 1869452150;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..4; n prime to p, n ≤ 200; "·" = no such n; depth 12 = the lane's full width)
+   r = 1: a(p) = 27 mod p, a_p(C)² = 27 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9]
+      L_1:                     [1, 2, 3, 4]
+      L_2:                     [1, 3, 5, 7]
+      L_3:                     [1, 3, 6, 9]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9]
+      L_5:                     [1, 3, 6, 9]
+      L_6:                     [1, 3, 6, 9]
+      L_3·(X − p³):            [1, 3, 6, 9]
+      L_4·(X − p³):            [1, 3, 6, 9]
+      L_5·(X − p³):            [1, 3, 6, 9]
+      L_6·(X − p³):            [1, 3, 6, 9]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 2, 4, 6]
+      L_3:                     [0, 2, 5, 8]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8]
+      L_5:                     [0, 2, 5, 8]
+      L_6:                     [0, 2, 5, 8]
+      L_3·(X − p³):            [0, 2, 5, 8]
+      L_4·(X − p³):            [0, 2, 5, 8]
+      L_5·(X − p³):            [0, 2, 5, 8]
+      L_6·(X − p³):            [0, 2, 5, 8]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 1, 3, 5]
+      L_3:                     [0, 1, 4, 7]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7]
+      L_5:                     [0, 1, 4, 7]
+      L_6:                     [0, 1, 4, 7]
+      L_3·(X − p³):            [0, 1, 4, 7]
+      L_4·(X − p³):            [0, 1, 4, 7]
+      L_5·(X − p³):            [0, 1, 4, 7]
+      L_6·(X − p³):            [0, 1, 4, 7]
+
+p = 41, lane p^11 (36 s; the first 40 terms equal the exact ones): a_p(C) = 5 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 2951244621;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..4; n prime to p, n ≤ 200; "·" = no such n; depth 11 = the lane's full width)
+   r = 1: a(p) = 25 mod p, a_p(C)² = 25 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9]
+      L_1:                     [1, 2, 3, 4]
+      L_2:                     [1, 3, 5, 7]
+      L_3:                     [1, 3, 6, 9]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9]
+      L_5:                     [1, 3, 6, 9]
+      L_6:                     [1, 3, 6, 9]
+      L_3·(X − p³):            [1, 3, 6, 9]
+      L_4·(X − p³):            [1, 3, 6, 9]
+      L_5·(X − p³):            [1, 3, 6, 9]
+      L_6·(X − p³):            [1, 3, 6, 9]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 2, 4, 6]
+      L_3:                     [0, 2, 5, 8]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8]
+      L_5:                     [0, 2, 5, 8]
+      L_6:                     [0, 2, 5, 8]
+      L_3·(X − p³):            [0, 2, 5, 8]
+      L_4·(X − p³):            [0, 2, 5, 8]
+      L_5·(X − p³):            [0, 2, 5, 8]
+      L_6·(X − p³):            [0, 2, 5, 8]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 1, 3, 5]
+      L_3:                     [0, 1, 4, 7]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7]
+      L_5:                     [0, 1, 4, 7]
+      L_6:                     [0, 1, 4, 7]
+      L_3·(X − p³):            [0, 1, 4, 7]
+      L_4·(X − p³):            [0, 1, 4, 7]
+      L_5·(X − p³):            [0, 1, 4, 7]
+      L_6·(X − p³):            [0, 1, 4, 7]
+
+p = 43, lane p^11 (36 s; the first 40 terms equal the exact ones): a_p(C) = -10 (ordinary)
+   u = the unit root of X² − a_pX + p, mod p^6: 651257178;  L_3 equals Zhang's cubic (X − α²)(X − p)(X − β²): True
+   (depths at levels l = 1..4; n prime to p, n ≤ 200; "·" = no such n; depth 11 = the lane's full width)
+   r = 1: a(p) = 14 mod p, a_p(C)² = 14 mod p (Thm 1.3: True); v_p(a(p)) = 0; least v_p(a(np)) over n prime to p: 0
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3, 6, 9]
+      L_1:                     [1, 2, 3, 4]
+      L_2:                     [1, 3, 5, 7]
+      L_3:                     [1, 3, 6, 9]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [1, 3, 6, 9]
+      L_5:                     [1, 3, 6, 9]
+      L_6:                     [1, 3, 6, 9]
+      L_3·(X − p³):            [1, 3, 6, 9]
+      L_4·(X − p³):            [1, 3, 6, 9]
+      L_5·(X − p³):            [1, 3, 6, 9]
+      L_6·(X − p³):            [1, 3, 6, 9]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2, 5, 8]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 2, 4, 6]
+      L_3:                     [0, 2, 5, 8]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 2, 5, 8]
+      L_5:                     [0, 2, 5, 8]
+      L_6:                     [0, 2, 5, 8]
+      L_3·(X − p³):            [0, 2, 5, 8]
+      L_4·(X − p³):            [0, 2, 5, 8]
+      L_5·(X − p³):            [0, 2, 5, 8]
+      L_6·(X − p³):            [0, 2, 5, 8]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1, 4, 7]
+      L_1:                     [0, 1, 2, 3]
+      L_2:                     [0, 1, 3, 5]
+      L_3:                     [0, 1, 4, 7]   ZHANG'S LAW: holds at every level and n
+      L_4:                     [0, 1, 4, 7]
+      L_5:                     [0, 1, 4, 7]
+      L_6:                     [0, 1, 4, 7]
+      L_3·(X − p³):            [0, 1, 4, 7]
+      L_4·(X − p³):            [0, 1, 4, 7]
+      L_5·(X − p³):            [0, 1, 4, 7]
+      L_6·(X − p³):            [0, 1, 4, 7]
+
+p = 307, lane p^7 (37 s; the first 40 terms equal the exact ones): a_p(C) = 0 (supersingular)
+   (depths at levels l = 1..2; n prime to p, n ≤ 200; depth 7 = the lane's full width)
+   r = 1: a(p) = 0 mod p, a_p(C)² = 0 mod p (Thm 1.3: True); v_p(a(p)) = 2; least v_p(a(np)) over n prime to p: 2 (Conj 1.4 asks ≥ 2)
+   r = 1, Zhang's bound 3l − 2 − r by level: [0, 3]
+      X + p:                   [1, 2]
+      X − p:                   [1, 2]
+      (X + p)(X − p):          [2, 5]
+      (X + p)²:                [1, 2]
+      Zhang: (X + p)²(X − p):  [1, 3]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [2, 2]
+      (X + p)³(X − p)²:        [1, 2]
+      (X² − p²)(X − p³):       [2, 5]
+      (X² − p²)(X + p³):       [2, 5]
+      (X² − p²)(X² − p⁶):      [2, 5]
+   r = 2, Zhang's bound 3l − 2 − r by level: [0, 2]
+      X + p:                   [1, 2]
+      X − p:                   [1, 2]
+      (X + p)(X − p):          [1, 4]
+      (X + p)²:                [1, 2]
+      Zhang: (X + p)²(X − p):  [1, 2]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [1, 2]
+      (X + p)³(X − p)²:        [1, 2]
+      (X² − p²)(X − p³):       [1, 4]
+      (X² − p²)(X + p³):       [1, 4]
+      (X² − p²)(X² − p⁶):      [1, 4]
+   r = 3, Zhang's bound 3l − 2 − r by level: [0, 1]
+      X + p:                   [0, 1]
+      X − p:                   [0, 1]
+      (X + p)(X − p):          [0, 3]
+      (X + p)²:                [0, 1]
+      Zhang: (X + p)²(X − p):  [0, 1]   ZHANG'S LAW: holds at every level and n
+      (X + p)²(X − p)²:        [0, 2]
+      (X + p)³(X − p)²:        [0, 1]
+      (X² − p²)(X − p³):       [0, 3]
+      (X² − p²)(X + p³):       [0, 3]
+      (X² − p²)(X² − p⁶):      [0, 3]
+
+seconds: 458

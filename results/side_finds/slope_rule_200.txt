@@ -1,0 +1,43 @@
+slopes at the tower's weight of every single-seed family, from GL2(F_ℓ) alone, at the primes 13 … 200
+   ℓ =  13: slope 1 for [('generic', 4, 8), ('generic', 6, 1)]; the smallest other positive slope: 2
+   ℓ =  17: slope 1 for [('generic', 4, 12), ('generic', 10, 1)]; the smallest other positive slope: 2
+   ℓ =  19: slope 1 for [('generic', 4, 14), ('generic', 12, 1)]; the smallest other positive slope: 2
+   ℓ =  23: slope 1 for [('generic', 4, 18), ('generic', 16, 1)]; the smallest other positive slope: 2
+   ℓ =  29: slope 1 for [('generic', 4, 24), ('generic', 22, 1)]; the smallest other positive slope: 2
+   ℓ =  31: slope 1 for [('generic', 4, 26), ('generic', 24, 1)]; the smallest other positive slope: 2
+   slope = min(m, ℓ − 4 − m) for every generic seed with m ≤ ℓ − 5: yes
+   slope 1 exactly for Sym^(ℓ−7) ⊗ det and Sym⁴ ⊗ det^(ℓ−5), at every prime: yes
+   the smallest positive slope of every other seed, over all primes: 2
+
+the families found (seeds from serre_weights_ℓ.txt) against the slopes counted where they arrive (ghost_series)
+   ℓ = 13 (11, 8, 0): seed Sym^6 ⊗ det^7; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 13 (2, 12, 5): seed Sym^10 ⊗ det^5; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 13 (3, 5, 5): seed Sym^8 ⊗ det^0; predicted arrival x = 0, slope 0; counted x = 0, slope 0
+   ℓ = 13 (7, 6, 3): seed Sym^10 ⊗ det^11 (Eisenstein type); predicted arrival x = 12, slope 10; counted x = 12, slope 10
+   ℓ = 17 (16, 12, 15, 12): seed Sym^12 ⊗ det^0; predicted arrival x = 0, slope 0; counted x = 0, slope 0
+   ℓ = 17 (2, 13, 13, 9): seed Sym^14 ⊗ det^7; predicted arrival x = 6, slope 6; counted x = 6, slope 6
+   ℓ = 17 (4, 0, 15, 2): seed Sym^16 ⊗ det^14; predicted arrival 16, slope 14; not reached in the counted steps
+   ℓ = 17 (4, 2, 9, 7): seed Sym^6 ⊗ det^11; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 17 (5, 13, 6, 3): seed Sym^14 ⊗ det^15; predicted arrival 16, slope 14; not reached in the counted steps
+   ℓ = 17 (6, 2, 10, 15): seed Sym^10 ⊗ det^9; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 17 (9, 7, 15, 5): seed Sym^4 ⊗ det^4; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 19 (0, 10, 0, 2): seed Sym^18 ⊗ det^16; predicted arrival 18, slope 16; not reached in the counted steps
+   ℓ = 19 (0, 7, 16, 8): seed Sym^6 ⊗ det^13; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 19 (0, 9, 6, 0): seed Sym^18 ⊗ det^7; predicted arrival x = 8, slope 7; counted x = 8, slope 7
+   ℓ = 19 (1, 18, 18, 12): seed Sym^16 ⊗ det^17; predicted arrival 18, slope 16; not reached in the counted steps
+   ℓ = 19 (12, 14, 15, 13): seed Sym^14 ⊗ det^9; predicted arrival x = 6, slope 6; counted x = 6, slope 6
+   ℓ = 19 (16, 16, 18, 10): seed Sym^10 ⊗ det^2; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 19 (17, 17, 9, 9): seed Sym^14 ⊗ det^0; predicted arrival x = 0, slope 0; counted x = 0, slope 0
+   ℓ = 19 (4, 3, 12, 0): seed Sym^2 ⊗ det^6; predicted arrival x = 6, slope 6; counted x = 6, slope 6
+   ℓ = 19 (6, 4, 5, 10): seed Sym^10 ⊗ det^11; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 23 (0, 10, 5, 12): seed Sym^18 ⊗ det^11; predicted arrival 8, slope 8; not reached in the counted steps
+   ℓ = 23 (0, 13, 18, 12): seed Sym^18 ⊗ det^0; predicted arrival x = 0, slope 0; counted x = 0, slope 0
+   ℓ = 23 (15, 2, 22, 4): seed Sym^6 ⊗ det^17; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 23 (16, 0, 13, 17): seed Sym^10 ⊗ det^15; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 23 (19, 20, 13, 5): seed Sym^14 ⊗ det^2; predicted arrival x = 2, slope 2; counted x = 2, slope 2
+   ℓ = 23 (20, 5, 21, 19): seed Sym^20 ⊗ det^10; predicted arrival 10, slope 9; not reached in the counted steps
+   ℓ = 23 (3, 18, 2, 19): seed Sym^20 ⊗ det^21; predicted arrival 22, slope 20; not reached in the counted steps
+   ℓ = 23 (4, 3, 10, 5): seed Sym^14 ⊗ det^13; predicted arrival x = 6, slope 6; counted x = 6, slope 6
+   ℓ = 23 (7, 0, 10, 17): seed Sym^10 ⊗ det^4; predicted arrival x = 4, slope 4; counted x = 4, slope 4
+   ℓ = 23 (8, 21, 1, 4): seed Sym^6 ⊗ det^6; predicted arrival x = 6, slope 6; counted x = 6, slope 6
+   agreeing: 23 of 23

@@ -1,0 +1,10 @@
+
+ℓ = 53: the constants' polynomial on lane ℓ^20 (partitions_flint_family_53.txt), degree 2
+   n = 0: the law is divisible by  (1,3,5): ℓ^1;  (2,4,6): ℓ^1;  (3,5,7): ℓ^2;  (4,6,8): ℓ^2;  (5,7,9): ℓ^3  (125 s)
+   n = 1: the law is divisible by  (1,3,5): ℓ^1;  (2,4,6): ℓ^2;  (3,5,7): ℓ^2;  (4,6,8): ℓ^2;  (5,7,9): ℓ^3  (219 s)
+
+ℓ = 59: the constants' polynomial on lane ℓ^20 (partitions_flint_family_59.txt), degree 2
+   n = 0: the law is divisible by  (1,3,5): ℓ^1;  (2,4,6): ℓ^1;  (3,5,7): ℓ^2;  (4,6,8): ℓ^2;  (5,7,9): ℓ^3  (151 s)
+   n = 1: the law is divisible by  (1,3,5): ℓ^1;  (2,4,6): ℓ^1;  (3,5,7): ℓ^2;  (4,6,8): ℓ^2;  (5,7,9): ℓ^3  (337 s)
+
+seconds: 832

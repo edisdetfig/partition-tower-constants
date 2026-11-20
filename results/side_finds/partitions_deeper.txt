@@ -1,0 +1,55 @@
+1  p(n) for every n up to 2400000, kept on the lane 5⁷·7⁶·11³ = 12233657734375 (15 s). p(100) comes out whole: True
+
+2  THE LAWS, POWER BY POWER (only the classes new at each power; "m tried" is how many members each class has here)
+   ℓ =  5, every      5-th from 4                                    a multiple of 5     (m tried: 480000)
+   ℓ =  5, every     25-th from 24                                   a multiple of 25    (m tried: 96000)
+   ℓ =  5, every    125-th from 74, 99, 124                          a multiple of 125   (m tried: 19200)
+   ℓ =  5, every    625-th from 599                                  a multiple of 625   (m tried: 3840)
+   ℓ =  5, every   3125-th from 1849, 2474, 3099                     a multiple of 3125  (m tried: 768)
+   ℓ =  5, every  15625-th from 14974                                a multiple of 15625 (m tried: 153)
+   ℓ =  5, every  78125-th from 46224, 61849, 77474                  a multiple of 78125 (m tried: 30)
+   ℓ =  7, every      7-th from 5                                    a multiple of 7     (m tried: 342857)
+   ℓ =  7, every     49-th from 19, 33, 40, 47                       a multiple of 49    (m tried: 48979)
+   ℓ =  7, every   2401-th from 929, 1615, 1958, 2301                a multiple of 343   (m tried: 999)
+   ℓ =  7, every 117649-th from 45519, 79133, 95940, 112747          a multiple of 2401  (m tried: 20)
+   ℓ = 11, every     11-th from 6                                    a multiple of 11    (m tried: 218182)
+   ℓ = 11, every    121-th from 116                                  a multiple of 121   (m tried: 19834)
+   ℓ = 11, every   1331-th from 721                                  a multiple of 1331  (m tried: 1803)
+
+3  THE SQUARE RULE: among N with 24N ≡ 1 (mod A), p(N) gains one more factor ℓ exactly where (24N − 1)/A is a square on lane ℓ
+   rule:             ℓ = 5, from N ≡ 24 (mod 25): forecast multiples of 125 on every 125-th from [74, 99, 124];  found [74, 99, 124] (m tried: 19200)  the same
+   rule:             ℓ = 5, from N ≡ 599 (mod 625): forecast multiples of 3125 on every 3125-th from [1849, 2474, 3099];  found [1849, 2474, 3099] (m tried: 768)  the same
+   rule, next level: ℓ = 5, from N ≡ 14974 (mod 15625): forecast multiples of 78125 on every 78125-th from [46224, 61849, 77474];  found [46224, 61849, 77474] (m tried: 30)  the same
+   rule:             ℓ = 7, from N ≡ 5 (mod 7): forecast multiples of 49 on every 49-th from [19, 33, 40, 47];  found [19, 33, 40, 47] (m tried: 48979)  the same
+   rule:             ℓ = 7, from N ≡ 243 (mod 343): forecast multiples of 343 on every 2401-th from [929, 1615, 1958, 2301];  found [929, 1615, 1958, 2301] (m tried: 999)  the same
+   rule, next level: ℓ = 7, from N ≡ 11905 (mod 16807): forecast multiples of 2401 on every 117649-th from [45519, 79133, 95940, 112747];  found [45519, 79133, 95940, 112747] (m tried: 20)  the same
+   control:          ℓ = 5, from N ≡ 99 (mod 125): forecast multiples of 625 on every 625-th from [99, 474, 599];  found [599] (m tried: 3840)  not the same
+   control:          ℓ = 5, from N ≡ 2474 (mod 3125): forecast multiples of 15625 on every 15625-th from [2474, 11849, 14974];  found [14974] (m tried: 153)  not the same
+   control:          ℓ = 7, from N ≡ 47 (mod 49): forecast multiples of 343 on every 343-th from [47, 145, 194, 243];  found [] (m tried: 0)  not the same
+   control:          ℓ = 7, from N ≡ 2301 (mod 2401): forecast multiples of 2401 on every 16807-th from [2301, 7103, 9504, 11905];  found [] (m tried: 0)  not the same
+
+4  WHY: Σ p(A·n + r₀) qⁿ, divided by the power ℓᵛ that divides every coefficient, set beside c·E(q^ℓ)^a·E(q)³ on lane ℓ
+   ℓ = 5, A =    25, r₀ =    24: every coefficient a multiple of 25: True;  on lane 5 it is 3 · E(q^5)^4 · E(q)³, for all n ≤ 3000
+   ℓ = 5, A =   625, r₀ =   599: every coefficient a multiple of 625: True;  on lane 5 it is 2 · E(q^5)^4 · E(q)³, for all n ≤ 3000
+   ℓ = 5, A = 15625, r₀ = 14974: every coefficient a multiple of 15625: True;  on lane 5 it is 3 · E(q^5)^4 · E(q)³, for all n ≤ 152
+   ℓ = 7, A =     7, r₀ =     5: every coefficient a multiple of 7: True;  on lane 7 it is 1 · E(q^7)^2 · E(q)³, for all n ≤ 3000
+   ℓ = 7, A =   343, r₀ =   243: every coefficient a multiple of 49: True;  on lane 7 it is 5 · E(q^7)^2 · E(q)³, for all n ≤ 3000
+   ℓ = 7, A = 16807, r₀ = 11905: every coefficient a multiple of 343: True;  on lane 7 it is 4 · E(q^7)^2 · E(q)³, for all n ≤ 142
+   (derived) E(q)³ = Σ (−1)ᵏ(2k + 1) q^(k(k+1)/2) has, on lane ℓ, nothing on the places where 8n + 1 is not a square, and on the
+   place where 8n + 1 is 0 its coefficient 2k + 1 is a multiple of ℓ. E(q^ℓ)^a only moves things by whole steps of ℓ. So the
+   classes where Jacobi's series is silent are exactly the classes of the laws above.
+
+5  RAMANUJAN'S CONJECTURE FOR 7³, SORTED BY THE SQUARE RULE
+   He guessed: if 7³ divides 24N − 1, then 7³ divides p(N). It is false (Chowla, 1934: N = 243). Watson (1938) proved 7² there.
+   N ≡  243 (mod 2401): (24N − 1)/343 leaves 3 on lane 7, NOT a square on lane 7;                7³ divides p(N):    153 of 1000;  7⁴: 76
+   N ≡  586 (mod 2401): (24N − 1)/343 leaves 6 on lane 7, NOT a square on lane 7;                7³ divides p(N):    152 of 1000;  7⁴: 77
+   N ≡  929 (mod 2401): (24N − 1)/343 leaves 2 on lane 7, square on lane 7;                      7³ divides p(N):   1000 of 1000;  7⁴: 138
+   N ≡ 1272 (mod 2401): (24N − 1)/343 leaves 5 on lane 7, NOT a square on lane 7;                7³ divides p(N):    156 of 1000;  7⁴: 74
+   N ≡ 1615 (mod 2401): (24N − 1)/343 leaves 1 on lane 7, square on lane 7;                      7³ divides p(N):    999 of 999;  7⁴: 163
+   N ≡ 1958 (mod 2401): (24N − 1)/343 leaves 4 on lane 7, square on lane 7;                      7³ divides p(N):    999 of 999;  7⁴: 115
+   N ≡ 2301 (mod 2401): (24N − 1)/343 leaves 0 on lane 7, 0: 7⁴ divides 24N − 1 (Watson: 7³);    7³ divides p(N):    999 of 999;  7⁴: 202
+   OEIS A340957 (where it holds), made again: the first 39 terms the same as OEIS shows: True
+   OEIS A340757 (where it fails), made again: the first 40 terms the same as OEIS shows: True
+   of the 39 terms OEIS shows for A340957, from the three laws: 38; from elsewhere (by chance): [25282]
+
+seconds: 18

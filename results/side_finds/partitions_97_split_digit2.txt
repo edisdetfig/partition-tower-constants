@@ -1,0 +1,14 @@
+from partitions_flint_family_steps_97.txt: λ_g(5) digits [39, 71, 61, 45], the constant α digits [28, 26, 81, 49], h on lane 97⁴ [68388611, 16662576, 1715167, 1]
+   h on lane 97: [22, 13, 13, 1] (partitions_97_split.txt had [22, 13, 13, 1])
+   κ on lane 97^2: (M|5) = +1: [2086, 8853, 7998, 1];  (M|5) = −1: [7515, 4555, 6869, 1]
+   κ on lane 97^3: (M|5) = +1: [858305, 338168, 327904, 1];  (M|5) = −1: [769644, 183326, 364411, 1]
+
+Levels 3 → 5: M = 97^3·(24n + 23); the multiplier G(97²M)/G(M) read off exact partition numbers
+   multiplier digits (lowest first), mod 97³: n = 0: [28, 26, 55];  n = 1: [28, 26, 92];  n = 2: [28, 26, 8];  n = 4: [28, 26, 61];  n = 5: [28, 26, 1];  n = 6: [28, 26, 55];  n = 7: [28, 26, 7];  n = 9: [28, 26, 7];  n = 10: [28, 26, 81];  n = 11: [28, 26, 91]
+   first digit 28: 10 of 10;  first two digits 28, 26 (2550 mod 97²): 10 of 10;  three digits 28, 26, 81: 1 of 10  (635 s)
+
+Levels 1 → 3: M = 97^1·(24n + 23); the multiplier G(97²M)/G(M) read off exact partition numbers
+   multiplier digits (lowest first), mod 97³: n = 0: [28, 14, 0];  n = 1: [28, 51, 13];  n = 2: [28, 24, 68];  n = 4: [28, 71, 41];  n = 5: [28, 38, 66];  n = 6: [28, 28, 21];  n = 7: [28, 43, 45];  n = 9: [28, 66, 32];  n = 10: [28, 59, 40];  n = 11: [28, 16, 18]
+   first digit 28: 10 of 10;  first two digits 28, 26 (2550 mod 97²): 0 of 10;  three digits 28, 26, 81: 0 of 10  (0 s)
+
+the largest partition number used: p(1604535581874349);  seconds: 635

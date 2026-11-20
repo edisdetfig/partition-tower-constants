@@ -1,0 +1,17 @@
+PARI 2.15.4;  the towers' newforms (partitions_newforms.txt): ℓ = 7: weight 16, a₂ = +128, a₃ = -2187, ℓ = 11: weight 8, a₂ = +8, a₃ = +27, ℓ = 13: weight 10, a₂ = -16, a₃ = +81, ℓ = 17: weight 14, a₂ = +64, a₃ = -729, ℓ = 19: weight 16, a₂ = -128, a₃ = -2187, ℓ = 23: weight 20, a₂ = +512, a₃ = +19683, ℓ = 29: weight 26, a₂ = -4096, a₃ = -531441, ℓ = 31: weight 28, a₂ = +8192, a₃ = -1594323
+
+ℓ = 23: the tower's newform has weight 20 (PARI: q +512·q² +19683·q³ +262144·q⁴ +1953390·q⁵ +40488776·q⁷ …); target u_Q = Q^-9·a_Q(f) mod 23
+   level    23:   2 newforms in   1 Galois orbits (degrees 2)  (0 s)
+   level    46:   1 newforms in   1 Galois orbits (degrees 1)  (0 s)
+   level    69:   3 newforms in   2 Galois orbits (degrees 1 2)  (0 s)
+   level   138:   5 newforms in   4 Galois orbits (degrees 1 1 1 2)  (0 s)
+   level   529:  31 newforms in  10 Galois orbits (degrees 2 2 2 2 2 3 4 4 5 5)  (2 s)
+   level  1058:  43 newforms in  14 Galois orbits (degrees 1 1 1 1 1 2 2 2 4 5 5 5 5 8)  (9 s)
+   level  1587:  85 newforms in  22 Galois orbits (degrees 1 1 1 1 1 2 2 2 2 2 2 2 4 4 5 5 5 5 6 10 10 12)  (40 s)
+   level  3174:  83 newforms in  30 Galois orbits (degrees 1 1 1 1 1 1 1 2 2 2 2 2 … 5)  (151 s)
+   MATCH: level 3174, orbit 16, Hecke field of degree 2 (y^2 - 3), at a prime above 23 of residue degree 1, twist d = -23
+   MATCH: level 3174, orbit 16, Hecke field of degree 2 (y^2 - 3), at a prime above 23 of residue degree 1, twist d = 1
+   MATCH: level 3174, orbit 23, Hecke field of degree 5 (y^5 - y^4 - 4*y^3 + 3*y^2 + 3*y - 1), at a prime above 23 of residue degree 1, twist d = 1
+   MATCH: level 3174, orbit 24, Hecke field of degree 5 (y^5 - y^4 - 4*y^3 + 3*y^2 + 3*y - 1), at a prime above 23 of residue degree 1, twist d = -23
+
+seconds: 203

@@ -1,0 +1,17 @@
+ℓ = 43, twin 1 (y ↦ 3 on lane 43): differences divisible by ℓ to [0, 1, 2, 3, 4]; the member at x = 4 foretold to 4 digits
+   its constant (3|ℓ)·u(−2), digits lowest first: [31, 13, 8, 5, 40]
+ℓ = 43, twin 2 (y ↦ 41 on lane 43): differences divisible by ℓ to [0, 1, 2, 3, 4]; the member at x = 4 foretold to 4 digits
+   its constant (3|ℓ)·u(−2), digits lowest first: [6, 20, 10, 25, 3]
+   T = α₁ + α₂ and N = α₁·α₂ on lane 43: 37, 14  (31 s for the forms)
+   p(δ_1) = p(9): 2 digits, exact  (0 s)
+   p(δ_2) = p(1772): 43 digits, exact  (0 s)
+   p(δ_3) = p(16564): 139 digits, exact  (0 s)
+   p(δ_4) = p(3276351): 2010 digits, exact  (0 s)
+   p(δ_5) = p(30626759): 6157 digits, exact  (0 s)
+   p(δ_6) = p(6057972922): 86696 digits, exact  (16 s)
+   p(δ_7) = p(56628877314): 265088 digits, exact  (454 s)
+   levels 1, 3, 5: H_(b+4) − T·H_(b+2) + N·H_b is divisible by ℓ^1;  one constant alone, H_(b+2) − αᵢ·H_b: by ℓ^[0, 0]
+   levels 2, 4, 6: H_(b+4) − T·H_(b+2) + N·H_b is divisible by ℓ^1;  one constant alone, H_(b+2) − αᵢ·H_b: by ℓ^[0, 0]
+   levels 3, 5, 7: H_(b+4) − T·H_(b+2) + N·H_b is divisible by ℓ^0;  one constant alone, H_(b+2) − αᵢ·H_b: by ℓ^[0, 0]
+
+seconds: 501

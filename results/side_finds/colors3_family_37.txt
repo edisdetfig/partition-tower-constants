@@ -1,0 +1,20 @@
+ℓ = 37 (3 colours), k₀ = 32, level 2, 13 weights, modulo ℓ^13; FLINT 0.9.0
+1  the class at weight 32 on lane ℓ: 2 forms;  T_ℓ polynomial on lane ℓ [22, 23, 1]
+2  weight 32 (dimension 9, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 68 (dimension 18, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 104 (dimension 27, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 140 (dimension 36, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 176 (dimension 45, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 212 (dimension 54, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 248 (dimension 63, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 284 (dimension 72, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 320 (dimension 81, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 356 (dimension 90, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 392 (dimension 99, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 428 (dimension 108, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (0 s)
+2  weight 464 (dimension 117, ordinary part 9): the class's piece 2; U_ℓ polynomial on lane ℓ [22, 23, 1]  (1 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 6, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]
+   the polynomial of u(−4) (lowest first) on lane ℓ: [22, 23, 1];  on lane ℓ^13: [200312235972942538523, 159182004476846831633, 1]
+   (several forms: the polynomial above; its factors as in partitions_flint_family.py)
+
+seconds: 2

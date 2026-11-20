@@ -1,0 +1,35 @@
+Part C: the towers level1_tower_poleHD31_N…, discriminant -31
+
+ℓ = 5 (level1_tower_poleHD31_N1600000…, n < 16000000), lane ℓ^11, weight -36: P on lane ℓ [4, 1]; slope-1 families at this weight 1
+   split; the prime above ℓ has order 3: H mod ℓ factors into degree 3, so the curves CYCLE with period 3; the curve over 𝔽_ℓ^3 has trace 2 (norm form ±2); U^-38 digits [4, 0, 1, 4, 3, 1, 3, 3, 3, 3, 3]
+   P alone                                  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  (86 checks)
+   P·S                                      1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 0  (75 checks)
+   P·(x − r)·S, r ≡ 4 one cube root         1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  (64 checks)
+   P·(x^3 − U^-38)                          1: 4  2: 5  3: 6  4: 7  5: 8  6: 9  (53 checks)
+   P·(x^3 − U^-38)·S  PREDICTED             1: 9  2: 11  3: 11  4: 11  5: 11  (42 checks)
+   the ratio of the remainders 1 level apart, on lane ℓ, by level: {1: [1, 2, 3], 2: [1, 2, 3], 3: [1, 2, 3, 4], 4: [1, 2, 3], 5: [1, 2, 3], 6: [1, 2, 3, 4], 7: [1, 2, 3], 8: [3]}
+   the ratio of the remainders 2 levels apart, on lane ℓ, by level: {1: [1, 2, 3, 4], 2: [2, 3, 4], 3: [2, 3, 4], 4: [1, 2, 3, 4], 5: [2, 3, 4], 6: [2, 3, 4]}
+   the ratio of the remainders 3 levels apart, on lane ℓ, by level: {1: [4], 2: [4], 3: [4], 4: [4], 5: [4], 6: [4]}
+   (on lane ℓ: U^-38 ≡ 4)
+
+ℓ = 7 (level1_tower_poleHD31_N1600000…, n < 16000000), lane ℓ^10, weight -36: P on lane ℓ [6, 1]; slope-1 families at this weight not computed
+   split; the prime above ℓ has order 3: H mod ℓ factors into degree 3, so the curves CYCLE with period 3; the curve over 𝔽_ℓ^3 has trace 16 (norm form ±16); U^-38 digits [2, 3, 5, 2, 3, 4, 2, 2, 2, 6]
+   P alone                                  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  (68 checks)
+   P·S                                      1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  (68 checks)
+   P·(x^3 − U^-38)                          1: 4  2: 6  3: 8  4: 10  (35 checks)
+   P·(x^3 − U^-38)·S  PREDICTED             1: 4  2: 6  3: 8  4: 10  (35 checks)
+   the ratio of the remainders 1 level apart, on lane ℓ, by level: {1: [1, 2, 3, 5, 6], 2: [1, 2, 3, 5], 3: [1, 2, 3, 4, 5, 6], 4: [1, 2, 3, 5, 6], 5: [1, 2, 3, 5], 6: [2, 5]}
+   the ratio of the remainders 2 levels apart, on lane ℓ, by level: {1: [1, 2, 3, 4, 5, 6], 2: [1, 2, 3, 5, 6], 3: [1, 2, 3, 6], 4: [1, 2, 3, 4, 5, 6], 5: [2, 3]}
+   the ratio of the remainders 3 levels apart, on lane ℓ, by level: {1: [2], 2: [2], 3: [2], 4: [2]}
+   (on lane ℓ: U^-38 ≡ 2)
+
+ℓ = 19 (level1_tower_poleHD31_N1600000…, n < 16000000), lane ℓ^7, weight -36: P on lane ℓ [6, 12, 1]; slope-1 families at this weight 2
+   split; the prime above ℓ has order 3: H mod ℓ factors into degree 3, so the curves CYCLE with period 3; the curve over 𝔽_ℓ^3 has trace -156 (norm form ±156); U^-38 digits [6, 12, 12, 9, 10, 7, 6]
+   P alone                                  1: 0  2: 0  3: 0  (28 checks)
+   P·S                                      1: 0  (6 checks)
+   P·(x^3 − U^-38)                          no level span  (0 checks)
+   P·(x^3 − U^-38)·S  PREDICTED             no level span  (0 checks)
+   the ratio of the remainders 1 level apart, on lane ℓ, by level: {1: [1, 4, 6, 11, 13, 17], 2: [2, 4, 5, 9, 17]}
+   the ratio of the remainders 2 levels apart, on lane ℓ, by level: {1: [1, 11, 15, 16, 17]}
+   the ratio of the remainders 3 levels apart, on lane ℓ, by level: {}
+   (on lane ℓ: U^-38 ≡ 6)

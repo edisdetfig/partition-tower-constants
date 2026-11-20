@@ -1,0 +1,38 @@
+
+ℓ = 13: weights 10, 22, 34, 46, 58, 70, 82, 94, 106, 118, 130 (6 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 130) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9]
+   the constant from the partition numbers (partitions_constants.txt): [6, 3, 1, 2, 5, 8]  →  ALL 6 settled digits agree
+
+ℓ = 17: weights 14, 30, 46, 62, 78, 94, 110, 126, 142, 158, 174 (16 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 174) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [6, 12, 12, 7, 7, 5, 16, 3, 10, 14, 0]
+   the constant from the partition numbers (partitions_constants.txt): [6, 12, 12, 7, 7]  →  ALL 5 settled digits agree
+
+ℓ = 19: weights 16, 34, 52, 70, 88, 106, 124, 142, 160, 178, 196 (22 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 196) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [10, 2, 10, 8, 10, 1, 16, 5, 7, 10, 6]
+   the constant from the partition numbers (partitions_constants.txt): [10, 2, 10, 8, 10]  →  ALL 5 settled digits agree
+
+ℓ = 23: weights 20, 42, 64, 86, 108, 130, 152, 174, 196, 218, 240 (48 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 240) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [5, 20, 8, 4, 19, 3, 6, 6, 20, 20, 3]
+   the constant from the partition numbers (partitions_constants.txt): [5, 20, 8, 4]  →  ALL 4 settled digits agree
+
+ℓ = 29: weights 26, 54, 82, 110, 138, 166, 194, 222, 250, 278, 306 (119 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 306) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [3, 14, 17, 22, 28, 6, 14, 19, 1, 14, 0]
+   the constant from the partition numbers (partitions_constants.txt): [3, 14]  →  ALL 2 settled digits agree
+
+ℓ = 31: weights 28, 58, 88, 118, 148, 178, 208, 238, 268, 298, 328 (174 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (needed: at least 0, 1, 2, …)
+   from x = 0 to 9 the series foretells the member at x = 10 (weight 328) to 10 digits
+   (3|ℓ)·u(−2), digits lowest first: [30, 6, 2, 28, 1, 8, 3, 15, 15, 13, 16]
+   the constant from the partition numbers (partitions_constants.txt): [30, 6]  →  ALL 2 settled digits agree
+
+seconds: 386

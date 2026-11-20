@@ -1,0 +1,109 @@
+ℓ = 7: the forms of level 6ℓ = 42 and of level 6, counted by system, at the weights k = −2 + 6·(x + 1), x = 0..9
+the class: U_2 = (2|ℓ)^(x+1)·2^((k−2)/2), U_3 = (3|ℓ)^(x+1)·3^((k−2)/2) exactly, with (2|ℓ) = 1, (3|ℓ) = -1; systems by T_q mod ℓ for q = [5, 11, 13]
+precision: the pool mod ℓ^50 before saturation; the counts at level 6ℓ mod ℓ^12, at level 6 mod ℓ^30; FLINT 0.9.0
+
+weight 4 (x = 0): M_k(Γ0(42)) has dimension 28 (formula), Sturm's bound 32; 28 forms independent over Q among the first 56 of the pool (by their factors: X·Y only 19, E 6, A 3)  (0 s)
+   saturation: 0 rounds, 0 divisions by ℓ (the products' span has index ℓ^0); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 33 coefficients: yes; they commute: yes  (0 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 0, (−,−) 2; together 4 (formula 4: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 0, (+,−) 0, (−,+) 0, (−,−) 1; together 1 (formula 1: right)
+   the class (+,−): 0 forms at level 6, 1 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 1 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 0, level 6ℓ: 1, new at ℓ: 1;  slopes of T_ℓ at level 6: —
+   (0 s for this weight)
+
+weight 10 (x = 1): M_k(Γ0(42)) has dimension 76 (formula), Sturm's bound 80; 76 forms independent over Q among the first 152 of the pool (by their factors: X·Y only 76)  (0 s)
+   saturation: 1 rounds, 11 divisions by ℓ (the products' span has index ℓ^11); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 81 coefficients: yes; they commute: yes  (0 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 3, (+,−) 3, (−,+) 4, (−,−) 2; together 12 (formula 12: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 0, (+,−) 0, (−,+) 1, (−,−) 0; together 1 (formula 1: right)
+   the class (+,+): 0 forms at level 6, 3 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  slopes of T_ℓ at level 6: —
+      system (5, 6, 0): level 6: 0, level 6ℓ: 1, new at ℓ: 1;  slopes of T_ℓ at level 6: —
+   (0 s for this weight)
+
+weight 16 (x = 2): M_k(Γ0(42)) has dimension 124 (formula), Sturm's bound 128; 124 forms independent over Q among the first 248 of the pool (by their factors: X·Y only 124)  (0 s)
+   saturation: 2 rounds, 22 divisions by ℓ (the products' span has index ℓ^22); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 129 coefficients: yes; they commute: yes  (1 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 5, (+,−) 5, (−,+) 4, (−,−) 6; together 20 (formula 20: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 0, (−,−) 1; together 3 (formula 3: right)
+   the class (+,−): 1 forms at level 6, 5 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 3, new at ℓ: 1;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 0, level 6ℓ: 2, new at ℓ: 2;  slopes of T_ℓ at level 6: —
+   (1 s for this weight)
+
+weight 22 (x = 3): M_k(Γ0(42)) has dimension 172 (formula), Sturm's bound 176; 172 forms independent over Q among the first 344 of the pool (by their factors: X·Y only 172)  (0 s)
+   saturation: 3 rounds, 39 divisions by ℓ (the products' span has index ℓ^39); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 177 coefficients: yes; they commute: yes  (2 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 7, (+,−) 7, (−,+) 8, (−,−) 6; together 28 (formula 28: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 1, (−,−) 0; together 3 (formula 3: right)
+   the class (+,+): 1 forms at level 6, 7 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 4, new at ℓ: 2;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 0, level 6ℓ: 3, new at ℓ: 3;  slopes of T_ℓ at level 6: —
+   (2 s for this weight)
+
+weight 28 (x = 4): M_k(Γ0(42)) has dimension 220 (formula), Sturm's bound 224; 220 forms independent over Q among the first 440 of the pool (by their factors: X·Y only 220)  (0 s)
+   saturation: 4 rounds, 62 divisions by ℓ (the products' span has index ℓ^62); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 225 coefficients: yes; they commute: yes  (5 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 9, (+,−) 9, (−,+) 8, (−,−) 10; together 36 (formula 36: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 1, (−,−) 2; together 5 (formula 5: right)
+   the class (+,−): 1 forms at level 6, 9 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 5, new at ℓ: 3;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 0, level 6ℓ: 4, new at ℓ: 4;  slopes of T_ℓ at level 6: —
+   (5 s for this weight)
+
+weight 34 (x = 5): M_k(Γ0(42)) has dimension 268 (formula), Sturm's bound 272; 268 forms independent over Q among the first 536 of the pool (by their factors: X·Y only 268)  (0 s)
+   saturation: 5 rounds, 91 divisions by ℓ (the products' span has index ℓ^91); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 273 coefficients: yes; they commute: yes  (10 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 11, (+,−) 11, (−,+) 12, (−,−) 10; together 44 (formula 44: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 1, (+,−) 1, (−,+) 2, (−,−) 1; together 5 (formula 5: right)
+   the class (+,+): 1 forms at level 6, 11 at level 6ℓ (exact to ℓ^29 and ℓ^11), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 6, new at ℓ: 4;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 0, level 6ℓ: 5, new at ℓ: 5;  slopes of T_ℓ at level 6: —
+   (10 s for this weight)
+
+weight 40 (x = 6): M_k(Γ0(42)) has dimension 316 (formula), Sturm's bound 320; 316 forms independent over Q among the first 632 of the pool (by their factors: X·Y only 316)  (0 s)
+   saturation: 6 rounds, 126 divisions by ℓ (the products' span has index ℓ^126); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 321 coefficients: yes; they commute: yes  (16 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 13, (+,−) 13, (−,+) 12, (−,−) 14; together 52 (formula 52: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 2, (+,−) 2, (−,+) 1, (−,−) 2; together 7 (formula 7: right)
+   the class (+,−): 2 forms at level 6, 13 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 7, new at ℓ: 5;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 1, level 6ℓ: 6, new at ℓ: 4;  slopes of T_ℓ at level 6: 4×1
+   (17 s for this weight)
+
+weight 46 (x = 7): M_k(Γ0(42)) has dimension 364 (formula), Sturm's bound 368; 364 forms independent over Q among the first 728 of the pool (by their factors: X·Y only 364)  (0 s)
+   saturation: 7 rounds, 167 divisions by ℓ (the products' span has index ℓ^167); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 369 coefficients: yes; they commute: yes  (26 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 15, (+,−) 15, (−,+) 16, (−,−) 14; together 60 (formula 60: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 2, (+,−) 2, (−,+) 2, (−,−) 1; together 7 (formula 7: right)
+   the class (+,+): 2 forms at level 6, 15 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 8, new at ℓ: 6;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 1, level 6ℓ: 7, new at ℓ: 5;  slopes of T_ℓ at level 6: 4×1
+   (27 s for this weight)
+
+weight 52 (x = 8): M_k(Γ0(42)) has dimension 412 (formula), Sturm's bound 416; 412 forms independent over Q among the first 824 of the pool (by their factors: X·Y only 412)  (0 s)
+   saturation: 8 rounds, 214 divisions by ℓ (the products' span has index ℓ^214); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 417 coefficients: yes; they commute: yes  (42 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 17, (+,−) 17, (−,+) 16, (−,−) 18; together 68 (formula 68: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 2, (+,−) 2, (−,+) 2, (−,−) 3; together 9 (formula 9: right)
+   the class (+,−): 2 forms at level 6, 17 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 9, new at ℓ: 7;  slopes of T_ℓ at level 6: 2×1
+      system (5, 6, 0): level 6: 1, level 6ℓ: 8, new at ℓ: 6;  slopes of T_ℓ at level 6: 4×1
+   (43 s for this weight)
+
+weight 58 (x = 9): M_k(Γ0(42)) has dimension 460 (formula), Sturm's bound 464; 460 forms independent over Q among the first 920 of the pool (by their factors: X·Y only 460)  (0 s)
+   saturation: 9 rounds, 267 divisions by ℓ (the products' span has index ℓ^267); a basis over Z_ℓ, mod ℓ^12; U_2, U_3, T_q right on all 465 coefficients: yes; they commute: yes  (60 s)
+   forms new at 2 and 3 at level 6ℓ, by the signs of U_2, U_3: (+,+) 19, (+,−) 19, (−,+) 20, (−,−) 18; together 76 (formula 76: right)
+   forms new at 2 and 3 at level 6, by the signs of U_2, U_3: (+,+) 2, (+,−) 2, (−,+) 3, (−,−) 2; together 9 (formula 9: right)
+   the class (+,+): 2 forms at level 6, 19 at level 6ℓ (exact to ℓ^30 and ℓ^12), in 2 systems; each system of level 6 found at least twice at level 6ℓ: yes
+      system (4, 5, 1): level 6: 1, level 6ℓ: 10, new at ℓ: 8;  slopes of T_ℓ at level 6: 1×1
+      system (5, 6, 0): level 6: 1, level 6ℓ: 9, new at ℓ: 7;  slopes of T_ℓ at level 6: 5×1
+   (62 s for this weight)
+
+THE PREDICTION (README, written before the run): at a waiting step, 0 forms at level 6 and at least 2 new at ℓ; at an earlier step, at most 1 new at ℓ
+   7's law form (4, 5, 1), x = 0 (earlier step): level 6: 0, new at ℓ: 1 — as predicted
+   7's law form (4, 5, 1), x = 1 (waiting step): level 6: 0, new at ℓ: 2 — as predicted
+   7's quiet form (5, 6, 0), x = 0 (earlier step): level 6: 0, new at ℓ: 0 — as predicted
+   7's quiet form (5, 6, 0), x = 1 (earlier step): level 6: 0, new at ℓ: 1 — as predicted
+   7's quiet form (5, 6, 0), x = 2 (waiting step): level 6: 0, new at ℓ: 2 — as predicted
+   7's quiet form (5, 6, 0), x = 3 (waiting step): level 6: 0, new at ℓ: 3 — as predicted
+   7's quiet form (5, 6, 0), x = 4 (waiting step): level 6: 0, new at ℓ: 4 — as predicted
+   7's quiet form (5, 6, 0), x = 5 (waiting step): level 6: 0, new at ℓ: 5 — as predicted
+
+THE SAME READING FOR EVERY SYSTEM of the class at level 6 (the ghost picture for its first form): the steps before it first appears with at least 2 new at ℓ are its zeros z; its smallest slope at step x is predicted to be the sum over z of 1 + v_ℓ(x − z)
+   system (4, 5, 1): first at x = 2 with 1 form; its zeros z = [1]; predicted/counted smallest slope: x = 2: 1/1; x = 3: 1/1; x = 4: 1/1; x = 5: 1/1; x = 6: 1/1; x = 7: 1/1; x = 8: 2/2; x = 9: 1/1
+   system (5, 6, 0): first at x = 6 with 1 form; its zeros z = [2, 3, 4, 5]; predicted/counted smallest slope: x = 6: 4/4; x = 7: 4/4; x = 8: 4/4; x = 9: 5/5
+   agreeing: 12 of 12 (system, weight) pairs
+
+seconds: 167

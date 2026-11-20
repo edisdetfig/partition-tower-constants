@@ -1,0 +1,20 @@
+1/E₄² towers: level1_tower_invE4sq_N100000000_7_13_19.json (n < 100000000); every law's constants fixed by the forms and the pole, none read from the tower
+
+ℓ = 7, lane ℓ^10: P on lane ℓ [6, 1]; 1 slope-1 families (from slope1_families_7_w-8_N20.txt, to ℓ^16)
+   P alone (degree 1): smallest depth over n ≥ 1 from level  1: 1;  2: 2;  3: 3;  4: 4;  5: 5;  6: 6;  7: 7;  8: 8   (79 checks)
+   P·(x − ℓu⁻¹²): the pole only (degree 2): smallest depth over n ≥ 1 from level  1: 3;  2: 4;  3: 5;  4: 6;  5: 7;  6: 8;  7: 9   (68 checks)
+   P·S: the families only (degree 2): smallest depth over n ≥ 1 from level  1: 2;  2: 3;  3: 4;  4: 5;  5: 6;  6: 7;  7: 8   (68 checks)
+   P·(x − ℓu⁻¹²)·S: PREDICTED (degree 3): smallest depth over n ≥ 1 from level  1: 7;  2: 10;  3: 10;  4: 10;  5: 10;  6: 10   (57 checks)
+   P·(x − ℓu⁻¹²)·(x − 7·y_fit), y_fit = 4, 0, 1, 3 (the earlier fit) (degree 3): smallest depth over n ≥ 1 from level  1: 7;  2: 8;  3: 9;  4: 10;  5: 10;  6: 10   (57 checks)
+
+ℓ = 13, lane ℓ^8: P on lane ℓ [12, 1]; 3 slope-1 families (from slope1_families_13_w-8_N24.txt, to ℓ^17)
+   P alone (degree 1): smallest depth over n ≥ 1 from level  1: 1;  2: 2;  3: 3;  4: 4;  5: 5;  6: 6   (56 checks)
+   P·(x − ℓu⁻¹²): the pole only (degree 2): smallest depth over n ≥ 1 from level  1: 2;  2: 3;  3: 4;  4: 5;  5: 6   (45 checks)
+   P·S: the families only (degree 4): smallest depth over n ≥ 1 from level  1: 4;  2: 5;  3: 7   (23 checks)
+   P·(x − ℓu⁻¹²)·S: PREDICTED (degree 5): smallest depth over n ≥ 1 from level  1: 8;  2: 8   (12 checks)
+
+ℓ = 19, lane ℓ^7: P on lane ℓ [18, 1]; 2 slope-1 families (from slope1_families_19_w-8_N16.txt, to ℓ^10)
+   P alone (degree 1): smallest depth over n ≥ 1 from level  1: 1;  2: 2;  3: 3;  4: 4;  5: 5   (46 checks)
+   P·(x − ℓu⁻¹²): the pole only (degree 2): smallest depth over n ≥ 1 from level  1: 2;  2: 3;  3: 4;  4: 5   (35 checks)
+   P·S: the families only (degree 3): smallest depth over n ≥ 1 from level  1: 3;  2: 4;  3: 5   (24 checks)
+   P·(x − ℓu⁻¹²)·S: PREDICTED (degree 4): smallest depth over n ≥ 1 from level  1: 6;  2: 7   (13 checks)

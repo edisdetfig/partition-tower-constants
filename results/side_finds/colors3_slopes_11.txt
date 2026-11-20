@@ -1,0 +1,15 @@
+ℓ = 11 (3 colours), slope 2, weights −4 + 110·(x + 1), x = 0..7, modulo ℓ^90 (N = 10 and 80 spare); FLINT 0.9.0
+   weight 106 (dimension 27): the class 4 forms (to ℓ^90); slopes of T_ℓ 7×1, 6×1, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^82  (0 s)
+   weight 216 (dimension 55): the class 8 forms (to ℓ^89); slopes of T_ℓ 16×1, 12×2, 9×1, 7×1, 6×1, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^73  (0 s)
+   weight 326 (dimension 82): the class 14 forms (to ℓ^90); slopes of T_ℓ 73/10×10, 7×1, 6×1, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^62  (0 s)
+   weight 436 (dimension 110): the class 18 forms (to ℓ^90); slopes of T_ℓ 43/8×16, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^54  (1 s)
+   weight 546 (dimension 137): the class 22 forms (to ℓ^90); slopes of T_ℓ 43/10×20, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^46  (1 s)
+   weight 656 (dimension 165): the class 27 forms (to ℓ^90); slopes of T_ℓ 86/25×25, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^36  (2 s)
+   weight 766 (dimension 192): the class 32 forms (to ℓ^90); slopes of T_ℓ 43/15×30, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^26  (4 s)
+   weight 876 (dimension 220): the class 36 forms (to ℓ^90); slopes of T_ℓ 43/17×34, 2×2; the 2 roots of slope 2: the polynomial of root/ℓ^2 on lane ℓ [3, 1, 1], known to ℓ^18  (5 s)
+the differences of coefficient 0 are divisible by ℓ to [0, 1, 3, 4, 4, 6, 8, 10]
+the differences of coefficient 1 are divisible by ℓ to [0, 1, 2, 4, 6, 8, 10, 12]
+the constants' polynomial at weight −4, twisted by (−1|ℓ) = -1 (lowest first), on lane ℓ^8: [20587526, 75217570, 1];  on lane ℓ: [3, 10, 1]
+   on lane ℓ it factors as [([5, 1], 2)]
+
+seconds: 13

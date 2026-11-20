@@ -1,0 +1,13 @@
+ℓ = 13, weight -8 = 4 + -1·(ℓ − 1): 31 basis vectors (Katz degrees 0..30), working modulo ℓ^29, the series wanted modulo ℓ^24; FLINT 0.9.0
+   Dwork's bound v(C[r][c]) − (ℓ·i(r) − i(c))/(ℓ+1): smallest value -0.714 (the scaling below needs ≥ −1)
+   the scaled matrix: smallest valuation of each row (by Katz degree), the last rows: [21, 23, 24, 24, 24, 25]
+   det(1 − X·U) modulo ℓ^24: valuations of c_0 … c_16: [0, 0, 1, 2, 3, 6, 10, 15, 21, 24, 24, 24, 24, 24, 24, 24, 24]
+   its Newton polygon (slope, length), while below ℓ^24: [('0.000', 1), ('1.000', 3), ('3.000', 1), ('4.000', 1), ('5.000', 1), ('6.000', 1)]
+   slope 0: 1 roots;  slope 1: 3 roots
+   the slope-0 factor ∏(z − λ) modulo ℓ^24, lowest first: [542800770374370512771595360, 1]
+      λ = 1 (digits [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+   after the slope-0 factor: v(q_t) for t = 0 … 14: [0, 1, 2, 3, 6, 10, 15, 21, 24, 24, 24, 24, 24, 24, 24] (the last known at t = 7, slope into it 6.00)
+   the slope-1 factor ∏(y − λ/ℓ) modulo ℓ^17 (truncated at t = 7), lowest first: [2064928887649532314, 3997215252588742940, 208313254062985810, 1]
+      on lane ℓ: [7, 2, 11, 1]; its roots on lane ℓ: [11]
+      y = λ/ℓ, digits lowest first: [11, 10, 10, 7, 3, 12, 6, 4, 8, 7, 2, 12, 11, 1, 11, 9, 10]
+seconds: 0

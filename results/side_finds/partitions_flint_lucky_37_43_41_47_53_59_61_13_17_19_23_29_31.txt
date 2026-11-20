@@ -1,0 +1,238 @@
+primes ℓ: [37, 43, 41, 47, 53, 59, 61, 13, 17, 19, 23, 29, 31]; laws counted at every prime Q up to 1000000
+
+ℓ = 37 (weight 34): the class has 2 forms; on lane ℓ its pieces have degrees [1, 1]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (66 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      57.4 (derived)   counted     57   (counted − expected)/√expected = -0.05
+      below 10,000: [6599, 7541]
+      all: [6599, 7541, 55219, 67901, 70223, 77479, 78893, 95747, 118277, 129707, 133723, 136483, 150827, 161237, 170293, 186437, 191561, 199483, 221201, 224993, 253531, 270937, 281279, 286609, 301993, 321779, 351287, 379307, 386651, 387973, 410717, 516323, 519769, 524999, 531911, 537233, 542461, 553433, 575753, 583279, 622091, 663191, 666929, 686417, 699791, 704777, 720571, 727123, 737251, 751277, 765151, 809909, 892267, 925733, 935149, 942101, 960053]
+   class ε=−1  expected      57.4 (derived)   counted     63   (counted − expected)/√expected = +0.74
+      below 10,000: [9547]
+      all: [9547, 11863, 23017, 25847, 27437, 35053, 42961, 67751, 81001, 104947, 110063, 120091, 136693, 139801, 178397, 185699, 195599, 247799, 263651, 270121, 279731, 312857, 317197, 361219, 368789, 370373, 385129, 388159, 391351, 396883, 402133, 408469, 420221, 451799, 457001, 476317, 480647, 492901, 504943, 516157, 538511, 579197, 581857, 607181, 631133, 664561, 690089, 695899, 697009, 714037, 732283, 756101, 757607, 798757, 801079, 819073, 875107, 877949, 883471, 926239, 941023, 946949, 971833]
+   Ono         expected      57.5 (derived)   counted     54   (counted − expected)/√expected = -0.46
+      below 10,000: [2999]
+      all: [2999, 33967, 64171, 75253, 79693, 86269, 94109, 170509, 172001, 197269, 228181, 235211, 236107, 238841, 241691, 273709, 274301, 295333, 343579, 351077, 353891, 355171, 384089, 390553, 411743, 439991, 449921, 474127, 504197, 512531, 567991, 580759, 582983, 592121, 592351, 598099, 606379, 607583, 621029, 644257, 652577, 662143, 672643, 679751, 694087, 733289, 759167, 777199, 792257, 891997, 895079, 911371, 912511, 934753]
+   some piece with the number 0 (one form is enough): counted 4196, expected 4188.5 (derived)
+   known from partition numbers, class law at 6599: found
+   known from partition numbers, class law at 7541: found
+   known from partition numbers, class law at 9547: found
+   known from partition numbers, ono law at 2999: found
+   all laws below 10,000 here: [2999, 6599, 7541, 9547]  (partitions_split.txt had: [2999, 6599, 7541, 9547])
+   seconds: 68
+
+ℓ = 43 (weight 40): the class has 2 forms; on lane ℓ its pieces have degrees [1, 1]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (77 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      42.5 (derived)   counted     35   (counted − expected)/√expected = -1.15
+      below 10,000: [4049]
+      all: [4049, 82813, 85193, 113017, 128663, 138197, 163021, 185167, 192047, 216703, 274123, 291569, 366521, 366721, 400067, 401567, 445307, 450451, 460561, 470609, 479429, 482071, 497257, 524633, 553549, 598079, 735157, 745133, 779873, 793601, 868943, 935761, 938879, 970829, 998329]
+   class ε=−1  expected      42.5 (derived)   counted     49   (counted − expected)/√expected = +1.00
+      below 10,000: [8941]
+      all: [8941, 54091, 65089, 101603, 122953, 130127, 137399, 143813, 150077, 188827, 234979, 240623, 266933, 274517, 280121, 300929, 401537, 418373, 418837, 446141, 475859, 476803, 508969, 547441, 548441, 567737, 580663, 583013, 598933, 610163, 610847, 614147, 616069, 645431, 666031, 752911, 782137, 784117, 823747, 828833, 834221, 851723, 900701, 914533, 939229, 957349, 962497, 969097, 979787]
+   Ono         expected      42.5 (derived)   counted     37   (counted − expected)/√expected = -0.85
+      below 10,000: []
+      all: [10253, 28933, 83641, 131437, 135197, 160207, 208207, 210019, 218761, 247651, 256033, 262621, 272971, 317267, 323509, 338423, 377681, 386371, 442319, 444791, 464263, 469613, 482099, 502393, 541001, 543971, 578317, 645803, 656407, 757331, 772567, 904093, 932749, 947707, 965983, 975823, 999331]
+   some piece with the number 0 (one form is enough): counted 3594, expected 3610.3 (derived)
+   known from partition numbers, class law at 4049: found
+   known from partition numbers, class law at 8941: found
+   all laws below 10,000 here: [4049, 8941]  (partitions_split.txt had: [4049, 8941])
+   seconds: 79
+
+ℓ = 41 (weight 38): the class has 2 forms; on lane ℓ its pieces have degrees [1, 1]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (73 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      46.7 (derived)   counted     45   (counted − expected)/√expected = -0.25
+      below 10,000: []
+      all: [32257, 65029, 84737, 90017, 109253, 130447, 130483, 140813, 143137, 175873, 198223, 222367, 242603, 253381, 258617, 306991, 314107, 326537, 462983, 479153, 480929, 490951, 493279, 502729, 537527, 543281, 556651, 600601, 715313, 735107, 742991, 751319, 751867, 758357, 760373, 866819, 874763, 875243, 876131, 883343, 884579, 924769, 942853, 982643, 987457]
+   class ε=−1  expected      46.7 (derived)   counted     59   (counted − expected)/√expected = +1.80
+      below 10,000: []
+      all: [42139, 45751, 54049, 54917, 78607, 83077, 85093, 86711, 102451, 112253, 114041, 130267, 132511, 135887, 137443, 139429, 153107, 189401, 193859, 201049, 237767, 243011, 243517, 257497, 284573, 297079, 325781, 350453, 380917, 424771, 428003, 469303, 490309, 499363, 529051, 535387, 536191, 568657, 578363, 578407, 600269, 605117, 605609, 629921, 666301, 678959, 687949, 689441, 706793, 759637, 778319, 838927, 868943, 869153, 908881, 920761, 949391, 962431, 990053]
+   Ono         expected      46.8 (derived)   counted     52   (counted − expected)/√expected = +0.76
+      below 10,000: []
+      all: [12917, 13121, 13841, 15107, 27397, 29819, 58699, 63031, 67931, 102931, 144439, 146161, 151201, 152953, 156437, 178403, 216647, 244873, 272227, 277429, 306193, 377011, 391379, 395069, 399151, 407917, 418423, 419189, 436531, 479813, 500947, 515579, 532153, 543793, 571001, 573569, 585391, 589231, 592351, 617971, 633449, 676981, 681001, 717109, 747941, 757943, 771389, 772367, 847339, 865001, 881897, 953501]
+   some piece with the number 0 (one form is enough): counted 3801, expected 3784.3 (derived)
+   all laws below 10,000 here: []  (partitions_split.txt had: [])
+   seconds: 75
+
+ℓ = 47 (weight 44): the class has 2 forms; on lane ℓ its pieces have degrees [2]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (85 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      35.5 (derived)   counted     32   (counted − expected)/√expected = -0.60
+      below 10,000: []
+      all: [36973, 104933, 112807, 129449, 216233, 217979, 221083, 222493, 296693, 312313, 335077, 360007, 374321, 422549, 437287, 469877, 508583, 527627, 534931, 561101, 562949, 568627, 594313, 611953, 634181, 643949, 754283, 770437, 827599, 868561, 906973, 994831]
+   class ε=−1  expected      35.5 (derived)   counted     31   (counted − expected)/√expected = -0.76
+      below 10,000: []
+      all: [29251, 37571, 70921, 111949, 138641, 148691, 160933, 164831, 178223, 265277, 306589, 354661, 377537, 405869, 414703, 427849, 447409, 472561, 474557, 518131, 575063, 587441, 679157, 685669, 742991, 749677, 781243, 836623, 898327, 963103, 987079]
+   Ono         expected      35.6 (derived)   counted     35   (counted − expected)/√expected = -0.09
+      below 10,000: []
+      all: [38543, 39323, 48091, 51899, 57047, 105649, 163621, 168677, 187171, 247463, 371339, 414017, 437977, 456587, 471137, 473857, 476041, 481021, 485977, 537401, 542923, 547819, 604649, 617857, 623437, 679909, 687161, 780343, 834961, 859553, 873767, 891481, 926203, 975943, 982967]
+   some piece with the number 0 (one form is enough): counted 35, expected 35.6 (derived)
+   all laws below 10,000 here: []  (partitions_split.txt had: [])
+   seconds: 86
+
+ℓ = 53 (weight 50): the class has 2 forms; on lane ℓ its pieces have degrees [1, 1]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (94 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      28.0 (derived)   counted     32   (counted − expected)/√expected = +0.77
+      below 10,000: []
+      all: [15313, 40699, 58129, 72109, 80681, 106877, 140603, 145603, 150131, 175303, 186469, 218833, 246817, 273821, 299029, 445597, 451337, 520129, 521107, 536917, 554821, 567451, 640039, 663959, 803669, 805799, 807127, 822343, 885497, 907163, 917443, 994561]
+   class ε=−1  expected      28.0 (derived)   counted     34   (counted − expected)/√expected = +1.14
+      below 10,000: [467, 3797]
+      all: [467, 3797, 18211, 33871, 49031, 65867, 90439, 158881, 159623, 182471, 209597, 255457, 333821, 337661, 354149, 357703, 384827, 441923, 475469, 535967, 539311, 566833, 621893, 670897, 674563, 682411, 758179, 776507, 800557, 813083, 836861, 872243, 928289, 955607]
+   Ono         expected      28.0 (derived)   counted     22   (counted − expected)/√expected = -1.13
+      below 10,000: []
+      all: [12653, 35603, 57829, 85531, 127289, 132707, 176933, 274931, 294157, 333269, 438287, 453847, 478579, 516991, 595571, 733099, 761113, 835909, 867397, 897191, 904907, 994559]
+   some piece with the number 0 (one form is enough): counted 2928, expected 2935.1 (derived)
+   seconds: 96
+
+ℓ = 59 (weight 56): the class has 2 forms; on lane ℓ its pieces have degrees [2]; pivot coefficients [1, 5]
+   q-expansions to 5000001 terms (103 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected      22.6 (derived)   counted     20   (counted − expected)/√expected = -0.54
+      below 10,000: []
+      all: [76123, 114221, 194443, 310357, 322261, 487391, 490309, 552983, 583031, 630181, 673811, 697951, 758111, 792703, 818309, 829831, 857903, 866051, 908489, 910069]
+   class ε=−1  expected      22.6 (derived)   counted     15   (counted − expected)/√expected = -1.59
+      below 10,000: []
+      all: [42017, 114847, 172213, 184073, 284423, 514057, 526601, 606493, 643369, 684329, 684949, 815033, 827063, 838141, 961277]
+   Ono         expected      22.6 (derived)   counted     27   (counted − expected)/√expected = +0.94
+      below 10,000: [4091]
+      all: [4091, 25349, 28979, 39359, 46183, 57097, 107857, 181813, 227827, 272059, 281867, 294989, 326147, 341879, 342061, 471503, 567209, 607417, 647453, 682411, 722123, 753659, 773767, 787777, 837979, 867011, 890551]
+   some piece with the number 0 (one form is enough): counted 27, expected 22.6 (derived)
+   seconds: 105
+
+ℓ = 61 (weight 58): the class has 3 forms; on lane ℓ its pieces have degrees [1, 2]; pivot coefficients [1, 5, 7]
+   q-expansions to 7000001 terms (190 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected       0.3 (derived)   counted      0   (counted − expected)/√expected = -0.59
+      below 10,000: []
+      all: []
+   class ε=−1  expected       0.3 (derived)   counted      0   (counted − expected)/√expected = -0.59
+      below 10,000: []
+      all: []
+   Ono         expected       0.3 (derived)   counted      0   (counted − expected)/√expected = -0.59
+      below 10,000: []
+      all: []
+   some piece with the number 0 (one form is enough): counted 1294, expected 1307.8 (derived)
+   seconds: 192
+
+ℓ = 13 (weight 10): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (4 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    6035.6 (derived)   counted   5940   (counted − expected)/√expected = -1.23
+      below 10,000: [241, 409, 809, 823, 839, 991, 1229, 1231, 1277, 1291, 1307, 1321, 1367, 1933, 1993, 2003, 2377, 2837, 2879, 3049, 3083, 3121, 3347, 3407, 3449, 3613, 3631, 3767, 4007, 4127, 4349, 4421, 4549, 4603, 4657, 4733, 4813, 4817, 5077, 5231, 5639, 5651, 5791, 5857, 5903, 5927, 6047, 6073, 6163, 6323, 6563, 6691, 6719, 6883, 6947, 7151, 7211, 7229, 7331, 7369] …
+   class ε=−1  expected    6035.6 (derived)   counted   6192   (counted − expected)/√expected = +2.01
+      below 10,000: [97, 103, 109, 191, 251, 283, 397, 439, 463, 727, 751, 769, 1063, 1223, 1259, 1361, 1409, 1543, 1621, 1657, 1733, 1789, 1831, 1861, 1979, 2153, 2467, 2473, 2477, 2531, 2549, 2617, 2719, 2789, 2887, 2909, 2927, 3011, 3079, 3163, 3457, 3607, 3727, 3797, 3889, 4273, 4397, 4481, 4583, 4877, 4967, 5011, 5099, 5233, 5273, 5393, 5417, 5441, 5557, 5563] …
+   Ono         expected    6073.9 (derived)   counted   6189   (counted − expected)/√expected = +1.48
+      below 10,000: [59, 73, 131, 167, 389, 433, 479, 563, 587, 673, 691, 719, 859, 1091, 1297, 1319, 1549, 1579, 1619, 1747, 1901, 1931, 2027, 2053, 2069, 2179, 2213, 2447, 2621, 2707, 2819, 2857, 2897, 3041, 3061, 3119, 3181, 3187, 3257, 3259, 3491, 3539, 3583, 3919, 3967, 4013, 4049, 4093, 4201, 4547, 4591, 4759, 4861, 4889, 4937, 4999, 5119, 5179, 5399, 5519] …
+   Ono         where χ = -1:   2857 of  39256 primes = 1/13.74  (predicted 1/14)
+   Ono         where χ = +1:   3332 of  39239 primes = 1/11.78  (predicted 1/12)
+   class ε=+1  where χ = -1:   2778 of  39199 primes = 1/14.11  (predicted 1/14)
+   class ε=+1  where χ = +0:    485 of   6553 primes = 1/13.51  (predicted 1/13)
+   class ε=+1  where χ = +1:   2677 of  32743 primes = 1/12.23  (predicted 1/12)
+   class ε=−1  where χ = -1:   2879 of  39199 primes = 1/13.62  (predicted 1/14)
+   class ε=−1  where χ = +0:    535 of   6553 primes = 1/12.25  (predicted 1/13)
+   class ε=−1  where χ = +1:   2778 of  32743 primes = 1/11.79  (predicted 1/12)
+   some piece with the number 0 (one form is enough): counted 6189, expected 6073.9 (derived)
+   seconds: 6
+
+ℓ = 17 (weight 14): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (4 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    4616.4 (derived)   counted   4658   (counted − expected)/√expected = +0.61
+      below 10,000: [23, 67, 107, 373, 641, 709, 1409, 1619, 1669, 1901, 2221, 2477, 2903, 2939, 3041, 3343, 3607, 3617, 3631, 3719, 3851, 3929, 3931, 4051, 4079, 4099, 4127, 4451, 4547, 4603, 4801, 4993, 5009, 5419, 5477, 5657, 5881, 5953, 6263, 6329, 6361, 6389, 6481, 6547, 6607, 6829, 6917, 6977, 7103, 7219, 7243, 7297, 7351, 7459, 7577, 7583, 7699, 7789, 7951, 8111] …
+   class ε=−1  expected    4616.4 (derived)   counted   4568   (counted − expected)/√expected = -0.71
+      below 10,000: [127, 151, 191, 293, 359, 587, 929, 1031, 1093, 1123, 1249, 1279, 1381, 1429, 1499, 1511, 1777, 1913, 1933, 1973, 2141, 2213, 2243, 2861, 2969, 3259, 3271, 4001, 4013, 4091, 4349, 4441, 4447, 4583, 4597, 4691, 4793, 5003, 5167, 5179, 5527, 5653, 5669, 6047, 6073, 6217, 6299, 6353, 6619, 6733, 7027, 7057, 7229, 7331, 7369, 7477, 7487, 7547, 7603, 7669] …
+   Ono         expected    4632.8 (derived)   counted   4611   (counted − expected)/√expected = -0.32
+      below 10,000: [41, 89, 103, 433, 571, 607, 677, 701, 743, 887, 1013, 1109, 1187, 1283, 1301, 1487, 1667, 1831, 1867, 2203, 2207, 2707, 2917, 3191, 3251, 3623, 3917, 4027, 4373, 4397, 4861, 5081, 5689, 5783, 5903, 5923, 6037, 6113, 6131, 6221, 6287, 6491, 6551, 6577, 6841, 6983, 7079, 7129, 7283, 7451, 7489, 7523, 7681, 7687, 7703, 7901, 8221, 8297, 8849, 8863] …
+   Ono         where χ = -1:   2253 of  39339 primes = 1/17.46  (predicted 1/18)
+   Ono         where χ = +1:   2358 of  39156 primes = 1/16.61  (predicted 1/16)
+   class ε=+1  where χ = -1:   2173 of  39265 primes = 1/18.07  (predicted 1/18)
+   class ε=+1  where χ = +0:    275 of   4849 primes = 1/17.63  (predicted 1/17)
+   class ε=+1  where χ = +1:   2210 of  34381 primes = 1/15.56  (predicted 1/16)
+   class ε=−1  where χ = -1:   2216 of  39265 primes = 1/17.72  (predicted 1/18)
+   class ε=−1  where χ = +0:    269 of   4849 primes = 1/18.03  (predicted 1/17)
+   class ε=−1  where χ = +1:   2083 of  34381 primes = 1/16.51  (predicted 1/16)
+   some piece with the number 0 (one form is enough): counted 4611, expected 4632.8 (derived)
+   seconds: 6
+
+ℓ = 19 (weight 16): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (5 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    4130.5 (derived)   counted   4085   (counted − expected)/√expected = -0.71
+      below 10,000: [13, 23, 61, 97, 103, 137, 269, 631, 857, 977, 1093, 1153, 1217, 1277, 1291, 1549, 1667, 1783, 2029, 2311, 2843, 2971, 3011, 3251, 3331, 3391, 3461, 3467, 3793, 3907, 4073, 4241, 4637, 4651, 4877, 4987, 5113, 5261, 5387, 5783, 5953, 6037, 6199, 6229, 6287, 6451, 6529, 6761, 6911, 6971, 6991, 8039, 8081, 8287, 8563, 8647, 8689, 9029, 9199, 9283] …
+   class ε=−1  expected    4130.5 (derived)   counted   4220   (counted − expected)/√expected = +1.39
+      below 10,000: [109, 193, 271, 431, 571, 647, 673, 827, 919, 929, 1103, 1373, 1657, 1663, 1753, 1973, 2081, 2203, 2447, 2677, 2699, 2749, 2909, 2953, 3041, 3541, 3719, 3727, 3821, 4217, 4481, 4673, 4789, 5009, 5059, 5303, 5981, 6073, 6133, 6397, 6599, 6871, 7019, 7559, 7727, 7829, 7993, 8093, 8377, 8737, 9013, 9257, 9349, 9521, 9539, 9649]
+   Ono         expected    4143.2 (derived)   counted   4114   (counted − expected)/√expected = -0.45
+      below 10,000: [101, 191, 211, 337, 349, 739, 1129, 1193, 1249, 1381, 1511, 1637, 1777, 1823, 1933, 2383, 2417, 2617, 2729, 2753, 3343, 3373, 3877, 4021, 4079, 4201, 4273, 4657, 4703, 4729, 5107, 5171, 5237, 5333, 5483, 5519, 5569, 5867, 5939, 6091, 6173, 6197, 6211, 6301, 6763, 7477, 7853, 8297, 8387, 8599, 9173, 9533]
+   Ono         where χ = -1:   1950 of  39178 primes = 1/20.09  (predicted 1/20)
+   Ono         where χ = +1:   2164 of  39317 primes = 1/18.17  (predicted 1/18)
+   class ε=+1  where χ = -1:   1932 of  39265 primes = 1/20.32  (predicted 1/20)
+   class ε=+1  where χ = +0:    262 of   4382 primes = 1/16.73  (predicted 1/19)
+   class ε=+1  where χ = +1:   1891 of  34848 primes = 1/18.43  (predicted 1/18)
+   class ε=−1  where χ = -1:   2008 of  39265 primes = 1/19.55  (predicted 1/20)
+   class ε=−1  where χ = +0:    234 of   4382 primes = 1/18.73  (predicted 1/19)
+   class ε=−1  where χ = +1:   1978 of  34848 primes = 1/17.62  (predicted 1/18)
+   some piece with the number 0 (one form is enough): counted 4114, expected 4143.2 (derived)
+   seconds: 6
+
+ℓ = 23 (weight 20): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (5 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    3412.8 (derived)   counted   3389   (counted − expected)/√expected = -0.41
+      below 10,000: [421, 661, 673, 857, 1277, 1663, 1753, 1993, 2549, 2687, 2749, 2897, 3793, 4111, 4231, 4831, 5351, 5407, 5623, 5737, 5801, 5843, 5923, 5981, 6143, 6199, 6257, 6353, 6823, 6869, 7433, 8101, 8117, 8291, 8837, 8839, 8969, 9161, 9293, 9533, 9901]
+   class ε=−1  expected    3412.8 (derived)   counted   3414   (counted − expected)/√expected = +0.02
+      below 10,000: [107, 503, 587, 593, 757, 769, 911, 1049, 1381, 1531, 1823, 1847, 1933, 2503, 2803, 3001, 3307, 3413, 3461, 3571, 4021, 4051, 4201, 4441, 4457, 4951, 4987, 5039, 5273, 5381, 5861, 6221, 6719, 7151, 7481, 7487, 7607, 7681, 7789, 7793, 7919, 8087, 8269, 8377, 8599, 8747, 8819]
+   Ono         expected    3419.5 (derived)   counted   3354   (counted − expected)/√expected = -1.12
+      below 10,000: [5, 19, 37, 47, 67, 179, 239, 353, 599, 761, 853, 997, 1319, 1493, 1553, 1789, 1997, 2239, 2731, 3319, 3541, 3547, 3881, 4229, 4339, 4493, 4909, 4937, 5167, 6007, 6367, 6841, 7841, 8699, 9001, 9011, 9739, 9769, 9907, 9929]
+   Ono         where χ = -1:   1623 of  39185 primes = 1/24.14  (predicted 1/24)
+   Ono         where χ = +1:   1731 of  39310 primes = 1/22.71  (predicted 1/22)
+   class ε=+1  where χ = -1:   1601 of  39187 primes = 1/24.48  (predicted 1/24)
+   class ε=+1  where χ = +0:    138 of   3573 primes = 1/25.89  (predicted 1/23)
+   class ε=+1  where χ = +1:   1650 of  35735 primes = 1/21.66  (predicted 1/22)
+   class ε=−1  where χ = -1:   1668 of  39187 primes = 1/23.49  (predicted 1/24)
+   class ε=−1  where χ = +0:    159 of   3573 primes = 1/22.47  (predicted 1/23)
+   class ε=−1  where χ = +1:   1587 of  35735 primes = 1/22.52  (predicted 1/22)
+   some piece with the number 0 (one form is enough): counted 3354, expected 3419.5 (derived)
+   seconds: 7
+
+ℓ = 29 (weight 26): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (6 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    2706.5 (derived)   counted   2702   (counted − expected)/√expected = -0.09
+      below 10,000: [17, 139, 227, 229, 347, 367, 431, 443, 509, 577, 631, 691, 773, 1117, 1381, 1481, 1697, 1741, 2287, 2347, 2351, 2633, 3617, 3697, 3761, 3919, 4129, 4177, 4337, 4561, 4813, 5189, 5273, 5479, 5843, 5849, 5987, 6079, 6373, 6661, 6917, 7001, 7027, 7079, 7247, 8171, 8647, 8719, 8779, 9157, 9173, 9239, 9277, 9397, 9769]
+   class ε=−1  expected    2706.5 (derived)   counted   2809   (counted − expected)/√expected = +1.97
+      below 10,000: [41, 137, 193, 439, 701, 809, 1021, 1091, 1201, 1291, 1367, 2753, 2767, 3037, 3191, 3259, 3343, 3347, 3373, 3499, 3947, 4139, 4339, 4861, 4877, 4931, 4969, 5297, 5711, 6101, 6143, 6151, 6269, 6947, 6997, 7517, 7841, 8243, 8297, 8741, 9739, 9791, 9901, 9923]
+   Ono         expected    2709.9 (derived)   counted   2680   (counted − expected)/√expected = -0.57
+      below 10,000: [331, 1373, 1523, 1637, 1753, 1759, 1783, 2063, 2069, 2089, 2423, 2459, 2711, 2719, 2851, 3079, 3739, 3889, 4073, 4241, 4441, 4517, 4643, 4817, 5059, 5153, 5581, 5749, 6719, 6793, 7069, 7297, 7681, 8087, 8111, 8167, 8263, 8369, 9391, 9497, 9697, 9719, 9871]
+   Ono         where χ = -1:   1333 of  39254 primes = 1/29.45  (predicted 1/30)
+   Ono         where χ = +1:   1347 of  39241 primes = 1/29.13  (predicted 1/28)
+   class ε=+1  where χ = -1:   1259 of  39284 primes = 1/31.20  (predicted 1/30)
+   class ε=+1  where χ = +0:    101 of   2826 primes = 1/27.98  (predicted 1/29)
+   class ε=+1  where χ = +1:   1342 of  36385 primes = 1/27.11  (predicted 1/28)
+   class ε=−1  where χ = -1:   1344 of  39284 primes = 1/29.23  (predicted 1/30)
+   class ε=−1  where χ = +0:    104 of   2826 primes = 1/27.17  (predicted 1/29)
+   class ε=−1  where χ = +1:   1361 of  36385 primes = 1/26.73  (predicted 1/28)
+   some piece with the number 0 (one form is enough): counted 2680, expected 2709.9 (derived)
+   seconds: 8
+
+ℓ = 31 (weight 28): the class has 1 form; on lane ℓ its pieces have degrees [1]; pivot coefficients [1]
+   q-expansions to 1000001 terms (6 s)
+   78495 primes Q from 5 to 1000000 (ℓ left out)  (2 s)
+   class ε=+1  expected    2532.0 (derived)   counted   2512   (counted − expected)/√expected = -0.40
+      below 10,000: [181, 193, 587, 727, 997, 1201, 1327, 1409, 1451, 1723, 1933, 2069, 2081, 2311, 2339, 2711, 2833, 3119, 3253, 3989, 4327, 4519, 4831, 5273, 5563, 5623, 5923, 6299, 7069, 7193, 8093, 8887, 9221, 9319, 9733]
+   class ε=−1  expected    2532.0 (derived)   counted   2494   (counted − expected)/√expected = -0.76
+      below 10,000: [101, 179, 239, 271, 859, 971, 1013, 1301, 1483, 1657, 1823, 2141, 2203, 3461, 3559, 3931, 4079, 4259, 4373, 4493, 4643, 4889, 5531, 5897, 6263, 6301, 6529, 6551, 6803, 6997, 7817, 7949, 9391, 9677, 9887]
+   Ono         expected    2534.9 (derived)   counted   2428   (counted − expected)/√expected = -2.12
+      below 10,000: [107, 229, 283, 383, 463, 911, 1051, 1109, 1129, 1667, 2383, 2417, 2551, 2753, 2879, 3361, 4007, 4139, 4271, 4391, 4663, 5021, 5023, 5471, 5647, 5861, 5869, 6271, 7109, 7841, 8863, 9283, 9371, 9437, 9749]
+   Ono         where χ = -1:   1177 of  39183 primes = 1/33.29  (predicted 1/32)
+   Ono         where χ = +1:   1251 of  39312 primes = 1/31.42  (predicted 1/30)
+   class ε=+1  where χ = -1:   1187 of  39238 primes = 1/33.06  (predicted 1/32)
+   class ε=+1  where χ = +0:     77 of   2618 primes = 1/34.00  (predicted 1/31)
+   class ε=+1  where χ = +1:   1248 of  36639 primes = 1/29.36  (predicted 1/30)
+   class ε=−1  where χ = -1:   1230 of  39238 primes = 1/31.90  (predicted 1/32)
+   class ε=−1  where χ = +0:     94 of   2618 primes = 1/27.85  (predicted 1/31)
+   class ε=−1  where χ = +1:   1170 of  36639 primes = 1/31.32  (predicted 1/30)
+   some piece with the number 0 (one form is enough): counted 2428, expected 2534.9 (derived)
+   seconds: 8
+
+seconds: 347

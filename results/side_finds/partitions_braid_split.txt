@@ -1,0 +1,45 @@
+
+ℓ = 47: 2 forms; constants and λ(5) on lane ℓ^7; T₅ = R(T_ℓ) on lane ℓ with R = [6, 34]
+   a group of 2 forms (constants' factor on lane ℓ [19, 18, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 1
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (1 s)
+      levels 5 → 7 (6 values of M): digits agreeing with its own constant: [3, 3, 3, 3, 3, 3];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (58 s)
+      levels 7 → 9 (1 values of M): digits agreeing with its own constant: [4];  with its conjugates: [[0]]  (76 s)
+
+ℓ = 59: 2 forms; constants and λ(5) on lane ℓ^7; T₅ = R(T_ℓ) on lane ℓ with R = [4, 20]
+   a group of 2 forms (constants' factor on lane ℓ [57, 53, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 1
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (1 s)
+      levels 5 → 7 (6 values of M): digits agreeing with its own constant: [3, 3, 3, 3, 3, 3];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (147 s)
+      levels 7 → 9: past N = 1.2e+16, not computed
+
+ℓ = 61: 3 forms; constants and λ(5) on lane ℓ^7; T₅ = R(T_ℓ) on lane ℓ with R = [50, 40, 53]
+   a group of 2 forms (constants' factor on lane ℓ [18, 2, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 1
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: [[0], [0], [0], [0], [0], [0]]  (9 s)
+      levels 5 → 7 (5 values of M): digits agreeing with its own constant: [3, 3, 3, 3, 3];  with its conjugates: [[0], [0], [0], [0], [0]]  (1282 s)
+      levels 7 → 9: past N = 1.2e+16, not computed
+   a group of 1 form (constants' factor on lane ℓ [29, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 0
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: (none: one form)  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: (none: one form)  (0 s)
+      levels 5 → 7 (5 values of M): digits agreeing with its own constant: [3, 3, 3, 3, 4];  with its conjugates: (none: one form)  (1 s)
+      levels 7 → 9: past N = 1.2e+16, not computed
+
+ℓ = 73: 3 forms; constants and λ(5) on lane ℓ^7; T₅ = R(T_ℓ) on lane ℓ with R = [50, 17, 3]
+   a group of 3 forms (constants' factor on lane ℓ [29, 71, 65, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 2
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]  (17 s)
+      levels 5 → 7 (1 values of M): digits agreeing with its own constant: [3];  with its conjugates: [[0, 0]]  (248 s)
+      levels 7 → 9: past N = 1.2e+16, not computed
+
+ℓ = 97: 4 forms; constants and λ(5) on lane ℓ^4; T₅ = R(T_ℓ) on lane ℓ with R = [47, 71, 65, 17]
+   a group of 3 forms (constants' factor on lane ℓ [33, 8, 50, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 2
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]  (1 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]  (277 s)
+      levels 5 → 7: past N = 1.2e+16, not computed
+   a group of 1 form (constants' factor on lane ℓ [69, 1]): λ₁(5) paired on lane ℓ: yes;  its conjugates: 0
+      levels 1 → 3 (6 values of M): digits agreeing with its own constant: [1, 1, 1, 1, 1, 1];  with its conjugates: (none: one form)  (0 s)
+      levels 3 → 5 (6 values of M): digits agreeing with its own constant: [2, 2, 2, 2, 2, 2];  with its conjugates: (none: one form)  (0 s)
+      levels 5 → 7: past N = 1.2e+16, not computed
+
+the largest partition number used: p(10721336237467474);  seconds: 2118

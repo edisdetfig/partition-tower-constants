@@ -1,0 +1,122 @@
+
+ℓ = 13 (6 s): tower levels 0..6; (2|ℓ) = -1, (−1|ℓ) = +1
+   newforms of weight 10 on Γ0(2) with U₂ = +1·2^4 (w₂ = -1): 1; T_ℓ charpoly on lane ℓ [6, 1]
+   newforms of weight 10 on Γ0(2) with U₂ = -1·2^4 (w₂ = +1): 0; T_ℓ charpoly on lane ℓ [1]
+   w₂ = −1, ψ = 1: law in y [7, 5, 1] (lowest first): HOLDS on 16 checks
+   w₂ = −1, ψ = (−1|ℓ): law in y [7, 5, 1] (lowest first): HOLDS on 16 checks
+   w₂ = −1, ψ = (2|ℓ): law in y [6, 6, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−2|ℓ): law in y [6, 6, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = 1: law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−1|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (2|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−2|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = 1: law in y [7, 5, 1] (lowest first): HOLDS on 16 checks
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [7, 5, 1] (lowest first): HOLDS on 16 checks
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [6, 6, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [6, 6, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = 1: law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+
+ℓ = 17 (6 s): tower levels 0..5; (2|ℓ) = +1, (−1|ℓ) = +1
+   newforms of weight 14 on Γ0(2) with U₂ = +1·2^6 (w₂ = -1): 1; T_ℓ charpoly on lane ℓ [9, 1]
+   newforms of weight 14 on Γ0(2) with U₂ = -1·2^6 (w₂ = +1): 1; T_ℓ charpoly on lane ℓ [2, 1]
+   w₂ = −1, ψ = 1: law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−1|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (2|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−2|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = 1: law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = +1, ψ = (−1|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = +1, ψ = (2|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = +1, ψ = (−2|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = (2|ℓ), ψ = 1: law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [15, 1, 1] (lowest first): HOLDS on 12 checks
+   w₂ = −(2|ℓ), ψ = 1: law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [8, 8, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+
+ℓ = 19 (6 s): tower levels 0..5; (2|ℓ) = -1, (−1|ℓ) = -1
+   newforms of weight 16 on Γ0(2) with U₂ = +1·2^7 (w₂ = -1): 0; T_ℓ charpoly on lane ℓ [1]
+   newforms of weight 16 on Γ0(2) with U₂ = -1·2^7 (w₂ = +1): 1; T_ℓ charpoly on lane ℓ [16, 1]
+   w₂ = −1, ψ = 1: law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−1|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (2|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−2|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = 1: law in y [3, 15, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−1|ℓ): law in y [16, 2, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (2|ℓ): law in y [16, 2, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−2|ℓ): law in y [3, 15, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = 1: law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [18, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = 1: law in y [3, 15, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [16, 2, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [16, 2, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [3, 15, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+
+ℓ = 23 (6 s): tower levels 0..5; (2|ℓ) = +1, (−1|ℓ) = -1
+   newforms of weight 20 on Γ0(2) with U₂ = +1·2^9 (w₂ = -1): 1; T_ℓ charpoly on lane ℓ [2, 1]
+   newforms of weight 20 on Γ0(2) with U₂ = -1·2^9 (w₂ = +1): 1; T_ℓ charpoly on lane ℓ [10, 1]
+   w₂ = −1, ψ = 1: law in y [21, 1, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−1|ℓ): law in y [2, 20, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (2|ℓ): law in y [21, 1, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −1, ψ = (−2|ℓ): law in y [2, 20, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = 1: law in y [13, 9, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−1|ℓ): law in y [10, 12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (2|ℓ): law in y [13, 9, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = +1, ψ = (−2|ℓ): law in y [10, 12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = 1: law in y [13, 9, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [10, 12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [13, 9, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [10, 12, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = 1: law in y [21, 1, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [2, 20, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [21, 1, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [2, 20, 1] (lowest first): fails on 2 checks (first failure at level 1, n = 1)
+
+ℓ = 29 (6 s): tower levels 0..4; (2|ℓ) = -1, (−1|ℓ) = +1
+   newforms of weight 26 on Γ0(2) with U₂ = +1·2^12 (w₂ = -1): 2; T_ℓ charpoly on lane ℓ [14, 21, 1]
+   newforms of weight 26 on Γ0(2) with U₂ = -1·2^12 (w₂ = +1): 1; T_ℓ charpoly on lane ℓ [3, 1]
+   w₂ = −1, ψ = 1: law in y [15, 22, 20, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (−1|ℓ): law in y [15, 22, 20, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (2|ℓ): law in y [15, 6, 7, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (−2|ℓ): law in y [15, 6, 7, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = 1: law in y [26, 2, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (−1|ℓ): law in y [26, 2, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (2|ℓ): law in y [3, 25, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (−2|ℓ): law in y [3, 25, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = 1: law in y [15, 22, 20, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [15, 22, 20, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [15, 6, 7, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [15, 6, 7, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = 1: law in y [26, 2, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [26, 2, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [3, 25, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [3, 25, 1] (lowest first): no checks on 0 checks
+
+ℓ = 31 (6 s): tower levels 0..4; (2|ℓ) = +1, (−1|ℓ) = -1
+   newforms of weight 28 on Γ0(2) with U₂ = +1·2^13 (w₂ = -1): 1; T_ℓ charpoly on lane ℓ [25, 1]
+   newforms of weight 28 on Γ0(2) with U₂ = -1·2^13 (w₂ = +1): 1; T_ℓ charpoly on lane ℓ [11, 1]
+   w₂ = −1, ψ = 1: law in y [6, 24, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (−1|ℓ): law in y [25, 5, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (2|ℓ): law in y [6, 24, 1] (lowest first): no checks on 0 checks
+   w₂ = −1, ψ = (−2|ℓ): law in y [25, 5, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = 1: law in y [20, 10, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (−1|ℓ): law in y [11, 19, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (2|ℓ): law in y [20, 10, 1] (lowest first): no checks on 0 checks
+   w₂ = +1, ψ = (−2|ℓ): law in y [11, 19, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = 1: law in y [20, 10, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (−1|ℓ): law in y [11, 19, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (2|ℓ): law in y [20, 10, 1] (lowest first): no checks on 0 checks
+   w₂ = (2|ℓ), ψ = (−2|ℓ): law in y [11, 19, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = 1: law in y [6, 24, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (−1|ℓ): law in y [25, 5, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (2|ℓ): law in y [6, 24, 1] (lowest first): no checks on 0 checks
+   w₂ = −(2|ℓ), ψ = (−2|ℓ): law in y [25, 5, 1] (lowest first): no checks on 0 checks
+
+seconds: 36

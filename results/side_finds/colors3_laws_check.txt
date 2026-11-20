@@ -1,0 +1,19 @@
+towers: colors_tower_r3_N100000000_11_17.json (n < 100000000)
+
+ℓ = 17: levels [1, 2, 3, 4, 5, 6]; every value divisible by the law's power: True
+   the forms' constant: [4, 12, 7, 2, 10, 4, 8] (the series' reach)
+   (1,3): digits shared with the forms' constant, n = 0..: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0] (of 7 available)
+   (2,4): digits shared with the forms' constant, n = 0..: [1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1] (of 7 available)
+   (3,5): digits shared with the forms' constant, n = 0..: [1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1] (of 7 available)
+   (4,6): digits shared with the forms' constant, n = 0..: [2, 2, 2, 2] (of 7 available)
+
+ℓ = 11: levels [1, 2, 3, 4, 5, 6, 7]; every value divisible by the law's power: True
+   the pair's polynomial (forms, lane 11^8): x² + 75217570·x + 20587526
+   (1,3,5): the law holds to 11^…, n = 0..: [2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 2, 2] (of 8 available)
+   (2,4,6): the law holds to 11^…, n = 0..: [4, 4, 4, 4, 4, 4, 7, 4, 5, 4, 4, 4] (of 8 available)
+   (3,5,7): the law holds to 11^…, n = 0..: [6, 6, 6, 8, 6] (of 8 available)
+   (1,3): H′_(b+2)/H′_b on lane 11 takes the values [4, 9] (one constant would give one)
+   (2,4): H′_(b+2)/H′_b on lane 11 takes the values [1] (one constant would give one)
+   (3,5): H′_(b+2)/H′_b on lane 11 takes the values [3, 8] (one constant would give one)
+   (4,6): H′_(b+2)/H′_b on lane 11 takes the values [9] (one constant would give one)
+   (5,7): H′_(b+2)/H′_b on lane 11 takes the values [0, 2] (one constant would give one)

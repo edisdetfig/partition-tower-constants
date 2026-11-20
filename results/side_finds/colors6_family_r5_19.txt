@@ -1,0 +1,22 @@
+ℓ = 19, 5 colours, k₀ = 12, level 6, U₂ sign +1, U₃ sign +1 at k₀, 15 weights, modulo ℓ^15; FLINT 0.9.0
+1  the class at weight 12: 1 form;  T_ℓ polynomial on lane ℓ [3, 1]
+2  weight 12 (dimension 13, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 30 (dimension 31, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 48 (dimension 49, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 66 (dimension 67, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 84 (dimension 85, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 102 (dimension 103, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 120 (dimension 121, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 138 (dimension 139, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (0 s)
+2  weight 156 (dimension 157, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (1 s)
+2  weight 174 (dimension 175, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (1 s)
+2  weight 192 (dimension 193, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (2 s)
+2  weight 210 (dimension 211, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (2 s)
+2  weight 228 (dimension 229, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (2 s)
+2  weight 246 (dimension 247, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (2 s)
+2  weight 264 (dimension 265, ordinary part 11): the class's piece 1; U_ℓ polynomial on lane ℓ [3, 1]  (4 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]]
+   the polynomial of u(−6) (lowest first) on lane ℓ: [3, 1];  on lane ℓ^15: [6977084727155044860, 1]
+   u(−6), digits lowest first: [16, 1, 6, 0, 4, 13, 15, 10, 15, 3, 16, 12, 1, 5, 10];  −u: [3, 17, 12, 18, 14, 5, 3, 8, 3, 15, 2, 6, 17, 13, 8]
+
+seconds: 15

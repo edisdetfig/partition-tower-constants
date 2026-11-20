@@ -1,0 +1,86 @@
+l=13 weight 10: class dim 1 (floor 1); charpoly deg 1, MINPOLY deg 1
+factor degrees: [1]  roots in F_l times (3|l): [6]
+l=17 weight 14: class dim 2 (floor 1); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [6]
+repeated factor [6, 1] x 2
+  root 11 eigenspace dim 1
+l=19 weight 16: class dim 1 (floor 1); charpoly deg 1, MINPOLY deg 1
+factor degrees: [1]  roots in F_l times (3|l): [10]
+l=23 weight 20: class dim 1 (floor 1); charpoly deg 1, MINPOLY deg 1
+factor degrees: [1]  roots in F_l times (3|l): [5]
+l=29 weight 26: class dim 2 (floor 1); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [3]
+repeated factor [3, 1] x 2
+  root 26 eigenspace dim 1
+l=31 weight 28: class dim 1 (floor 1); charpoly deg 1, MINPOLY deg 1
+factor degrees: [1]  roots in F_l times (3|l): [30]
+l=37 weight 34: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [15, 34]
+l=41 weight 38: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [23, 31]
+l=43 weight 40: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [6, 31]
+l=47 weight 44: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [2]  roots in F_l times (3|l): []
+l=53 weight 50: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [1, 1]  roots in F_l times (3|l): [7, 43]
+l=59 weight 56: class dim 2 (floor 2); charpoly deg 2, MINPOLY deg 2
+factor degrees: [2]  roots in F_l times (3|l): []
+l=61 weight 58: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [1, 2]  roots in F_l times (3|l): [32]
+l=67 weight 64: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [1, 2]  roots in F_l times (3|l): [41]
+l=71 weight 68: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [3]  roots in F_l times (3|l): []
+l=73 weight 70: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [3]  roots in F_l times (3|l): []
+l=79 weight 76: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [1, 2]  roots in F_l times (3|l): [18]
+l=83 weight 80: class dim 3 (floor 3); charpoly deg 3, MINPOLY deg 3
+factor degrees: [1, 2]  roots in F_l times (3|l): [16]
+l=89 weight 86: class dim 4 (floor 4); charpoly deg 4, MINPOLY deg 4
+factor degrees: [2, 2]  roots in F_l times (3|l): []
+l=97 weight 94: class dim 4 (floor 4); charpoly deg 4, MINPOLY deg 4
+factor degrees: [1, 3]  roots in F_l times (3|l): [28]
+l=101 weight 98: class dim 4 (floor 4); charpoly deg 4, MINPOLY deg 4
+factor degrees: [1, 3]  roots in F_l times (3|l): [74]
+l=103 weight 100: class dim 4 (floor 4); charpoly deg 4, MINPOLY deg 4
+factor degrees: [1, 3]  roots in F_l times (3|l): [13]
+l=107 weight 104: class dim 4 (floor 4); charpoly deg 4, MINPOLY deg 4
+factor degrees: [4]  roots in F_l times (3|l): []
+l=109 weight 106: class dim 5 (floor 5); charpoly deg 5, MINPOLY deg 5
+factor degrees: [5]  roots in F_l times (3|l): []
+l=113 weight 110: class dim 5 (floor 5); charpoly deg 5, MINPOLY deg 5
+factor degrees: [1, 1, 3]  roots in F_l times (3|l): [63, 72]
+l=127 weight 124: class dim 5 (floor 5); charpoly deg 5, MINPOLY deg 5
+factor degrees: [1, 4]  roots in F_l times (3|l): [49]
+l=131 weight 128: class dim 5 (floor 5); charpoly deg 5, MINPOLY deg 5
+factor degrees: [5]  roots in F_l times (3|l): []
+l=137 weight 134: class dim 6 (floor 6); charpoly deg 6, MINPOLY deg 6
+factor degrees: [1, 2, 3]  roots in F_l times (3|l): [10]
+l=139 weight 136: class dim 6 (floor 6); charpoly deg 6, MINPOLY deg 6
+factor degrees: [1, 1, 2, 2]  roots in F_l times (3|l): [70, 84]
+l=149 weight 146: class dim 6 (floor 6); charpoly deg 6, MINPOLY deg 6
+factor degrees: [1, 1, 4]  roots in F_l times (3|l): [23, 82]
+l=151 weight 148: class dim 6 (floor 6); charpoly deg 6, MINPOLY deg 6
+factor degrees: [1, 1, 4]  roots in F_l times (3|l): [43, 58]
+l=157 weight 154: class dim 7 (floor 7); charpoly deg 7, MINPOLY deg 7
+factor degrees: [1, 1, 5]  roots in F_l times (3|l): [37, 138]
+l=163 weight 160: class dim 7 (floor 7); charpoly deg 7, MINPOLY deg 7
+factor degrees: [1, 6]  roots in F_l times (3|l): [160]
+l=167 weight 164: class dim 7 (floor 7); charpoly deg 7, MINPOLY deg 7
+factor degrees: [1, 2, 4]  roots in F_l times (3|l): [71]
+l=173 weight 170: class dim 7 (floor 7); charpoly deg 7, MINPOLY deg 7
+factor degrees: [1, 1, 5]  roots in F_l times (3|l): [85, 104]
+l=179 weight 176: class dim 7 (floor 7); charpoly deg 7, MINPOLY deg 7
+factor degrees: [1, 1, 1, 4]  roots in F_l times (3|l): [11, 27, 99]
+l=181 weight 178: class dim 8 (floor 8); charpoly deg 8, MINPOLY deg 8
+factor degrees: [1, 2, 5]  roots in F_l times (3|l): [12]
+l=191 weight 188: class dim 8 (floor 8); charpoly deg 8, MINPOLY deg 8
+factor degrees: [2, 3, 3]  roots in F_l times (3|l): []
+l=193 weight 190: class dim 8 (floor 8); charpoly deg 8, MINPOLY deg 8
+factor degrees: [2, 3, 3]  roots in F_l times (3|l): []
+l=197 weight 194: class dim 8 (floor 8); charpoly deg 8, MINPOLY deg 8
+factor degrees: [1, 7]  roots in F_l times (3|l): [119]
+l=199 weight 196: class dim 8 (floor 8); charpoly deg 8, MINPOLY deg 8
+factor degrees: [3, 5]  roots in F_l times (3|l): []

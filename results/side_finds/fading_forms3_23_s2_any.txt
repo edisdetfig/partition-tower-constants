@@ -1,0 +1,5 @@
+ℓ = 23, slope 2, weights −2 + 506·(x + 1) for x = 0..0, modulo ℓ^38 (N = 8 and 30 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-20 form, the only one of its class; T_q numbers {5: 0, 7: 13, 11: 18, 13: 12}
+   weight 504 (dimension 505), every system: the piece [26], new at 2 and 3 with the class's signs: 22 (to ℓ^38); slopes of T_ℓ: 38/21×21, 0×1; 0 roots of slope 2, u/ℓ^2 on lane ℓ: —  (15 s)
+
+seconds: 15

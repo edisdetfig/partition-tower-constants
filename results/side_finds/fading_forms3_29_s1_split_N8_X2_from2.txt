@@ -1,0 +1,2 @@
+ℓ = 29, slope 1, weights −2 + 812·(x + 1) for x = 0..2, modulo ℓ^38 (N = 8 and 30 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-26 form, the only one of its class; T_q numbers {5: 5, 7: 25, 11: 4, 13: 28}

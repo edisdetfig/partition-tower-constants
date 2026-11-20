@@ -1,0 +1,24 @@
+THE CENSUS (the tower's class of S_{ℓ−3}^new(Γ0(6)); predicted dimension ⌊(ℓ + 12)/24⌋)
+   ℓ = 53: dimension 2 (Galois orbits of degree [2]);  predicted 2  →  as predicted  (0 s)
+   ℓ = 59: dimension 2 (Galois orbits of degree [2]);  predicted 2  →  as predicted  (0 s)
+   ℓ = 61: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 67: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 71: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 73: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 79: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 83: dimension 3 (Galois orbits of degree [3]);  predicted 3  →  as predicted  (0 s)
+   ℓ = 89: dimension 4 (Galois orbits of degree [4]);  predicted 4  →  as predicted  (0 s)
+
+THE POLYNOMIALS OF λ = (3|Q)·a_Q ON LANE ℓ (lowest coefficient first, ending in 1)
+   ℓ = 53, Q = 5: [14, 27, 1]
+   ℓ = 53, Q = 7: [7, 21, 1]
+   ℓ = 53, Q = 11: [32, 14, 1]
+   ℓ = 53, Q = 13: [47, 24, 1]
+   ℓ = 53, Q = 53: [36, 3, 1]
+   ℓ = 61, Q = 5: [5, 26, 2, 1]
+   ℓ = 61, Q = 7: [31, 30, 34, 1]
+   ℓ = 61, Q = 11: [52, 30, 37, 1]
+   ℓ = 61, Q = 13: [42, 54, 59, 1]
+   ℓ = 61, Q = 61: [34, 15, 31, 1]
+
+seconds: 1

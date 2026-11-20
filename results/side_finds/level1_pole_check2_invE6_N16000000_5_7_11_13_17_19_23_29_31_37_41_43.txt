@@ -1,0 +1,71 @@
+invE6 towers: level1_tower_invE6_N16000000_5_7_11_13_17_19_23_29_31_37_41_43.json (n < 16000000); the pole's curve y² = x³ − x; the rule's constant u^(w−2) = u^-8
+
+ℓ = 5 (the curve ordinary), lane ℓ^11; the forms' polynomial P on lane ℓ [4, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+   the extra constant from the data, G_9/G_8 over 1 values of n: digits [1, 1, 3, 3, 4, 2, 1, 0, 3, 3] (agreeing to 10);  the best ±u^m (digits, sign, m): [(10, 1, -8), (3, -1, 42), (3, -1, -58), (2, -1, 2)]
+   y² = x³ − x at ℓ: aₗ = ±2 up to twist; u^-8 digits [1, 1, 3, 3, 4, 2, 1, 0, 3, 3, 4]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [11, 4, 4, 4, 4, 7, 4, 4, 5, 4, 7, 4]
+   P(x)·(x − u^-8) from level 1: depth for n = 0, 1, …  [11, 7, 7, 7, 7, 10, 7, 7, 8, 7, 10, 7]
+   P(x)·(x − u^-8) from level 2: depth for n = 0, 1, …  [11, 10, 10, 10, 10, 11, 10, 10, 11, 10, 11, 10]
+   P(x)·(x − u^-8) from level 3: depth for n = 0, 1, …  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+   P(x)·(x − u^-8) from level 4: depth for n = 0, 1, …  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+   P(x)·(x − u^-8) from level 5: depth for n = 0, 1, …  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+   P(x)·(x − u^-8) from level 6: depth for n = 0, 1, …  [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+   P(x)·(x − u^-8) from level 7: depth for n = 0, 1, …  [11, 11, 11, 11, 11, 11, 11, 11, 11]
+   P(x)·(x − u^-8) from level 8: depth for n = 0, 1, …  [11, 11]
+
+ℓ = 7 (the curve supersingular), lane ℓ^10; the forms' polynomial P on lane ℓ [6, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5, 6, 7]: [2, 3, 4, 5, 6, 7, 8, 9]
+
+ℓ = 11 (the curve supersingular), lane ℓ^8; the forms' polynomial P on lane ℓ [10, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5]: [2, 3, 4, 5, 6, 7]
+
+ℓ = 13 (the curve ordinary), lane ℓ^8; the forms' polynomial P on lane ℓ [12, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4, 5]: [0, 0, 0, 0, 0, 0]
+   the extra constant from the data, G_5/G_4 over 3 values of n: digits [9, 2, 7, 6] (agreeing to 4);  the best ±u^m (digits, sign, m): [(4, 1, -8), (2, -1, 31), (2, -1, -47), (1, -1, 1)]
+   y² = x³ − x at ℓ: aₗ = ±4 up to twist; u^-8 digits [9, 2, 7, 6, 11, 11, 7, 6]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [8, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1]
+   P(x)·(x − u^-8) from level 1: depth for n = 0, 1, …  [8, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 2]
+   P(x)·(x − u^-8) from level 2: depth for n = 0, 1, …  [8, 3, 3, 3, 3, 3, 3, 3, 5, 3, 3, 3]
+   P(x)·(x − u^-8) from level 3: depth for n = 0, 1, …  [8, 4, 4, 4, 4, 4, 4, 4, 6, 4, 4, 4]
+   P(x)·(x − u^-8) from level 4: depth for n = 0, 1, …  [8, 5, 5, 5]
+
+ℓ = 17 (the curve ordinary), lane ℓ^7; the forms' polynomial P on lane ℓ [16, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3, 4]: [1, 1, 1, 1, 1]
+   the extra constant from the data, G_4/G_3 over 11 values of n: digits [1, 4, 14] (agreeing to 3);  the best ±u^m (digits, sign, m): [(3, 1, -8), (2, -1, 60), (1, 1, 0), (1, -1, -4)]
+   y² = x³ − x at ℓ: aₗ = ±2 up to twist; u^-8 digits [1, 4, 14, 10, 16, 8, 7]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [7, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+   P(x)·(x − u^-8) from level 1: depth for n = 0, 1, …  [7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+   P(x)·(x − u^-8) from level 2: depth for n = 0, 1, …  [7, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+   P(x)·(x − u^-8) from level 3: depth for n = 0, 1, …  [7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+
+ℓ = 19 (the curve supersingular), lane ℓ^7; the forms' polynomial P on lane ℓ [7, 11, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [1, 2, 3, 4]
+
+ℓ = 23 (the curve supersingular), lane ℓ^6; the forms' polynomial P on lane ℓ [2, 20, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2, 3]: [1, 2, 3, 4]
+
+ℓ = 29 (the curve ordinary), lane ℓ^6; the forms' polynomial P on lane ℓ [16, 12, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1, 2]: [0, 0, 0]
+   the extra constant from the data, G_2/G_1 over 11 values of n: digits [7, 7] (agreeing to 2);  the best ±u^m (digits, sign, m): [(2, 1, -8), (1, -1, -1), (1, 1, 6), (1, -1, 13)]
+   y² = x³ − x at ℓ: aₗ = ±4 up to twist; u^-8 digits [7, 7, 21, 21, 2, 18]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+   P(x)·(x − u^-8) from level 1: depth for n = 0, 1, …  [6, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+ℓ = 31 (the curve supersingular), lane ℓ^6; the forms' polynomial P on lane ℓ [24, 11, 26, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1]: [1, 2]
+
+ℓ = 37 (the curve ordinary), lane ℓ^5; the forms' polynomial P on lane ℓ [9, 5, 22, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1]: [0, 0]
+   the extra constant from the data, G_1/G_0 over 8 values of n: digits [12] (agreeing to 1);  the best ±u^m (digits, sign, m): [(1, 1, -8), (1, -1, 10), (1, -1, -26), (1, 1, 28)]
+   y² = x³ − x at ℓ: aₗ = ±2 up to twist; u^-8 digits [12, 27, 22, 2, 29]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [5, 1, 1, 1, 1, 1, 1, 1, 1]
+
+ℓ = 41 (the curve ordinary), lane ℓ^5; the forms' polynomial P on lane ℓ [28, 3, 9, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0, 1]: [0, 0]
+   the extra constant from the data, G_1/G_0 over 5 values of n: digits [18] (agreeing to 1);  the best ±u^m (digits, sign, m): [(1, -1, 2), (1, 1, -8), (1, 1, 12), (1, -1, -18)]
+   y² = x³ − x at ℓ: aₗ = ±8 up to twist; u^-8 digits [18, 28, 0, 17, 24]
+   P(x)·(x − u^-8) from level 0: depth for n = 0, 1, …  [5, 1, 1, 1, 2, 1]
+
+ℓ = 43 (the curve supersingular), lane ℓ^5; the forms' polynomial P on lane ℓ [28, 28, 38, 34, 1]
+   P's law alone, the smallest depth over n ≥ 1 from levels [0]: [1]

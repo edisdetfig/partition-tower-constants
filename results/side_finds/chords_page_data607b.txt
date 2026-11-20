@@ -1,0 +1,5 @@
+F_607(√3); G = 1 + 2·√3; τ = 23 + 137·√3 (a root of t² + 561·t + 66)
+   at5: form A size 66, direction 409 of 608; form B size 66, direction 199 of 608
+   at607: form A size 542, direction 0 of 608; form B size 542, direction 0 of 608
+   deeper: form A size 484, direction 38 of 608; form B size 484, direction 570 of 608
+wrote chords_page_data607b.json

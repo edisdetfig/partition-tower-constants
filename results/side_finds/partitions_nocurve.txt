@@ -1,0 +1,22 @@
+the towers' rules, read from partitions_newforms.txt (level 1, first match): ℓ = 7: weight 16 (a₂ = +128, a₃ = -2187), ℓ = 11: weight 8 (a₂ = +8, a₃ = +27), ℓ = 13: weight 10 (a₂ = -16, a₃ = +81), ℓ = 17: weight 14 (a₂ = +64, a₃ = -729), ℓ = 19: weight 16 (a₂ = -128, a₃ = -2187), ℓ = 23: weight 20 (a₂ = +512, a₃ = +19683), ℓ = 29: weight 26 (a₂ = -4096, a₃ = -531441), ℓ = 31: weight 28 (a₂ = +8192, a₃ = -1594323)
+
+THE TEST at every prime 5 ≤ Q ≤ 397, Q not dividing 6ℓ: is u_Q = Q^(−(k−2)/2)·a_Q(f) on lane ℓ a whole number of size at
+most 2√Q, or ±(Q + 1)? "fingerprint": the only possible traces of a curve at the first primes (several if there is a choice)
+   ℓ =  7 (weight 16, power Q^-7): no obstruction at any prime up to 397;  42a1 has exactly these traces at every prime up to 397: True
+      fingerprint: 5: -2;  11: -4/3;  13: -1/6;  17: -5/2;  19: -4/3;  23: -6/1/8;  29: -9/-2/5/±(Q+1);  31: -7/0/7
+   ℓ = 11 (weight 8, power Q^-3): no obstruction at any prime up to 397;  726i1 has exactly these traces at every prime up to 397: True
+      fingerprint: 5: -1;  7: 4;  13: -5/6;  17: -4/7/±(Q+1);  19: 0;  23: 0;  29: -4/7;  31: -8/3
+   ℓ = 13 (weight 10, power Q^-4): no obstruction at any prime up to 397;  1014b1 has exactly these traces at every prime up to 397: True
+      fingerprint: 5: 3;  7: 2;  11: 6;  17: -3;  19: 2;  23: -6/7;  29: -10/3;  31: -4/9
+   ℓ = 17 (weight 14, power Q^-6): IMPOSSIBLE at Q = 5, 7 (2 primes of 75)
+      fingerprint: 5: none;  7: none;  11: 4;  13: 5;  19: 8;  23: 1;  29: -8/9;  31: -3
+   ℓ = 19 (weight 16, power Q^-7): IMPOSSIBLE at Q = 5 (1 primes of 75)
+      fingerprint: 5: none;  7: -3;  11: 6;  13: -1;  17: -7;  23: -1;  29: 2;  31: 7
+   ℓ = 23 (weight 20, power Q^-9): IMPOSSIBLE at Q = 7, 11, 17 (3 primes of 75)
+      fingerprint: 5: 0;  7: none;  11: none;  13: 4;  17: none;  19: 0;  29: 3;  31: 7
+   ℓ = 29 (weight 26, power Q^-12): IMPOSSIBLE at Q = 5, 7, 11, 31 (4 primes of 75)
+      fingerprint: 5: none;  7: none;  11: none;  13: 5;  17: -1;  19: -3;  23: 8;  31: none
+   ℓ = 31 (weight 28, power Q^-13): IMPOSSIBLE at Q = 7 (1 primes of 75)
+      fingerprint: 5: -4;  7: none;  11: ±(Q+1);  13: 3;  17: -6;  19: 3;  23: 9;  29: 2
+
+seconds: 9

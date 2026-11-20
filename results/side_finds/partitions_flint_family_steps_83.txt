@@ -1,0 +1,20 @@
+ℓ = 83, k₀ = 80, 4 weights, modulo ℓ^4; FLINT 0.9.0
+1  the class at weight 80 (found exactly, over the integers): dimension 3 (predicted ⌊(ℓ + 12)/24⌋ = 3)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [30, 47, 6, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [29, 24, 4, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [15, 31, 42, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [24, 42, 30, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 83: polynomial [64, 18, 76, 1]
+2  weight 80 (dimension 81, ordinary part 81): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [64, 18, 76, 1]  (0 s)
+2  weight 162 (dimension 163, ordinary part 81): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [64, 18, 76, 1]  (0 s)
+2  weight 244 (dimension 245, ordinary part 81): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [64, 18, 76, 1]  (1 s)
+2  weight 326 (dimension 327, ordinary part 81): the class's piece has dimension 3 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [64, 18, 76, 1]  (2 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]
+   the constants' polynomial (lowest first) on lane ℓ: [64, 18, 76, 1];  on lane ℓ^4: [40585155, 40311873, 23009087, 1]
+   a constant on lane ℓ, digits lowest first: [16, 46, 13, 71]
+   two constants A ± B·√2 (no square root of 2 on lane ℓ): A [37, 19, 66, 68], B [75, 82, 39, 33]
+4  the step numbers at Q = 5, λ = (3|Q)·a_Q(F at weight −2): the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]
+   their polynomial (lowest first) on lane ℓ: [30, 47, 6, 1];  on lane ℓ^4: [23355898, 34011870, 17333809, 1]
+   a root on lane ℓ, digits lowest first: [7, 43, 19, 3];  the rest (lowest first) on lane ℓ^4: [25390087, 19183637, 1]
+
+seconds: 4

@@ -1,0 +1,25 @@
+ℓ = 53, k₀ = 50, 8 weights, modulo ℓ^8; FLINT 0.9.0
+1  the class at weight 50 (found exactly, over the integers): dimension 2 (predicted ⌊(ℓ + 12)/24⌋ = 2)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [14, 27, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [7, 21, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [32, 14, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [47, 24, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 53: polynomial [36, 3, 1]
+2  weight 50 (dimension 51, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (0 s)
+2  weight 102 (dimension 103, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (0 s)
+2  weight 154 (dimension 155, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (0 s)
+2  weight 206 (dimension 207, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (1 s)
+2  weight 258 (dimension 259, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (1 s)
+2  weight 310 (dimension 311, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (2 s)
+2  weight 362 (dimension 363, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (2 s)
+2  weight 414 (dimension 415, ordinary part 51): the class's piece has dimension 2 (T_5 on lane ℓ as at the base: yes) (the piece had dimension 6: an old form shares the numbers on lane ℓ; kept the new part, to ℓ^8); U_ℓ polynomial on lane ℓ: [36, 50, 1]  (2 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7], [0, 1, 2, 3, 4, 6, 6, 7]]
+   the constants' polynomial (lowest first) on lane ℓ: [36, 3, 1];  on lane ℓ^8: [59608689338387, 15583635191990, 1]
+   a constant on lane ℓ, digits lowest first: [43, 26, 7, 26, 45, 51, 7, 34]
+   a constant on lane ℓ, digits lowest first: [7, 8, 0, 38, 7, 49, 30, 5]
+4  the step numbers at Q = 5, λ = (3|Q)·a_Q(F at weight −2): the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7], [0, 1, 2, 3, 4, 5, 6, 7]]
+   their polynomial (lowest first) on lane ℓ: [14, 27, 1];  on lane ℓ^8: [3552733098742, 30308954663652, 1]
+   a root on lane ℓ, digits lowest first: [20, 46, 23, 3, 49, 40, 37, 25];  the rest (lowest first) on lane ℓ^8: [60513929488335, 1]
+   a root on lane ℓ, digits lowest first: [6, 34, 14, 52, 26, 40, 25, 1];  the rest (lowest first) on lane ℓ^8: [32054715586678, 1]
+
+seconds: 9

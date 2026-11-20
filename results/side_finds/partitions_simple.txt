@@ -1,0 +1,18 @@
+settled digits read from partitions_constants.txt: 5: 33, 7: 14, 11: 4, 13: 6, 17: 5, 19: 5, 23: 4, 29: 2, 31: 2
+
+1  THE SMALLEST RELATION LLL FINDS (largest coefficient), against 100 random ℓ-adic units with as many digits:
+   the constant's value, then the random ones' smallest / median / largest
+   ℓ =  5 (33 digits): degree 1: 247325352396 (34547170075 / 210213135082 / 342400923494; 73 of 100 random below it);  degree 2: 44225006 (8467525 / 28376698 / 44482399; 99 of 100 random below it);  degree 3: 323453 (86603 / 310657 / 475772; 56 of 100 random below it);  degree 4: 23999 (10053 / 21618 / 30390; 74 of 100 random below it)
+   ℓ =  7 (14 digits): degree 1: 369349 (37352 / 566398 / 820981; 25 of 100 random below it);  degree 2: 4654 (677 / 4594 / 7489; 55 of 100 random below it);  degree 3: 533 (152 / 482 / 725; 65 of 100 random below it);  degree 4: 106 (63 / 122 / 185; 21 of 100 random below it)
+   ℓ = 13 (6 digits): degree 1: 1816 (331 / 1427 / 2164; 83 of 100 random below it);  degree 2: 100 (16 / 85 / 163; 66 of 100 random below it);  degree 3: 27 (11 / 25 / 42; 59 of 100 random below it);  degree 4: 11 (7 / 11 / 18; 31 of 100 random below it)
+   ℓ = 17 (5 digits): degree 1: 871 (34 / 727 / 1153; 70 of 100 random below it);  degree 2: 92 (19 / 67 / 101; 95 of 100 random below it);  degree 3: 19 (5 / 18 / 32; 57 of 100 random below it);  degree 4: 6 (3 / 9 / 14; 5 of 100 random below it)
+   ℓ = 19 (5 digits): degree 1: 1091 (79 / 968 / 1561; 59 of 100 random below it);  degree 2: 103 (17 / 72 / 131; 84 of 100 random below it);  degree 3: 24 (5 / 21 / 32; 68 of 100 random below it);  degree 4: 10 (4 / 10 / 14; 41 of 100 random below it)
+
+2  HECKE UNIT ROOTS: for k = 1 to K − 1 and both signs, a = α ± ℓ^k/α on lane ℓ^K; a fit means |a| ≤ 2ℓ^(k/2)
+   ℓ =  5: 0 fits
+   ℓ =  7: 0 fits
+   ℓ = 13: 0 fits
+   ℓ = 17: 0 fits
+   ℓ = 19: 0 fits
+
+seconds: 15

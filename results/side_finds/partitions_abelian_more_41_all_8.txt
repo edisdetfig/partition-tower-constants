@@ -1,0 +1,31 @@
+ℓ = 41: weight 38; the tower's sign class: a₂ > 0, a₃ < 0;  predicted smallest dimension 4 (m = 20: 4, m = 21: 6);  orbits up to dimension 8
+   level-6 newform 1: field of degree 1 (y), a₂ = +262144, a₃ = +387420489; its primes above 41 have residue degrees [1]
+   level-6 newform 2: field of degree 1 (y), a₂ = -262144, a₃ = +387420489; its primes above 41 have residue degrees [1]
+   level-6 newform 3: field of degree 1 (y), a₂ = -262144, a₃ = -387420489; its primes above 41 have residue degrees [1]
+   level-6 newform 4: field of degree 2 (y^2 - y - 62801230922892), a₂ = +262144, a₃ = -387420489; its primes above 41 have residue degrees [1, 1]
+   5 targets
+   level    41:    3 newforms; orbits of dimension ≤ 8: 3  (0 s)
+   level    82:    3 newforms; orbits of dimension ≤ 8: 1 2  (0 s)
+   level   123:    7 newforms; orbits of dimension ≤ 8: 1 1 2 3  (0 s)
+   level   246:    7 newforms; orbits of dimension ≤ 8: 1 1 1 1 1 1 1  (0 s)
+   level  1681:  117 newforms; orbits of dimension ≤ 8: 2 3 3 3 4 4 6 8  (3 s)
+   level  3362:  137 newforms; orbits of dimension ≤ 8: 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 4 8 8 8  (27 s)
+   level  5043:  273 newforms; orbits of dimension ≤ 8: 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 6 6 6 6 8 8  (75 s)
+   level 10086:  273 newforms; orbits of dimension ≤ 8: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 4 4 4 4 6 6 6 6 6 6 6 6 8 8  (502 s)
+   MATCH: level 10086, dimension 4, field y^4 - 5*y^2 + 5 = Q(ζ_20)⁺, target f2, twist d = 1
+   MATCH: level 10086, dimension 4, field y^4 - 5*y^2 + 5 = Q(ζ_20)⁺, target f3, twist d = 41
+   MATCH: level 10086, dimension 4, field y^4 - 5*y^2 + 5 = Q(ζ_20)⁺, target f2, twist d = 41
+   MATCH: level 10086, dimension 4, field y^4 - 5*y^2 + 5 = Q(ζ_20)⁺, target f3, twist d = 1
+   MATCH: level 10086, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f1, twist d = 1
+   MATCH: level 10086, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f1, twist d = 41
+   MATCH: level 10086, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f3, twist d = 41
+   MATCH: level 10086, dimension 6, field y^6 - y^5 - 6*y^4 + 6*y^3 + 8*y^2 - 8*y + 1 = Q(ζ_21)⁺, target f3, twist d = 1
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f1, twist d = 1
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f4 at the prime t + 5, twist d = 41
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f4 at the prime t + 35, twist d = 41
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f1, twist d = 41
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f4 at the prime t + 5, twist d = 1
+   MATCH: level 10086, dimension 8, field y^8 + 4*y^7 - 20*y^6 - 74*y^5 + 109*y^4 + 346*y^3 - 80*y^2 - 386*y - 79, target f4 at the prime t + 35, twist d = 1
+   smallest dimension found: 4
+
+seconds: 608

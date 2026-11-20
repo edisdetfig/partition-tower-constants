@@ -1,0 +1,5 @@
+ℓ = 31, slope 1, weights −2 + 930·(x + 1) for x = 0..0, modulo ℓ^20 (N = 6 and 14 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-28 form (U₂ = +1·2^13, U₃ = -1·3^13), the only one of its class; T_q numbers {5: 11, 7: 30, 11: 27, 13: 2}
+   weight 928: the piece [40], new at 2 and 3: 39 (to ℓ^20); slopes 10/19×38, 0×1: no single root of slope 1; stopped
+
+seconds: 65

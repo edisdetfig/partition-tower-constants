@@ -1,0 +1,15 @@
+the constant of 13 from modular forms alone (partitions_hida_digits.txt): [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9]
+   p(δ_4) = p(27371) by sympy  (0 s)
+   p(δ_5) = p(170176) by sympy  (0 s)
+   p(δ_6) = p(4625692) by sympy  (0 s)
+   p(δ_7) = p(28759737) by sympy  (0 s)
+   p(δ_8) = p(781741941) by sympy  (2 s)
+   p(δ_9) = p(4860395546) by sympy  (11 s)
+   p(δ_10) = p(132114388022) by sympy  (268 s)
+   levels 4 and 6: the ratio's digits [6, 3, 1, 2, 4, 11, 12, 9, 9, 0, 2];  agrees with the forms' digits in the first 4
+   levels 5 and 7: the ratio's digits [6, 3, 1, 2, 5, 10, 3, 11, 10, 2, 6];  agrees with the forms' digits in the first 5
+   levels 6 and 8: the ratio's digits [6, 3, 1, 2, 5, 8, 7, 8, 5, 3, 10];  agrees with the forms' digits in the first 6
+   levels 7 and 9: the ratio's digits [6, 3, 1, 2, 5, 8, 0, 8, 8, 6, 1];  agrees with the forms' digits in the first 7
+   levels 8 and 10: the ratio's digits [6, 3, 1, 2, 5, 8, 0, 9, 8, 2, 12];  agrees with the forms' digits in the first 8
+
+seconds: 282

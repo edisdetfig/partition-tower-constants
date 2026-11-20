@@ -1,0 +1,29 @@
+primes ℓ: [73, 61]; the lighter test at every prime Q up to 50000000
+
+ℓ = 73 (weight 70): the class has 3 forms; on lane ℓ its pieces have degrees [3]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (249 s)
+   class ε=+1  expected       7.7 (derived)   counted     10   (counted − expected)/√expected = +0.82
+      below 10,000: []
+      all: [11421973, 22076447, 25007393, 29146049, 29220409, 29269213, 36236807, 43171001, 43911839, 47455907]
+   class ε=−1  expected       7.7 (derived)   counted      7   (counted − expected)/√expected = -0.26
+      below 10,000: []
+      all: [11367817, 24700997, 37355993, 39701941, 40499093, 42424859, 45859349]
+   Ono         expected       7.7 (derived)   counted      8   (counted − expected)/√expected = +0.10
+      below 10,000: []
+      all: [1109167, 7725269, 24902419, 25971259, 35098573, 40164587, 42052841, 43818293]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 249
+
+ℓ = 61 (weight 58): the class has 3 forms; on lane ℓ its pieces have degrees [1, 2]; pivot coefficients [1, 5, 7]
+   q-expansions of the 3 basis forms to 50000001 terms (229 s)
+   class ε=+1  expected      13.2 (derived)   counted     12   (counted − expected)/√expected = -0.34
+      below 10,000: []
+      all: [4425853, 7643683, 14037113, 16623587, 17214539, 21342967, 25527661, 31286707, 41552681, 45081763, 45319481, 48525307]
+   class ε=−1  expected      13.2 (derived)   counted     14   (counted − expected)/√expected = +0.21
+      below 10,000: []
+      all: [11452607, 11534903, 11597293, 12672991, 23406101, 29147257, 31052677, 34940161, 36304949, 37639423, 37674821, 38691953, 38982227, 46195223]
+   Ono         expected      13.2 (derived)   counted      9   (counted − expected)/√expected = -1.16
+      below 10,000: []
+      all: [2144719, 2146489, 15949691, 22080589, 22199857, 26784343, 26988461, 34428763, 48402611]
+   3001131 primes Q from 5 to 50000000 (ℓ left out)  (1 s);  seconds in all: 230
+
+seconds: 249

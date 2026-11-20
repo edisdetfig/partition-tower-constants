@@ -1,0 +1,22 @@
+ℓ = 17, 5 colours, k₀ = 10, level 6, U₂ sign -1, U₃ sign +1 at k₀, 15 weights, modulo ℓ^15; FLINT 0.9.0
+1  the class at weight 10: 1 form;  T_ℓ polynomial on lane ℓ [2, 1]
+2  weight 10 (dimension 11, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 26 (dimension 27, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 42 (dimension 43, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 58 (dimension 59, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 74 (dimension 75, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 90 (dimension 91, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 106 (dimension 107, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 122 (dimension 123, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 138 (dimension 139, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 154 (dimension 155, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 170 (dimension 171, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 186 (dimension 187, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (0 s)
+2  weight 202 (dimension 203, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (1 s)
+2  weight 218 (dimension 219, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (1 s)
+2  weight 234 (dimension 235, ordinary part 11): the class's piece 1 (the piece had 3 forms; kept the part new at 2 and 3, to ℓ^15); U_ℓ polynomial on lane ℓ [2, 1]  (1 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 3, 3, 4, 5, 6, 7, 8, 9, 11, 11, 12, 13, 14]]
+   the polynomial of u(−6) (lowest first) on lane ℓ: [2, 1];  on lane ℓ^15: [2031146622489529768, 1]
+   u(−6), digits lowest first: [15, 12, 8, 0, 8, 0, 9, 10, 11, 12, 5, 13, 15, 15, 4];  −u: [2, 4, 8, 16, 8, 16, 7, 6, 5, 4, 11, 3, 1, 1, 12]
+
+seconds: 5

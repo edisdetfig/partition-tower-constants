@@ -1,0 +1,69 @@
+ℓ = 31, slope 1, weights −2 + 30·(x + 1) for x = 0..7, modulo ℓ^38 (N = 8 and 30 spare); FLINT 0.9.0
+the system on lane ℓ: the weight-28 form, the only one of its class; T_q numbers {5: 11, 7: 30, 11: 27, 13: 2}
+   weight 58 (dimension 59), every system: the piece [2], new at 2 and 3 with the class's signs: 2 (to ℓ^38); slopes of T_ℓ: 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 2  (0 s)
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 2
+         the root with u/ℓ^1 ≡ 2: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [29, 9, 16, 16, 1, 10, 29, 12]
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+   weight 88 (dimension 89), every system: the piece [4], new at 2 and 3 with the class's signs: 4 (to ℓ^38); slopes of T_ℓ: 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 4  (1 s)
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 4
+         the root with u/ℓ^1 ≡ 4: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [27, 26, 24, 5, 25, 15, 19, 12]
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+   weight 118 (dimension 119), every system: the piece [5], new at 2 and 3 with the class's signs: 5 (to ℓ^38); slopes of T_ℓ: 3×1, 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 6  (1 s)
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 18, 7: 22, 11: 8, 13: 20}: 1 form; slopes of T_ℓ: 3×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 6
+         the root with u/ℓ^1 ≡ 6: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [25, 19, 8, 2, 5, 26, 30, 9]
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+   weight 148 (dimension 149), every system: the piece [6], new at 2 and 3 with the class's signs: 6 (to ℓ^38); slopes of T_ℓ: 4×1, 3×1, 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 8  (3 s)
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 18, 7: 22, 11: 8, 13: 20}: 1 form; slopes of T_ℓ: 3×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 8
+         the root with u/ℓ^1 ≡ 8: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [23, 19, 12, 3, 27, 20, 26, 17]
+      the system {5: 13, 7: 16, 11: 3, 13: 11}: 1 form; slopes of T_ℓ: 4×1; 0 roots of slope 1
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+   weight 178 (dimension 179), every system: the piece [7], new at 2 and 3 with the class's signs: 7 (to ℓ^38); slopes of T_ℓ: 5×1, 4×1, 3×1, 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 10  (4 s)
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 18, 7: 22, 11: 8, 13: 20}: 1 form; slopes of T_ℓ: 3×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 10
+         the root with u/ℓ^1 ≡ 10: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [21, 26, 19, 0, 6, 21, 19, 7]
+      the system {5: 13, 7: 16, 11: 3, 13: 11}: 1 form; slopes of T_ℓ: 4×1; 0 roots of slope 1
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 29, 7: 23, 11: 18, 13: 14}: 1 form; slopes of T_ℓ: 5×1; 0 roots of slope 1
+   weight 208 (dimension 209), every system: the piece [9], new at 2 and 3 with the class's signs: 9 (to ℓ^38); slopes of T_ℓ: 6×2, 5×1, 4×1, 3×1, 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 12  (5 s)
+      the system {5: 22, 7: 0, 11: 2, 13: 4}: 1 form; slopes of T_ℓ: 6×1; 0 roots of slope 1
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 18, 7: 22, 11: 8, 13: 20}: 1 form; slopes of T_ℓ: 3×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 12
+         the root with u/ℓ^1 ≡ 12: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [19, 9, 13, 10, 13, 23, 28, 26]
+      the system {5: 14, 7: 0, 11: 17, 13: 3}: 1 form; slopes of T_ℓ: 6×1; 0 roots of slope 1
+      the system {5: 13, 7: 16, 11: 3, 13: 11}: 1 form; slopes of T_ℓ: 4×1; 0 roots of slope 1
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 29, 7: 23, 11: 18, 13: 14}: 1 form; slopes of T_ℓ: 5×1; 0 roots of slope 1
+   weight 238 (dimension 239), every system: the piece [10], new at 2 and 3 with the class's signs: 10 (to ℓ^38); slopes of T_ℓ: 7×1, 6×2, 5×1, 4×1, 3×1, 2×2, 1×1, 0×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 14  (7 s)
+      the system {5: 22, 7: 0, 11: 2, 13: 4}: 1 form; slopes of T_ℓ: 6×1; 0 roots of slope 1
+      the system {5: 19, 7: 1, 11: 13, 13: 7}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 18, 7: 22, 11: 8, 13: 20}: 1 form; slopes of T_ℓ: 3×1; 0 roots of slope 1
+      the system {5: 15, 7: 16, 11: 21, 13: 23}: 1 form; slopes of T_ℓ: 1×1; 1 root of slope 1, u/ℓ^1 on lane ℓ: 14
+         the root with u/ℓ^1 ≡ 14: known to ℓ^37; (3|ℓ)·u/ℓ^1, digits lowest first: [17, 30, 6, 12, 16, 12, 20, 16]
+      the system {5: 14, 7: 0, 11: 17, 13: 3}: 1 form; slopes of T_ℓ: 6×1; 0 roots of slope 1
+      the system {5: 13, 7: 16, 11: 3, 13: 11}: 1 form; slopes of T_ℓ: 4×1; 0 roots of slope 1
+      the system {5: 11, 7: 30, 11: 27, 13: 2}: 1 form; slopes of T_ℓ: 0×1; 0 roots of slope 1
+      the system {5: 5, 7: 7, 11: 10, 13: 28}: 1 form; slopes of T_ℓ: 7×1; 0 roots of slope 1
+      the system {5: 29, 7: 26, 11: 28, 13: 26}: 1 form; slopes of T_ℓ: 2×1; 0 roots of slope 1
+      the system {5: 29, 7: 23, 11: 18, 13: 14}: 1 form; slopes of T_ℓ: 5×1; 0 roots of slope 1
+
+the system {5: 15, 7: 16, 11: 21, 13: 23}, its slope-1 root: weights carried (x, digits known): [(1, 37), (2, 37), (3, 37), (4, 37), (5, 37), (6, 37), (7, 37)]
+   through 2 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 7, 30, 6, 16, 29] …;  measured on partition numbers: [2, 28, 13]  →  1 of 3 digits agree
+   through 3 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 28, 17, 28, 8, 12] …;  measured on partition numbers: [2, 28, 13]  →  2 of 3 digits agree
+   through 4 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 28, 23, 7, 6, 0] …;  measured on partition numbers: [2, 28, 13]  →  2 of 3 digits agree
+   through 5 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 28, 23, 8, 18, 21] …;  measured on partition numbers: [2, 28, 13]  →  2 of 3 digits agree
+   through 6 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 28, 23, 8, 3, 17] …;  measured on partition numbers: [2, 28, 13]  →  2 of 3 digits agree
+   through 7 weights (each known to ℓ^8 or more): (3|ℓ)·u(−2)/ℓ^1 = [2, 28, 23, 8, 3, 19] …;  measured on partition numbers: [2, 28, 13]  →  2 of 3 digits agree
+
+seconds: 21

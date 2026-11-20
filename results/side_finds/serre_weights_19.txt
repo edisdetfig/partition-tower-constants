@@ -1,0 +1,58 @@
+ℓ = 19: the counts of level6l_counts2_19_x0-1.jsonl, at x = [0, 1] (weights [16, 34])
+GL2(F_ℓ), by Brauer characters on 324 split and 342 elliptic classes (0 s):
+   the factors of Ind(a^s·d^t), all 324 characters: right
+   the factors of Sym^n, n = 0 … 32 (Glover's recursion): right
+   Ind_B^G Sym^(k−2) = Σ_i Ind(a^(k−2−i)·d^i) = Sym^(k−2) ⊗ Ind(1), at every weight: right
+   one step adds the 18 principal series Ind(a^(k−2−i)·d^i), i mod 18; in them each Serre weight with 1 ≤ r ≤ ℓ − 2 appears [2] times, with r = 0 or ℓ − 1 [1] times
+
+the class mod ℓ, the same at every step of the row: U_2 ≡ 5, U_3 ≡ 17
+the seeds: for each Serre weight Sym^r ⊗ det^m (r + 2m ≡ ℓ − 5 mod ℓ − 1), the forms of weight r + 2 at level 6 with U_2 ≡ 2^(−m)·5, U_3 ≡ 3^(−m)·17, by system twisted back by q^m (new = new at 2 and 3; all = with the old forms)
+   Sym^2 ⊗ det^6 (weight 4, signs −−): new {'(4, 3, 12, 0)': 1}; all {'(4, 3, 12, 0)': 1}
+   Sym^2 ⊗ det^15 (weight 4, signs ++): new —; all —
+   Sym^4 ⊗ det^5 (weight 6, signs −−): new —; all —
+   Sym^4 ⊗ det^14 (weight 6, signs ++): new —; all —
+   Sym^6 ⊗ det^4 (weight 8, signs −−): new —; all —
+   Sym^6 ⊗ det^13 (weight 8, signs ++): new {'(0, 7, 16, 8)': 1}; all {'(0, 7, 16, 8)': 1}
+   Sym^8 ⊗ det^3 (weight 10, signs −−): new —; all —
+   Sym^8 ⊗ det^12 (weight 10, signs ++): new —; all —
+   Sym^10 ⊗ det^2 (weight 12, signs −−): new {'(16, 16, 18, 10)': 1}; all {'(16, 16, 18, 10)': 1}
+   Sym^10 ⊗ det^11 (weight 12, signs ++): new {'(6, 4, 5, 10)': 1}; all {'(6, 4, 5, 10)': 1}
+   Sym^12 ⊗ det^1 (weight 14, signs −−): new —; all —
+   Sym^12 ⊗ det^10 (weight 14, signs ++): new —; all —
+   Sym^14 ⊗ det^0 (weight 16, signs −−): new {'(17, 17, 9, 9)': 1}; all {'(17, 17, 9, 9)': 1}
+   Sym^14 ⊗ det^9 (weight 16, signs ++): new {'(12, 14, 15, 13)': 1}; all {'(12, 14, 15, 13)': 2}
+   Sym^16 ⊗ det^8 (weight 18, signs ++): new —; all —
+   Sym^16 ⊗ det^17 (weight 18, signs −−): new {'(1, 18, 18, 12)': 1}; all {'(1, 18, 18, 12)': 2}
+   Sym^18 ⊗ det^7 (weight 20, signs ++): new {'(0, 9, 6, 0)': 1}; all {'(0, 9, 6, 0)': 1}
+   Sym^18 ⊗ det^16 (weight 20, signs −−): new {'(0, 10, 0, 2)': 1}; all {'(0, 10, 0, 2)': 1, '(1, 18, 18, 12)': 1}
+   (0 s)
+
+THE PREDICTIONS against the counts (level 6ℓ, then level 6; "pred/counted"):
+   system (0, 10, 0, 2): seeds new weight 20·ω^16 ×1, all weight 20·ω^16 ×1; gain per step predicted: class 1, eigenspace 1
+      class     : x=0 0/0, 0/0; x=1 1/1, 0/0
+      eigenspace: x=0 0/0, 0/0; x=1 1/1, 0/0
+   system (0, 7, 16, 8): seeds new weight 8·ω^13 ×1, all weight 8·ω^13 ×1; gain per step predicted: class 2, eigenspace 2
+      class     : x=0 2/2, 0/0; x=1 4/4, 0/0
+      eigenspace: x=0 2/2, 0/0; x=1 4/4, 0/0
+   system (0, 9, 6, 0): seeds new weight 20·ω^7 ×1, all weight 20·ω^7 ×1; gain per step predicted: class 1, eigenspace 1
+      class     : x=0 1/1, 0/0; x=1 2/2, 0/0
+      eigenspace: x=0 1/1, 0/0; x=1 2/2, 0/0
+   system (1, 18, 18, 12) (Eisenstein type; det^[16] carries its numbers): seeds new weight 18·ω^17 ×1, all weight 18·ω^17 ×2, weight 20·ω^16 ×1; gain per step predicted: class 1
+      class     : x=0 0/0, 0/0; x=1 1/1, 0/0
+   system (12, 14, 15, 13): seeds new weight 16·ω^9 ×1, all weight 16·ω^9 ×2; gain per step predicted: class 2, eigenspace 4
+      class     : x=0 2/2, 0/0; x=1 4/4, 0/0
+      eigenspace: x=0 4/4, 0/0; x=1 8/8, 0/0
+   system (16, 16, 18, 10): seeds new weight 12·ω^2 ×1, all weight 12·ω^2 ×1; gain per step predicted: class 2, eigenspace 2
+      class     : x=0 2/2, 0/0; x=1 4/4, 0/0
+      eigenspace: x=0 2/2, 0/0; x=1 4/4, 0/0
+   system (17, 17, 9, 9): seeds new weight 16·ω^0 ×1, all weight 16·ω^0 ×1; gain per step predicted: class 2, eigenspace 2
+      class     : x=0 2/2, 1/1; x=1 4/4, 1/1
+      eigenspace: x=0 2/2, 1/1; x=1 4/4, 1/1
+   system (4, 3, 12, 0): seeds new weight 4·ω^6 ×1, all weight 4·ω^6 ×1; gain per step predicted: class 2, eigenspace 2
+      class     : x=0 2/2, 0/0; x=1 4/4, 0/0
+      eigenspace: x=0 2/2, 0/0; x=1 4/4, 0/0
+   system (6, 4, 5, 10): seeds new weight 12·ω^11 ×1, all weight 12·ω^11 ×1; gain per step predicted: class 2, eigenspace 2
+      class     : x=0 2/2, 0/0; x=1 4/4, 0/0
+      eigenspace: x=0 2/2, 0/0; x=1 4/4, 0/0
+
+agreeing (system, weight) pairs, both levels at once: the class 18 of 18; the whole eigenspace 16 of 16

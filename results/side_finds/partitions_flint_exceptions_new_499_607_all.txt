@@ -1,0 +1,6 @@
+primes: 2 (499 to 607), 2 workers, modulo ℓ^4, the ℓ-adic step everywhere
+   ℓ =  499: on lane ℓ the class has 22 forms (⌊(ℓ+12)/24⌋ = 21); exactly: 21 of the 22 (to ℓ^4), the other 1 with T_ℓ factors [(1, 1)] (shared with the class: the congruent copy); T_ℓ on the class: zero roots 0, repeated factors 0  (29 s)
+   ℓ =  607: on lane ℓ the class has 25 forms (⌊(ℓ+12)/24⌋ = 25); exactly: 25 of the 25 (to ℓ^4); T_ℓ on the class: zero roots 0, repeated factors 1  ← REPEATED ROOT  (54 s)
+
+flagged: [607]  (Boylan–Webb's exception up to 1297: 607)
+seconds: 54

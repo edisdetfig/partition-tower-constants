@@ -1,0 +1,22 @@
+ℓ = 13, 5 colours, k₀ = 6, level 6, U₂ sign +1, U₃ sign -1 at k₀, 15 weights, modulo ℓ^15; FLINT 0.9.0
+1  the class at weight 6: 1 form;  T_ℓ polynomial on lane ℓ [8, 1]
+2  weight 6 (dimension 7, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 18 (dimension 19, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 30 (dimension 31, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 42 (dimension 43, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 54 (dimension 55, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 66 (dimension 67, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 78 (dimension 79, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 90 (dimension 91, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 102 (dimension 103, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 114 (dimension 115, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 126 (dimension 127, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 138 (dimension 139, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 150 (dimension 151, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 162 (dimension 163, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+2  weight 174 (dimension 175, ordinary part 7): the class's piece 1; U_ℓ polynomial on lane ℓ [8, 1]  (0 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 8, 9, 9, 10, 11, 13, 13, 14]]
+   the polynomial of u(−6) (lowest first) on lane ℓ: [8, 1];  on lane ℓ^15: [34098651158853679, 1]
+   u(−6), digits lowest first: [5, 0, 12, 9, 5, 7, 10, 11, 12, 8, 5, 5, 5, 4, 4];  −u: [8, 12, 0, 3, 7, 5, 2, 1, 0, 4, 7, 7, 7, 8, 8]
+
+seconds: 2

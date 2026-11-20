@@ -1,0 +1,54 @@
+5 colours; towers colors_tower_r5_N120000000_13_17_19_23_29_31_11_37_41.json (n < 120000000); level 6
+
+ℓ = 11 (R = 0): the smallest ℓ-adic valuation at each level b: {1: 1, 2: 2, 3: 2, 4: 3, 5: 3, 6: 4, 7: 4}
+
+ℓ = 13 (R = 1): the class on lane ℓ has 1 form (weight 6); T_ℓ polynomial [8, 1]
+   one constant for all 46 (b, n): yes;  α = 5, a_ℓ(f) = 5  →  t = +1
+   t·u(−6) = [5, 0, 12, 9, 5, 7, 10, 11]…; digits shared with H_(b+2)/H_b: (1,3): 1, (2,4): 2, (3,5): 4, (4,6): 4, (5,7): 5
+
+ℓ = 17 (R = 1): the class on lane ℓ has 1 form (weight 10); T_ℓ polynomial [2, 1]
+   one constant for all 36 (b, n): yes;  α = 2, a_ℓ(f) = 15  →  t = -1
+   t·u(−6) = [2, 4, 8, 16, 8, 16, 7]…; digits shared with H_(b+2)/H_b: (1,3): 1, (2,4): 2, (3,5): 3, (4,6): 4
+
+ℓ = 19 (R = 1): the class on lane ℓ has 1 form (weight 12); T_ℓ polynomial [3, 1]
+   one constant for all 38 (b, n): yes;  α = 3, a_ℓ(f) = 16  →  t = -1
+   t·u(−6) = [3, 17, 12, 18, 14, 5, 3]…; digits shared with H_(b+2)/H_b: (1,3): 1, (2,4): 3, (3,5): 3, (4,6): 5
+
+ℓ = 23 (R = 1): the class on lane ℓ has 1 form (weight 16); T_ℓ polynomial [22, 1]
+   one constant for all 0 (b, n): NO;  α = None, a_ℓ(f) = 1  →  NOT ±1
+
+ℓ = 29 (R = 1): the class on lane ℓ has 1 form (weight 22); T_ℓ polynomial [4, 1]
+   one constant for all 29 (b, n): yes;  α = 4, a_ℓ(f) = 25  →  t = -1
+   t·u(−6) = [4, 1, 8, 3, 24, 9]…; digits shared with H_(b+2)/H_b: (1,3): 1, (2,4): 1, (3,5): 2
+
+ℓ = 31 (R = 1): the class on lane ℓ has 1 form (weight 24); T_ℓ polynomial [22, 1]
+   one constant for all 27 (b, n): yes;  α = 22, a_ℓ(f) = 9  →  t = -1
+   t·u(−6) = [22, 5, 2, 22, 3, 9]…; digits shared with H_(b+2)/H_b: (1,3): 1, (2,4): 1, (3,5): 2
+
+ℓ = 37 (R = 2): the class on lane ℓ has 2 forms (weight 30); T_ℓ polynomial [17, 11, 1]
+   the three-level law on lane ℓ: t = +1: 2 of 2;  t = −1: 0 of 2
+   with the family's polynomial, t = +1: depth (1) n=0: 1, (1) n=1: 1
+   with the family's polynomial, t = -1: depth (1) n=0: 0, (1) n=1: 0
+
+ℓ = 41 (R = 2): the class on lane ℓ has 2 forms (weight 34); T_ℓ polynomial [13, 21, 1]
+   the three-level law on lane ℓ: t = +1: 0 of 1;  t = −1: 1 of 1
+   with the family's polynomial, t = +1: depth (1) n=0: 0
+   with the family's polynomial, t = -1: depth (1) n=0: 1
+
+the twists t(ℓ): {13: 1, 17: -1, 19: -1, 23: None, 29: -1, 31: -1, 37: 1, 41: -1}
+   t = +1 fits 2 of 7
+   t = −1 fits 5 of 7
+   t = +(−1|ℓ) fits 4 of 7
+   t = −(−1|ℓ) fits 3 of 7
+   t = +(2|ℓ) fits 2 of 7
+   t = −(2|ℓ) fits 5 of 7
+   t = +(−2|ℓ) fits 2 of 7
+   t = −(−2|ℓ) fits 5 of 7
+   t = +(3|ℓ) fits 7 of 7
+   t = −(3|ℓ) fits 0 of 7
+   t = +(−3|ℓ) fits 5 of 7
+   t = −(−3|ℓ) fits 2 of 7
+   t = +(6|ℓ) fits 3 of 7
+   t = −(6|ℓ) fits 4 of 7
+   t = +(−6|ℓ) fits 3 of 7
+   t = −(−6|ℓ) fits 4 of 7

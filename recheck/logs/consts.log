@@ -1,0 +1,124 @@
+jobs 113 largest [(31848225129201, 7, 16), (39700406579747, 23, 10), (39700406579747, 23, 11), (91393788655599, 5, 20), (138817757188116, 13, 13)]
+  p(817353910881) l=31 b=8  5 s (total 25)
+  p(1931994154597) l=17 b=10  5 s (total 33)
+  p(3007660527691) l=11 b=12  7 s (total 40)
+  p(3362856069543) l=7 b=15  8 s (total 48)
+  p(3655751546224) l=5 b=18  8 s (total 57)
+  p(5875605163726) l=19 b=10  11 s (total 67)
+  p(9995969756393) l=17 b=11  17 s (total 84)
+  p(11484823897563) l=29 b=9  19 s (total 103)
+  p(15099843343099) l=5 b=19  22 s (total 125)
+  p(18699802411296) l=11 b=13  24 s (total 148)
+  p(18728065697142) l=31 b=9  23 s (total 171)
+  p(22327331575711) l=13 b=12  26 s (total 197)
+  p(24268803937129) l=19 b=11  29 s (total 226)
+  p(31848225129201) l=7 b=16  32 s (total 258)
+  p(39700406579747) l=23 b=10  35 s (total 294)
+  p(39700406579747) l=23 b=11  32 s (total 326)
+  p(91393788655599) l=5 b=20  64 s (total 389)
+  p(138817757188116) l=13 b=13  84 s (total 473)
+l=5 (reference digits known: 33)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 3   mine: [4, 2, 3, 0, 1]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 5   mine: [4, 2, 3, 1, 0, 1, 1]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 8   mine: [4, 2, 3, 1, 0, 2, 0, 3, 4, 4]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 10   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 0, 1]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 13   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 3, 4]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 15   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 0, 4]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 18   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 2, 4]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 20   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 2, 2]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 23   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 3, 2]
+   levels 10,12  extra valuations 0,0  digits agreeing with the project: 25   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 4, 4]
+   levels 11,13  extra valuations 0,0  digits agreeing with the project: 28   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 1, 3]
+   levels 12,14  extra valuations 0,0  digits agreeing with the project: 30   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 1, 4]
+   levels 13,15  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+   levels 14,16  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+   levels 15,17  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+   levels 16,18  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+   levels 17,19  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+   levels 18,20  extra valuations 0,0  digits agreeing with the project: 33   mine: [4, 2, 3, 1, 0, 2, 0, 3, 0, 1, 1, 0, 1, 4, 0, 1, 3, 2, 3, 0, 3, 1, 0, 4, 3, 0, 4, 1, 2, 4, 2, 3, 0]
+l=7 (reference digits known: 20)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [5, 1, 0]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 2   mine: [5, 6, 3, 0]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 4   mine: [5, 6, 1, 1, 3, 5]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 5   mine: [5, 6, 1, 1, 2, 2, 3]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 7   mine: [5, 6, 1, 1, 2, 1, 3, 5, 0]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 8   mine: [5, 6, 1, 1, 2, 1, 3, 1, 4, 4]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 10   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 0, 5]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 11   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 5, 1]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 13   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 2, 6]
+   levels 10,12  extra valuations 0,0  digits agreeing with the project: 14   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1, 6, 0]
+   levels 11,13  extra valuations 0,0  digits agreeing with the project: 16   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1, 5, 3, 0, 2]
+   levels 12,14  extra valuations 0,0  digits agreeing with the project: 17   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1, 5, 3, 3, 3, 5]
+   levels 13,15  extra valuations 0,0  digits agreeing with the project: 19   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1, 5, 3, 3, 6, 4, 4]
+   levels 14,16  extra valuations 0,0  digits agreeing with the project: 20   mine: [5, 6, 1, 1, 2, 1, 3, 1, 0, 6, 5, 3, 1, 1, 5, 3, 3, 6, 4, 2]
+l=11 (reference digits known: 12)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [9, 9, 8]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 2   mine: [9, 3, 5, 9]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 2   mine: [9, 3, 3, 6]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 3   mine: [9, 3, 2, 6, 2]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 3   mine: [9, 3, 2, 9, 3]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 4   mine: [9, 3, 2, 0, 0, 6]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 4   mine: [9, 3, 2, 0, 5, 3]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 5   mine: [9, 3, 2, 0, 1, 9, 1]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 5   mine: [9, 3, 2, 0, 1, 10, 1]
+   levels 10,12  extra valuations 0,0  digits agreeing with the project: 6   mine: [9, 3, 2, 0, 1, 7, 5, 9]
+   levels 11,13  extra valuations 0,0  digits agreeing with the project: 6   mine: [9, 3, 2, 0, 1, 7, 3, 8]
+l=13 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [6, 11, 4]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 2   mine: [6, 3, 3, 5]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 3   mine: [6, 3, 1, 11, 6]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 4   mine: [6, 3, 1, 2, 4, 11]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 5   mine: [6, 3, 1, 2, 5, 10, 3]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 6   mine: [6, 3, 1, 2, 5, 8, 7, 8]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 7   mine: [6, 3, 1, 2, 5, 8, 0, 8, 8]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 8   mine: [6, 3, 1, 2, 5, 8, 0, 9, 8, 2]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 9   mine: [6, 3, 1, 2, 5, 8, 0, 9, 5, 3, 9]
+   levels 10,12  extra valuations 0,0  digits agreeing with the project: 10   mine: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 1, 7]
+   levels 11,13  extra valuations 0,0  digits agreeing with the project: 11   mine: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 9, 1]
+l=17 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [6, 11, 15]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 2   mine: [6, 12, 6, 9]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 3   mine: [6, 12, 12, 15, 16]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 4   mine: [6, 12, 12, 7, 4, 3]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 5   mine: [6, 12, 12, 7, 7, 9, 16]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 6   mine: [6, 12, 12, 7, 7, 5, 6, 1]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 7   mine: [6, 12, 12, 7, 7, 5, 16, 5, 12]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 8   mine: [6, 12, 12, 7, 7, 5, 16, 3, 5, 8]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 9   mine: [6, 12, 12, 7, 7, 5, 16, 3, 10, 15, 2]
+l=19 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [10, 10, 6]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 2   mine: [10, 2, 2, 9]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 4   mine: [10, 2, 10, 8, 2, 11]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 4   mine: [10, 2, 10, 8, 1, 14]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 5   mine: [10, 2, 10, 8, 10, 5, 3]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 6   mine: [10, 2, 10, 8, 10, 1, 8, 17]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 7   mine: [10, 2, 10, 8, 10, 1, 16, 11, 13]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 8   mine: [10, 2, 10, 8, 10, 1, 16, 5, 0, 16]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 9   mine: [10, 2, 10, 8, 10, 1, 16, 5, 7, 2, 16]
+l=23 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [5, 16, 4]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 3   mine: [5, 20, 8, 1, 18]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 3   mine: [5, 20, 8, 1, 18]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 5   mine: [5, 20, 8, 4, 19, 7, 10]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 5   mine: [5, 20, 8, 4, 19, 7, 10]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 7   mine: [5, 20, 8, 4, 19, 3, 6, 0, 6]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 7   mine: [5, 20, 8, 4, 19, 3, 6, 0, 6]
+   levels 8,10  extra valuations 0,0  digits agreeing with the project: 9   mine: [5, 20, 8, 4, 19, 3, 6, 6, 20, 17, 20]
+   levels 9,11  extra valuations 0,0  digits agreeing with the project: 9   mine: [5, 20, 8, 4, 19, 3, 6, 6, 20, 17, 20]
+l=29 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [3, 4, 3]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 1   mine: [3, 25, 8]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 2   mine: [3, 14, 24, 1]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 2   mine: [3, 14, 24, 23]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 3   mine: [3, 14, 17, 8, 23]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 3   mine: [3, 14, 17, 8, 4]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 4   mine: [3, 14, 17, 22, 27, 3]
+l=31 (reference digits known: 30)
+   levels 1,3  extra valuations 0,0  digits agreeing with the project: 1   mine: [30, 15, 5]
+   levels 2,4  extra valuations 0,0  digits agreeing with the project: 1   mine: [30, 27, 1]
+   levels 3,5  extra valuations 0,0  digits agreeing with the project: 2   mine: [30, 6, 25, 1]
+   levels 4,6  extra valuations 0,0  digits agreeing with the project: 2   mine: [30, 6, 22, 18]
+   levels 5,7  extra valuations 0,0  digits agreeing with the project: 3   mine: [30, 6, 2, 13, 8]
+   levels 6,8  extra valuations 0,0  digits agreeing with the project: 3   mine: [30, 6, 2, 19, 17]
+   levels 7,9  extra valuations 0,0  digits agreeing with the project: 4   mine: [30, 6, 2, 28, 0, 5]
+total seconds 474

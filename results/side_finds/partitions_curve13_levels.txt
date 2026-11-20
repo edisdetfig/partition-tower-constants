@@ -1,0 +1,13 @@
+p(n) mod 13 for every n up to 2400000 (13 s)
+
+LEVELS 2 AND 3 (n with 13 or 13² exactly dividing 24n + 11; every case with 13Q²n + β ≤ 2,400,000)
+   level 2: 1089 cases at 27 primes Q, wrong: 0
+   level 3: 86 cases at 12 primes Q, wrong: 0
+
+LEVELS 4 TO 7 (exact values: the first two n of exact level b, primes Q = 5, 7, 11, 17, 19, 23)
+   level 4: 12 cases, wrong: 0  (largest N = 29588006; 1 s)
+   level 5: 12 cases, wrong: 0  (largest N = 286437079; 3 s)
+   level 6: 12 cases, wrong: 0  (largest N = 5000373007; 42 s)
+   level 7: 12 cases, wrong: 0  (largest N = 48407866344; 330 s)
+
+seconds: 388

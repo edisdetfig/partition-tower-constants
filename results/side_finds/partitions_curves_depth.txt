@@ -1,0 +1,18 @@
+
+ℓ = 5, the Eisenstein shape 1 + Q against the weight −2 member (13 weights from 18, step 20; 88 s):
+   the best score: 1 digit right at all 22 primes Q; reached by 25 choices, e.g. sign +1, d = 1, Q^2, sign +1, d = 1, Q^6, sign +1, d = 1, Q^10, sign +1, d = 1, Q^14
+   the weight rule on lane ℓ² asks for j ≡ 8, 18, 28, 38 (mod 100); best score, and the most primes Q right on lane ℓ²: Q^8: 0, 2 of 22;  Q^18: 1, 2 of 22;  Q^28: 0, 2 of 22;  Q^38: 1, 2 of 22
+
+ℓ = 7, 42a1 (E7) against the weight −2 member (7 weights from 40, step 42; 91 s):
+   the best score: 2 digits right at all 22 primes Q; reached by 7 choices, e.g. sign +1, d = 1, Q^19, sign +1, d = 1, Q^61, sign +1, d = 1, Q^103, sign +1, d = 1, Q^145
+   the weight rule on lane ℓ² asks for j ≡ 19, 40, 61, 82 (mod 294); best score, and the most primes Q right on lane ℓ²: Q^19: 2, 22 of 22;  Q^40: 0, 16 of 22;  Q^61: 2, 22 of 22;  Q^82: 0, 16 of 22
+
+ℓ = 11, 726d1 (E11) against the weight −2 member (3 weights from 108, step 110; 88 s):
+   the best score: 1 digit right at all 22 primes Q; reached by 121 choices, e.g. sign +1, d = 1, Q^3, sign +1, d = 1, Q^13, sign +1, d = 1, Q^23, sign +1, d = 1, Q^33
+   the weight rule on lane ℓ² asks for j ≡ 53, 108, 163, 218 (mod 1210); best score, and the most primes Q right on lane ℓ²: Q^53: 1, 1 of 22;  Q^108: 0, 1 of 22;  Q^163: 1, 1 of 22;  Q^218: 0, 1 of 22
+
+ℓ = 13, 1014b1 against the weight −2 member (11 weights from 10, step 12; 8 s):
+   the best score: 1 digit right at all 22 primes Q; reached by 169 choices, e.g. sign +1, d = 1, Q^4, sign +1, d = 1, Q^16, sign +1, d = 1, Q^28, sign +1, d = 1, Q^40
+   the weight rule on lane ℓ² asks for j ≡ 76, 154, 232, 310 (mod 2028); best score, and the most primes Q right on lane ℓ²: Q^76: 1, 3 of 22;  Q^154: 0, 3 of 22;  Q^232: 1, 3 of 22;  Q^310: 0, 3 of 22
+
+seconds: 275

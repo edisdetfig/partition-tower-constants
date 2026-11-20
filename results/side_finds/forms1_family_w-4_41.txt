@@ -1,0 +1,19 @@
+ℓ = 41, a level-1 form of weight -4: families through k₀ = 36, read at x = -1 (weight -4); 11 weights; modulo ℓ^11; FLINT 0.9.0
+   weight 36 (dimension 4): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 76 (dimension 7): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 116 (dimension 10): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 156 (dimension 14): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 196 (dimension 17): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 236 (dimension 20): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 276 (dimension 24): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 316 (dimension 27): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 356 (dimension 30): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 396 (dimension 34): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+   weight 436 (dimension 37): the ordinary part has 4 forms; U_ℓ polynomial on lane ℓ [25, 2, 14, 40, 1]  (0 s)
+the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+the constants' polynomial at weight -4 (lowest first), on lane ℓ^11: [386097811319416352, 193414461198441376, 320843435372275075, 200302355542364078, 1];  on lane ℓ: [25, 2, 14, 40, 1]
+   x = 1 is a root to ℓ^11 (the Eisenstein family): True
+   on lane ℓ it factors as [([18, 1], 1), ([40, 1], 1), ([10, 23, 1], 1)]
+   the cusp forms' polynomial (lowest first), on lane ℓ^11: [164231220396832089, 521145790914639154, 200302355542364079, 1]
+
+seconds: 0

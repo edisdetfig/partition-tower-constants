@@ -1,0 +1,16 @@
+weight 604 (signs U₂ +1, U₃ -1): the class has 25 forms (to 607^3), 25 of them ordinary; T₆₀₇ ≡ 367 on a piece of dimension 2; T₆₀₇ = 367·I there on lane 607: True  (37 s)
+   T₅ on the pair, on lane 607: [66, 561, 1] (predicted [66, 561, 1]); C = (T₆₀₇ − 367)/607: [484, 70, 1]
+   form A (T₅ ≡ t): δ = 459 + 348·t; form B: δ = 78 + 259·t
+weight 1210 (signs U₂ +1, U₃ +1): the class has 50 forms (to 607^3), 25 of them ordinary; T₆₀₇ ≡ 367 on a piece of dimension 2; T₆₀₇ = 367·I there on lane 607: True  (147 s)
+   T₅ on the pair, on lane 607: [66, 561, 1] (predicted [66, 561, 1]); C = (T₆₀₇ − 367)/607: [561, 526, 1]
+   form A (T₅ ≡ t): δ = 438 + 339·t; form B: δ = 250 + 268·t
+weight 1816 (signs U₂ +1, U₃ -1): the class has 76 forms (to 607^3), 25 of them ordinary; T₆₀₇ ≡ 367 on a piece of dimension 2; T₆₀₇ = 367·I there on lane 607: True  (377 s)
+   T₅ on the pair, on lane 607: [66, 561, 1] (predicted [66, 561, 1]); C = (T₆₀₇ − 367)/607: [464, 375, 1]
+   form A (T₅ ≡ t): δ = 417 + 330·t; form B: δ = 422 + 277·t
+
+second difference δ(1816) − 2·δ(1210) + δ(604) = 0 + 0·t (predicted 0)
+δ(−2) = 2·δ(604) − δ(1210) = 480 + 357·t for form A; not in F₆₀₇: the two forms PART on the second digit
+the tower's constants modulo 607²: 240 + 607·(126 + 250·t) and 240 + 607·(93 + 357·t)
+in size and direction (F₆₀₇(√3), from G = 1 + 2·√3): the tower's second digits: form A [13, 376], form B [13, 232]; the forms' C-numbers at weight 604: form A [484, 38], form B [484, 570]
+
+seconds: 561

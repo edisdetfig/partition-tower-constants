@@ -1,0 +1,21 @@
+PARI 2.15.4;  the towers' newforms (partitions_newforms.txt): ℓ = 7: weight 16, a₂ = +128, a₃ = -2187, ℓ = 11: weight 8, a₂ = +8, a₃ = +27, ℓ = 13: weight 10, a₂ = -16, a₃ = +81, ℓ = 17: weight 14, a₂ = +64, a₃ = -729, ℓ = 19: weight 16, a₂ = -128, a₃ = -2187, ℓ = 23: weight 20, a₂ = +512, a₃ = +19683, ℓ = 29: weight 26, a₂ = -4096, a₃ = -531441, ℓ = 31: weight 28, a₂ = +8192, a₃ = -1594323
+
+ℓ = 29: the tower's newform has weight 26 (PARI: q -4096·q² -531441·q³ +16777216·q⁴ -292754850·q⁵ +3580644032·q⁷ …); target u_Q = Q^-12·a_Q(f) mod 29
+   level    29:   2 newforms in   1 Galois orbits (degrees 2)  (0 s)
+   level    58:   2 newforms in   2 Galois orbits (degrees 1 1)  (0 s)
+   level    87:   5 newforms in   2 Galois orbits (degrees 2 3)  (0 s)
+   level   174:   5 newforms in   5 Galois orbits (degrees 1 1 1 1 1)  (0 s)
+   level   841:  54 newforms in  11 Galois orbits (degrees 2 2 2 2 3 3 6 6 8 8 12)  (9 s)
+   level  1682:  68 newforms in  22 Galois orbits (degrees 1 1 1 1 1 1 1 1 1 1 2 2 3 3 4 4 6 6 6 6 8 8)  (50 s)
+   level  2523: 135 newforms in  22 Galois orbits (degrees 2 2 2 2 2 2 2 3 3 3 6 6 8 8 9 9 9 9 12 12 12 12)  (144 s)
+   level  5046: 135 newforms in  45 Galois orbits (degrees 1 1 1 1 1 1 1 1 1 1 1 1 … 12)  (498 s)
+   MATCH: level 1682, orbit 13, Hecke field of degree 3 (y^3 - y^2 - 2*y + 1), at a prime above 29 of residue degree 1, twist d = 29
+   MATCH: level 1682, orbit 14, Hecke field of degree 3 (y^3 - y^2 - 2*y + 1), at a prime above 29 of residue degree 1, twist d = 1
+   MATCH: level 1682, orbit 15, Hecke field of degree 4 (y^4 - y^3 - 4*y^2 + 4*y + 1), at a prime above 29 of residue degree 1, twist d = 29
+   MATCH: level 1682, orbit 16, Hecke field of degree 4 (y^4 - y^3 - 4*y^2 + 4*y + 1), at a prime above 29 of residue degree 1, twist d = 1
+   MATCH: level 5046, orbit 26, Hecke field of degree 3 (y^3 - y^2 - 2*y + 1), at a prime above 29 of residue degree 1, twist d = 29
+   MATCH: level 5046, orbit 29, Hecke field of degree 3 (y^3 - y^2 - 2*y + 1), at a prime above 29 of residue degree 1, twist d = 1
+   MATCH: level 5046, orbit 30, Hecke field of degree 4 (y^4 - y^3 - 4*y^2 + 4*y + 1), at a prime above 29 of residue degree 1, twist d = 29
+   MATCH: level 5046, orbit 37, Hecke field of degree 4 (y^4 - y^3 - 4*y^2 + 4*y + 1), at a prime above 29 of residue degree 1, twist d = 1
+
+seconds: 702

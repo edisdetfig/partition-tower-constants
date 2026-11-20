@@ -1,0 +1,51 @@
+lists from partitions_flint_lucky_37_43_41_47_53_59_61_13_17_19_23_29_31.txt
+
+ℓ = 37
+   class ε=+1  Q =  55219: members p(728616925264), p(841435029821) on lane ℓ: [0, 0];  control p(51708297922): 13  as PREDICTED  (3 s)
+   class ε=+1  Q =  67901: members p(760547951090), p(1101728340364) on lane ℓ: [0, 0];  control p(78187172542): 2  as PREDICTED  (2 s)
+   class ε=−1  Q =  11863: members p(23214713103), p(28421751556) on lane ℓ: [0, 0];  control p(2386559291): 20  as PREDICTED  (0 s)
+   class ε=−1  Q =  23017: members p(28586169344), p(106993948116) on lane ℓ: [0, 0];  control p(8984224651): 8  as PREDICTED  (0 s)
+   Ono         Q =  33967: members p(302087016782569), p(1752104697338900) on lane ℓ: [0, 0];  control p(19565797301): 36  as PREDICTED  (225 s)
+   Ono         Q =  64171: members p(6925574813092530), p(16702856902164337) on lane ℓ: [0, 0];  control p(69833013212): 30  as PREDICTED  (1047 s)
+
+ℓ = 43
+   class ε=+1  Q =  82813: members p(1830798373016), p(2125692070683) on lane ℓ: [0, 0];  control p(61436187014): 11  as PREDICTED  (5 s)
+   class ε=+1  Q =  85193: members p(377105646646), p(1937542805181) on lane ℓ: [0, 0];  control p(65018214939): 8  as PREDICTED  (3 s)
+   class ε=−1  Q =  54091: members p(26210616684), p(152021576767) on lane ℓ: [0, 0];  control p(277832536850): 15  as PREDICTED  (1 s)
+   class ε=−1  Q =  65089: members p(37952677209), p(220125527812) on lane ℓ: [0, 0];  control p(402298378415): 41  as PREDICTED  (1 s)
+   Ono         Q =  10253: members p(1931123665163), p(48278091629074) on lane ℓ: [0, 0];  control p(941735914): 22  as PREDICTED  (19 s)
+   Ono         Q =  28933: members p(737711470669802), p(1779186488085993) on lane ℓ: [0, 0];  control p(7499186464): 35  as PREDICTED  (231 s)
+
+ℓ = 41
+   class ε=+1  Q =  32257: members p(12442813836), p(140426041863) on lane ℓ: [0, 0];  control p(55103889845): 5  as PREDICTED  (1 s)
+   class ε=+1  Q =  65029: members p(50569051307), p(223948655788) on lane ℓ: [0, 0];  control p(744087469231): 27  as PREDICTED  (1 s)
+   class ε=−1  Q =  42139: members p(94037864708), p(166841372869) on lane ℓ: [0, 0];  control p(21234356547): 31  as PREDICTED  (1 s)
+   class ε=−1  Q =  45751: members p(282488575385), p(368307889426) on lane ℓ: [0, 0];  control p(25030633262): 25  as PREDICTED  (1 s)
+   Ono         Q =  12917: members p(40499557572711), p(128862228640444) on lane ℓ: [0, 0];  control p(1995234631): 9  as PREDICTED  (43 s)
+   Ono         Q =  13121: members p(88756722651626), p(181372433244627) on lane ℓ: [0, 0];  control p(2058754332): 5  as PREDICTED  (55 s)
+
+ℓ = 47
+   class ε=+1  Q =  36973: members p(902164842693), p(1030663099219) on lane ℓ: [0, 0];  control p(2677047011): 36  as PREDICTED  (2 s)
+   class ε=+1  Q = 104933: members p(2091618763973), p(5714216210854) on lane ℓ: [0, 0];  control p(21563080041): 29  as PREDICTED  (6 s)
+   class ε=−1  Q =  29251: members p(1675591127), p(41889778174) on lane ℓ: [0, 0];  control p(122318152268): 14  as PREDICTED  (0 s)
+   class ε=−1  Q =  37571: members p(2764344247), p(69108606174) on lane ℓ: [0, 0];  control p(599862701590): 0  as PREDICTED  (1 s)
+   Ono         Q =  38543: members p(2578997952042357), p(5270126249825686) on lane ℓ: [0, 0];  control p(2909227246): 5  as PREDICTED  (417 s)
+   Ono         Q =  39323: members p(1309842962995210), p(4167682154984759) on lane ℓ: [0, 0];  control p(3028167561): 18  as PREDICTED  (364 s)
+
+ℓ = 53
+   class ε=+1  Q =  15313: members p(34694449080), p(47122311437) on lane ℓ: [0, 0];  control p(9838724366): 35  as PREDICTED  (0 s)
+   class ε=+1  Q =  40699: members p(69500144217), p(157289800070) on lane ℓ: [0, 0];  control p(245079455923): 15  as PREDICTED  (1 s)
+   class ε=−1  Q =    467: members p(9150651), p(32268085) on lane ℓ: [0, 0];  control p(20709368): 34  as PREDICTED  (0 s)
+   class ε=−1  Q =   3797: members p(604922061), p(1369034138) on lane ℓ: [0, 0];  control p(2133146215): 42  as PREDICTED  (0 s)
+   Ono         Q =  12653: members p(102889957546036), p(210253391507117) on lane ℓ: [0, 0];  control p(6717462411): 9  as PREDICTED  (55 s)
+   Ono         Q =  35603: members p(1694233762679397), p(4086093192344428) on lane ℓ: [0, 0];  control p(53185276011): 25  as PREDICTED  (356 s)
+
+ℓ = 59
+   class ε=+1  Q =  76123: members p(868965223053), p(1210853179664) on lane ℓ: [0, 0];  control p(185189309831): 22  as PREDICTED  (3 s)
+   class ε=+1  Q = 114221: members p(1186682150996), p(1956421924615) on lane ℓ: [0, 0];  control p(416942377377): 13  as PREDICTED  (4 s)
+   class ε=−1  Q =  42017: members p(160580414787), p(473061221940) on lane ℓ: [0, 0];  control p(56420145736): 51  as PREDICTED  (1 s)
+   class ε=−1  Q = 114847: members p(421525092696), p(3534325777220) on lane ℓ: [0, 0];  control p(1199725263827): 19  as PREDICTED  (5 s)
+   Ono         Q =   4091: members p(3871301933327), p(7910921342016) on lane ℓ: [0, 0];  control p(534863647): 25  as PREDICTED  (7 s)
+   Ono         Q =  25349: members p(680725760054152), p(1641750362483543) on lane ℓ: [0, 0];  control p(20535523807): 20  as PREDICTED  (207 s)
+
+seconds: 3070

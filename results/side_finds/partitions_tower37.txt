@@ -1,0 +1,9 @@
+p(n) for every n up to 2400000 on the lane 37·41·43·47 (25 s)
+
+LEVEL 1: one multiplier per class (ε = sign of 24N* − 1 at Q)?  For 13 to 31 every prime Q had one (partitions_curves.txt)
+   ℓ = 37: one multiplier per class at 0 of 11 primes;  5: 37/37 values;  7: 37/37 values;  11: 37/37 values;  13: 36/37 values;  17: 36/35 values;  19: 31/32 values;  23: 27/31 values;  29: 21/26 values
+   ℓ = 41: one multiplier per class at 0 of 11 primes;  5: 41/41 values;  7: 41/41 values;  11: 41/41 values;  13: 39/40 values;  17: 39/39 values;  19: 33/35 values;  23: 31/28 values;  29: 25/24 values
+   ℓ = 43: one multiplier per class at 0 of 11 primes;  5: 43/43 values;  7: 43/43 values;  11: 42/42 values;  13: 43/41 values;  17: 33/38 values;  19: 32/36 values;  23: 32/33 values;  29: 21/26 values
+   ℓ = 47: one multiplier per class at 1 of 12 primes;  5: 47/47 values;  7: 47/47 values;  11: 45/47 values;  13: 44/43 values;  17: 37/36 values;  19: 32/35 values;  23: 29/27 values;  29: 20/22 values
+
+seconds: 25

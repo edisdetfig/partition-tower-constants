@@ -1,0 +1,11 @@
+rows: 21 ordinary notes (13:6, 17:6, 19:10, 23:5, 29:3, 31:30, 37:15, 37:34, 41:23, 41:31, 43:6, 43:31, 53:7, 53:43, 61:32, 67:41, 79:18, 83:16, 97:28, 607:240, 607:406), 9 braid sizes
+shift scan: 150 offsets (rows apart 1–6, steps over −12…12); the largest |z| is 3.17 at rows apart 5, steps over +5; the shuffles' largest |z| is above that 19% of the time (95th percentile 3.59)
+perfect stretches (row b at step j = row a at step e·j): ['37: 34 = 15^20', '41: 31 = 23^3', '41: 23 = 31^7', '43: 6 = 31^7', '53: 43 = 7^9', '53: 7 = 43^3']
+ℓ = 13: constant 6 = 2^5; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 70 on the line from the start, 0 off it, 10 zeros that stay 0  (8 s)
+ℓ = 17: constant 6 = 3^15; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 80 on the line from the start, 0 off it, 0 zeros that stay 0  (26 s)
+ℓ = 19: constant 10 = 2^17; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 80 on the line from the start, 0 off it, 0 zeros that stay 0  (56 s)
+ℓ = 23: constant 5 = 5^1; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 80 on the line from the start, 0 off it, 0 zeros that stay 0  (147 s)
+ℓ = 29: constant 3 = 2^5; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 80 on the line from the start, 0 off it, 0 zeros that stay 0  (495 s)
+ℓ = 31: constant 30 = 3^15; tower values at levels 1–9 for n = 0…15 ([16, 16, 16, 16, 16] values per level): 75 on the line from the start, 0 off it, 5 zeros that stay 0  (908 s)
+ℓ = 37: 19 values of n; one multiplier fits all levels for 0 of them; the two-step rule (12, 29) holds 1 of 38 times
+the largest partition number used: p(415322398107207); seconds: 908

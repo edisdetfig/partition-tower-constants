@@ -1,0 +1,15 @@
+ℓ = 41: weight 38; the tower's sign class: a₂ > 0, a₃ < 0;  predicted smallest dimension 4 (m = 20: 4, m = 21: 6);  orbits up to dimension 6
+   level-6 newform 4: field of degree 2 (y^2 - y - 62801230922892), a₂ = +262144, a₃ = -387420489; primes above 41 of degree 1: 2
+   2 targets
+   level    41:    3 newforms; orbits of dimension ≤ 6: 3  (0 s)
+   level    82:    3 newforms; orbits of dimension ≤ 6: 1 2  (0 s)
+   level   123:    7 newforms; orbits of dimension ≤ 6: 1 1 2 3  (0 s)
+   level   246:    7 newforms; orbits of dimension ≤ 6: 1 1 1 1 1 1 1  (0 s)
+   level  1681:  117 newforms; orbits of dimension ≤ 6: 2 3 3 3 4 4 6  (3 s)
+   level  3362:  137 newforms; orbits of dimension ≤ 6: 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 4  (28 s)
+   level  5043:  273 newforms; orbits of dimension ≤ 6: 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 6 6 6 6  (74 s)
+   level 10086:  273 newforms; orbits of dimension ≤ 6: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 4 4 4 4 6 6 6 6 6 6 6 6  (546 s)
+   no match among the orbits of dimension ≤ 6
+   smallest dimension found: none ≤ 6
+
+seconds: 652

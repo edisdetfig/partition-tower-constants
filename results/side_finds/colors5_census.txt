@@ -1,0 +1,42 @@
+ℓ, weight ℓ − 7, R_ℓ(5) (BLMT); level 6: the class under each rule (ε₂, ε₃) = (+,+), (+,−), (−,+), (−,−); level 2 (U₂ sign (2|ℓ), −(2|ℓ))
+   ℓ =  11, weight   4: R = 0;  level 6: 0 1 0 0;  level 2: 0 0
+   ℓ =  13, weight   6: R = 1;  level 6: 0 0 0 1;  level 2: 0 0
+   ℓ =  17, weight  10: R = 1;  level 6: 0 0 0 1;  level 2: 1 0
+   ℓ =  19, weight  12: R = 1;  level 6: 1 1 0 1;  level 2: 0 0
+   ℓ =  23, weight  16: R = 1;  level 6: 1 1 0 1;  level 2: 0 1
+   ℓ =  29, weight  22: R = 1;  level 6: 0 1 1 1;  level 2: 1 1
+   ℓ =  31, weight  24: R = 1;  level 6: 1 2 1 1;  level 2: 0 1
+   ℓ =  37, weight  30: R = 2;  level 6: 1 1 1 2;  level 2: 1 1
+   ℓ =  41, weight  34: R = 2;  level 6: 1 1 1 2;  level 2: 2 1
+   ℓ =  43, weight  36: R = 2;  level 6: 2 2 1 2;  level 2: 1 1
+   ℓ =  47, weight  40: R = 2;  level 6: 2 2 1 2;  level 2: 1 2
+   ℓ =  53, weight  46: R = 2;  level 6: 1 2 2 2;  level 2: 2 2
+   ℓ =  59, weight  52: R = 2;  level 6: 2 3 2 2;  level 2: 2 2
+   ℓ =  61, weight  54: R = 3;  level 6: 2 2 2 3;  level 2: 2 2
+   ℓ =  67, weight  60: R = 3;  level 6: 3 3 2 3;  level 2: 2 2
+   ℓ =  71, weight  64: R = 3;  level 6: 3 3 2 3;  level 2: 2 3
+   ℓ =  73, weight  66: R = 3;  level 6: 2 3 3 3;  level 2: 3 2
+   ℓ =  79, weight  72: R = 3;  level 6: 3 4 3 3;  level 2: 2 3
+   ℓ =  83, weight  76: R = 3;  level 6: 3 4 3 3;  level 2: 3 3
+   ℓ =  89, weight  82: R = 4;  level 6: 3 3 3 4;  level 2: 4 3
+   ℓ =  97, weight  90: R = 4;  level 6: 3 4 4 4;  level 2: 4 3
+   ℓ = 101, weight  94: R = 4;  level 6: 3 4 4 4;  level 2: 4 4
+   ℓ = 103, weight  96: R = 4;  level 6: 4 5 4 4;  level 2: 3 4
+   ℓ = 107, weight 100: R = 4;  level 6: 4 5 4 4;  level 2: 4 4
+   ℓ = 109, weight 102: R = 5;  level 6: 4 4 4 5;  level 2: 4 4
+   ℓ = 113, weight 106: R = 5;  level 6: 4 4 4 5;  level 2: 5 4
+   ℓ = 127, weight 120: R = 5;  level 6: 5 6 5 5;  level 2: 4 5
+   ℓ = 131, weight 124: R = 5;  level 6: 5 6 5 5;  level 2: 5 5
+   ℓ = 137, weight 130: R = 6;  level 6: 5 5 5 6;  level 2: 6 5
+   ℓ = 139, weight 132: R = 6;  level 6: 6 6 5 6;  level 2: 5 5
+   ℓ = 149, weight 142: R = 6;  level 6: 5 6 6 6;  level 2: 6 6
+   ℓ = 151, weight 144: R = 6;  level 6: 6 7 6 6;  level 2: 5 6
+   ℓ = 157, weight 150: R = 7;  level 6: 6 6 6 7;  level 2: 6 6
+
+   level 2, rule (-1): 17 of 33 primes match R_ℓ(5)
+   level 2, rule (+1): 16 of 33 primes match R_ℓ(5)
+   level 6, rule (-1, -1): 33 of 33 primes match R_ℓ(5)
+   level 6, rule (-1, +1): 16 of 33 primes match R_ℓ(5)
+   level 6, rule (+1, -1): 13 of 33 primes match R_ℓ(5)
+   level 6, rule (+1, +1): 17 of 33 primes match R_ℓ(5)
+seconds: 28

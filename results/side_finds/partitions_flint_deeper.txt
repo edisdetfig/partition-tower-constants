@@ -1,0 +1,86 @@
+1  THE LAWS (10 members each, FLINT)
+   ℓ = 37, Q = 6599, (n|Q) = -1: 10 of 10 members a multiple of 37 (largest N = 39408040455; 1 s)
+   ℓ = 37, Q = 7541, (n|Q) = +1: 10 of 10 members a multiple of 37 (largest N = 43045708072; 0 s)
+   ℓ = 37, Q = 9547, (n|Q) = -1: 10 of 10 members a multiple of 37 (largest N = 72365498229; 1 s)
+   ℓ = 43, Q = 4049, (n|Q) = -1: 10 of 10 members a multiple of 43 (largest N = 18475806827; 0 s)
+   ℓ = 43, Q = 8941, (n|Q) = -1: 10 of 10 members a multiple of 43 (largest N = 83215750826; 1 s)
+   ℓ = 37, Q = 2999 (24N − 1 = 37·2999³·m, m = [13, 37, 61, 85, 109, 133, 157, 181, 205, 229]): 10 of 10 a multiple of 37 (largest N = 9522596052022; 15 s)
+
+2  THE TWINS ONE LEVEL DEEPER (FLINT)
+   ℓ = 37 (constants to 9 digits): divisible by ℓ^ [1, 1, 2, 2, 3] at the levels ['(1,3,5)', '(2,4,6)', '(3,5,7)', '(4,6,8)', '(5,7,9)']  (7 s)
+   ℓ = 41 (constants to 9 digits): divisible by ℓ^ [1, 1, 2, 2, 3] at the levels ['(1,3,5)', '(2,4,6)', '(3,5,7)', '(4,6,8)', '(5,7,9)']  (10 s)
+   ℓ = 43 (constants to 5 digits): divisible by ℓ^ [1, 1, 2, 2, 3] at the levels ['(1,3,5)', '(2,4,6)', '(3,5,7)', '(4,6,8)', '(5,7,9)']  (11 s)
+
+3  THE CONSTANTS OF 13 TO 31 (FLINT; pairs of levels two apart, n = 0, δ ≤ 10¹⁷)
+   ℓ = 13, the forms' digits: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6, 8]
+      levels 1, 3 (δ = 1007, 0 s): digits [6, 11, 4, 12, 7, 11, 12, 7, 10, 7, 4, 11, 10];  agree with the forms in 1
+      levels 2, 4 (δ = 27371, 0 s): digits [6, 3, 3, 5, 9, 1, 8, 11, 2, 9, 7, 9, 6];  agree with the forms in 2;  with the previous pair in 1
+      levels 3, 5 (δ = 170176, 0 s): digits [6, 3, 1, 11, 6, 7, 7, 12, 9, 12, 7, 2, 11];  agree with the forms in 3;  with the previous pair in 2
+      levels 4, 6 (δ = 4625692, 0 s): digits [6, 3, 1, 2, 4, 11, 12, 9, 9, 0, 2, 12, 10];  agree with the forms in 4;  with the previous pair in 3
+      levels 5, 7 (δ = 28759737, 0 s): digits [6, 3, 1, 2, 5, 10, 3, 11, 10, 2, 6, 10, 4];  agree with the forms in 5;  with the previous pair in 4
+      levels 6, 8 (δ = 781741941, 0 s): digits [6, 3, 1, 2, 5, 8, 7, 8, 5, 3, 10, 1, 6];  agree with the forms in 6;  with the previous pair in 5
+      levels 7, 9 (δ = 4860395546, 0 s): digits [6, 3, 1, 2, 5, 8, 0, 8, 8, 6, 1, 1, 6];  agree with the forms in 7;  with the previous pair in 6
+      levels 8, 10 (δ = 132114388022, 0 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 8, 2, 12, 3, 6];  agree with the forms in 8;  with the previous pair in 7
+      levels 9, 11 (δ = 821406847267, 1 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 5, 3, 9, 7, 2];  agree with the forms in 9;  with the previous pair in 8
+      levels 10, 12 (δ = 22327331575711, 3 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 1, 7, 6];  agree with the forms in 10;  with the previous pair in 9
+      levels 11, 13 (δ = 138817757188116, 10 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 9, 1];  agree with the forms in 11;  with the previous pair in 10
+      levels 12, 14 (δ = 3773319036295152, 74 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6, 12];  agree with the forms in 12;  with the previous pair in 11
+      levels 13, 15 (δ = 23460200964791597, 234 s): digits [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6, 8];  agree with the forms in 13;  with the previous pair in 12
+   ℓ = 17, the forms' digits: [6, 12, 12, 7, 7, 5, 16, 3, 10, 14, 0, 0, 15]
+      levels 1, 3 (δ = 1433, 0 s): digits [6, 11, 15, 6, 4, 16, 4, 0, 15, 12, 16, 3, 15];  agree with the forms in 1
+      levels 2, 4 (δ = 80041, 0 s): digits [6, 12, 6, 9, 5, 6, 4, 1, 4, 8, 4, 3, 10];  agree with the forms in 2;  with the previous pair in 1
+      levels 3, 5 (δ = 414125, 0 s): digits [6, 12, 12, 15, 16, 10, 14, 14, 9, 14, 9, 8, 1];  agree with the forms in 3;  with the previous pair in 2
+      levels 4, 6 (δ = 23131837, 0 s): digits [6, 12, 12, 7, 4, 3, 10, 15, 10, 10, 12, 2, 5];  agree with the forms in 4;  with the previous pair in 3
+      levels 5, 7 (δ = 119682113, 0 s): digits [6, 12, 12, 7, 7, 9, 16, 10, 2, 6, 3, 9, 0];  agree with the forms in 5;  with the previous pair in 4
+      levels 6, 8 (δ = 6685100881, 0 s): digits [6, 12, 12, 7, 7, 5, 6, 1, 3, 7, 6, 9, 8];  agree with the forms in 6;  with the previous pair in 5
+      levels 7, 9 (δ = 34588130645, 0 s): digits [6, 12, 12, 7, 7, 5, 16, 5, 12, 13, 5, 1, 9];  agree with the forms in 7;  with the previous pair in 6
+      levels 8, 10 (δ = 1931994154597, 1 s): digits [6, 12, 12, 7, 7, 5, 16, 3, 5, 8, 11, 11, 15];  agree with the forms in 8;  with the previous pair in 7
+      levels 9, 11 (δ = 9995969756393, 2 s): digits [6, 12, 12, 7, 7, 5, 16, 3, 10, 15, 2, 11, 4];  agree with the forms in 9;  with the previous pair in 8
+      levels 10, 12 (δ = 558346310678521, 20 s): digits [6, 12, 12, 7, 7, 5, 16, 3, 10, 14, 6, 11, 3];  agree with the forms in 10;  with the previous pair in 9
+      levels 11, 13 (δ = 2888835259597565, 57 s): digits [6, 12, 12, 7, 7, 5, 16, 3, 10, 14, 0, 9, 16];  agree with the forms in 11;  with the previous pair in 10
+   ℓ = 19, the forms' digits: [10, 2, 10, 8, 10, 1, 16, 5, 7, 10, 6, 10, 8]
+      levels 1, 3 (δ = 1429, 0 s): digits [10, 10, 6, 5, 15, 13, 14, 13, 6, 14, 17, 15, 0];  agree with the forms in 1
+      levels 2, 4 (δ = 124891, 0 s): digits [10, 2, 2, 9, 1, 5, 1, 11, 9, 1, 17, 17, 17];  agree with the forms in 2;  with the previous pair in 1
+      levels 3, 5 (δ = 515854, 0 s): digits [10, 2, 10, 8, 2, 11, 15, 1, 13, 13, 13, 9, 0];  agree with the forms in 4;  with the previous pair in 2
+      levels 4, 6 (δ = 45085636, 0 s): digits [10, 2, 10, 8, 1, 14, 3, 12, 16, 10, 8, 4, 17];  agree with the forms in 4;  with the previous pair in 4
+      levels 5, 7 (δ = 186223279, 0 s): digits [10, 2, 10, 8, 10, 5, 3, 4, 10, 0, 3, 8, 9];  agree with the forms in 5;  with the previous pair in 4
+      levels 6, 8 (δ = 16275914581, 0 s): digits [10, 2, 10, 8, 10, 1, 8, 17, 18, 11, 0, 2, 2];  agree with the forms in 6;  with the previous pair in 5
+      levels 7, 9 (δ = 67226603704, 0 s): digits [10, 2, 10, 8, 10, 1, 16, 11, 13, 4, 18, 16, 10];  agree with the forms in 7;  with the previous pair in 6
+      levels 8, 10 (δ = 5875605163726, 1 s): digits [10, 2, 10, 8, 10, 1, 16, 5, 0, 16, 7, 12, 12];  agree with the forms in 8;  with the previous pair in 7
+      levels 9, 11 (δ = 24268803937129, 3 s): digits [10, 2, 10, 8, 10, 1, 16, 5, 7, 2, 16, 4, 3];  agree with the forms in 9;  with the previous pair in 8
+      levels 10, 12 (δ = 2121093464105071, 45 s): digits [10, 2, 10, 8, 10, 1, 16, 5, 7, 10, 1, 8, 3];  agree with the forms in 10;  with the previous pair in 9
+      levels 11, 13 (δ = 8761038221303554, 115 s): digits [10, 2, 10, 8, 10, 1, 16, 5, 7, 10, 6, 1, 3];  agree with the forms in 11;  with the previous pair in 10
+   ℓ = 23, the forms' digits: [5, 20, 8, 4, 19, 3, 6, 6, 20, 20, 3, 8, 14]
+      levels 1, 3 (δ = 507, 0 s): digits [5, 16, 4, 7, 10, 2, 10, 15, 22, 15, 11, 4, 13];  agree with the forms in 1
+      levels 2, 4 (δ = 268181, 0 s): digits [5, 20, 8, 1, 18, 18, 10, 8, 6, 6, 14, 19, 12];  agree with the forms in 3;  with the previous pair in 1
+      levels 3, 5 (δ = 268181, 0 s): digits [5, 20, 8, 1, 18, 18, 10, 8, 6, 6, 14, 19, 12];  agree with the forms in 3;  with the previous pair in 13
+      levels 4, 6 (δ = 141867727, 0 s): digits [5, 20, 8, 4, 19, 7, 10, 6, 10, 11, 17, 17, 8];  agree with the forms in 5;  with the previous pair in 3
+      levels 5, 7 (δ = 141867727, 0 s): digits [5, 20, 8, 4, 19, 7, 10, 6, 10, 11, 17, 17, 8];  agree with the forms in 5;  with the previous pair in 13
+      levels 6, 8 (δ = 75048027561, 0 s): digits [5, 20, 8, 4, 19, 3, 6, 0, 6, 1, 8, 21, 11];  agree with the forms in 7;  with the previous pair in 5
+      levels 7, 9 (δ = 75048027561, 0 s): digits [5, 20, 8, 4, 19, 3, 6, 0, 6, 1, 8, 21, 11];  agree with the forms in 7;  with the previous pair in 13
+      levels 8, 10 (δ = 39700406579747, 4 s): digits [5, 20, 8, 4, 19, 3, 6, 6, 20, 17, 20, 14, 8];  agree with the forms in 9;  with the previous pair in 7
+      levels 9, 11 (δ = 39700406579747, 0 s): digits [5, 20, 8, 4, 19, 3, 6, 6, 20, 17, 20, 14, 8];  agree with the forms in 9;  with the previous pair in 13
+      levels 10, 12 (δ = 21001515080686141, 188 s): digits [5, 20, 8, 4, 19, 3, 6, 6, 20, 20, 3, 10, 10];  agree with the forms in 11;  with the previous pair in 9
+      levels 11, 13 (δ = 21001515080686141, 0 s): digits [5, 20, 8, 4, 19, 3, 6, 6, 20, 20, 3, 10, 10];  agree with the forms in 11;  with the previous pair in 13
+   ℓ = 29, the forms' digits: [3, 14, 17, 22, 28, 6, 14, 19, 1, 14, 0]
+      levels 1, 3 (δ = 19308, 0 s): digits [3, 4, 3, 19, 13, 1, 3, 22, 16, 17, 8];  agree with the forms in 1
+      levels 2, 4 (δ = 677811, 0 s): digits [3, 25, 8, 3, 1, 11, 25, 4, 13, 21, 17];  agree with the forms in 1;  with the previous pair in 1
+      levels 3, 5 (δ = 16237993, 0 s): digits [3, 14, 24, 1, 19, 18, 10, 11, 26, 2, 26];  agree with the forms in 2;  with the previous pair in 1
+      levels 4, 6 (δ = 570039016, 0 s): digits [3, 14, 24, 23, 14, 18, 18, 1, 11, 20, 22];  agree with the forms in 2;  with the previous pair in 3
+      levels 5, 7 (δ = 13656152078, 0 s): digits [3, 14, 17, 8, 23, 8, 5, 4, 7, 24, 23];  agree with the forms in 3;  with the previous pair in 2
+      levels 6, 8 (δ = 479402812421, 0 s): digits [3, 14, 17, 8, 4, 1, 19, 17, 12, 13, 23];  agree with the forms in 3;  with the previous pair in 4
+      levels 7, 9 (δ = 11484823897563, 2 s): digits [3, 14, 17, 22, 27, 3, 15, 8, 27, 15, 12];  agree with the forms in 4;  with the previous pair in 3
+      levels 8, 10 (δ = 403177765246026, 17 s): digits [3, 14, 17, 22, 27, 12, 10, 11, 6, 7, 23];  agree with the forms in 4;  with the previous pair in 5
+      levels 9, 11 (δ = 9658736897850448, 134 s): digits [3, 14, 17, 22, 28, 8, 19, 25, 28, 24, 3];  agree with the forms in 5;  with the previous pair in 4
+   ℓ = 31, the forms' digits: [30, 6, 2, 28, 1, 8, 3, 15, 15, 13, 16]
+      levels 1, 3 (δ = 21102, 0 s): digits [30, 15, 5, 28, 10, 26, 9, 26, 30, 7, 22];  agree with the forms in 1
+      levels 2, 4 (δ = 885041, 0 s): digits [30, 27, 1, 0, 11, 5, 1, 18, 12, 15, 12];  agree with the forms in 1;  with the previous pair in 1
+      levels 3, 5 (δ = 20278982, 0 s): digits [30, 6, 25, 1, 17, 5, 29, 23, 23, 7, 0];  agree with the forms in 2;  with the previous pair in 1
+      levels 4, 6 (δ = 850524361, 0 s): digits [30, 6, 22, 18, 27, 30, 24, 2, 3, 27, 8];  agree with the forms in 2;  with the previous pair in 2
+      levels 5, 7 (δ = 19488101662, 0 s): digits [30, 6, 2, 13, 8, 12, 11, 13, 9, 14, 21];  agree with the forms in 3;  with the previous pair in 2
+      levels 6, 8 (δ = 817353910881, 0 s): digits [30, 6, 2, 19, 17, 17, 6, 9, 28, 23, 4];  agree with the forms in 3;  with the previous pair in 3
+      levels 7, 9 (δ = 18728065697142, 3 s): digits [30, 6, 2, 28, 0, 5, 15, 20, 9, 19, 22];  agree with the forms in 4;  with the previous pair in 3
+      levels 8, 10 (δ = 785477108356601, 25 s): digits [30, 6, 2, 28, 19, 13, 12, 8, 14, 24, 14];  agree with the forms in 4;  with the previous pair in 4
+      levels 9, 11 (δ = 17997671134953422, 157 s): digits [30, 6, 2, 28, 1, 10, 20, 5, 24, 13, 8];  agree with the forms in 5;  with the previous pair in 4
+
+seconds: 1143

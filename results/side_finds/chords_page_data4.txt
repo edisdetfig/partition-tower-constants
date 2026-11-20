@@ -1,0 +1,13 @@
+ℓ = 67, a braid of 2: turns [1270, 4306] of 4,488; ratio ×ℓ: yes; sum = 16 steps of 360°/66 = the angle of the product 65 (a square): yes
+   size ×65; direction 46 of 68 per two levels
+ℓ = 67: notes ['constant 41 (66 points)', 'a braid of 2 (2,244 points)']; the loop 2,244 two-level steps
+ℓ = 71, a braid of 3: turns [160911, 329471, 128291] of 357,910; ratio ×ℓ: yes; sum = 51 steps of 360°/70 = the angle of the product 69 (not a square): yes
+   size ×69; direction 1 of 5,113 per two levels (its own clock)
+ℓ = 71: notes ['a braid of 3 (357,910 points)']; the loop 357,910 two-level steps
+ℓ = 79, a braid of 2: turns [4762, 1798] of 6,240; ratio ×ℓ: yes; sum = 4 steps of 360°/78 = the angle of the product 51 (a square): yes
+   size ×51; direction 42 of 80 per two levels
+ℓ = 79: notes ['constant 18 (13 points)', 'a braid of 2 (3,120 points)']; the loop 3,120 two-level steps
+ℓ = 83, a braid of 2: turns [3527, 3445] of 6,888; ratio ×ℓ: yes; sum = 1 steps of 360°/82 = the angle of the product 79 (not a square): yes
+   size ×79; direction 1 of 84 per two levels (its own clock)
+ℓ = 83: notes ['constant 16 (41 points)', 'a braid of 2 (6,888 points)']; the loop 6,888 two-level steps
+wrote chords_page_data4.json

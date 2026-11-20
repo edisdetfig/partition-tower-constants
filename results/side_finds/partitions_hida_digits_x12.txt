@@ -1,0 +1,26 @@
+
+ℓ = 13: weights 10, 22, 34, 46, 58, 70, 82, 94, 106, 118, 130, 142, 154 (11 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] (needed: at least 0, 1, 2, …)
+   from x = 0 to 11 the series foretells the member at x = 12 (weight 154) to 12 digits
+   (3|ℓ)·u(−2), digits lowest first: [6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6, 8]
+   the constant from the partition numbers (partitions_constants.txt): [6, 3, 1, 2, 5, 8]  →  ALL 6 settled digits agree
+
+ℓ = 17: weights 14, 30, 46, 62, 78, 94, 110, 126, 142, 158, 174, 190, 206 (29 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] (needed: at least 0, 1, 2, …)
+   from x = 0 to 11 the series foretells the member at x = 12 (weight 206) to 12 digits
+   (3|ℓ)·u(−2), digits lowest first: [6, 12, 12, 7, 7, 5, 16, 3, 10, 14, 0, 0, 15]
+   the constant from the partition numbers (partitions_constants.txt): [6, 12, 12, 7, 7]  →  ALL 5 settled digits agree
+
+ℓ = 19: weights 16, 34, 52, 70, 88, 106, 124, 142, 160, 178, 196, 214, 232 (46 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] (needed: at least 0, 1, 2, …)
+   from x = 0 to 11 the series foretells the member at x = 12 (weight 232) to 12 digits
+   (3|ℓ)·u(−2), digits lowest first: [10, 2, 10, 8, 10, 1, 16, 5, 7, 10, 6, 10, 8]
+   the constant from the partition numbers (partitions_constants.txt): [10, 2, 10, 8, 10]  →  ALL 5 settled digits agree
+
+ℓ = 23: weights 20, 42, 64, 86, 108, 130, 152, 174, 196, 218, 240, 262, 284 (101 s)
+   the differences of u are divisible by ℓ to the powers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] (needed: at least 0, 1, 2, …)
+   from x = 0 to 11 the series foretells the member at x = 12 (weight 284) to 12 digits
+   (3|ℓ)·u(−2), digits lowest first: [5, 20, 8, 4, 19, 3, 6, 6, 20, 20, 3, 8, 14]
+   the constant from the partition numbers (partitions_constants.txt): [5, 20, 8, 4]  →  ALL 4 settled digits agree
+
+seconds: 187

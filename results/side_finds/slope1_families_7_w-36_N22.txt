@@ -1,0 +1,12 @@
+ℓ = 7, weight -36 = 0 + -6·(ℓ − 1): 17 basis vectors (Katz degrees 0..32), working modulo ℓ^29, the series wanted modulo ℓ^22; FLINT 0.9.0
+   Dwork's bound v(C[r][c]) − (ℓ·i(r) − i(c))/(ℓ+1): smallest value -1.000 (the scaling below needs ≥ −1)
+   the scaled matrix: smallest valuation of each row (by Katz degree), the last rows: [16, 18, 18, 20, 23, 23]
+   det(1 − X·U) modulo ℓ^22: valuations of c_0 … c_16: [0, 0, 2, 4, 6, 11, 18, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22]
+   its Newton polygon (slope, length), while below ℓ^22: [('0.000', 1), ('2.000', 3), ('5.000', 1), ('7.000', 1)]
+   slope 0: 1 roots;  slope 1: 0 roots
+   the slope-0 factor ∏(z − λ) modulo ℓ^22, lowest first: [3909821048582988048, 1]
+      λ = 1 (digits [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+   after the slope-0 factor: v(q_t) for t = 0 … 14: [0, 2, 4, 6, 11, 18, 22, 22, 22, 22, 22, 22, 22, 22, 22] (the last known at t = 5, slope into it 7.00)
+   the slope-1 factor ∏(y − λ/ℓ) modulo ℓ^17 (truncated at t = 5), lowest first: [1]
+      on lane ℓ: [1]; its roots on lane ℓ: []
+seconds: 0

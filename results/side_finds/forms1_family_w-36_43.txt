@@ -1,0 +1,18 @@
+ℓ = 43, a level-1 form of weight -36: families through k₀ = 6, read at x = -1 (weight -36); 11 weights; modulo ℓ^11; FLINT 0.9.0
+   weight 6 (dimension 1): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 48 (dimension 5): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 90 (dimension 8): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 132 (dimension 12): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 174 (dimension 15): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 216 (dimension 19): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 258 (dimension 22): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 300 (dimension 26): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 342 (dimension 29): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 384 (dimension 33): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+   weight 426 (dimension 36): the ordinary part has 1 forms; U_ℓ polynomial on lane ℓ [42, 1]  (0 s)
+the differences of each coefficient are divisible by ℓ to [[0, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]]
+the constants' polynomial at weight -36 (lowest first), on lane ℓ^11: [929293739471222706, 1];  on lane ℓ: [42, 1]
+   x = 1 is a root to ℓ^11 (the Eisenstein family): True
+   on lane ℓ it factors as [([42, 1], 1)]
+
+seconds: 0

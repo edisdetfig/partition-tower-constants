@@ -1,0 +1,14 @@
+ℓ = 607, weight 604: the class has 25 forms, known to 607^3; (3|607) = -1  (30 s)
+607^22 − 1 = 2^6 · 3 · 19 · 23 · 89 · 101 · 7459 · 153913 · 444841 · 5167686547 · 1976083289819 · 4319117608586023
+   note: constant 406 (turn 561 of 606, 202 points)
+   note: constant 240 (turn 514 of 606, 303 points)  ×2 (the pair)
+   note: constant 240 (turn 514 of 606, 303 points)  ×2 (the pair)
+   note: a braid of 22: order 8,494,175,073,466,107,053,265,237,240,176,490,461,145,589,164,630,152,727,520,224 of 16,988,350,146,932,214,106,530,474,480,352,980,922,291,178,329,260,305,455,040,448
+   the braid of 22: size ×53 per two levels (the product of its 22 constants; a square; 303 points on the 607-hour clock); direction: order 14,016,790,550,274,104,048,292,470,693,360,545,315,421,764,298,069,558,956,304 of the circle of 28,033,581,100,548,208,096,584,941,386,721,090,630,843,528,596,139,117,912,608 places (a smaller circle)
+   the whole tower of 607 comes back after 8,494,175,073,466,107,053,265,237,240,176,490,461,145,589,164,630,152,727,520,224 two-level steps on lane 607 (the least common multiple)
+   the pair: T_607 ≡ 367 (×2) on lane 607, so both constants are (3|607)·367 = 240; T₅ there: [66, 561, 1] (irreducible: True); C: [484, 70, 1] (irreducible: True)
+   T₅: form A size 66, direction 1 of 608; form B size 66, direction 607 of 608
+   T_607, first digit: form A size 542, direction 0 of 608; form B size 542, direction 0 of 608
+   C, one digit deeper: form A size 484, direction 342 of 608; form B size 484, direction 266 of 608
+wrote chords_page_data607.json
+seconds: 30

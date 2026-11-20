@@ -1,0 +1,63 @@
+Part B: level1_tower_poleHD15_N16000000_5_7_11_13_17_19_23_29_31_37_41_43.json, H = [-121287375, 191025, 1] (lowest first), weight -24, so u^(w−2) = u^-26
+
+ℓ = 5, lane ℓ^11: ramified; P on lane ℓ [4, 1]
+   P alone (PREDICTED): 1: 3  2: 4  3: 5  4: 6  5: 7  6: 8  7: 9  8: 10  9: 11  (86 checks)
+
+ℓ = 7, lane ℓ^10: inert (both curves supersingular); P on lane ℓ [6, 1]
+   P alone (PREDICTED): 1: 3  2: 4  3: 5  4: 6  5: 7  6: 8  7: 9  (68 checks)
+
+ℓ = 11, lane ℓ^8: inert (both curves supersingular); P on lane ℓ [10, 1]
+   P alone (PREDICTED): 1: 2  2: 3  3: 4  4: 5  5: 6  (53 checks)
+
+ℓ = 13, lane ℓ^8: inert (both curves supersingular); P on lane ℓ [8, 4, 1]
+   P alone (PREDICTED): 1: 4  2: 5  3: 6  4: 7  (36 checks)
+
+ℓ = 17, lane ℓ^7: split, not of the form x² + xy + 4y²: the two curves SWAP; the curve over 𝔽_ℓ² has trace -14 (norm form: ±14); P on lane ℓ [16, 1]; slope-1 families 2
+   U^-26 digits [15, 8, 11, 14, 14, 0, 6];  U^-13 digits [10, 1, 3, 13, 5, 2, 11]
+   P alone                            1: 0  2: 0  3: 0  4: 0  (44 checks)
+   P·S                                1: 0  2: 0  (22 checks)
+   P·(x − U^-13)·S  (one of the pair) 1: 0  (11 checks)
+   P·(x + U^-13)·S  (the other)       1: 0  (11 checks)
+   P·(x² − U^-26)   (the pair, no S)  1: 2  2: 3  (22 checks)
+   P·(x² − U^-26)·S (PREDICTED)       no level span  (0 checks)
+   the remainders' ratio 1 level apart, on lane ℓ, by level: {1: [1, 3, 5, 6, 8, 9, 11, 13, 14, 15], 2: [1, 3, 4, 5, 6, 9, 11, 12, 13, 15], 3: [1, 3, 5, 6, 8, 9, 11, 13, 14, 15]}
+   the remainders' ratio 2 levels apart, on lane ℓ, by level: {1: [15], 2: [15]}
+   (on lane ℓ: U^-26 ≡ 15, ±U^-13 ≡ ±10)
+
+ℓ = 19, lane ℓ^7: split, ℓ = x² + xy + 4y²: each curve fixed; roots of H on lane ℓ [5, 15], their traces [-4, -4] (norm form: ±4); P on lane ℓ [7, 11, 1]; slope-1 families 1
+   u^-26 digits [4, 18, 17, 8, 12, 2, 2]
+   P alone                          1: 0  2: 0  3: 0  (28 checks)
+   P·(x − u^-26)                    1: 2  2: 3  (17 checks)
+   P·S                              1: 0  2: 0  (17 checks)
+   P·(x − u^-26)·S (PREDICTED)      1: 5  (6 checks)
+
+ℓ = 23, lane ℓ^6: split, not of the form x² + xy + 4y²: the two curves SWAP; the curve over 𝔽_ℓ² has trace 34 (norm form: ±34); P on lane ℓ [7, 15, 1]; slope-1 families 2
+   U^-26 digits [16, 2, 8, 10, 21, 13];  U^-13 digits [19, 16, 20, 1, 15, 20]
+   P alone                            1: 0  2: 0  3: 0  (24 checks)
+   P·S                                1: 0  (2 checks)
+   P·(x − U^-13)·S  (one of the pair) no level span  (0 checks)
+   P·(x + U^-13)·S  (the other)       no level span  (0 checks)
+   P·(x² − U^-26)   (the pair, no S)  1: 2  (2 checks)
+   P·(x² − U^-26)·S (PREDICTED)       no level span  (0 checks)
+   the remainders' ratio 1 level apart, on lane ℓ, by level: {1: [3, 4, 6, 9, 10, 11, 12, 18, 19, 21], 2: [15, 18]}
+   the remainders' ratio 2 levels apart, on lane ℓ, by level: {1: [16]}
+   (on lane ℓ: U^-26 ≡ 16, ±U^-13 ≡ ±19)
+
+ℓ = 29, lane ℓ^6: inert (both curves supersingular); P on lane ℓ [28, 1]
+   P alone (PREDICTED): 1: 2  2: 3  3: 4  (33 checks)
+
+ℓ = 31, lane ℓ^5: split, ℓ = x² + xy + 4y²: each curve fixed; roots of H on lane ℓ [11, 17], their traces [8, 8] (norm form: ±8); P on lane ℓ [30, 1]; slope-1 families 3
+   u^-26 digits [4, 19, 5, 15, 6]
+   P alone                          1: 0  2: 0  3: 0  (33 checks)
+   P·(x − u^-26)                    1: 2  2: 3  (22 checks)
+   P·S                              no level span  (0 checks)
+   P·(x − u^-26)·S (PREDICTED)      no level span  (0 checks)
+
+ℓ = 37, lane ℓ^5: inert (both curves supersingular); P on lane ℓ [31, 5, 1]
+   P alone (PREDICTED): 1: 2  2: 3  (19 checks)
+
+ℓ = 41, lane ℓ^5: inert (both curves supersingular); P on lane ℓ [17, 23, 1]
+   P alone (PREDICTED): 1: 2  2: 3  (16 checks)
+
+ℓ = 43, lane ℓ^5: inert (both curves supersingular); P on lane ℓ [40, 2, 1]
+   P alone (PREDICTED): 1: 2  2: 3  (15 checks)

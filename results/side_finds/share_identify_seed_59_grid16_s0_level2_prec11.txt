@@ -1,0 +1,12 @@
+ℓ = 59, level 2, grid 16 × 16 shifted by 0 (Q = [5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 61, 67]): depths [0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6]
+   seed Sym^54 ⊗ det^0 (slope 0), span of 2 forms: in the directions of depth ≤ 0; a unit start predicts 0
+   seed Sym^52 ⊗ det^1 (slope 1), rational, T_5 ≡ 32: in the directions of depth ≤ 1; a unit start predicts 1
+   seed Sym^52 ⊗ det^1 (slope 1), rational, T_5 ≡ 26: in the directions of depth ≤ 1; a unit start predicts 1
+   seed Sym^6 ⊗ det^53 (slope 2), rational, T_5 ≡ 4: in the directions of depth ≤ 2; a unit start predicts 2
+   seed Sym^50 ⊗ det^2 (slope 2), span of 2 forms: in the directions of depth ≤ 2; a unit start predicts 2
+   seed Sym^48 ⊗ det^3 (slope 3), span of 2 forms: in the directions of depth ≤ 3; a unit start predicts 3
+   seed Sym^10 ⊗ det^51 (slope 4), rational, T_5 ≡ 31: in the directions of depth ≤ 4; a unit start predicts 4
+   seed Sym^46 ⊗ det^4 (slope 4), rational, T_5 ≡ 18: in the directions of depth ≤ 5; a unit start predicts 4   <-- DIFFERENT
+   seed Sym^46 ⊗ det^4 (slope 4), rational, T_5 ≡ 14: in the directions of depth ≤ 4; a unit start predicts 4
+   seed Sym^44 ⊗ det^5 (slope 5), span of 2 forms: in the directions of depth ≤ 5; a unit start predicts 5
+(1 s)

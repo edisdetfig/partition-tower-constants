@@ -1,0 +1,44 @@
+
+ℓ = 13: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 2];  E(b + 2)/E(b): valuation [2], unit part digits [10]… shared by all 8 values of n: 0 digits
+   level  3: v(E) over n = [3, 3, 3, 3, 3, 3, 3, 4];  E(b + 2)/E(b): valuation [2], unit part digits [10, 11, 6, 5]… shared by all 8 values of n: 3 digits
+   level  5: v(E) over n = [5, 5, 5, 5, 5, 5, 5, 6];  E(b + 2)/E(b): valuation [2], unit part digits [10, 11, 6, 2, 10]… shared by all 8 values of n: 4 digits
+   level  7: v(E) over n = [7, 7, 7, 7, 7, 7, 7, 8];  E(b + 2)/E(b): valuation [2], unit part digits [10, 11, 6, 2, 10, 10]… shared by all 8 values of n: 6 digits
+   level  9: v(E) over n = [9, 9, 9, 9, 9, 9, 9, 10];  E(b + 2)/E(b): valuation [2], unit part digits [10, 11, 6, 2, 10, 10]… shared by all 8 values of n: 8 digits
+   level 11: v(E) over n = [11, 11, 11, 11, 11, 11, 11, 12]
+
+ℓ = 17: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 1];  E(b + 2)/E(b): valuation [2], unit part digits [3, 0]… shared by all 8 values of n: 1 digit
+   level  3: v(E) over n = [3, 3, 3, 3, 3, 3, 3, 3];  E(b + 2)/E(b): valuation [2], unit part digits [3, 9, 1, 8]… shared by all 8 values of n: 3 digits
+   level  5: v(E) over n = [5, 5, 5, 5, 5, 5, 5, 5];  E(b + 2)/E(b): valuation [2], unit part digits [3, 9, 1, 13, 4, 4]… shared by all 8 values of n: 5 digits
+   level  7: v(E) over n = [7, 7, 7, 7, 7, 7, 7, 7];  E(b + 2)/E(b): valuation [2], unit part digits [3, 9, 1, 13, 4, 3]… shared by all 8 values of n: 7 digits
+   level  9: v(E) over n = [9, 9, 9, 9, 9, 9, 9, 9];  E(b + 2)/E(b): valuation [2], unit part digits [3, 9, 1, 13, 4, 3]… shared by all 1 values of n: 19 digits
+   level 11: v(E) over n = [11]
+
+ℓ = 19: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 1];  E(b + 2)/E(b): valuation [2, 3], unit part digits [9]… shared by all 8 values of n: 0 digits
+   level  3: v(E) over n = [4, 3, 3, 3, 3, 3, 3, 4];  E(b + 2)/E(b): valuation [1, 2, 3], unit part digits [14]… shared by all 8 values of n: 0 digits
+   level  5: v(E) over n = [5, 5, 5, 5, 6, 5, 5, 5];  E(b + 2)/E(b): valuation [1, 2], unit part digits [15]… shared by all 8 values of n: 0 digits
+   level  7: v(E) over n = [7, 7, 7, 7, 7, 7, 7, 7];  E(b + 2)/E(b): valuation [2], unit part digits [12]… shared by all 8 values of n: 0 digits
+   level  9: v(E) over n = [9, 9, 9, 9, 9, 9, 9, 9]
+
+ℓ = 23: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 1];  E(b + 2)/E(b): valuation [2], unit part digits [21]… shared by all 8 values of n: 0 digits
+   level  3: v(E) over n = [3, 3, 3, 3, 3, 3, 3, 3];  E(b + 2)/E(b): valuation [2], unit part digits [1]… shared by all 8 values of n: 0 digits
+   level  5: v(E) over n = [5, 5, 5, 5, 5, 5, 5, 5];  E(b + 2)/E(b): valuation [2, 3], unit part digits [4]… shared by all 8 values of n: 0 digits
+   level  7: v(E) over n = [7, 7, 7, 7, 7, 8, 7, 7];  E(b + 2)/E(b): valuation [2], unit part digits [14]… shared by all 4 values of n: 0 digits
+   level  9: v(E) over n = [9, 9, 9, 9]
+
+ℓ = 29: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 1];  E(b + 2)/E(b): valuation [1], unit part digits [24]… shared by all 8 values of n: 0 digits
+   level  3: v(E) over n = [2, 2, 2, 2, 2, 2, 2, 2];  E(b + 2)/E(b): valuation [1], unit part digits [23, 13]… shared by all 8 values of n: 1 digit
+   level  5: v(E) over n = [3, 3, 3, 3, 3, 3, 3, 3];  E(b + 2)/E(b): valuation [1], unit part digits [23, 3, 10]… shared by all 8 values of n: 2 digits
+   level  7: v(E) over n = [4, 4, 4, 4, 4, 4, 4, 4]
+
+ℓ = 31: α to 30 digits
+   level  1: v(E) over n = [1, 1, 1, 1, 1, 1, 1, 1];  E(b + 2)/E(b): valuation [1], unit part digits [25]… shared by all 8 values of n: 0 digits
+   level  3: v(E) over n = [2, 2, 2, 2, 2, 2, 2, 2];  E(b + 2)/E(b): valuation [1], unit part digits [2, 19]… shared by all 8 values of n: 1 digit
+   level  5: v(E) over n = [3, 3, 3, 3, 3, 3, 3, 3];  E(b + 2)/E(b): valuation [1], unit part digits [2, 28, 13]… shared by all 8 values of n: 2 digits
+   level  7: v(E) over n = [4, 4, 4, 4, 4, 4, 4, 4]
+
+the largest partition number used: p(2898129680321528);  seconds: 1160

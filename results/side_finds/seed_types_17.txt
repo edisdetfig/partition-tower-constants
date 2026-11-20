@@ -1,0 +1,14 @@
+ℓ = 17: each family's seed, ordinary or not, Eisenstein or not (T_q for the 22 primes q = 5 … 97 other than ℓ), and the theorems' hypotheses
+   (0 s)
+
+| family (T_q mod ℓ, q = [5, 7, 11, 13]) | seed | forms | a_ℓ of the seed mod ℓ | ordinary | Eisenstein (ρ̄ ≅ ω^a ⊕ ω^b, twisted) | Serre weight (a, b) | LTXZ Thm 1.3 | Wang (très ramifié) | BP Conj 3.1 (regular) |
+|---|---|---|---|---|---|---|---|---|---|
+| (16, 12, 15, 12) | weight 14·ω^0 | 1 | 11 | yes | no | (12, 0) | covered | — | regular |
+| (2, 13, 13, 9) | weight 16·ω^7 | 1 | 5 | yes | no | (14, 7) | no: a = 14 not in 2 … ℓ − 5 | — | regular |
+| (4, 0, 15, 2) | weight 18·ω^14 | 1 | 1 | yes | no | (0, 14) très ramifié | no: a = 0 très ramifié | local theorem | regular |
+| (4, 2, 9, 7) | weight 8·ω^11 | 1 | 7 | yes | no | (6, 11) | covered | — | regular |
+| (5, 13, 6, 3) | weight 16·ω^15 | 1 | 1 | yes | ω^15 ⊕ ω^14 | (14, 15) | no: globally reducible; a = 14 not in 2 … ℓ − 5 | — | regular |
+| (6, 2, 10, 15) | weight 12·ω^9 | 1 | 13 | yes | no | (10, 9) | covered | — | regular |
+| (9, 7, 15, 5) | weight 6·ω^4 | 1 | 11 | yes | no | (4, 4) | covered | — | regular |
+
+families: 7; seeds ordinary: 7; globally reducible: 1; covered by LTXZ Theorem 1.3: 4; Steinberg (Wang, local): 1

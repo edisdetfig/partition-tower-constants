@@ -1,0 +1,79 @@
+the newforms of level 6 by their signs at 2 and 3: c(w; ε₂, ε₃) for even w = 4 … 610, as nullities modulo the primes [2305843009213693951, 1152921504606846883] (they must agree)
+   w =   4: (+,+) 0, (+,−) 0, (−,+) 0, (−,−) 1  (0 s)
+   w =   6: (+,+) 0, (+,−) 1, (−,+) 0, (−,−) 0  (0 s)
+   w =   8: (+,+) 1, (+,−) 0, (−,+) 0, (−,−) 0  (0 s)
+   w =  10: (+,+) 0, (+,−) 0, (−,+) 1, (−,−) 0  (0 s)
+   w =  12: (+,+) 1, (+,−) 0, (−,+) 1, (−,−) 1  (0 s)
+   w =  14: (+,+) 0, (+,−) 1, (−,+) 0, (−,−) 0  (0 s)
+   w =  16: (+,+) 1, (+,−) 1, (−,+) 0, (−,−) 1  (0 s)
+   w =  18: (+,+) 0, (+,−) 1, (−,+) 1, (−,−) 1  (0 s)
+   w =  20: (+,+) 1, (+,−) 0, (−,+) 1, (−,−) 1  (0 s)
+   w =  22: (+,+) 1, (+,−) 1, (−,+) 1, (−,−) 0  (0 s)
+   w =  24: (+,+) 2, (+,−) 1, (−,+) 1, (−,−) 1  (0 s)
+   w =  26: (+,+) 0, (+,−) 1, (−,+) 1, (−,−) 1  (0 s)
+   w =  28: (+,+) 1, (+,−) 1, (−,+) 1, (−,−) 2  (0 s)
+   w =  30: (+,+) 1, (+,−) 2, (−,+) 1, (−,−) 1  (0 s)
+   w =  32: (+,+) 2, (+,−) 1, (−,+) 1, (−,−) 1  (0 s)
+   w =  34: (+,+) 1, (+,−) 1, (−,+) 2, (−,−) 1  (0 s)
+   w =  36: (+,+) 2, (+,−) 1, (−,+) 2, (−,−) 2  (0 s)
+   w =  38: (+,+) 1, (+,−) 2, (−,+) 1, (−,−) 1  (0 s)
+   w =  40: (+,+) 2, (+,−) 2, (−,+) 1, (−,−) 2  (0 s)
+   w =  42: (+,+) 1, (+,−) 2, (−,+) 2, (−,−) 2  (0 s)
+   w =  44: (+,+) 2, (+,−) 1, (−,+) 2, (−,−) 2  (0 s)
+   w =  46: (+,+) 2, (+,−) 2, (−,+) 2, (−,−) 1  (0 s)
+   w =  48: (+,+) 3, (+,−) 2, (−,+) 2, (−,−) 2  (0 s)
+   w =  50: (+,+) 1, (+,−) 2, (−,+) 2, (−,−) 2  (0 s)
+   w =  52: (+,+) 2, (+,−) 2, (−,+) 2, (−,−) 3  (0 s)
+   w = 100: (+,+) 4, (+,−) 4, (−,+) 4, (−,−) 5  (1 s)
+   w = 200: (+,+) 9, (+,−) 8, (−,+) 8, (−,−) 8  (14 s)
+   w = 300: (+,+) 13, (+,−) 12, (−,+) 13, (−,−) 13  (49 s)
+   w = 400: (+,+) 17, (+,−) 17, (−,+) 16, (−,−) 17  (123 s)
+   w = 500: (+,+) 21, (+,−) 20, (−,+) 21, (−,−) 21  (256 s)
+   w = 600: (+,+) 26, (+,−) 25, (−,+) 25, (−,−) 25  (494 s)
+   the two primes disagree at: no weight
+   the four classes add up to dim S_w(6) − 2 dim S_w(3) − 2 dim S_w(2) + 4 dim S_w(1) at every weight: yes
+
+(a) c(w + 24; ε) − c(w; ε), over every w with w + 24 ≤ 610: [1]
+(d) c(6; +, +) = 0   (all signs at weight 6: (+,+) 0, (+,−) 1, (−,+) 0, (−,−) 0)
+
+(b), (c) the first-step gain at every prime ℓ ≥ 11 (direct: c(2ℓ−4; +,+) − c(ℓ−3; (2|ℓ),(3|ℓ)) where 2ℓ − 4 ≤ 610; reduced: c(ℓ−5; (2|ℓ),(3|ℓ)) + c(6;+,+)), against ⌊ℓ/24⌋
+   ℓ =  11: signs (−,+); forms at ℓ − 3: 0; gain direct 0, reduced 0; ⌊ℓ/24⌋ = 0
+   ℓ =  13: signs (−,+); forms at ℓ − 3: 1; gain direct 0, reduced 0; ⌊ℓ/24⌋ = 0
+   ℓ =  17: signs (+,−); forms at ℓ − 3: 1; gain direct 0, reduced 0; ⌊ℓ/24⌋ = 0
+   ℓ =  19: signs (−,−); forms at ℓ − 3: 1; gain direct 0, reduced 0; ⌊ℓ/24⌋ = 0
+   ℓ =  23: signs (+,+); forms at ℓ − 3: 1; gain direct 0, reduced 0; ⌊ℓ/24⌋ = 0
+   ℓ =  29: signs (−,−); forms at ℓ − 3: 1; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  31: signs (+,−); forms at ℓ − 3: 1; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  37: signs (−,+); forms at ℓ − 3: 2; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  41: signs (+,−); forms at ℓ − 3: 2; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  43: signs (−,−); forms at ℓ − 3: 2; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  47: signs (+,+); forms at ℓ − 3: 2; gain direct 1, reduced 1; ⌊ℓ/24⌋ = 1
+   ℓ =  53: signs (−,−); forms at ℓ − 3: 2; gain direct 2, reduced 2; ⌊ℓ/24⌋ = 2
+   ℓ =  59: signs (−,+); forms at ℓ − 3: 2; gain direct 2, reduced 2; ⌊ℓ/24⌋ = 2
+   ℓ =  61: signs (−,+); forms at ℓ − 3: 3; gain direct 2, reduced 2; ⌊ℓ/24⌋ = 2
+   ℓ =  67: signs (−,−); forms at ℓ − 3: 3; gain direct 2, reduced 2; ⌊ℓ/24⌋ = 2
+   ℓ =  71: signs (+,+); forms at ℓ − 3: 3; gain direct 2, reduced 2; ⌊ℓ/24⌋ = 2
+   ℓ =  73: signs (+,+); forms at ℓ − 3: 3; gain direct 3, reduced 3; ⌊ℓ/24⌋ = 3
+   ℓ =  79: signs (+,−); forms at ℓ − 3: 3; gain direct 3, reduced 3; ⌊ℓ/24⌋ = 3
+   ℓ =  83: signs (−,+); forms at ℓ − 3: 3; gain direct 3, reduced 3; ⌊ℓ/24⌋ = 3
+   ℓ =  89: signs (+,−); forms at ℓ − 3: 4; gain direct 3, reduced 3; ⌊ℓ/24⌋ = 3
+   ℓ =  97: signs (+,+); forms at ℓ − 3: 4; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 101: signs (−,−); forms at ℓ − 3: 4; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 103: signs (+,−); forms at ℓ − 3: 4; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 107: signs (−,+); forms at ℓ − 3: 4; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 109: signs (−,+); forms at ℓ − 3: 5; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 113: signs (+,−); forms at ℓ − 3: 5; gain direct 4, reduced 4; ⌊ℓ/24⌋ = 4
+   ℓ = 607: signs (+,−); forms at ℓ − 3: 25; gain direct —, reduced 25; ⌊ℓ/24⌋ = 25
+   (b) direct = reduced at 59 of 59 primes;  (c) reduced = ⌊ℓ/24⌋ at 108 of 108 primes (11 … 613)
+
+the residue classes of ℓ mod 24 (where (2|ℓ) and (3|ℓ) are fixed): the first prime of each, which with (a) carries gain = ⌊ℓ/24⌋ to every prime of its class
+   ℓ ≡  1 (mod 24): first prime 73, gain 3, ⌊ℓ/24⌋ = 3: equal
+   ℓ ≡  5 (mod 24): first prime 29, gain 1, ⌊ℓ/24⌋ = 1: equal
+   ℓ ≡  7 (mod 24): first prime 31, gain 1, ⌊ℓ/24⌋ = 1: equal
+   ℓ ≡ 11 (mod 24): first prime 11, gain 0, ⌊ℓ/24⌋ = 0: equal
+   ℓ ≡ 13 (mod 24): first prime 13, gain 0, ⌊ℓ/24⌋ = 0: equal
+   ℓ ≡ 17 (mod 24): first prime 17, gain 0, ⌊ℓ/24⌋ = 0: equal
+   ℓ ≡ 19 (mod 24): first prime 19, gain 0, ⌊ℓ/24⌋ = 0: equal
+   ℓ ≡ 23 (mod 24): first prime 23, gain 0, ⌊ℓ/24⌋ = 0: equal
+
+seconds: 524

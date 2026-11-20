@@ -1,0 +1,28 @@
+1  p(n) for n up to 400000, kept on the lane 907878125 (1 s). Check: p(100) on that lane = 190569292 (p(100) = 190,569,292).
+   (p(100) itself is smaller than the lane, so it must come out whole: True)
+
+2  THE LAWS, POWER BY POWER: the classes r (mod ℓᵃ) on which every p(ℓᵃ·m + r) tried is a multiple of ℓᵇ, new at that power
+   ℓ =  5, every     5-th from 4                            a multiple of 5   (m tried: 80000)
+   ℓ =  5, every    25-th from 24                           a multiple of 25   (m tried: 16000)
+   ℓ =  5, every   125-th from 74, 99, 124                  a multiple of 125   (m tried: 3200)
+   ℓ =  5, every   625-th from 599                          a multiple of 625   (m tried: 640)
+   ℓ =  5, every  3125-th from 1849, 2474, 3099             a multiple of 3125   (m tried: 128)
+   ℓ =  7, every     7-th from 5                            a multiple of 7   (m tried: 57143)
+   ℓ =  7, every    49-th from 19, 33, 40, 47               a multiple of 49   (m tried: 8163)
+   ℓ =  7, every  2401-th from 929, 1615, 1958, 2301        a multiple of 343   (m tried: 166)
+   ℓ = 11, every    11-th from 6                            a multiple of 11   (m tried: 36364)
+   ℓ = 11, every   121-th from 116                          a multiple of 121   (m tried: 3305)
+   (1 s)
+
+3  THE RULE: on the classes left open one level down, p(N) is a multiple of the next power exactly where (24N − 1)/ℓᵏ is a square on lane ℓ
+   (N runs over the class 24N ≡ 1 mod A, which the known law of that level covers; the forecast picks the next-level
+   classes where (24N − 1)/A is a square on lane ℓ. The rule is expected where Ramanujan's identity for that level comes
+   down to Jacobi's series, and not at the levels in between: those rows are a control.)
+   ℓ = 5, from N ≡ 24 (mod 25): forecast multiples of 125 on every 125-th from [74, 99, 124];  found: [74, 99, 124]   the same
+   ℓ = 5, from N ≡ 99 (mod 125): forecast multiples of 625 on every 625-th from [99, 474, 599];  found: [599]   not the same
+   ℓ = 5, from N ≡ 599 (mod 625): forecast multiples of 3125 on every 3125-th from [1849, 2474, 3099];  found: [1849, 2474, 3099]   the same
+   ℓ = 7, from N ≡ 5 (mod 7): forecast multiples of 49 on every 49-th from [19, 33, 40, 47];  found: [19, 33, 40, 47]   the same
+   ℓ = 7, from N ≡ 47 (mod 49): forecast multiples of 343 on every 343-th from [47, 145, 194, 243];  found: []   not the same
+   ℓ = 7, from N ≡ 243 (mod 343): forecast multiples of 343 on every 2401-th from [929, 1615, 1958, 2301];  found: [929, 1615, 1958, 2301]   the same
+
+seconds: 1

@@ -1,0 +1,33 @@
+ℓ = 43, k₀ = 40, 20 weights, modulo ℓ^20; FLINT 0.9.0
+1  the class at weight 40: dimension 2 (predicted ⌊(ℓ + 12)/24⌋ = 2)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [28, 35, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [35, 38, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [17, 25, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [1, 32, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 43: polynomial [14, 6, 1]
+2  weight 40 (dimension 41, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (0 s)
+2  weight 82 (dimension 83, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (0 s)
+2  weight 124 (dimension 125, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (1 s)
+2  weight 166 (dimension 167, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (2 s)
+2  weight 208 (dimension 209, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (3 s)
+2  weight 250 (dimension 251, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (4 s)
+2  weight 292 (dimension 293, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (6 s)
+2  weight 334 (dimension 335, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (8 s)
+2  weight 376 (dimension 377, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (10 s)
+2  weight 418 (dimension 419, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (15 s)
+2  weight 460 (dimension 461, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (18 s)
+2  weight 502 (dimension 503, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (24 s)
+2  weight 544 (dimension 545, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (29 s)
+2  weight 586 (dimension 587, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (32 s)
+2  weight 628 (dimension 629, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (38 s)
+2  weight 670 (dimension 671, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (44 s)
+2  weight 712 (dimension 713, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (48 s)
+2  weight 754 (dimension 755, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (59 s)
+2  weight 796 (dimension 797, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (69 s)
+2  weight 838 (dimension 839, ordinary part 41): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [14, 37, 1]  (78 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]]
+   the constants' polynomial (lowest first) on lane ℓ: [14, 6, 1];  on lane ℓ^20: [250089566708442925599949223613440, 456265882141526569232945444006852, 1]
+   a constant on lane ℓ, digits lowest first: [31, 13, 8, 5, 40, 6, 9, 39, 26, 19, 18, 34, 27, 34, 9, 35, 15, 32, 24, 1]
+   a constant on lane ℓ, digits lowest first: [6, 20, 10, 25, 3, 13, 24, 4, 39, 22, 32, 8, 38, 8, 11, 39, 19, 41, 17, 42]
+
+seconds: 487

@@ -1,0 +1,8 @@
+ℓ = 5: each family's seed, ordinary or not, Eisenstein or not (T_q for the 22 primes q = 5 … 97 other than ℓ), and the theorems' hypotheses
+   (0 s)
+
+| family (T_q mod ℓ, q = [7, 11, 13]) | seed | forms | a_ℓ of the seed mod ℓ | ordinary | Eisenstein (ρ̄ ≅ ω^a ⊕ ω^b, twisted) | Serre weight (a, b) | LTXZ Thm 1.3 | Wang (très ramifié) | BP Conj 3.1 (regular) |
+|---|---|---|---|---|---|---|---|---|---|
+| (2, 2, 1) | weight 4·ω^3 | 1 | 1 | yes | ω^3 ⊕ ω^2 | (2, 3) | no: ℓ < 11; globally reducible; a = 2 not in 2 … ℓ − 5 | — | regular |
+
+families: 1; seeds ordinary: 1; globally reducible: 1; covered by LTXZ Theorem 1.3: 0; Steinberg (Wang, local): 0

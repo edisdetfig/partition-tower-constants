@@ -1,0 +1,32 @@
+ℓ = 47, k₀ = 44, 20 weights, modulo ℓ^20; FLINT 0.9.0
+1  the class at weight 44: dimension 2 (predicted ⌊(ℓ + 12)/24⌋ = 2)  →  as predicted  (0 s)
+   (3|Q)·a_Q on lane ℓ, Q = 5: polynomial [45, 11, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 7: polynomial [14, 19, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 11: polynomial [30, 26, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 13: polynomial [30, 3, 1]
+   (3|Q)·a_Q on lane ℓ, Q = 47: polynomial [19, 18, 1]
+2  weight 44 (dimension 45, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (0 s)
+2  weight 90 (dimension 91, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (1 s)
+2  weight 136 (dimension 137, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (1 s)
+2  weight 182 (dimension 183, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (2 s)
+2  weight 228 (dimension 229, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (3 s)
+2  weight 274 (dimension 275, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (5 s)
+2  weight 320 (dimension 321, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (8 s)
+2  weight 366 (dimension 367, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (11 s)
+2  weight 412 (dimension 413, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (15 s)
+2  weight 458 (dimension 459, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (19 s)
+2  weight 504 (dimension 505, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (25 s)
+2  weight 550 (dimension 551, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (31 s)
+2  weight 596 (dimension 597, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (36 s)
+2  weight 642 (dimension 643, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (42 s)
+2  weight 688 (dimension 689, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (48 s)
+2  weight 734 (dimension 735, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (55 s)
+2  weight 780 (dimension 781, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (70 s)
+2  weight 826 (dimension 827, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (80 s)
+2  weight 872 (dimension 873, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (91 s)
+2  weight 918 (dimension 919, ordinary part 45): the piece has dimension 2 (T_5 on lane ℓ as at the base: yes); U_ℓ polynomial on lane ℓ: [19, 18, 1]  (78 s)
+3  the differences of each coefficient are divisible by ℓ to [[0, 1, 2, 3, 4, 5, 7, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]]
+   the constants' polynomial (lowest first) on lane ℓ: [19, 18, 1];  on lane ℓ^20: [2745333515965138293747935832325324, 451629498878395392752190439239349, 1]
+   two constants A ± B·√5 (no square root of 5 on lane ℓ): A [38, 4, 33, 43, 39, 34, 9, 21, 12, 37, 23, 4, 0, 31, 12, 12, 23, 9, 31, 19], B [12, 22, 14, 7, 15, 43, 4, 38, 21, 1, 21, 21, 28, 22, 5, 41, 41, 2, 2, 20]
+
+seconds: 620

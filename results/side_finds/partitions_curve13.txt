@@ -1,0 +1,32 @@
+E13 = 1014f1 = [1, 0, 0, -62, 324]: discriminant -31539456 = {2: 8, 3: 6, 13: 2, -1: 1}, bad primes [2, 3, 13];  a_Q for Q = 5 to 47: 5: -3, 7: -2, 11: -6, 17: -3, 19: -2, 23: -6, 29: +3, 31: +4, 37: +7, 41: +3, 43: -10, 47: -6
+
+1  THE FORMULA FAR BEYOND THE DATA: p(N) ≡ (λ + ε·δ)·p(N*) (mod 13), λ = (3|Q)·Q¹⁰·a_Q, δ = −(−3|Q)·Q⁻², for N* at exact
+   level b, 24N − 1 = Q²·(24N* − 1), ε the sign of 24N* − 1 at Q; two members of each class per prime, exact values
+   level 1: 106 of 106 primes from 5 to 600 right
+   level 2: 59 of 59 primes from 5 to 300 right
+   level 3: 32 of 32 primes from 5 to 150 right
+
+2  WHAT IT PREDICTS: laws mod 13 at level 1 (where nothing is forced). a_Q ≡ ±1 makes one class's multiplier λ + ε·δ zero:
+   p(13·Q²·n + β) ≡ 0 for n in that class (progressions modulo 13·Q³). a_Q ≡ 0 makes λ zero: p(N) ≡ 0 whenever 24N − 1 = 13·Q³·m
+   with Q and 13 not dividing m (progressions modulo 13·Q⁴). Ten members of each (n from 1,000 on), and ten of the other class:
+   primes below 400 with a_Q ≡ 0: 59, 73, 131, 167, 389;  ≡ +1: 103, 191, 241, 251, 283;  ≡ −1: 97, 109, 397
+   Q = 103 (a_Q = +14): class -1: 10 of 10 multiples of 13 (largest N = 140186884);  other class: 3 of 10
+   Q = 191 (a_Q = -12): class -1: 10 of 10 multiples of 13 (largest N = 483481173);  other class: 1 of 10
+   Q = 241 (a_Q = +1): class +1: 10 of 10 multiples of 13 (largest N = 768234967);  other class: 2 of 10
+   Q = 251 (a_Q = -12): class -1: 10 of 10 multiples of 13 (largest N = 836587654);  other class: 1 of 10
+   Q =  59 (a_Q = +0): 24N − 1 = 13·Q³·m: 10 of 10 multiples of 13 (largest N = 26810517)
+   Q =  73 (a_Q = +13): 24N − 1 = 13·Q³·m: 10 of 10 multiples of 13 (largest N = 47832882)
+   Q = 131 (a_Q = +0): 24N − 1 = 13·Q³·m: 10 of 10 multiples of 13 (largest N = 293469546)
+   The first prime with a_Q = 0 is 59 (#E13(F₅₉) = 60). QUOTED: Ono's example (Annals of Math. 151, 2000, eq. (2), credited to
+   Atkin and O'Brien), p(59⁴·13n + 111247) ≡ 0 (mod 13). DERIVED: 24·111247 − 1 = 13·59³, so it is the case Y ≡ 1 (mod 59)
+   of the curve's law 24N − 1 = 13·59³·Y. Every Y prime to 59 (13 may divide it: levels 2 and 3 follow the same formula) gives
+   a progression p(13·59⁴·n + B) ≡ 0 (mod 13): 58 values of B. Two members (n = 0, 1) of each, exact values:
+   58 values of B (111247 among them: True): 116 of 116 members are multiples of 13 (largest N = 312492706)
+
+3  HOW MANY PRIMES GIVE SUCH LAWS: counted over the primes 5 ≤ Q ≤ 30,000 (Q ≠ 13); derived from the matrices of GL2(F13)
+   a_Q ≡ 0: counted 0.0780 of 3242 primes;  matrices 2028 of 26208 = 0.0774
+   a_Q ≡ +1: counted 0.0731 of 3242 primes;  matrices 2015 of 26208 = 0.0769
+   a_Q ≡ −1: counted 0.0793 of 3242 primes;  matrices 2015 of 26208 = 0.0769
+   together: 23.0% of all primes (matrices: 23.1%)
+
+seconds: 215

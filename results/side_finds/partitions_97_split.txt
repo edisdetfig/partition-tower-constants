@@ -1,0 +1,30 @@
+ℓ = 97 (weight 94): the class has 4 forms; pivot coefficients [1, 5, 7, 11]; on lane 97 its pieces have degrees [1, 3]  (PREDICTED [1, 3])
+   (3|97)·a_97(g) ≡ 28  (PREDICTED 28, the first digit of the 97-adic constant α)  →  as predicted
+   at Q′ = 5: λ_g(5) = 39; the cubic factor h (lowest first) = [22, 13, 13, 1]; h(λ_g(5)) = 81 (must not be 0)
+   κ for (M|5) = +1: [49, 26, 44, 1];  for (M|5) = −1: [46, 93, 79, 1]   (G(M) = Σ κ_j·c(5^(2j)·M))
+   (forms: 2 s)
+
+Along 97 (levels 1 and 3): G(97²M) ≡ 28·G(M) for 20 of 20 values of M = 97·(24n + 23) (G(M) not 0 for 20 of them)  as PREDICTED
+   G(M) → G(97²M): 42→12, 76→91, 30→64, 18→19, 7→2, 47→55, 52→1, 63→18, 2→56, 87→11, 75→63, 18→19, 88→39, 38→94, 5→43, 67→33, 62→87, 93→82, 59→3, 17→88
+   the whole tower: c(97²M)/c(M) takes 17 different values over these M (no single number links them)  (9 s)
+
+Along other primes: G(Q²M) ≡ (λ_g(Q) + ε·δ)·G(M), ε = (M|Q), δ = −(−3|Q)·Q⁻²
+   Q =  7: λ_g = 80;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [4, 5] different values in the classes ε = +1, −1  (0 s)
+   Q = 11: λ_g = 87;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [7, 2] different values in the classes ε = +1, −1  (0 s)
+   Q = 13: λ_g =  8;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [5, 4] different values in the classes ε = +1, −1  (0 s)
+   Q = 17: λ_g = 69;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [5, 4] different values in the classes ε = +1, −1  (0 s)
+   Q = 19: λ_g = 41;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [4, 5] different values in the classes ε = +1, −1  (0 s)
+   Q = 23: λ_g = 50;  10 of 10 as predicted (G(M) not 0 for 10);  the whole tower: c(Q²M)/c(M) takes [3, 6] different values in the classes ε = +1, −1  (0 s)
+
+The simple part's lucky primes, every prime Q from 7 to 5000 (5 and 97 left out)
+   class ε=+1  expected   6.9 (derived)   counted   6   [53, 607, 1567, 2311, 2659, 3517]
+   class ε=−1  expected   6.9 (derived)   counted   4   [1361, 1657, 2789, 2999]
+   Ono         expected   6.9 (derived)   counted   4   [263, 1193, 1439, 1637]
+   class ε=+1  Q =   53: G(Q²M) for M = [4559, 11543]: [0, 0];  control M′ = 2231: G(Q²M′) = 21, predicted −2εδ·G(M′) = 21  as PREDICTED  (0 s)
+   class ε=+1  Q =  607: G(Q²M) for M = [4559, 6887]: [0, 0];  control M′ = 2231: G(Q²M′) = 20, predicted −2εδ·G(M′) = 20  as PREDICTED  (5 s)
+   class ε=−1  Q = 1361: G(Q²M) for M = [4559, 11543]: [0, 0];  control M′ = 2231: G(Q²M′) = 74, predicted −2εδ·G(M′) = 74  as PREDICTED  (16 s)
+   class ε=−1  Q = 1657: G(Q²M) for M = [11543, 23183]: [0, 0];  control M′ = 2231: G(Q²M′) = 29, predicted −2εδ·G(M′) = 29  as PREDICTED  (31 s)
+   Ono         Q =  263: G(97·Q³·m) for m = [1, 49]: [0, 0];  control M′ = 2231: G(Q²M′) = 19, predicted ε·δ·G(M′) = 19  as PREDICTED  (22 s)
+   Ono         Q = 1193: G(97·Q³·m) for m = [7, 31]: [0, 0];  control M′ = 2231: G(Q²M′) = 29, predicted ε·δ·G(M′) = 29  as PREDICTED  (321 s)
+
+the largest partition number used: p(3324019351171224);  seconds: 408

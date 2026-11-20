@@ -1,0 +1,11 @@
+
+ℓ = 53: 2 forms in the class (partitions_three_forms.txt)
+   along ℓ: the 3-term law from P_ℓ = [36, 3, 1] holds for 10 of 10 values of n  (0 s)
+   along Q: the 2-step law holds at Q = 5: 12 of 12;  Q = 7: 12 of 12;  Q = 11: 12 of 12;  Q = 13: 12 of 12  (0 s)
+
+ℓ = 61: 3 forms in the class (partitions_three_forms.txt)
+   along ℓ: the 4-term law from P_ℓ = [34, 15, 31, 1] holds for 10 of 10 values of n  (37 s)
+      fewer terms: (T, N) with H₅ ≡ T·H₃ − N·H₁: none;  one constant with H₃ ≡ A·H₁: none
+   along Q: the 3-step law holds at Q = 5: 12 of 12 (laws of degree 2 that fit all 12: 0);  Q = 7: 12 of 12 (laws of degree 2 that fit all 12: 0);  Q = 11: 12 of 12 (laws of degree 2 that fit all 12: 0);  Q = 13: 12 of 12 (laws of degree 2 that fit all 12: 0)  (37 s)
+
+seconds: 37

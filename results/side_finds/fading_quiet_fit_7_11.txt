@@ -1,0 +1,12 @@
+
+ℓ = 7: the quiet form in the system (5, 6, 0), slope 4, weights x = [6, 7, 8, 9, 10, 11, 12] (slopes there: [4, 4, 4, 5, 5, 5, 5]), modulo ℓ^24
+   (3|ℓ)·u(−2)/ℓ^4 from the forms, digits lowest first: [6, 2, 3]
+   the carries from every 6 of the 7 weights agree with it on the first 2 digits (digit 3 likely)
+   the fading part on partition numbers (tower_fading_law.txt), its best level: 7 digits shared by all n: [6, 2, 3, 1, 4, 1, 3]
+   agreement: 4 of 7 digits
+
+ℓ = 11: the quiet form in the system (0, 4, 1), slope 3, weights x = [4, 5, 6, 7, 8, 9, 10, 11] (slopes there: [3, 3, 3, 3, 3, 3, 3, 3]), modulo ℓ^24
+   (3|ℓ)·u(−2)/ℓ^3 from the forms, digits lowest first: [4, 5, 0, 3, 1]
+   the carries from every 7 of the 8 weights agree with it on the first 4 digits (digit 5 likely)
+   the fading part on partition numbers (tower_fading_law.txt), its best level: 3 digits shared by all n: [4, 5, 0]
+   agreement: 3 of 3 digits

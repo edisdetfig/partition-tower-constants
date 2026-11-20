@@ -1,0 +1,63 @@
+1  THE NEWFORMS OF WEIGHT ℓ − 3 AND LEVEL 6 (coefficients up to q^399; a₂ = −ε₂·2^((k−2)/2), a₃ = −ε₃·3^((k−2)/2))
+   ℓ =  7, weight  4: q -2·q² -3·q³ +4·q⁴ +6·q⁵ -16·q⁷ …  (0 s)
+   ℓ = 11, weight  8: q +8·q² +27·q³ +64·q⁴ -114·q⁵ -1576·q⁷ …  (0 s)
+   ℓ = 13, weight 10: q -16·q² +81·q³ +256·q⁴ +2694·q⁵ -3544·q⁷ …  (0 s)
+   ℓ = 17, weight 14: q +64·q² -729·q³ +4096·q⁴ +54654·q⁵ +176336·q⁷ …  (0 s)
+   ℓ = 19, weight 16: q +128·q² +2187·q³ +16384·q⁴ +77646·q⁵ +762104·q⁷ …  (1 s)
+   ℓ = 19, weight 16: q +128·q² -2187·q³ +16384·q⁴ -114810·q⁵ -3034528·q⁷ …  (1 s)
+   ℓ = 19, weight 16: q -128·q² -2187·q³ +16384·q⁴ -314490·q⁵ +2025056·q⁷ …  (1 s)
+   ℓ = 23, weight 20: q +512·q² +19683·q³ +262144·q⁴ +1953390·q⁵ +40488776·q⁷ …  (1 s)
+   ℓ = 23, weight 20: q -512·q² +19683·q³ +262144·q⁴ -5849490·q⁵ +173530952·q⁷ …  (1 s)
+   ℓ = 23, weight 20: q -512·q² -19683·q³ +262144·q⁴ -3732474·q⁵ -149672656·q⁷ …  (1 s)
+   ℓ = 29, weight 26: q +4096·q² -531441·q³ +16777216·q⁴ -799327650·q⁵ +7962409664·q⁷ …  (2 s)
+   ℓ = 29, weight 26: q -4096·q² +531441·q³ +16777216·q⁴ +590425734·q⁵ +57857417576·q⁷ …  (2 s)
+   ℓ = 29, weight 26: q -4096·q² -531441·q³ +16777216·q⁴ -292754850·q⁵ +3580644032·q⁷ …  (2 s)
+   ℓ = 31, weight 28: q +8192·q² +1594323·q³ +67108864·q⁴ +1220703150·q⁵ +96889207016·q⁷ …  (3 s)
+   ℓ = 31, weight 28: q +8192·q² -1594323·q³ +67108864·q⁴ +2904255750·q⁵ -493494294832·q⁷ …  (3 s)
+   ℓ = 31, weight 28: q -8192·q² +1594323·q³ +67108864·q⁴ +1992850350·q⁵ -321751224088·q⁷ …  (3 s)
+   ℓ = 31, weight 28, a₂ = +1·2^13, a₃ = +1·3^13: 2-dimensional (not split here)
+
+2  WHICH NEWFORM IS THE TOWER'S RULE: λ(Q) ≡ ±(d|Q)·Q^b·a_Q(f) (mod ℓ) at every prime Q with data (levels 1 and 2). On lane ℓ
+   weights that differ by a multiple of ℓ − 1 behave alike, so every computed weight k ≡ ℓ − 3 (mod ℓ − 1) is tried
+   ℓ =  7, level 1 (27 primes): weight 16, a₂ = +128, a₃ = -2187: 1 way, e.g. d = 3, sign +1, Q^0; weight 28, a₂ = +8192, a₃ = -1594323: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ =  7, level 2 (23 primes): weight 16, a₂ = +128, a₃ = -2187: 1 way, e.g. d = 3, sign +1, Q^0; weight 28, a₂ = +8192, a₃ = -1594323: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 11, level 1 (27 primes): weight 8, a₂ = +8, a₃ = +27: 1 way, e.g. d = 3, sign +1, Q^5; weight 28, a₂ = +8192, a₃ = +1594323: 1 way, e.g. d = 3, sign +1, Q^5; weight 28, a₂ = -8192, a₃ = +1594323: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 11, level 2 (15 primes): weight 8, a₂ = +8, a₃ = +27: 1 way, e.g. d = 3, sign +1, Q^5; weight 28, a₂ = +8192, a₃ = +1594323: 1 way, e.g. d = 3, sign +1, Q^5; weight 28, a₂ = -8192, a₃ = +1594323: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 13, level 1 (27 primes): weight 10, a₂ = -16, a₃ = +81: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 13, level 2 (13 primes): weight 10, a₂ = -16, a₃ = +81: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 17, level 1 (27 primes): weight 14, a₂ = +64, a₃ = -729: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 17, level 2 (8 primes): weight 14, a₂ = +64, a₃ = -729: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 19, level 1 (27 primes): weight 16, a₂ = -128, a₃ = -2187: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 19, level 2 (8 primes): weight 16, a₂ = -128, a₃ = -2187: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 23, level 1 (26 primes): weight 20, a₂ = +512, a₃ = +19683: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 23, level 2 (6 primes): weight 20, a₂ = +512, a₃ = +19683: 2 ways, e.g. d = 2, sign -1, Q^0
+   ℓ = 29, level 1 (26 primes): weight 26, a₂ = -4096, a₃ = -531441: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 29, level 2 (6 primes): weight 26, a₂ = -4096, a₃ = -531441: 2 ways, e.g. d = 3, sign +1, Q^0
+   ℓ = 31, level 1 (26 primes): weight 28, a₂ = +8192, a₃ = -1594323: 1 way, e.g. d = 3, sign +1, Q^0
+   ℓ = 31, level 2 (5 primes): weight 28, a₂ = +8192, a₃ = -1594323: 2 ways, e.g. d = 1, sign -1, Q^15
+
+3  CURVES WITH THE SAME NUMBERS: a_Q(f) ≡ ±(d|Q)·Q^b·a_Q(E) (mod ℓ), every class of Cremona's tables (conductor < 70,000)
+   302863 isogeny classes; filter primes Q = 5 to 97; every survivor then checked at all primes up to 389
+   point counts for all classes at the filter primes: 17 s
+   ℓ =  7 (the tower's newform, weight 16): 29 classes, smallest conductors:
+      42a = [1, 1, 1, -4, 5], conductor 42 = {2: 1, 3: 1, 7: 1}: d = 1, sign +1, Q^1
+      126b = [1, -1, 0, -36, -176], conductor 126 = {2: 1, 3: 2, 7: 1}: d = -3, sign +1, Q^1
+      294c = [1, 0, 0, -197, -2367], conductor 294 = {2: 1, 3: 1, 7: 2}: d = 1, sign +1, Q^4
+      336d = [0, 1, 0, -64, -460], conductor 336 = {2: 4, 3: 1, 7: 1}: d = -1, sign +1, Q^1
+   ℓ = 11 (the tower's newform, weight 8): 16 classes, smallest conductors:
+      726i = [1, 0, 0, -1636, -28588], conductor 726 = {2: 1, 3: 1, 11: 2}: d = 1, sign +1, Q^3
+      726d = [1, 0, 1, -14, 20], conductor 726 = {2: 1, 3: 1, 11: 2}: d = 1, sign +1, Q^8
+      2178d = [1, -1, 0, -14724, 771876], conductor 2178 = {2: 1, 3: 2, 11: 2}: d = -3, sign +1, Q^3
+      2178j = [1, -1, 1, -122, -547], conductor 2178 = {2: 1, 3: 2, 11: 2}: d = -3, sign +1, Q^8
+   ℓ = 13 (the tower's newform, weight 10): 12 classes, smallest conductors:
+      1014b = [1, 0, 1, -10482, 722308], conductor 1014 = {2: 1, 3: 1, 13: 2}: d = 1, sign +1, Q^4
+      1014f = [1, 0, 0, -62, 324], conductor 1014 = {2: 1, 3: 1, 13: 2}: d = 1, sign +1, Q^10
+      3042m = [1, -1, 1, -94334, -19502323], conductor 3042 = {2: 1, 3: 2, 13: 2}: d = -3, sign +1, Q^4
+      3042e = [1, -1, 0, -558, -8748], conductor 3042 = {2: 1, 3: 2, 13: 2}: d = -3, sign +1, Q^10
+   ℓ = 17 (the tower's newform, weight 14): no curve
+   ℓ = 19 (the tower's newform, weight 16): no curve
+   ℓ = 23 (the tower's newform, weight 20): no curve
+   ℓ = 29 (the tower's newform, weight 26): no curve
+   ℓ = 31 (the tower's newform, weight 28): no curve
+
+seconds: 90

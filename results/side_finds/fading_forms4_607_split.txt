@@ -1,0 +1,81 @@
+607: the quiet braids at weight -2 (first digit), split in their own fields; input fading_forms4_607_s1.txt
+
+=================== the braid of 8 ===================
+as the run printed it (lowest first): [408, 488, 399, 534, 463, 282, 588, 195, 1]
+   factors on lane 607, of degrees [3, 5]
+   - a braid of 3 strands, in the field with 607^3 elements; t is a root of [213, 517, 54, 1]
+     every strand a root: True; all 3 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 394 and add up to 553
+     strand  1 = t^(607^0) = [0, 1, 0]
+     strand  2 = t^(607^1) = [266, 23, 86]
+     strand  3 = t^(607^2) = [287, 583, 521]
+   - a braid of 5 strands, in the field with 607^5 elements; t is a root of [190, 359, 37, 348, 141, 1]
+     every strand a root: True; all 5 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 417 and add up to 466
+     strand  1 = t^(607^0) = [0, 1, 0, 0, 0]
+     strand  2 = t^(607^1) = [588, 511, 265, 518, 24]
+     strand  3 = t^(607^2) = [490, 248, 467, 329, 291]
+     strand  4 = t^(607^3) = [135, 581, 222, 577, 56]
+     strand  5 = t^(607^4) = [467, 480, 260, 397, 236]
+with the three-weight curve undone (lowest first): [458, 176, 331, 412, 360, 410, 588, 195, 1]
+   factors on lane 607, of degrees [8]
+   - a braid of 8 strands, in the field with 607^8 elements; t is a root of [458, 176, 331, 412, 360, 410, 588, 195, 1]
+     every strand a root: True; all 8 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 458 and add up to 412
+     strand  1 = t^(607^0) = [0, 1, 0, 0, 0, 0, 0, 0]
+     strand  2 = t^(607^1) = [445, 159, 605, 585, 381, 90, 31, 467]
+     strand  3 = t^(607^2) = [186, 254, 264, 494, 242, 520, 82, 595]
+     strand  4 = t^(607^3) = [604, 548, 315, 605, 490, 284, 248, 77]
+     strand  5 = t^(607^4) = [563, 562, 533, 364, 255, 124, 357, 37]
+     strand  6 = t^(607^5) = [438, 567, 88, 444, 563, 196, 196, 131]
+     strand  7 = t^(607^6) = [469, 281, 484, 211, 220, 591, 380, 283]
+     strand  8 = t^(607^7) = [135, 56, 139, 332, 277, 16, 527, 231]
+
+=================== the braid of 17 ===================
+as the run printed it (lowest first): [262, 560, 23, 288, 92, 477, 1, 566, 283, 244, 72, 83, 159, 175, 123, 541, 121, 1]
+   factors on lane 607, of degrees [1, 1, 6, 9]
+   - a lone root on lane 607 itself, an ordinary number: 571
+   - a lone root on lane 607 itself, an ordinary number: 484
+   - a braid of 6 strands, in the field with 607^6 elements; t is a root of [44, 511, 135, 80, 138, 392, 1]
+     every strand a root: True; all 6 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 44 and add up to 215
+     strand  1 = t^(607^0) = [0, 1, 0, 0, 0, 0]
+     strand  2 = t^(607^1) = [35, 385, 328, 463, 190, 88]
+     strand  3 = t^(607^2) = [61, 363, 314, 73, 195, 395]
+     strand  4 = t^(607^3) = [408, 545, 413, 488, 479, 552]
+     strand  5 = t^(607^4) = [138, 537, 174, 448, 508, 236]
+     strand  6 = t^(607^5) = [180, 597, 592, 349, 449, 550]
+   - a braid of 9 strands, in the field with 607^9 elements; t is a root of [23, 204, 604, 583, 197, 566, 54, 10, 177, 1]
+     every strand a root: True; all 9 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 584 and add up to 430
+     strand  1 = t^(607^0) = [0, 1, 0, 0, 0, 0, 0, 0, 0]
+     strand  2 = t^(607^1) = [479, 127, 232, 502, 400, 239, 477, 172, 522]
+     strand  3 = t^(607^2) = [236, 541, 6, 349, 546, 237, 503, 142, 369]
+     strand  4 = t^(607^3) = [181, 315, 482, 280, 5, 534, 219, 330, 358]
+     strand  5 = t^(607^4) = [321, 140, 264, 181, 231, 481, 592, 101, 165]
+     strand  6 = t^(607^5) = [471, 388, 205, 310, 152, 279, 488, 6, 427]
+     strand  7 = t^(607^6) = [301, 8, 14, 359, 105, 58, 479, 372, 96]
+     strand  8 = t^(607^7) = [0, 6, 382, 499, 153, 438, 562, 289, 277]
+     strand  9 = t^(607^8) = [262, 295, 236, 555, 229, 162, 322, 409, 214]
+with the three-weight curve undone (lowest first): [315, 423, 171, 125, 236, 389, 297, 460, 584, 262, 424, 472, 300, 473, 153, 541, 121, 1]
+   factors on lane 607, of degrees [17]
+   - a braid of 17 strands, in the field with 607^17 elements; t is a root of [315, 423, 171, 125, 236, 389, 297, 460, 584, 262, 424, 472, 300, 473, 153, 541, 121, 1]
+     every strand a root: True; all 17 distinct: True; the 607th power steps through them and returns: True
+     the strands multiply to 292 and add up to 486
+     strand  1 = t^(607^0) = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+     strand  2 = t^(607^1) = [563, 545, 427, 303, 518, 123, 319, 71, 42, 457, 145, 436, 241, 453, 156, 383, 473]
+     strand  3 = t^(607^2) = [52, 447, 310, 153, 99, 140, 215, 557, 298, 94, 282, 445, 520, 113, 454, 66, 312]
+     strand  4 = t^(607^3) = [416, 514, 199, 532, 89, 161, 241, 50, 553, 298, 27, 478, 198, 177, 197, 250, 194]
+     strand  5 = t^(607^4) = [550, 149, 119, 47, 202, 247, 157, 412, 104, 442, 326, 89, 230, 333, 476, 587, 450]
+     strand  6 = t^(607^5) = [466, 129, 113, 438, 427, 97, 222, 375, 556, 111, 406, 372, 305, 101, 467, 301, 15]
+     strand  7 = t^(607^6) = [482, 26, 572, 437, 313, 487, 320, 55, 4, 355, 239, 600, 348, 434, 278, 537, 605]
+     strand  8 = t^(607^7) = [405, 150, 307, 400, 447, 438, 167, 467, 289, 33, 378, 334, 304, 364, 561, 13, 434]
+     strand  9 = t^(607^8) = [338, 365, 402, 202, 417, 243, 239, 501, 304, 524, 129, 27, 359, 377, 312, 1, 599]
+     strand 10 = t^(607^9) = [147, 181, 79, 135, 416, 88, 308, 521, 174, 505, 191, 482, 402, 74, 572, 35, 42]
+     strand 11 = t^(607^10) = [169, 5, 116, 525, 591, 465, 603, 444, 531, 151, 238, 591, 36, 189, 395, 205, 445]
+     strand 12 = t^(607^11) = [55, 174, 538, 300, 537, 544, 152, 267, 182, 210, 153, 70, 339, 184, 174, 504, 599]
+     strand 13 = t^(607^12) = [101, 386, 336, 322, 525, 597, 253, 88, 407, 59, 409, 179, 271, 314, 323, 45, 57]
+     strand 14 = t^(607^13) = [109, 516, 445, 50, 193, 95, 364, 53, 408, 171, 499, 156, 401, 327, 263, 152, 81]
+     strand 15 = t^(607^14) = [226, 190, 407, 36, 321, 418, 223, 469, 21, 23, 446, 412, 436, 361, 412, 405, 434]
+     strand 16 = t^(607^15) = [211, 419, 500, 474, 442, 566, 290, 7, 364, 534, 236, 603, 130, 387, 449, 269, 10]
+     strand 17 = t^(607^16) = [445, 52, 593, 502, 533, 147, 176, 519, 12, 282, 145, 189, 336, 61, 581, 496, 106]

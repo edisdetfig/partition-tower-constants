@@ -1,0 +1,30 @@
+
+ℓ = 13: the family at weights 10 to 130 (6 s); differences of a_Q divisible by ℓ to Q = 5: [0, 1, 2, 3, 4, 5, 6, 8, 8, 9, 10]; Q = 7: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; Q = 11: [0, 1, 2, 3, 4, 5, 7, 7, 9, 9, 10]
+   predicted multipliers μ_ε on lane ℓ^10 (weight −2): Q = 5, ε = +1: 127504942990;  Q = 5, ε = -1: 116476263642;  Q = 7, ε = +1: 7237389800;  Q = 7, ε = -1: 40998653110;  Q = 11, ε = +1: 42976902594;  Q = 11, ε = -1: 70320735688
+   level 1: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 1 / 1;  Q = 5, ε = -1: 1 / 1;  Q = 7, ε = +1: 1 / 1;  Q = 7, ε = -1: 1 / 1;  Q = 11, ε = +1: 1 / 1;  Q = 11, ε = -1: 1 / 1  (6 s)
+   level 2: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 4 / 1;  Q = 5, ε = -1: 2 / 1;  Q = 7, ε = +1: 2 / 1;  Q = 7, ε = -1: 2 / 1;  Q = 11, ε = +1: 2 / 1;  Q = 11, ε = -1: 2 / 1  (6 s)
+   level 3: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 3 / 1;  Q = 5, ε = -1: 3 / 1;  Q = 7, ε = +1: 3 / 1;  Q = 7, ε = -1: 3 / 1;  Q = 11, ε = +1: 3 / 1;  Q = 11, ε = -1: 3 / 1  (6 s)
+   level 4: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 6 / 1;  Q = 5, ε = -1: 4 / 1;  Q = 7, ε = +1: 4 / 1;  Q = 7, ε = -1: 4 / 1;  Q = 11, ε = +1: 4 / 1;  Q = 11, ε = -1: 4 / 1  (6 s)
+   level 5: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 5 / 1;  Q = 5, ε = -1: 5 / 1;  Q = 7, ε = +1: 5 / 1;  Q = 7, ε = -1: 5 / 1;  Q = 11, ε = +1: 5 / 1;  Q = 11, ε = -1: 5 / 1  (6 s)
+   level 6: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 8 / 1;  Q = 5, ε = -1: 6 / 1;  Q = 7, ε = +1: 6 / 1;  Q = 7, ε = -1: 6 / 1;  Q = 11, ε = +1: 6 / 1;  Q = 11, ε = -1: 6 / 1  (14 s)
+   level 7: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 7 / 1;  Q = 5, ε = -1: 7 / 1;  Q = 7, ε = +1: 7 / 1;  Q = 7, ε = -1: 7 / 1;  Q = 11, ε = +1: 7 / 1;  Q = 11, ε = -1: 7 / 1  (226 s)
+
+ℓ = 17: the family at weights 14 to 174 (15 s); differences of a_Q divisible by ℓ to Q = 5: [0, 1, 2, 3, 4, 5, 7, 7, 8, 9, 10]; Q = 7: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; Q = 11: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   predicted multipliers μ_ε on lane ℓ^10 (weight −2): Q = 5, ε = +1: 1591603134718;  Q = 5, ε = -1: 1430323622682;  Q = 7, ε = +1: 1913286735466;  Q = 7, ε = -1: 1172717547546;  Q = 11, ε = +1: 1312546774182;  Q = 11, ε = -1: 246235950804
+   level 1: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 1 / 1;  Q = 5, ε = -1: 1 / 1;  Q = 7, ε = +1: 1 / 1;  Q = 7, ε = -1: 1 / 1;  Q = 11, ε = +1: 1 / 1;  Q = 11, ε = -1: 1 / 1  (15 s)
+   level 2: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 2 / 1;  Q = 5, ε = -1: 2 / 1;  Q = 7, ε = +1: 2 / 1;  Q = 7, ε = -1: 2 / 1;  Q = 11, ε = +1: 2 / 1;  Q = 11, ε = -1: 2 / 1  (15 s)
+   level 3: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 3 / 1;  Q = 5, ε = -1: 3 / 1;  Q = 7, ε = +1: 3 / 1;  Q = 7, ε = -1: 3 / 1;  Q = 11, ε = +1: 3 / 1;  Q = 11, ε = -1: 3 / 1  (15 s)
+   level 4: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 4 / 1;  Q = 5, ε = -1: 4 / 1;  Q = 7, ε = +1: 4 / 1;  Q = 7, ε = -1: 4 / 1;  Q = 11, ε = +1: 4 / 1;  Q = 11, ε = -1: 4 / 1  (15 s)
+   level 5: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 5 / 1;  Q = 5, ε = -1: 5 / 1;  Q = 7, ε = +1: 5 / 1;  Q = 7, ε = -1: 5 / 1;  Q = 11, ε = +1: 5 / 1;  Q = 11, ε = -1: 5 / 1  (16 s)
+   level 6: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 6 / 1;  Q = 5, ε = -1: 6 / 1;  Q = 7, ε = +1: 6 / 1;  Q = 7, ε = -1: 6 / 1;  Q = 11, ε = +1: 6 / 1;  Q = 11, ε = -1: 6 / 1  (90 s)
+
+ℓ = 19: the family at weights 16 to 196 (23 s); differences of a_Q divisible by ℓ to Q = 5: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; Q = 7: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; Q = 11: [0, 1, 2, 3, 4, 5, 7, 7, 9, 9, 10]
+   predicted multipliers μ_ε on lane ℓ^10 (weight −2): Q = 5, ε = +1: 5714289490264;  Q = 5, ε = -1: 73708533087;  Q = 7, ε = +1: 6083012418303;  Q = 7, ε = -1: 1578555575837;  Q = 11, ε = +1: 2797770701261;  Q = 11, ε = -1: 112262340406
+   level 1: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 1 / 1;  Q = 5, ε = -1: 1 / 1;  Q = 7, ε = +1: 1 / 1;  Q = 7, ε = -1: 1 / 1;  Q = 11, ε = +1: 1 / 1;  Q = 11, ε = -1: 1 / 1  (23 s)
+   level 2: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 2 / 1;  Q = 5, ε = -1: 2 / 1;  Q = 7, ε = +1: 2 / 1;  Q = 7, ε = -1: 2 / 1;  Q = 11, ε = +1: 2 / 1;  Q = 11, ε = -1: 3 / 1  (23 s)
+   level 3: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 3 / 1;  Q = 5, ε = -1: 3 / 1;  Q = 7, ε = +1: 3 / 1;  Q = 7, ε = -1: 3 / 1;  Q = 11, ε = +1: 3 / 1;  Q = 11, ε = -1: 3 / 1  (23 s)
+   level 4: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 4 / 1;  Q = 5, ε = -1: 4 / 1;  Q = 7, ε = +1: 4 / 1;  Q = 7, ε = -1: 4 / 1;  Q = 11, ε = +1: 4 / 1;  Q = 11, ε = -1: 5 / 1  (23 s)
+   level 5: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 5 / 1;  Q = 5, ε = -1: 5 / 1;  Q = 7, ε = +1: 5 / 1;  Q = 7, ε = -1: 5 / 1;  Q = 11, ε = +1: 5 / 1;  Q = 11, ε = -1: 5 / 1  (24 s)
+   level 6: digits shared by the measured ratio with weight −2 / with f itself:  Q = 5, ε = +1: 6 / 1;  Q = 5, ε = -1: 6 / 1;  Q = 7, ε = +1: 6 / 1;  Q = 7, ε = -1: 6 / 1;  Q = 11, ε = +1: 7 / 1;  Q = 11, ε = -1: 7 / 1  (187 s)
+
+seconds: 504

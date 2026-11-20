@@ -1,0 +1,43 @@
+The braids: each strand's turn θ_i = log_γ(x^(ℓ^i)) on the cycle of the field with ℓ^e elements (γ the first generator in the
+field's listing other than the group's own constants); angles in degrees of a full turn.
+
+ℓ = 47, a braid of 2 (field of 47^2 = 2,209 elements; constants' factor on lane ℓ [19, 18, 1])
+   turns: 29, 1,363 of 2,208 places = 4.728, 222.228°
+   ratio: each strand's turn ≡ 47 × the one before (mod 2,208): as PREDICTED
+   sum: 1,392 places = 29 × 48, i.e. 226.957° = 29 × 7.8261° (a multiple of 360°/46);  the product of the constants N(x) = 19 (mod 47) = 10^29 on 47's cycle walked by N(γ) = 10: as PREDICTED
+   N(x) = 19 is not a square mod 47; the sum is an odd number of steps (29): as PREDICTED
+   difference θ_1 − θ_0 = 1,334 places = 29 × 46: on the circle a multiple of 360°/48 = 7.50000°: as PREDICTED
+
+ℓ = 59, a braid of 2 (field of 59^2 = 3,481 elements; constants' factor on lane ℓ [57, 53, 1])
+   turns: 2,404, 2,636 of 3,480 places = 248.690, 272.690°
+   ratio: each strand's turn ≡ 59 × the one before (mod 3,480): as PREDICTED
+   sum: 1,560 places = 26 × 60, i.e. 161.379° = 26 × 6.2069° (a multiple of 360°/58);  the product of the constants N(x) = 57 (mod 59) = 14^26 on 59's cycle walked by N(γ) = 14: as PREDICTED
+   N(x) = 57 is a square mod 59; the sum is an even number of steps (26): as PREDICTED
+   difference θ_1 − θ_0 = 232 places = 4 × 58: on the circle a multiple of 360°/60 = 6.00000°: as PREDICTED
+
+ℓ = 61, a braid of 2 (field of 61^2 = 3,721 elements; constants' factor on lane ℓ [18, 2, 1])
+   turns: 1,921, 1,861 of 3,720 places = 185.903, 180.097°
+   ratio: each strand's turn ≡ 61 × the one before (mod 3,720): as PREDICTED
+   sum: 62 places = 1 × 62, i.e. 6.000° = 1 × 6.0000° (a multiple of 360°/60);  the product of the constants N(x) = 18 (mod 61) = 18^1 on 61's cycle walked by N(γ) = 18: as PREDICTED
+   N(x) = 18 is not a square mod 61; the sum is an odd number of steps (1): as PREDICTED
+   difference θ_1 − θ_0 = 3,660 places = 61 × 60: on the circle a multiple of 360°/62 = 5.80645°: as PREDICTED
+
+ℓ = 73, a braid of 3 (field of 73^3 = 389,017 elements; constants' factor on lane ℓ [29, 71, 65, 1])
+   turns: 306,725, 217,013, 281,309 of 389,016 places = 283.847, 200.826, 260.327°
+   ratio: each strand's turn ≡ 73 × the one before (mod 389,016): as PREDICTED
+   sum: 27,015 places = 5 × 5,403, i.e. 25.000° = 5 × 5.0000° (a multiple of 360°/72);  the product of the constants N(x) = 44 (mod 73) = 58^5 on 73's cycle walked by N(γ) = 58: as PREDICTED
+   N(x) = 44 is not a square mod 73; the sum is an odd number of steps (5): as PREDICTED
+   difference θ_1 − θ_0 = 299,304 places = 4157 × 72: on the circle a multiple of 360°/5,403 = 0.06663°: as PREDICTED
+
+ℓ = 97, a braid of 3 (field of 97^3 = 912,673 elements; constants' factor on lane ℓ [33, 8, 50, 1])
+   turns: 746,556, 314,844, 421,692 of 912,672 places = 294.476, 124.189, 166.335°
+   ratio: each strand's turn ≡ 97 × the one before (mod 912,672): as PREDICTED
+   sum: 570,420 places = 60 × 9,507, i.e. 225.000° = 60 × 3.7500° (a multiple of 360°/96);  the product of the constants N(x) = 64 (mod 97) = 23^60 on 97's cycle walked by N(γ) = 23: as PREDICTED
+   N(x) = 64 is a square mod 97; the sum is an even number of steps (60): as PREDICTED
+   difference θ_1 − θ_0 = 480,960 places = 5010 × 96: on the circle a multiple of 360°/9,507 = 0.03787°: as PREDICTED
+
+The twins (two constants on lane ℓ): B ≡ A^k (mod ℓ)
+   ℓ = 37: constants 15 (order 36) and 34 (order 9): 34 ≡ 15^20 (mod 37)
+   ℓ = 41: constants 31 (order 10) and 23 (order 10): 23 ≡ 31^7 (mod 41)
+   ℓ = 43: constants 31 (order 21) and 6 (order 3): 6 ≡ 31^7 (mod 43)
+   ℓ = 53: constants 43 (order 26) and 7 (order 26): 7 ≡ 43^3 (mod 53)

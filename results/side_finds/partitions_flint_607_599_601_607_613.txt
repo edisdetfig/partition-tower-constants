@@ -1,0 +1,6 @@
+ℓ = 599 (weight 596, dimension 597): the class has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: 0 with the root 0 on lane ℓ (non-ordinary), the rest in irreducible pieces of degrees [1, 1, 1, 10, 12]  (18 s)
+ℓ = 601 (weight 598, dimension 599): the class has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: 0 with the root 0 on lane ℓ (non-ordinary), the rest in irreducible pieces of degrees [1, 1, 6, 17]  (20 s)
+ℓ = 607 (weight 604, dimension 605): the class has 25 forms (⌊(ℓ + 12)/24⌋ = 25); T_ℓ on it: 0 with the root 0 on lane ℓ (non-ordinary), the rest in irreducible pieces of degrees [1, 1, 1, 22]  (21 s)
+ℓ = 613 (weight 610, dimension 611): the class has 26 forms (⌊(ℓ + 12)/24⌋ = 26); T_ℓ on it: 0 with the root 0 on lane ℓ (non-ordinary), the rest in irreducible pieces of degrees [4, 4, 4, 14]  (22 s)
+
+seconds: 82

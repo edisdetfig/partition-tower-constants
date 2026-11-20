@@ -1,0 +1,9 @@
+THE SHARE TEST: invariant factors of M_b[t, Q] = c(Q²·ℓᵇt) + (ℓᵇt|Q)(−3|Q)Q⁻²·c(ℓᵇt) over ℤ/ℓ⁵, levels b = 1, 2, 3
+   (valuations, smallest first; 5 = a factor ≡ 0 mod ℓ⁵). R = ⌊(ℓ+12)/24⌋ loud notes, K = ⌊ℓ/24⌋ first-step forms.
+   Predicted: level 1 and level 2 have exactly R units (607: R − 1); level 3 has R units, then K factors ℓ² (S = R + K + 2)
+   or three (S = R + 3), then factors divisible by ℓ³.
+ℓ = 563: R = 23, K = 23, grid 26 × 26 (Q = 5 … 107); level 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2]  ->  units 23, 23, 23 (predicted 23); level 3 factors ℓ²: 3 (predicted 3)  (2106 partition numbers up to p(5.63e+13), 2518 s)
+ℓ = 569: R = 24, K = 23, grid 27 × 27 (Q = 5 … 109); level 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2]  ->  units 24, 24, 24 (predicted 24); level 3 factors ℓ²: 3 (predicted 3)  (2268 partition numbers up to p(6.19e+13), 3270 s)
+ℓ = 571: R = 24, K = 23, grid 27 × 27 (Q = 5 … 109); level 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]; level 3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2]  ->  units 24, 24, 24 (predicted 24); level 3 factors ℓ²: 3 (predicted 3)  (2268 partition numbers up to p(6.46e+13), 3134 s)
+
+as predicted at 3 of 3 primes; not: none  (8923 s)

@@ -1,0 +1,39 @@
+f(q) by its definition: [1, 1, -2, 3, -3, 3, -5, 7, -6, 6, -10] …; the Appell–Lerch identity agrees for n < 400: True
+
+ℓ = 5, lane ℓ^12 (7 s): levels 0..10; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: degree 2, [1, 0, 1] (lowest first), from 73 equations, unique: True;  from level 2: degree 2, [1, 0, 1] (lowest first), from 62 equations, unique: True
+
+ℓ = 7, lane ℓ^10 (8 s): levels 0..8; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: degree 2, [6, 0, 1] (lowest first), from 56 equations, unique: True;  from level 2: degree 2, [6, 0, 1] (lowest first), from 45 equations, unique: True
+
+ℓ = 11, lane ℓ^8 (7 s): levels 0..6; (3|ℓ) = +1, (−1|ℓ) = -1
+   the data alone: from level 1: degree 4, [1, 0, 2, 0, 1] (lowest first), from 19 equations, unique: True;  from level 2: degree 4, [1, 0, 2, 0, 1] (lowest first), from 8 equations, unique: True
+
+ℓ = 13, lane ℓ^8 (7 s): levels 0..6; (3|ℓ) = +1, (−1|ℓ) = +1
+   the data alone: from level 1: degree 4, [12, 0, 0, 0, 1] (lowest first), from 13 equations, unique: True;  from level 2: none of degree ≤ 3 (13 equations)
+
+ℓ = 17, lane ℓ^7 (7 s): levels 0..5; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: none of degree ≤ 4 (10 equations);  from level 2: none of degree ≤ 3 (10 equations)
+
+ℓ = 19, lane ℓ^7 (8 s): levels 0..5; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 4 (6 equations);  from level 2: none of degree ≤ 3 (6 equations)
+
+ℓ = 23, lane ℓ^6 (8 s): levels 0..5; (3|ℓ) = +1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 3 (13 equations);  from level 2: none of degree ≤ 2 (13 equations)
+
+ℓ = 29, lane ℓ^6 (8 s): levels 0..4; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: none of degree ≤ 3 (11 equations);  from level 2: none of degree ≤ 2 (11 equations)
+
+ℓ = 31, lane ℓ^6 (8 s): levels 0..4; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 3 (11 equations);  from level 2: none of degree ≤ 2 (11 equations)
+
+ℓ = 37, lane ℓ^5 (7 s): levels 0..4; (3|ℓ) = +1, (−1|ℓ) = +1
+   the data alone: from level 1: none of degree ≤ 3 (7 equations);  from level 2: none of degree ≤ 2 (7 equations)
+
+ℓ = 41, lane ℓ^5 (8 s): levels 0..4; (3|ℓ) = -1, (−1|ℓ) = +1
+   the data alone: from level 1: none of degree ≤ 3 (4 equations);  from level 2: none of degree ≤ 2 (4 equations)
+
+ℓ = 43, lane ℓ^5 (8 s): levels 0..4; (3|ℓ) = -1, (−1|ℓ) = -1
+   the data alone: from level 1: none of degree ≤ 2 (14 equations);  from level 2: none of degree ≤ 2 (3 equations)
+
+seconds: 91
