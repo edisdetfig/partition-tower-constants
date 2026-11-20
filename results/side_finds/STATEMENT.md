@@ -128,7 +128,7 @@ numbers as well: 2999, 4049, 8941, and 36 of 36 new ones, two of each kind for e
 (`partitions_flint_lucky_check.txt`).
 
 **E2 (derived, from Chebotarev's density theorem, if each piece's mod-ℓ Galois image is full and the pieces independent; the
-counts agree).** The share of primes Q with a law of a given kind with target c is the average over Q mod ℓ of
+counts agree).** The share of primes Q satisfying E1's trace condition for a given kind, with target c, is the average over Q mod ℓ of
 ∏ over the pieces of S_ℓ on lane ℓ of (q + χ_q(c² − 4Q⁻³))/(q² − 1), with q = ℓ^(degree of the piece). That is about
 3/ℓ^R_ℓ for all three kinds together. Counted to 10⁶ for 13 primes ℓ: χ² = 37.7 on 36 counts, and the ±1 correction is
 found to improve the fit (Σ(O − E)²/E = 55.0 on 48 cells, against 239.2 without it).
@@ -136,8 +136,9 @@ found to improve the fit (Σ(O − E)²/E = 55.0 on 48 cells, against 239.2 with
 *Added 20 Nov 2026 from a reader's review, recomputed (`recheck/scripts/week2/e2_chi.py`, `e2_q5.py`):*
 - *The 55.0 replaces 58.0, which the saved counts do not reproduce with this statistic (dividing by E(1 − p) gives 57.9).*
 - *At 37 both "ifs" follow from print and one check. Ahlgren–Allen–Tang, Proposition 3.3 (arXiv:2112.09481): each image
-  contains SL₂(𝔽_ℓ). Their Lemma 3.7(2): the joint image over ℚ(ζ_ℓ) is the full product if the projective
-  representations differ. The check: a₅ ≡ 5 and 36 (mod 37), so a₅² ≡ 25 and 1 with the same determinant. The share
+  contains SL₂(𝔽_ℓ). Their Lemma 3.7(2): the joint image over K(ζ_ℓ), for an auxiliary field K, is the full product if the projective
+  representations differ. At 37 both representations are defined over 𝔽₃₇ and have determinant one over ℚ(ζ₃₇), so the
+  joint image over ℚ(ζ₃₇) lies in SL₂(𝔽₃₇)² and contains it. The check: a₅ ≡ 5 and 36 (mod 37), so a₅² ≡ 25 and 1 with the same determinant. The share
   for 37 is then 24,635/11,228,544, one in 455.8: 172.2 expected to 10⁶, 174 counted. Not refereed.*
 - *At 49 primes (every prime 13 … 233, and 241, 251, 257) the values a₅²/5^(ℓ−4) are distinct modulo ℓ and generate each piece's full field (computed).
   The density argument for pieces of degree above 1 is not written out, so E2 stays conditional there.*
