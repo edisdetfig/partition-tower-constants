@@ -1,0 +1,30 @@
+48 cells; primes [13, 17, 19, 23, 29, 31]
+E2  sum (O-E)^2/E      = 54.99
+flat sum (O-E)^2/E      = 239.25
+E2  with binomial var   = 57.91
+flat with binomial var  = 254.67
+39 totals, 36 with E>1; chi2 (rounded E) = 37.71
+37 density 24635/11228544 = 1 in 455.8 ; x78495 = 172.2 x78498 = 172.2 per kind ['57.38', '57.38', '57.46']
+41 density 100837/56448000 = 1 in 559.8 ; x78495 = 140.2 x78498 = 140.2 per kind ['46.72', '46.72', '46.78']
+43 density 38821/23905728 = 1 in 615.8 ; x78495 = 127.5 x78498 = 127.5 per kind ['42.47', '42.47', '42.52']
+53 density 219073/205006464 = 1 in 935.8 ; x78495 = 83.9 x78498 = 83.9 per kind ['27.95', '27.95', '27.97']
+13 k= 10 signs 1 -1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [3] | a5^2/5^(k-1): degs [(1, 1)] roots [7] squarefree True (0s)
+17 k= 14 signs -1 1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [16] | a5^2/5^(k-1): degs [(1, 1)] roots [6] squarefree True (0s)
+19 k= 16 signs 1 1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [17] | a5^2/5^(k-1): degs [(1, 1)] roots [6] squarefree True (0s)
+23 k= 20 signs -1 -1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [0] | a5^2/5^(k-1): degs [(1, 1)] roots [0] squarefree True (0s)
+29 k= 26 signs 1 1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [5] | a5^2/5^(k-1): degs [(1, 1)] roots [22] squarefree True (0s)
+31 k= 28 signs -1 1 forms 1 R 1 orbits [1] | a5 mod l: degs [(1, 1)] roots [11] | a5^2/5^(k-1): degs [(1, 1)] roots [28] squarefree True (0s)
+37 k= 34 signs 1 -1 forms 2 R 2 orbits [2] | a5 mod l: degs [(1, 1), (1, 1)] roots [5, 36] | a5^2/5^(k-1): degs [(1, 1), (1, 1)] roots [14, 17] squarefree True (0s)
+41 k= 38 signs -1 1 forms 2 R 2 orbits [2] | a5 mod l: degs [(1, 1), (1, 1)] roots [3, 39] | a5^2/5^(k-1): degs [(1, 1), (1, 1)] roots [8, 18] squarefree True (0s)
+43 k= 40 signs 1 1 forms 2 R 2 orbits [2] | a5 mod l: degs [(1, 1), (1, 1)] roots [13, 22] | a5^2/5^(k-1): degs [(1, 1), (1, 1)] roots [12, 42] squarefree True (0s)
+47 k= 44 signs -1 -1 forms 2 R 2 orbits [2] | a5 mod l: degs [(2, 1)] roots [] | a5^2/5^(k-1): degs [(2, 1)] roots [] squarefree True (0s)
+53 k= 50 signs 1 1 forms 2 R 2 orbits [2] | a5 mod l: degs [(1, 1), (1, 1)] roots [33, 47] | a5^2/5^(k-1): degs [(1, 1), (1, 1)] roots [21, 48] squarefree True (0s)
+59 k= 56 signs 1 -1 forms 2 R 2 orbits [2] | a5 mod l: degs [(2, 1)] roots [] | a5^2/5^(k-1): degs [(2, 1)] roots [] squarefree True (0s)
+61 k= 58 signs 1 -1 forms 3 R 3 orbits [3] | a5 mod l: degs [(1, 1), (2, 1)] roots [31] | a5^2/5^(k-1): degs [(1, 1), (2, 1)] roots [16] squarefree True (0s)
+67 k= 64 signs 1 1 forms 3 R 3 orbits [3] | a5 mod l: degs [(1, 1), (2, 1)] roots [34] | a5^2/5^(k-1): degs [(1, 1), (2, 1)] roots [48] squarefree True (0s)
+71 k= 68 signs -1 -1 forms 3 R 3 orbits [3] | a5 mod l: degs [(3, 1)] roots [] | a5^2/5^(k-1): degs [(3, 1)] roots [] squarefree True (0s)
+73 k= 70 signs -1 -1 forms 3 R 3 orbits [3] | a5 mod l: degs [(3, 1)] roots [] | a5^2/5^(k-1): degs [(3, 1)] roots [] squarefree True (0s)
+79 k= 76 signs -1 1 forms 3 R 3 orbits [3] | a5 mod l: degs [(1, 1), (2, 1)] roots [72] | a5^2/5^(k-1): degs [(1, 1), (2, 1)] roots [42] squarefree True (0s)
+83 k= 80 signs 1 -1 forms 3 R 3 orbits [3] | a5 mod l: degs [(1, 1), (2, 1)] roots [76] | a5^2/5^(k-1): degs [(1, 1), (2, 1)] roots [66] squarefree True (0s)
+89 k= 86 signs -1 1 forms 4 R 4 orbits [4] | a5 mod l: degs [(2, 1), (2, 1)] roots [] | a5^2/5^(k-1): degs [(2, 1), (2, 1)] roots [] squarefree True (1s)
+97 k= 94 signs -1 -1 forms 4 R 4 orbits [4] | a5 mod l: degs [(1, 1), (3, 1)] roots [58] | a5^2/5^(k-1): degs [(1, 1), (3, 1)] roots [5] squarefree True (1s)

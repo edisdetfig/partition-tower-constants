@@ -131,7 +131,16 @@ numbers as well: 2999, 4049, 8941, and 36 of 36 new ones, two of each kind for e
 counts agree).** The share of primes Q with a law of a given kind with target c is the average over Q mod ℓ of
 ∏ over the pieces of S_ℓ on lane ℓ of (q + χ_q(c² − 4Q⁻³))/(q² − 1), with q = ℓ^(degree of the piece). That is about
 3/ℓ^R_ℓ for all three kinds together. Counted to 10⁶ for 13 primes ℓ: χ² = 37.7 on 36 counts, and the ±1 correction is
-confirmed (χ² = 58.0 on 48 cells, against 239.2 without it).
+confirmed (Σ(O − E)²/E = 55.0 on 48 cells, against 239.2 without it).
+
+*Added 20 Nov 2026 from a reader's review, recomputed (`recheck/scripts/week2/e2_chi.py`, `e2_q5.py`):*
+- *The 55.0 replaces 58.0, which the saved counts do not reproduce with this statistic (dividing by E(1 − p) gives 57.9).*
+- *At 37 both "ifs" follow from print and one check. Ahlgren–Allen–Tang, Proposition 3.3 (arXiv:2112.09481): each image
+  contains SL₂(𝔽_ℓ). Their Lemma 3.7(2): the joint image over ℚ(ζ_ℓ) is the full product if the projective
+  representations differ. The check: a₅ ≡ 5 and 36 (mod 37), so a₅² ≡ 25 and 1 with the same determinant. The share
+  for 37 is then 24,635/11,228,544, one in 455.8: 172.2 expected to 10⁶, 174 counted. Not refereed.*
+- *At all 20 primes 13 … 97 the values a₅²/5^(ℓ−4) are distinct modulo ℓ and generate each piece's full field (computed).
+  The density argument for pieces of degree above 1 is not written out, so E2 stays conditional there.*
 
 **E3 (derived from B; counted). At a lucky prime nothing is left to chance.**
 - Class law with ε: the other class has c(Q²M′) ≡ 2ε·(−3|Q)·Q⁻²·c(M′).

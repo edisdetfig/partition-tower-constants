@@ -1125,7 +1125,9 @@ form at once, and there are three kinds (two classes and Ono's). So about 3 prim
 
 - Over the 36 counts with more than one expected, χ² = 37.7 against 36 (derived). That is the scatter chance gives.
 - The finer prediction for one form: the share is 1/(ℓ − 1) where χ = +1 and 1/(ℓ + 1) where χ = −1. Over the 48 cells
-  χ² = 58.0; a flat 1/ℓ gives 239.2 (derived). So the forms' Galois images are the full ones.
+  Σ(O − E)²/E = 55.0; a flat 1/ℓ gives 239.2 (derived). *Corrected 20 Nov 2026: this read 58.0, which the saved counts
+  do not reproduce, and it went on to conclude that the Galois images are the full ones. A fit cannot show that. The
+  reason is Ahlgren–Allen–Tang's Proposition 3.3 and Lemma 3.7 with a check at Q = 5; see STATEMENT.md, E2.*
 - Single forms check out too ("some form has the number 0", counted against expected): 37: 4196 / 4188.5; 41: 3801 / 3784.3;
   43: 3594 / 3610.3; 53: 2928 / 2935.1; 61: 1294 / 1307.8.
 - Every law known from partition numbers is among them (37: 2999, 6599, 7541, 9547; 43: 4049, 8941). Below 10,000 there are
