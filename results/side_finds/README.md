@@ -4668,7 +4668,7 @@ Steps 0 … 25, 20, 14, 12, 9, 8 and 7, up to weight 174.
 - **"The projectivity gap: recover the class by subtraction."** Legitimate. Argument and checks below.
 
 **Proved: the 8 Eisenstein-type families are Eisenstein** (`eisenstein_proof.py`; COUNTED coefficients, DERIVED
-conclusion; *in the surveys' labels this is derived, a finite check against Sturm's bound that no expert has read*):
+conclusion; *in the surveys' labels: the coefficient check is computed, and the conclusion from Sturm's bound is derived*):
 - **The method.** Let f be the seed (weight ℓ − 1, normalized). Let G be the weight-(ℓ + 1) Eisenstein series of level
   6 with U_2 = U_3 = 1. Then θ^(ℓ−1)·f ≡ θ^(ℓ−2)·G mod ℓ in every coefficient up to Sturm's bound ℓ² + ℓ − 2.
   - The comparison covers 29, 55, 131, 181, 305 and 379 coefficients at 5, 7, 11, 13, 17 and 19, and 551 for each of

@@ -1,8 +1,9 @@
 # The ℓ-adic constants of the partition tower — draft note for a specialist (12 Nov 2026)
 
 This note states two results about the partition function modulo powers of a prime ℓ and sets out their proofs from
-published theorems. **Theorem A** (every form behind the tower is ordinary) has a complete argument here.
-**Theorem B** (the tower's constants are values of Hida families at weight −2) has a proof from published theorems:
+published theorems. **Theorem A** (every form behind the tower is ordinary) has a complete argument here, not yet checked by an expert.
+**Theorem B** (the tower's constants are values of Hida families at weight −2) is a conjecture, A1 of `STATEMENT.md`,
+with a proposed proof from published theorems:
 - Chen–Du–Hou–Sun for the classical representatives;
 - Ahlgren–Andersen–Dicks (Adv. Math. 447, 2024) for the eigenvalues, valid at every prime;
 - Hida for the families.
@@ -11,7 +12,8 @@ An earlier draft leaned on Yang's Theorem 1, whose written proof omits six of ei
 needed (§4.3). Everything is labelled as one of:
 - **[published]**: a published statement, quoted;
 - **[derived]**: an argument given here from published results; no expert has checked it;
-- **[computed]**: a numerical check, with kept outputs in this folder.
+- **[computed]**: a numerical check, with kept outputs in this folder;
+- **[conjectured]**: it fits every number tested and has no checked proof. A proposed proof may follow it.
 
 These are the labels of the surveys and of `STATEMENT.md`. Until 20 Nov 2026 this note wrote "cited" for "published" and
 "ours" for "derived". A heading marked [derived] credits the project with the argument only, never with the published
@@ -35,7 +37,7 @@ denote the U_ℓ-eigenvalue, at ℓ-adic weight κ, of the Hida family through f
 
 **Theorem A [derived].** For every prime ℓ ≥ 7, every f ∈ S_ℓ is ordinary at every prime above ℓ.
 
-**Theorem B [derived, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)). For every
+**Theorem B [conjectured: this is A1 of `STATEMENT.md`; a proposed proof is in §4, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)). For every
 m ≥ 1 there are b₀ and j₀ such that, for each parity class of b ≥ b₀ and all j ≥ j₀,
 
   Σ_i c_i·F_(b+2j+2i) ≡ 0 (mod ℓᵐ), where Q_ℓ(x) = Σ_i c_i xⁱ.
@@ -179,7 +181,7 @@ Hence a_ℓ(f) is a λ-unit. ∎
   modulo 2, 3 or 5 [computed, exact: `second_kind_colors.txt`]. So **Theorem A holds for 1, 3 and 5 colours**, at every
   prime ℓ ≥ 7, 11, 11 respectively.
 
-## 4. Proof of Theorem B [derived, from (I1)–(I5)]
+## 4. Proposed proof of Theorem B [conjectured (A1); the argument is the project's, from (I1)–(I5), and unchecked]
 
 **4.1 Each level is classical.**
 - By (I1) with r = 1 and k = b, F_b ≡ G_b (mod ℓᵇ), with G_b = η(24z)^(γ_b)·φ_b(24z) ∈ S_(γ_b, λ_b) (if λ_b is odd,

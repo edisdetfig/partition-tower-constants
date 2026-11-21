@@ -22,7 +22,8 @@ positive slope (statement C).
 Every statement carries one of four labels: **published**, **derived** (a short argument from published results, not
 refereed), **computed**, or **conjectured**. `STATEMENT.md` and `NOTE.md` use these four words. Two working files keep
 their own words, each mapped to these four in its opening key: the notebook (counted, measured, derived) and
-`FINDINGS.md` (reading, derived here). Nothing the project argued itself is called "proved".
+`FINDINGS.md` (reading, derived here). Historical notebook entries retain their original wording, including "proved" for some of the project's own checks;
+the notebook's opening key explains how to read it.
 
 ## Where to start
 
