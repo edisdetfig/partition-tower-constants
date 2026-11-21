@@ -9,8 +9,10 @@ proof, and the places to dig further) is in NEXT.md.
 - **new**: not found in the sources we read. Our search was limited, so "new as far as we read".
 - **rediscovered**: found from the data, then found in print.
 - **known, sharpened**: in print; we add a measurement.
-- **reading**: our derivation, not a proof.
-- **proved here**: proved by us; for an expert to check.
+- **reading**: our interpretation of why something holds; not a proof. A reading has no certainty of its own: the
+  label beside it (derived, computed or conjectured) says how sure the claim is.
+- **derived here**: an argument or a finite verification of ours, from published results; no expert has checked it.
+  (Until 20 Nov 2026 this read "proved here".)
 - **corrected**: said wrong first, then fixed in the record.
 - **open**: unexplained.
 
@@ -68,8 +70,8 @@ proof, and the places to dig further) is in NEXT.md.
      - It rests on the Serre-weight bookkeeping (standard, checked), the trace formula's periodic shape (standard), and
        the ghost slopes: proved for the slope-1 families (very generic), counted directly for the rest at 13 … 23.
    - **Since then (a further review, assessed in README):**
-     - Every first-step family at every prime 29 … 613 is ordinary and irreducible, with a proof for each. So the proved
-       theorem gives them slope exactly 1 at the tower's weight; it holds on the whole weight disc, as quoted.
+     - Every first-step family at every prime 29 … 613 is ordinary and irreducible (computed: a finite check at each prime, which anyone can
+       rerun). So the published theorem gives them slope exactly 1 (derived from it, once those hypotheses hold) at the tower's weight; it holds on the whole weight disc, as quoted.
      - At 607 those families are the two quiet braids, 8 and 17, found among the forms. 607's partition numbers reach
        only level 5, so whether its tower carries them is not measured.
      - The result with its conditions: **every ℓ from 29 to 613 is slow, given A1, A4 and that the slope-1 families
@@ -96,14 +98,15 @@ proof, and the places to dig further) is in NEXT.md.
      "expect" (for a = ℓ − 3 they are also "not sure") and for Bergdall and Pollack's corrected conjecture, which
      includes the Eisenstein-type ones.
    - **Since then (three relayed reviews, assessed in README):**
-     - The 8 Eisenstein families are now **proved** Eisenstein, by Sturm's bound (θ^(ℓ−1)·seed ≡ θ^(ℓ−2)·E_(ℓ+1) mod ℓ
+     - The 8 Eisenstein families are now **shown** Eisenstein. Computed: the coefficients agree as far as Sturm's bound. Derived: the
+       bound then gives the congruence in full (θ^(ℓ−1)·seed ≡ θ^(ℓ−2)·E_(ℓ+1) mod ℓ
        in every coefficient up to ℓ² + ℓ − 2).
      - The "projectivity" caveat is gone. Within one ρ̄ the signs at 2 and 3 are fixed: no ρ̄ was found in two sign
        classes at any of the 7 primes, and the two apparent cases at 19 were a quadratic twist. So the class's slopes
        are the whole family's slopes minus the old forms', and Theorem 1.3 covers each of those.
      - For the 21 covered families the class's slopes follow from the proved theorem itself.
    - **Status:** the hypotheses and the subtraction argument are the papers' and a review's; the measurements, the
-     Eisenstein proof and the sorting are ours.
+     Eisenstein verification and the sorting are ours.
    - **Records:** README "Do the families meet the conditions of the proofs?".
 
 20. **Every slope of the class comes from a few small forms (a test of the ghost series).**
@@ -348,13 +351,13 @@ proof, and the places to dig further) is in NEXT.md.
 | finding | status | record |
 |---|---|---|
 | A tower of any ℓ-adic modular form obeys a short law. The constants are the U_ℓ-values, at the form's weight, of the ordinary families it uses: Eisenstein family 1, cusp families A_f(w), twist ψ(ℓ) after the Shimura step | general shape known (Hida, FKO, Boylan–Webb); the explicit recipe new | STATEMENT A, G, H1; PROOF.md |
-| Where no ordinary family is used, the next slope takes over: the laws of Ramanujan, Watson, Atkin, Lehner and Garvan are this case | reading | Dig 1, 14th and 21st; spt; j |
-| At weight 0 the Eisenstein member is the constant 1, so for n ≥ 1 the cusp forms alone set j's constants | reading, checked | j |
-| **A simple pole at a CM point whose curve is ordinary at ℓ adds the constant u^(w−2)** (u the unit root of that curve's Frobenius). 1/E₄: u⁻⁶. 1/E₆: u⁻⁸, predicted before its run | new; the derivation is a reading | 1/E₄, 1/E₆; STATEMENT H3 |
-| **A pole at a point with no complex multiplication (j = 2) adds u_C⁻¹⁴, u_C the unit root of the curve at the pole** (y² = x³ + 10356x + 11916304). Predicted before the run. Met one ℓ-adic digit per level, since the pole moves to the canonical lift. Holds at 5, 7, 11, 13, 17, 19, 23; P alone at 29 and 31 (supersingular). **Blind: the tower alone finds j = 2** (the only fits with |j| ≤ 10⁶ are 2 and −575358, a chance fit that 37–53 rule out) | new; the derivation is a reading | A pole at a point with no symmetry |
-| **Curves that repeat: a pole ON a CM curve (the canonical lift) gives its constant exactly, 2 digits per level; the pole at j = 2 drifts toward that lift and gains 1 digit per level** (5: lift j = −32768; 7, 19: 54000; 11: −3375). **Two CM poles of discriminant −15 swap at 17 and 23: the tower repeats every two levels (two-level ratio = U⁻²⁶, only the pair law x² − U⁻²⁶ holds); at 19 and 31 each is fixed (u⁻²⁶)**. **The three CM curves of discriminant −23 cycle with period 3 at 13: the remainders' ratio settles only three levels apart (U⁻³⁸, at two levels), and only the cubic law x³ − U⁻³⁸ fits (it has no root in ℤ₁₃)**. **At small primes the 3-cycle is confirmed in full (discriminant −31): at 5 the ratio settles three levels apart at all six levels and P·(x³ − U⁻³⁸)·S reaches the whole lane 5¹¹; at 7 the cubic law reaches 7¹⁰, two digits a level**. The cycle length, the order of ℓ's prime in the class group, is read from the coefficients. All predicted before the runs | new; the reasoning is a reading | Curves that repeat themselves |
-| **The tower measures how far a curve is from its returning twin.** At 5, poles at j₀ ≡ 2 (mod 5) that start s = v₅(j₀ + 32768) digits from the twin j = −32768 give depth min(2b + 3, b + s, 11) at level b. Predicted before the runs; 48 of 48 levels exact for s = 1, 2, 3, 4, 6 and the twin itself | new; the Serre–Tate reasoning is a reading | What the tower view reveals |
-| **Curves that never come back, predicted and seen.** At 5 (weight −48): poles at the four curves of discriminant −275 (quasi-canonical lifts: CM, conductor divisible by 5) never return to their start but land on the returning curve −32768 after one step, and from level 2 the tower is indistinguishable from a pole on that curve (depth 6, 10, 11, …). Four curves without CM gain one digit a level forever (4, 5, …, 10). Predicted before the runs | new; the reasoning (Serre–Tate, Gross) is a reading | Curves that never come back |
+| Where no ordinary family is used, the next slope takes over: the laws of Ramanujan, Watson, Atkin, Lehner and Garvan are this case | reading; conjectured (STATEMENT C) | Dig 1, 14th and 21st; spt; j |
+| At weight 0 the Eisenstein member is the constant 1, so for n ≥ 1 the cusp forms alone set j's constants | reading; computed (checked on j) | j |
+| **A simple pole at a CM point whose curve is ordinary at ℓ adds the constant u^(w−2)** (u the unit root of that curve's Frobenius). 1/E₄: u⁻⁶. 1/E₆: u⁻⁸, predicted before its run | new; conjectured in general, computed in the listed cases; the explanation is a reading | 1/E₄, 1/E₆; STATEMENT H3 |
+| **A pole at a point with no complex multiplication (j = 2) adds u_C⁻¹⁴, u_C the unit root of the curve at the pole** (y² = x³ + 10356x + 11916304). Predicted before the run. Met one ℓ-adic digit per level, since the pole moves to the canonical lift. Holds at 5, 7, 11, 13, 17, 19, 23; P alone at 29 and 31 (supersingular). **Blind: the tower alone finds j = 2** (the only fits with the absolute value of j at most 10⁶ are 2 and −575358, a chance fit that 37–53 rule out) | new; computed at the primes listed, conjectured in general; the explanation is a reading | A pole at a point with no symmetry |
+| **Curves that repeat: a pole ON a CM curve (the canonical lift) gives its constant exactly, 2 digits per level; the pole at j = 2 drifts toward that lift and gains 1 digit per level** (5: lift j = −32768; 7, 19: 54000; 11: −3375). **Two CM poles of discriminant −15 swap at 17 and 23: the tower repeats every two levels (two-level ratio = U⁻²⁶, only the pair law x² − U⁻²⁶ holds); at 19 and 31 each is fixed (u⁻²⁶)**. **The three CM curves of discriminant −23 cycle with period 3 at 13: the remainders' ratio settles only three levels apart (U⁻³⁸, at two levels), and only the cubic law x³ − U⁻³⁸ fits (it has no root in ℤ₁₃)**. **At small primes the 3-cycle is confirmed in full (discriminant −31): at 5 the ratio settles three levels apart at all six levels and P·(x³ − U⁻³⁸)·S reaches the whole lane 5¹¹; at 7 the cubic law reaches 7¹⁰, two digits a level**. The cycle length, the order of ℓ's prime in the class group, is read from the coefficients. All predicted before the runs | new; computed in the cases listed; the explanation is a reading | Curves that repeat themselves |
+| **The tower measures how far a curve is from its returning twin.** At 5, poles at j₀ ≡ 2 (mod 5) that start s = v₅(j₀ + 32768) digits from the twin j = −32768 give depth min(2b + 3, b + s, 11) at level b. Predicted before the runs; 48 of 48 levels exact for s = 1, 2, 3, 4, 6 and the twin itself | new; computed in the listed cases (48 of 48 levels); the depth formula is conjectured beyond them; the Serre–Tate reasoning is a reading | What the tower view reveals |
+| **Curves that never come back, predicted and seen.** At 5 (weight −48): poles at the four curves of discriminant −275 (quasi-canonical lifts: CM, conductor divisible by 5) never return to their start but land on the returning curve −32768 after one step, and from level 2 the tower is indistinguishable from a pole on that curve (depth 6, 10, 11, …). Four curves without CM gain one digit a level forever (4, 5, …, 10). Predicted before the runs | new; computed in the listed cases; conjectured beyond them; the reasoning (Serre–Tate, Gross) is a reading | Curves that never come back |
 | The boundary: the data-only search finds laws in every modular function tried, none in partitions into squares or cubes | new (as a test) | How wide …; STATEMENT H4 |
 | Non-congruence forms obey laws of the same shape with Frobenius constants (Scholl 1985) | known, placed here | How wide … |
 
@@ -363,7 +366,7 @@ proof, and the places to dig further) is in NEXT.md.
 | finding | status | record |
 |---|---|---|
 | Ramanujan's three laws mod 125 found blind | rediscovered (his manuscript, eq. 21.3) | Dig 1 |
-| Mod 125: p(N) is a multiple exactly when (24N − 1)/25 is a square on lane 5 (and the analogue on lane 7) | reading, counted | Dig 1 |
+| Mod 125: p(N) is a multiple exactly when (24N − 1)/25 is a square on lane 5 (and the analogue on lane 7) | reading; computed | Dig 1 |
 | p(2401n + B) ≡ 0 (mod 7³) for B = 929, 1615, 1958; p(78125n + B) ≡ 0 (mod 5⁷) for B = 46,224, 77,474; p(117649n + B) ≡ 0 (mod 7⁴) for B = 45,519, 79,133, 95,940 | new as stated; they follow from Watson's and Garvan's theory | Dig 1 and Dig 1, deeper |
 | Ramanujan's wrong 7³ guess holds exactly on the square classes; OEIS A340957 and A340757 have the numbers but not the law | new as stated | Dig 1, deeper |
 | Ramanujan's tally for 7 (n ≤ 200) has slips: 51, 34, 23, 27, 23, 23, 19 | counted correction | Dig 1, again |
@@ -373,8 +376,8 @@ proof, and the places to dig further) is in NEXT.md.
 | p(25N − 1) ≡ 25·N·(N − 3)·p(N) (mod 125) for every N, at every depth | new as stated; follows from Ramanujan's eq. 21.4 | Dig 1, fourth |
 | A lane-49 form of the step rule for 7 | new as stated | Dig 1, fourth |
 | Curves behind the towers: 7 → 42a, 11 → 726d (Jameson's), **13 → 1014f (Q¹⁰) and its twist 1014b (Q⁴)** | 7, 11 rediscovered; 13 new | Dig 1, fifth and sixth |
-| The 13 statement proved with Sturm bounds, Jameson's method, at every level | proved here | Dig 1, seventh and eighth |
-| No elliptic curve can do this for 17, 19, 23, 29, 31: at some prime Q the required number of points breaks Hasse's bound | proved here | Dig 1, eighth |
+| The 13 statement verified with Sturm bounds, Jameson's method, at every level | derived here | Dig 1, seventh and eighth |
+| No elliptic curve can do this for 17, 19, 23, 29, 31: at some prime Q the required number of points breaks Hasse's bound | derived here | Dig 1, eighth |
 | Abelian varieties take over: at 31, two of dimension 4 at level 5766 = 2·3·31² (fields Q(ζ₁₅)⁺, Q(ζ₁₆)⁺), predicted first; at 37, dimension 3 at level 8214 with Q(ζ₁₈)⁺, predicted first | new | Dig 1, ninth and tenth |
 | The first digits of the constants for 13 to 31 are in print: Ono 2000 (13 to 23), Boylan–Webb 2013 (29), Narayanan's 2019 Harvard thesis (13 to 31; found 20 Nov 2026, after an outside review) | known | reports/Partition tower literature check.md |
 | **The constants: α = (3\|ℓ)·u_f(−2)**, the families through the level-6 forms of weight ℓ − 3, read at weight −2. Known to 30 digits (13–31) and 20 digits (37–61) | new | Dig 1, 12th to 18th; STATEMENT A |
@@ -415,8 +418,8 @@ proof, and the places to dig further) is in NEXT.md.
 | The laws of distinct parts, overpartitions and T_2B, found from the data alone (no forms) | new as stated | How wide … (boundary) |
 | T_2B's constants are the forms' (at 11: a₁₁ of the weight-10 newform on Γ0(2)); overpartitions' constants are the Eisenstein 1, level-1 cusp forms, and level-2 newforms with w₂ = (2\|ℓ) (fits 5–19) | new; counted on lane ℓ | T_2B …; Overpartitions … |
 | **Distinct parts' constants are the forms'**: the two-level step is T_ℓ∘T_ℓ on (η(2z)/η(z))·{forms of Γ0(2) vanishing at the cusp 0}, the Hecke operators carrying the multiplier class r to rℓ mod 24 and back. It reproduces the three laws the data found alone (dying at 5, −1 at 7, −2 with a dying part at 11). At 7 the weight-0 constant matches the tower to 7 digits (n < 10⁸). At 13–23 the laws are predicted (13: (y + 3)(y + 5)(y + 6) on lane 13, holding on the one check 10⁸ allows) | new; derived and partly confirmed | Distinct parts: the constants from forms |
-| **More moonshine: T_2A and T_3C = j(3τ)^(1/3).** T_2A dies at 3, 5, 7 (no Eisenstein constant: its Fricke symmetry shuts it out); from 11 its constants are the level-1 cusp forms and the level-2 newforms with w₂ = (2|ℓ), matching the data-only law at every prime 11–31. T_3C dies at 5, 7, 11; from 13 its constants are the forms η¹⁶·M_(ℓ−9), one-level for ℓ ≡ 1 mod 3 and two-level for ℓ ≡ 2 mod 3, matching every data-only law at 13–43 | new as far as we read (literature not checked) | More moonshine |
-| **A mock theta function's tower (Ramanujan's f(q)) has laws; its unit constant is exactly the unit root (−3|ℓ) of its shadow's Hecke polynomial** y² − χ₁₂(ℓ)(ℓ + (−1|ℓ))y + (−1|ℓ)ℓ, (its slope-1 root's presence was over-read: the slope-1 piece really there has another unit part, 2 at 5 and 4 at 7, unidentified): −1 at 5 and +1 at 7 to every digit the levels settle. A second unit constant, (2|ℓ), comes from the level-6 newform family of weight ℓ − 1 in the class ((2|ℓ), (3|ℓ)), whose value at weight 0 is exactly 1 to 9 digits; it explains the double root at 11 and the extra −1 at 13. The first prediction (the whole eigenvalue, −6) was wrong and is recorded; the corrected one held at 7, read afterwards. A further piece of the same slope is not identified | new as far as we read (literature not checked) | A mock theta function |
+| **More moonshine: T_2A and T_3C = j(3τ)^(1/3).** T_2A dies at 3, 5, 7 (no Eisenstein constant: its Fricke symmetry shuts it out); from 11 its constants are the level-1 cusp forms and the level-2 newforms with w₂ = (2\|ℓ), matching the data-only law at every prime 11–31. T_3C dies at 5, 7, 11; from 13 its constants are the forms η¹⁶·M_(ℓ−9), one-level for ℓ ≡ 1 mod 3 and two-level for ℓ ≡ 2 mod 3, matching every data-only law at 13–43 | new as far as we read (literature not checked) | More moonshine |
+| **A mock theta function's tower (Ramanujan's f(q)) has laws; its unit constant is exactly the unit root (−3\|ℓ) of its shadow's Hecke polynomial** y² − χ₁₂(ℓ)(ℓ + (−1\|ℓ))y + (−1\|ℓ)ℓ, (its slope-1 root's presence was over-read: the slope-1 piece really there has another unit part, 2 at 5 and 4 at 7, unidentified): −1 at 5 and +1 at 7 to every digit the levels settle. A second unit constant, (2\|ℓ), comes from the level-6 newform family of weight ℓ − 1 in the class ((2\|ℓ), (3\|ℓ)), whose value at weight 0 is exactly 1 to 9 digits; it explains the double root at 11 and the extra −1 at 13. The first prediction (the whole eigenvalue, −6) was wrong and is recorded; the corrected one held at 7, read afterwards. A further piece of the same slope is not identified | new as far as we read (literature not checked) | A mock theta function |
 | 5 colours at 11: the law follows one slope-1 family; constant 2, 8, 5, 2, 10, 5, 2, 0, 1, 1, 3, …, matching the exact numbers | new; counted | 5 colours at 11 |
 | Double poles: E₄/j reproduces Zhang's theorem ((−3\|ℓ)·ℓ) at every prime 5–43. **For 1/E₄² the whole law P(x)·(x − ℓ·u⁻¹²)·S(x) holds to the whole lane at 7, 13 and 19, with no constant read from the tower.** S is the slope-1 families at weight −8, computed directly by Lauder's algorithm and checked against the classical forms at weight 148. At 13 that is four slope-1 constants. | E₄/j known (Zhang), our check counted; 1/E₄² new | Double poles; What 13 needs |
 | Zhang's conjectures for E₄/(j − j(C))^r (arXiv 2510.23200) at j(C) = 2, 13 primes from 5 to 307: Theorem 1.3 and Conjectures 1.4 and 1.5 hold in every case, and 1.5's bound 3l − 2 − r is met exactly (sharp). **At supersingular primes the minimal polynomial X² − p² reaches 3l − r (2 deeper) and contains Conjecture 1.4 as its first level.** At ordinary primes the next roots are our p³u⁻⁴ and E₄'s p³ (4 a level at 5–17), plus, at 19 and 23, θ³ of a weight −2 Hida form (λ ≡ 13 and 7 from Lauder; at 19 the leftover runs exactly like n³·a_n(ΔE₄), as predicted). So the tower is Zhang's three roots plus p³ times the weight −2 world, which is why his bound grows 3 a level. | conjectures Zhang's; sharpness, the supersingular law and the slope-3 roots not in his paper (literature not checked); counted | Zhang's conjectures |

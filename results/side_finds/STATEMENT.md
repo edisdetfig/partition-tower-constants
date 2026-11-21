@@ -6,16 +6,18 @@ say exactly which numbers. They come from a handful of classical modular forms, 
 The same numbers govern the steps along every other prime Q, and they decide which primes Q give a law and how often.
 A3 and E1 were first marked "proven"; they are short arguments from published lemmas that no referee has read, so
 they are marked **derived** (changed 20 Nov 2026).
-Each statement is marked **proven** (in print, QUOTED in `reports/Partition tower literature check.md`), **derived** (by an
-argument here), **counted** (by our computations, with the file named) or **conjectured**.
+Each statement is marked **published** (in print, QUOTED in `reports/Partition tower literature check.md`), **derived** (by an
+argument here from published results; no expert has checked it), **computed** (by our computations, with the file named;
+also written "counted" below) or **conjectured**. These are the four labels of the surveys. Until 20 Nov 2026 this file
+wrote "proven" for "published".
 
 ## Setting
 
 - ℓ ≥ 5 prime; for b ≥ 1, δ_b is the integer in [0, ℓᵇ) with 24·δ_b ≡ 1 (mod ℓᵇ). The tower: H_b(n) = p(ℓᵇ·n + δ_b).
   For 5, 7, 11, H_b is first divided by the power of ℓ that Watson's and Atkin's laws guarantee.
 - **The class** S_ℓ: the newforms f of weight ℓ − 3 on Γ0(6) with U₂f = (2|ℓ)·2^((ℓ−5)/2)·f and U₃f = (3|ℓ)·3^((ℓ−5)/2)·f,
-  that is Atkin–Lehner signs w₂ = −(2|ℓ), w₃ = −(3|ℓ) (Yang's G_m; proven for 13 ≤ ℓ ≤ 31, Guo–Ono, Yang).
-- R_ℓ = ⌊(ℓ + 12)/24⌋, the rank bound of Folsom–Kent–Ono and Boylan–Webb (proven).
+  that is Atkin–Lehner signs w₂ = −(2|ℓ), w₃ = −(3|ℓ) (Yang's G_m; published for 13 ≤ ℓ ≤ 31, Guo–Ono, Yang).
+- R_ℓ = ⌊(ℓ + 12)/24⌋, the rank bound of Folsom–Kent–Ono and Boylan–Webb (published).
 - For f in S_ℓ with a_ℓ(f) a unit on lane ℓ (ordinary), F_f is f's Hida family. Its members sit at the weights
   k = ℓ − 3 + (ℓ − 1)x, with U₂, U₃ values whose signs change by (2|ℓ), (3|ℓ) per step. u_f(κ) is the U_ℓ-number of the
   family at the weight κ, an ℓ-adic analytic function on the weight disc that contains ℓ − 3 and −2.
@@ -25,7 +27,7 @@ argument here), **counted** (by our computations, with the file named) or **conj
 
 Let α_f = (3|ℓ)·u_f(−2), and P_ℓ(x) = ∏_{f ∈ S_ℓ} (x − α_f), a polynomial with ℓ-adic integer coefficients.
 
-**A1 (conjectured; the frame is proven).** Σ_i [xⁱ]P_ℓ · H_(b+2i)(n) ≡ 0 modulo a power of ℓ that grows without bound
+**A1 (conjectured; the frame is published).** Σ_i [xⁱ]P_ℓ · H_(b+2i)(n) ≡ 0 modulo a power of ℓ that grows without bound
 with b, for every n. That is, the operator that moves the tower's limit two levels up satisfies P_ℓ. This recurrence is
 the main claim. P_ℓ is that operator's characteristic polynomial exactly where the tower has full rank R_ℓ: every
 ℓ ≤ 1297 except 607, by Boylan–Webb's computation (NOTE.md §5). *Reworded 20 Nov 2026: an earlier version called the
@@ -64,7 +66,7 @@ class where forms of lower level interfere: 17, 29, 499). Every form of S_ℓ is
 
 ## Statement B: the steps along another prime Q
 
-**B (conjectured; the frame is proven).** Write the limit as a sum of components c_f, one for each f in S_ℓ. For each
+**B (conjectured; the frame is published).** Write the limit as a sum of components c_f, one for each f in S_ℓ. For each
 prime Q ≥ 5, Q ≠ ℓ, and M = 24N − 1 with ℓ | M and Q ∤ M:
 c_f(Q²M) = (λ_f(Q) + ε·δ)·c_f(M),  with  λ_f(Q) = (3|Q)·a_Q(F_f at weight −2),  ε = (M|Q),  δ = −(−3|Q)·Q⁻².
 For two forms this gives the two-step law c(Q⁴M) ≡ (t + εδ)·c(Q²M) − (Q⁻³ + δ² + tεδ + n)·c(M), with t and n the sum and
@@ -219,7 +221,7 @@ families of level 1: the Eisenstein family's 1 and the cusp forms'.
   Lehner's congruences.
 - Checked at every prime 5…43 the data reach (`colors24_check.txt`, `level1_check_j_….txt`, `level1_j_cusp_….txt`).
 
-**H2 (quoted).** For spt, two levels multiply the tower by (3|ℓ)·r, where r is a root of x² − (1 + ℓ)x + ℓ, the Eisenstein
+**H2 (published congruences; derived interpretation).** For spt, two levels multiply the tower by (3|ℓ)·r, where r is a root of x² − (1 + ℓ)x + ℓ, the Eisenstein
 series of weight 2.
 - r = 1 for ℓ ≥ 11: Ahlgren–Bringmann–Lovejoy (2011).
 - r = ℓ at 5, 7 and 13: Garvan (2012).
