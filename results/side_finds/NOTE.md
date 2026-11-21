@@ -1,7 +1,7 @@
 # The ℓ-adic constants of the partition tower — draft note for a specialist (12 Nov 2026)
 
-This note states two results about the partition function modulo powers of a prime ℓ and sets out their proofs from
-published theorems. **Theorem A** (every form behind the tower is ordinary) has a complete argument here, not yet checked by an expert.
+This note states two results about the partition function modulo powers of a prime ℓ and, from published theorems,
+gives an argument for Theorem A and a proposed proof of Theorem B. **Theorem A** (every form behind the tower is ordinary) has a complete argument here, not yet checked by an expert.
 **Theorem B** (the tower's constants are values of Hida families at weight −2) is a conjecture, A1 of `STATEMENT.md`,
 with a proposed proof from published theorems:
 - Chen–Du–Hou–Sun for the classical representatives;

@@ -221,7 +221,7 @@ families of level 1: the Eisenstein family's 1 and the cusp forms'.
   Lehner's congruences.
 - Checked at every prime 5…43 the data reach (`colors24_check.txt`, `level1_check_j_….txt`, `level1_j_cusp_….txt`).
 
-**H2 (published).** For spt, two levels multiply the tower by (3|ℓ)·r, where r is a root of x² − (1 + ℓ)x + ℓ, the Eisenstein
+**H2 (published congruences; derived interpretation).** For spt, two levels multiply the tower by (3|ℓ)·r, where r is a root of x² − (1 + ℓ)x + ℓ, the Eisenstein
 series of weight 2.
 - r = 1 for ℓ ≥ 11: Ahlgren–Bringmann–Lovejoy (2011).
 - r = ℓ at 5, 7 and 13: Garvan (2012).

@@ -1367,7 +1367,7 @@ checked against brute force for n ≤ 20. Each level uses n = 0…11. Depths are
 
 After dividing out those laws (H′):
 
-| prime | depths of H′_(b+2) − (3|ℓ)·H′_b |
+| prime | depths of H′_(b+2) − (3\|ℓ)·H′_b |
 |---|---|
 | 5 | 1, 3, 4, 6, 7, then the end of the lane |
 | 7 | 1, 3, 3, 5, 5 |
