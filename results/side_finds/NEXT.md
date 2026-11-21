@@ -112,7 +112,7 @@ Sizes: **quick** (minutes), **run** (hours on this PC), **WSL** (needs the Linux
     2 with a = ℓ − 3), and all 39 fit. Left for a specialist: that the class with fixed signs at 2 and 3 gives a
     primitive projective module, so that the local theorem applies to it directly. **Not needed (14 Nov):** the class
     is recovered from the whole families at levels 6ℓ, 3ℓ, 2ℓ, ℓ by subtraction, each covered by Theorem 1.3; the
-    signs are fixed within a family (`sign_check.py`). And the 8 Eisenstein families are proved Eisenstein
+    signs are fixed within a family (`sign_check.py`). And the 8 Eisenstein families are shown Eisenstein, by a finite check against Sturm's bound
     (`eisenstein_proof.py`).
 25. The share condition: does the tower carry its slowest quiet notes? **Answered (14 Nov, FINDINGS 23):** yes, at
     every prime 29 … 613 (Hecke matrices of partition numbers, `share_test.py`). Every family starts as a unit, except

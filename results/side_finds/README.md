@@ -2,6 +2,10 @@
 
 This is the day-by-day record: each section names its scripts and kept outputs (`.py` beside `.txt`/`.json`).
 Labels: counted (exact), measured (floating point), derived (reasoning).
+In the surveys' four labels, counted and measured are both **computed**, and derived is **derived**: reasoning of the
+project's own that no expert has checked. This notebook also writes "derived" beside a number calculated from counted
+data. Where it says "proved" or "proven" of the project's own work, read "derived"; of a published theorem, read
+"published". The wording of the dated entries below is left as written (note added 20 Nov 2026).
 `FINDINGS.md` lists every finding with its status; `STATEMENT.md` states the main claims (A to H); `PROOF.md` and
 `NOTE.md` hold the proof route and the draft proof; `NEXT.md` holds what is open.
 
@@ -3605,7 +3609,7 @@ Tested:
 | "One digit deeper they part again" was shown with the forms at weight 604, not the tower | **yes, about the evidence** | The claim itself holds. The tower's own constants were computed: 2·u(604) − u(1210), checked by 1816 (second difference 0). They part on the second digit. x² + 70x + 484 was computed three times (607⁴ on 12 Nov, 607³ twice today), the same each time. |
 | The 1-in-ℓ estimate counts only a mirrored pair, and one per prime | **half** | The wording described one mechanism; the number did not. 1/ℓ is the chance that a random polynomial of degree ≥ 2 mod ℓ has a repeated root, whatever the cause. Σ 1/ℓ over the 200 primes is 0.67 (derived). It is a heuristic and is labelled one. With 0.67 expected cases, no sweep of this size can test it sharply. Seeing exactly one has chance 0.34 under it. |
 | Not confirmed that Boylan and Webb computed the rank at every prime up to 1,297 | **no** | Their paper says so (its text, extracted from the PDF): §6.1 lists bases for m = 1 at every prime 13 ≤ ℓ < 1300, and p. 2203 states r_ℓ(1) = R_ℓ for all ℓ ≤ 1297 except 607. New from that reading: for m = 2 they computed only up to 89. |
-| "(proven)" for the first-digit rule, with no proof seen | **yes, about the record; no, about the claim** | No argument was written down in our files. It is now (PROOF.md, "The first digit, written out"): a few lines from AAT (2.4), (2.6) and (2.8) with AAD (1.4). A3 is labelled "proven" again. E1 had the same gap; it is now written out too (PROOF.md), its sign identity checked on 5,475 prime pairs. |
+| "(proven)" for the first-digit rule, with no proof seen | **yes, about the record; no, about the claim** | No argument was written down in our files. It is now (PROOF.md, "The first digit, written out"): a few lines from AAT (2.4), (2.6) and (2.8) with AAD (1.4). A3 is labelled "proven" again *(since 20 Nov: "derived", as is E1; see STATEMENT.md)*. E1 had the same gap; it is now written out too (PROOF.md), its sign identity checked on 5,475 prime pairs. |
 | The sweep of 200 primes was rechecked only at 13 of them | **not a flaw** | That is the reviewer's own coverage. Our sweep (the forms) and Boylan–Webb's computation (the tower's own levels) are two different methods. They agree at all 200 primes, so each checks the other. |
 
 - **The steps of mine that over-accepted:**
@@ -4664,7 +4668,7 @@ Steps 0 … 25, 20, 14, 12, 9, 8 and 7, up to weight 174.
 - **"The projectivity gap: recover the class by subtraction."** Legitimate. Argument and checks below.
 
 **Proved: the 8 Eisenstein-type families are Eisenstein** (`eisenstein_proof.py`; COUNTED coefficients, DERIVED
-conclusion):
+conclusion; *in the surveys' labels this is derived, a finite check against Sturm's bound that no expert has read*):
 - **The method.** Let f be the seed (weight ℓ − 1, normalized). Let G be the weight-(ℓ + 1) Eisenstein series of level
   6 with U_2 = U_3 = 1. Then θ^(ℓ−1)·f ≡ θ^(ℓ−2)·G mod ℓ in every coefficient up to Sturm's bound ℓ² + ℓ − 2.
   - The comparison covers 29, 55, 131, 181, 305 and 379 coefficients at 5, 7, 11, 13, 17 and 19, and 551 for each of

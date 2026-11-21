@@ -9,9 +9,13 @@ published theorems. **Theorem A** (every form behind the tower is ordinary) has 
 
 An earlier draft leaned on Yang's Theorem 1, whose written proof omits six of eight residue classes. That is no longer
 needed (§4.3). Everything is labelled as one of:
-- **[cited]**: a published statement, quoted;
-- **[ours]**: an argument given here, to be checked;
+- **[published]**: a published statement, quoted;
+- **[derived]**: an argument given here from published results; no expert has checked it;
 - **[computed]**: a numerical check, with kept outputs in this folder.
+
+These are the labels of the surveys and of `STATEMENT.md`. Until 20 Nov 2026 this note wrote "cited" for "published" and
+"ours" for "derived". A heading marked [derived] credits the project with the argument only, never with the published
+results the argument uses.
 
 ## 1. Setting and statements
 
@@ -25,13 +29,13 @@ module of rank at most R_ℓ = ⌊(ℓ + 12)/24⌋. So each tower obeys a linear
 constants.
 
 Let k = ℓ − 3. Let S_ℓ be the set of newforms of weight k on Γ0(6) with Atkin–Lehner eigenvalues w₂ = −(2|ℓ),
-w₃ = −(3|ℓ). Its size is ⌊(ℓ + 12)/24⌋ = R_ℓ [cited: Yang 2011, Remark; Guo–Ono]. For an eigenform f with coefficients
+w₃ = −(3|ℓ). Its size is ⌊(ℓ + 12)/24⌋ = R_ℓ [published: Yang 2011, Remark; Guo–Ono]. For an eigenform f with coefficients
 in a number field and a prime λ | ℓ, f is **ordinary at λ** if a_ℓ(f) is a λ-adic unit. For ordinary f, let u_f(κ)
 denote the U_ℓ-eigenvalue, at ℓ-adic weight κ, of the Hida family through f's ordinary ℓ-stabilization.
 
-**Theorem A [ours].** For every prime ℓ ≥ 7, every f ∈ S_ℓ is ordinary at every prime above ℓ.
+**Theorem A [derived].** For every prime ℓ ≥ 7, every f ∈ S_ℓ is ordinary at every prime above ℓ.
 
-**Theorem B [ours, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)). For every
+**Theorem B [derived, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)). For every
 m ≥ 1 there are b₀ and j₀ such that, for each parity class of b ≥ b₀ and all j ≥ j₀,
 
   Σ_i c_i·F_(b+2j+2i) ≡ 0 (mod ℓᵐ), where Q_ℓ(x) = Σ_i c_i xⁱ.
@@ -40,7 +44,7 @@ That is, the two-level step on the tower satisfies Q_ℓ modulo ℓᵐ. Its mini
 exactly when the tower has full rank R_ℓ. Boylan–Webb [BW] computed full rank for every ℓ ≤ 1297 except 607, where the
 rank is R_ℓ − 1. §5 gives our account of 607.
 
-## 2. Ingredients [cited]
+## 2. Ingredients [published]
 
 **(I1) Chen–Du–Hou–Sun [CDHS, Thm 3.1].** For a prime m ≥ 5 and positive integers k, r there is
 φ ∈ M_λ(SL₂(ℤ)) with F_(m,k,r)(z) ≡ η(24z)^γ·φ(24z) (mod mᵏ), where:
@@ -111,7 +115,7 @@ For a nonzero mod-ℓ form h of level N prime to ℓ, let w(h) be its filtration
 **(I7) Lifting [Deligne–Serre, Lemme 6.11].** A system of Hecke eigenvalues mod λ occurring on M_K(Γ0(N); F̄_ℓ) occurs,
 up to reduction, on M_K(Γ0(N); Q̄_ℓ). For K ≥ 2 and ℓ ∤ 6N, M_K(Γ0(N); F_ℓ) is the reduction of M_K(Γ0(N); ℤ_(ℓ)).
 
-## 3. Proof of Theorem A [ours]
+## 3. Proof of Theorem A [derived]
 
 Let ℓ ≥ 7, f ∈ S_ℓ, λ | ℓ, and suppose a_ℓ(f) ≡ 0 (mod λ). Write f̄ for its reduction, a mod-λ eigenform of weight
 k = ℓ − 3 and level 6.
@@ -175,7 +179,7 @@ Hence a_ℓ(f) is a λ-unit. ∎
   modulo 2, 3 or 5 [computed, exact: `second_kind_colors.txt`]. So **Theorem A holds for 1, 3 and 5 colours**, at every
   prime ℓ ≥ 7, 11, 11 respectively.
 
-## 4. Proof of Theorem B [ours, from (I1)–(I5)]
+## 4. Proof of Theorem B [derived, from (I1)–(I5)]
 
 **4.1 Each level is classical.**
 - By (I1) with r = 1 and k = b, F_b ≡ G_b (mod ℓᵇ), with G_b = η(24z)^(γ_b)·φ_b(24z) ∈ S_(γ_b, λ_b) (if λ_b is odd,
@@ -184,7 +188,7 @@ Hence a_ℓ(f) is a λ-unit. ∎
   - K_b = (ℓ − 1)ℓ^(b−1) − 2 for odd b;
   - K_b = 2(ℓ − 1)ℓ^(b−1) − 2 for even b.
 
-  So K_b ≡ −2 (mod (ℓ − 1)ℓ^(b−1)) exactly, K₁ = ℓ − 3 is the class's own weight, and K_b → −2 ℓ-adically [ours, from the
+  So K_b ≡ −2 (mod (ℓ − 1)ℓ^(b−1)) exactly, K₁ = ℓ − 3 is the class's own weight, and K_b → −2 ℓ-adically [derived, from the
   formulas]. Example, ℓ = 13: b = 1 gives γ = 11, λ = 0, K = 10; b = 2 gives γ = 23, λ = 144, K = 310 = 2·156 − 2.
 - The signs are −(8/γ_b) = −(2|ℓ)ᵇ and −(12/γ_b) = −(3|ℓ)ᵇ. That is the class S_ℓ's for odd b, and (−1, −1) for even b.
 
@@ -231,7 +235,7 @@ Hence a_ℓ(f) is a λ-unit. ∎
 (in families or at a single weight), cuspidality of the limit, and Yang's isomorphism. Only divisibility of the minimal
 polynomial is needed (§4.3). Each G_b is a cusp form because γ_b > 0.
 
-## 5. Full rank, and 607 [ours, computed]
+## 5. Full rank, and 607 [derived, computed]
 
 The minimal polynomial of the step on the tower divides Q_ℓ. It equals Q_ℓ when the tower spans all R_ℓ directions.
 - On lane ℓ the levels span at most as many directions as the degree of T_ℓ's minimal polynomial on S_ℓ mod ℓ.
@@ -264,7 +268,10 @@ The minimal polynomial of the step on the tower divides Q_ℓ. It equals Q_ℓ w
 3. ~~(I6) on Γ₀(6) through Γ₁(6).~~ Written out in §8 (R1).
 4. **A specialist's reading of the whole. This is the only item left.**
 
-## 8. Routine points, written out [ours]
+## 8. Routine points, written out [derived, from published results]
+
+Each point adapts a published result to this setting. The published result is named; the adaptation is the project's
+and unchecked.
 
 **(R1) Katz's theorem on Γ₀(6).**
 - Γ₁(6) is a fine level (6 ≥ 4), so (I6) holds for mod-ℓ forms on Γ₁(6) with ℓ ≥ 5.
@@ -293,7 +300,8 @@ The minimal polynomial of the step on the tower divides Q_ℓ. It equals Q_ℓ w
 - Hence the characteristic polynomials at weights K_b and −2 agree modulo ℓ^b: K_b ≡ −2 (mod (ℓ − 1)ℓ^(b−1)), §4.1.
 - No étaleness of the Hecke algebra over Λ is needed, so congruent families (607) and ramified points are covered.
 
-**(R4) Semisimplicity.** For p ≥ 5 the operator T(p²) is normal for the Petersson product on S_(λ+1/2)(1, ν^r), since
+**(R4) Semisimplicity.** *(This rests on a standard fact about Hecke operators and the Petersson product; no source is
+quoted for it here.)* For p ≥ 5 the operator T(p²) is normal for the Petersson product on S_(λ+1/2)(1, ν^r), since
 these are Hecke operators of index prime to the level of the multiplier. So it is diagonalizable over ℂ, and its minimal
 polynomial over ℚ is squarefree. That is what §4.3 uses.
 

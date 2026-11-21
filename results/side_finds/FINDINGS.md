@@ -9,8 +9,9 @@ proof, and the places to dig further) is in NEXT.md.
 - **new**: not found in the sources we read. Our search was limited, so "new as far as we read".
 - **rediscovered**: found from the data, then found in print.
 - **known, sharpened**: in print; we add a measurement.
-- **reading**: our derivation, not a proof.
-- **proved here**: proved by us; for an expert to check.
+- **reading**: our derivation, not a proof. In the surveys' labels: derived.
+- **derived here**: an argument or a finite verification of ours, from published results; no expert has checked it.
+  (Until 20 Nov 2026 this read "proved here".)
 - **corrected**: said wrong first, then fixed in the record.
 - **open**: unexplained.
 
@@ -68,7 +69,7 @@ proof, and the places to dig further) is in NEXT.md.
      - It rests on the Serre-weight bookkeeping (standard, checked), the trace formula's periodic shape (standard), and
        the ghost slopes: proved for the slope-1 families (very generic), counted directly for the rest at 13 … 23.
    - **Since then (a further review, assessed in README):**
-     - Every first-step family at every prime 29 … 613 is ordinary and irreducible, with a proof for each. So the proved
+     - Every first-step family at every prime 29 … 613 is ordinary and irreducible, with a finite verification for each (derived). So the proved
        theorem gives them slope exactly 1 at the tower's weight; it holds on the whole weight disc, as quoted.
      - At 607 those families are the two quiet braids, 8 and 17, found among the forms. 607's partition numbers reach
        only level 5, so whether its tower carries them is not measured.
@@ -96,14 +97,14 @@ proof, and the places to dig further) is in NEXT.md.
      "expect" (for a = ℓ − 3 they are also "not sure") and for Bergdall and Pollack's corrected conjecture, which
      includes the Eisenstein-type ones.
    - **Since then (three relayed reviews, assessed in README):**
-     - The 8 Eisenstein families are now **proved** Eisenstein, by Sturm's bound (θ^(ℓ−1)·seed ≡ θ^(ℓ−2)·E_(ℓ+1) mod ℓ
+     - The 8 Eisenstein families are now **shown** Eisenstein (derived: a finite check against Sturm's bound) (θ^(ℓ−1)·seed ≡ θ^(ℓ−2)·E_(ℓ+1) mod ℓ
        in every coefficient up to ℓ² + ℓ − 2).
      - The "projectivity" caveat is gone. Within one ρ̄ the signs at 2 and 3 are fixed: no ρ̄ was found in two sign
        classes at any of the 7 primes, and the two apparent cases at 19 were a quadratic twist. So the class's slopes
        are the whole family's slopes minus the old forms', and Theorem 1.3 covers each of those.
      - For the 21 covered families the class's slopes follow from the proved theorem itself.
    - **Status:** the hypotheses and the subtraction argument are the papers' and a review's; the measurements, the
-     Eisenstein proof and the sorting are ours.
+     Eisenstein verification and the sorting are ours.
    - **Records:** README "Do the families meet the conditions of the proofs?".
 
 20. **Every slope of the class comes from a few small forms (a test of the ghost series).**
@@ -373,8 +374,8 @@ proof, and the places to dig further) is in NEXT.md.
 | p(25N − 1) ≡ 25·N·(N − 3)·p(N) (mod 125) for every N, at every depth | new as stated; follows from Ramanujan's eq. 21.4 | Dig 1, fourth |
 | A lane-49 form of the step rule for 7 | new as stated | Dig 1, fourth |
 | Curves behind the towers: 7 → 42a, 11 → 726d (Jameson's), **13 → 1014f (Q¹⁰) and its twist 1014b (Q⁴)** | 7, 11 rediscovered; 13 new | Dig 1, fifth and sixth |
-| The 13 statement proved with Sturm bounds, Jameson's method, at every level | proved here | Dig 1, seventh and eighth |
-| No elliptic curve can do this for 17, 19, 23, 29, 31: at some prime Q the required number of points breaks Hasse's bound | proved here | Dig 1, eighth |
+| The 13 statement verified with Sturm bounds, Jameson's method, at every level | derived here | Dig 1, seventh and eighth |
+| No elliptic curve can do this for 17, 19, 23, 29, 31: at some prime Q the required number of points breaks Hasse's bound | derived here | Dig 1, eighth |
 | Abelian varieties take over: at 31, two of dimension 4 at level 5766 = 2·3·31² (fields Q(ζ₁₅)⁺, Q(ζ₁₆)⁺), predicted first; at 37, dimension 3 at level 8214 with Q(ζ₁₈)⁺, predicted first | new | Dig 1, ninth and tenth |
 | The first digits of the constants for 13 to 31 are in print: Ono 2000 (13 to 23), Boylan–Webb 2013 (29), Narayanan's 2019 Harvard thesis (13 to 31; found 20 Nov 2026, after an outside review) | known | reports/Partition tower literature check.md |
 | **The constants: α = (3\|ℓ)·u_f(−2)**, the families through the level-6 forms of weight ℓ − 3, read at weight −2. Known to 30 digits (13–31) and 20 digits (37–61) | new | Dig 1, 12th to 18th; STATEMENT A |
