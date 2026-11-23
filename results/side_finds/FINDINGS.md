@@ -448,7 +448,7 @@ proof, and the places to dig further) is in NEXT.md.
 - "Adding our next root p³u⁻⁴ makes Zhang's law grow 4 a level" (a prediction): wrong alone. E₄'s critical root p³
   must go with it, and at 19 and 23 a third root as well (README "Zhang's conjectures").
 - "No form of lower level can share the tower's numbers": WRONG. It happens at 17, 29 and 499, and is separated
-  exactly (Dig 1, 17th and 18th). *(Corrected 23 Nov 2026: 37 removed; see STATEMENT.md, "What does not work".)*
+  exactly (Dig 1, 17th and 18th). *(Corrected 23 Nov 2026: 37 removed; see STATEMENT.md, "What would make the statements fail (and did not)".)*
 - "At 7 the slope-1 family of 1/E₄² has unit part 4, 0, 1, 3" (a two-term fit, Double poles): its 4th digit was wrong. The forms give 4, 0, 1, 6, and only that value makes the whole law reach the full lane (What 13 needs).
 - "j = 2's constant is reached one digit per level because the pole drifts" (A pole at a point with no symmetry): true at 5 only; at 7, 11 and 19 a slope-1 family alone gives that growth. The drift itself is confirmed once the families are in the law (Curves that repeat themselves).
 - "The mock theta tower's two-level constant is the shadow's whole T(ℓ²)-eigenvalue χ₁₂(ℓ)(ℓ + (−1|ℓ))" (−6 at 5): WRONG at 5; it is the unit root (−3|ℓ) (A mock theta function).

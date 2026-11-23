@@ -91,7 +91,7 @@ print('class dim',d,'; kernel of T_l has dimension',nul)
 x=nmod_mat(1,d,[int(X[i,0]) for i in range(d)],p)
 v=x*R2*R1                                   # coordinates in the basis b_i of M_k(Gamma0(6))
 vv=np.array([int(v[0,i]) for i in range(n)],dtype=object)
-m=low.shape[1]; q=[int(sum(int(vv[i])*int(low[i,j]) for i in range(n))%p) for j in range(60)]
+m=low.shape[1]
 import cypari2; pari=cypari2.Pari()
 M=4000 if m>4000 else m-1
 qq=(np.array(vv,dtype=object)@low.astype(object))%p
