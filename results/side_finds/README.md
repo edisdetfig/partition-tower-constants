@@ -989,7 +989,9 @@ on it (`forms6_flint.py`):
 - ~~For ℓ ≥ 7 no lower-level or Eisenstein form can share the tower's numbers (a level-lowering congruence would need
   a_p ≡ ±(p + 1)·p^((k−2)/2), impossible at p = 2, and at p = 3 unless ℓ = 5; derived), so the Hecke numbers alone suffice.~~
   **WRONG** (found the same day; the eighteenth time below). Exact equality is impossible (Deligne's bound), but agreement
-  on lane ℓ is not: it happened for 17, 29, 37 and 499.
+  on lane ℓ is not: it happened for 17, 29, 37 and 499. *(Note added 23 Nov 2026: at the class's own weight this holds
+  for 17, 29 and 499 only. At 37 the class on lane 37 has exactly its 2 forms; the 37 here refers to the piece along the
+  families in the eighteenth entry. See STATEMENT.md.)*
 
 **Validation (counted).** 13: all 13 digits known from partition numbers, then 4 more: 6, 3, 1, 2, 5, 8, 0, 9, 5, 9, 9, 6,
 8, 2, 8, 5, 3 (17 weights, 2 s). 37: both twins exactly as PARI had them for 9 digits, now 12: 34, 30, 35, 25, 2, 25, 28,
