@@ -292,24 +292,32 @@ and unchecked.
 
 **(R2) Hida's theory on one Atkin–Lehner class.** *(Revised 23 Nov 2026: an earlier version called the new-at-2-and-3
 part a "direct factor" of the ordinary Λ-adic Hecke algebra of tame level 6; because of level-raising congruences with
-levels 1, 2, 3 — observed at ℓ = 17, 29, 37, 499 — it is a quotient over Λ, not a direct factor. The saturated-module
-argument below avoids that claim.)*
+levels 1, 2, 3 — observed at ℓ = 17, 29, 499 — it need not be a direct factor over Λ. The saturated-kernel construction
+below avoids that claim.)*
 - Let S^ord(6; Λ) be Hida's ordinary Λ-adic cusp space of tame level 6 [H86a, H86b; W88], which is finite and free over
-  Λ = ℤ_ℓ[[T]].
-- Define the Λ-adic newspace M = S^(ord,new)(6; Λ) as the saturated kernel in S^ord(6; Λ) of the level-lowering trace
-  maps to levels 2 and 3. Because Λ = ℤ_ℓ[[T]] is a 2-dimensional regular local ring, any saturated submodule of a free
-  Λ-module is reflexive, hence free over Λ.
-- On M, the Λ-adic Atkin–Lehner involutions W₂, W₃ commute with the Hecke operators and satisfy W₂² = W₃² = 1. Since
-  2 ∈ Λ^× (ℓ ≥ 5), the orthogonal idempotents (1 ± W₂)/2 and (1 ± W₃)/2 split M into four free Λ-summands M^(w₂,w₃).
-- On a classical newform of weight k ≥ 3 and level 6, U_p acts as −w_p·p^((k−2)/2) for p ∈ {2, 3}. Since U_p is ℓ-adically
-  continuous along a family and p^((ℓ−1)/2) ≡ (p|ℓ) (mod ℓ), the Atkin–Lehner sign w_p flips by (p|ℓ) per step of ℓ − 1
-  in k. Thus a fixed summand M^(w₂,w₃) corresponds at each weight K_b to the class with signs −(2|ℓ)ᵇ, −(3|ℓ)ᵇ.
-- By Hida's classical control theorem at tame levels 1, 2, 3 and 6 (for K ≥ 3, avoiding weight-2 ℓ-newforms) and
-  inclusion–exclusion (degeneracy maps f(z) ↦ f(dz) for d | 6 preserve ordinarity at ℓ ∤ 6), the specialization satisfies
-  (M^(w₂,w₃)/P_K) ⊗ Q_ℓ ≅ S_K^(ord,new,(w₂,w₃))(Q_ℓ) for every classical weight K ≥ 3 in the residue class of ℓ − 3
-  (mod ℓ − 1). Since the characteristic polynomial of (3|ℓ)·U_ℓ on a ℤ_ℓ-lattice depends only on the Q_ℓ-vector space,
-  the specialization of χ(T; x) = det(x − (3|ℓ)·U_ℓ | M^(w₂,w₃)) ∈ Λ[x] at weight K_b equals the characteristic
-  polynomial of (3|ℓ)·U_ℓ on the ordinary class at weight K_b. By Theorem A, rank_Λ M^(w₂,w₃) = |S_ℓ| = R_ℓ.
+  Λ = ℤ_ℓ[[T]] (with classical weight K = ℓ − 3 + (ℓ − 1)x corresponding to T_K = (1 + ℓ)^(K − (ℓ − 3)) − 1).
+- For p ∈ {2, 3}, write p = ω(p)⟨p⟩ in ℤ_ℓ^× with ⟨p⟩ = (1 + ℓ)^(c_p) ∈ 1 + ℓℤ_ℓ (c_p ∈ ℤ_ℓ), and define the explicit
+  Λ-adic unit σ_p(T) = p^((ℓ−5)/2)·(1 + T)^(c_p/2) ∈ Λ^× (using 2 ∈ ℤ_ℓ^×). At classical weight K = ℓ − 3 + (ℓ − 1)x,
+  σ_p(T_K) = (p|ℓ)^x·p^((K−2)/2), so σ_p(T_K)² = p^(K−2).
+- Define the Λ-adic newspace M = ker(U₂² − σ₂(T)²) ∩ ker(U₃² − σ₃(T)²) ⊂ S^ord(6; Λ). Because S^ord(6; Λ) is
+  torsion-free over Λ, M is a saturated submodule of a free Λ-module over the 2-dimensional regular local ring Λ, hence
+  reflexive and free over Λ.
+- At every classical weight K ≥ 3 (avoiding weight-2 ℓ-newforms), every newform of level 6 satisfies U_p² = p^(K−2)
+  (p ∈ {2, 3}), whereas by Deligne's bound every oldform eigenvalue of U_p (when old at p) has complex absolute value
+  p^((K−1)/2) ≠ p^((K−2)/2). Thus ker(U₂² − 2^(K−2), U₃² − 3^(K−2)) on S_K^ord(Γ₀(6ℓ); Q_ℓ) is precisely
+  S_K^(ord,new)(6; Q_ℓ). By Hida's control theorem at tame levels 1, 2, 3, 6 and inclusion–exclusion (degeneracy maps
+  f(z) ↦ f(dz) for d | 6 preserve ordinarity at ℓ ∤ 6), d = dim_(Q_ℓ) S_K^(ord,new)(6; Q_ℓ) is constant in K ≥ 3. Since
+  a nonzero element of ℤ_ℓ[[T]] has only finitely many zeros in ℓℤ_ℓ (Weierstrass preparation), the minors of
+  (U₂² − σ₂(T)², U₃² − σ₃(T)²) of size above rank S^ord − d vanish identically on Λ, giving rank_Λ M ≥ d; specialization
+  gives rank_Λ M ≤ d, so (M/P_K) ⊗ Q_ℓ ≅ S_K^(ord,new)(6; Q_ℓ) for every K ≥ 3.
+- On M, the explicit Λ-linear operators W̃_p = −σ_p(T)⁻¹·U_p (p ∈ {2, 3}) commute with the Hecke operators and satisfy
+  W̃_p² = 1. Since 2 ∈ Λ^× (ℓ ≥ 5), the orthogonal idempotents (1 ± W̃₂)/2 and (1 ± W̃₃)/2 split M into four free
+  Λ-summands. At classical weight K = ℓ − 3 + (ℓ − 1)x, W̃_p acts as (p|ℓ)^x·w_p(K). Fixing the summand M^(w₂,w₃) where
+  W̃_p = −(p|ℓ) matches S_ℓ at K₁ = ℓ − 3 (x = 0), and at weight K_b gives w_p(K_b) = −(p|ℓ)^b (since x_b = ℓ^(b−1) − 1
+  is even for odd b and x_b = 2ℓ^(b−1) − 1 is odd for even b).
+- Since the characteristic polynomial of (3|ℓ)·U_ℓ on a ℤ_ℓ-lattice depends only on the Q_ℓ-vector space, the
+  specialization of χ(T; x) = det(x − (3|ℓ)·U_ℓ | M^(w₂,w₃)) ∈ Λ[x] at weight K_b equals the characteristic polynomial
+  of (3|ℓ)·U_ℓ on the ordinary class at weight K_b. By Theorem A, rank_Λ M^(w₂,w₃) = |S_ℓ| = R_ℓ.
 
 **(R3) The continuity modulus, with no assumption on ramification.**
 - Q_ℓ is not built from individual families' values but from the Λ-adic characteristic polynomial of U_ℓ on those

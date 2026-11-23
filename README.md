@@ -33,7 +33,7 @@ the notebook's opening key explains how to read it.
 | A plain-language guide (start here if you are new to the subject) | [Partition towers in plain words (PDF)](surveys/Partition%20towers%20in%20plain%20words.pdf) |
 | The technical survey: what is known, new and unproved, with sources | [The partition tower modulo prime powers: a computational survey (PDF)](surveys/The%20partition%20tower%20modulo%20prime%20powers%20a%20computational%20survey.pdf) |
 | The exact statements, A to H | [`STATEMENT.md`](results/side_finds/STATEMENT.md) |
-| A standalone LaTeX note for specialists (Theorems A & B + tables) | [`paper/partition_tower_constants.tex`](paper/partition_tower_constants.tex) |
+| A standalone LaTeX draft for specialists (derived/conjectured note + tables) | [`paper/partition_tower_constants.tex`](paper/partition_tower_constants.tex) |
 | The draft proof of the main statement (Markdown) | [`NOTE.md`](results/side_finds/NOTE.md) |
 | The short arguments for A3 and E1 | [`PROOF.md`](results/side_finds/PROOF.md) |
 | Every finding with its status, and corrections | [`FINDINGS.md`](results/side_finds/FINDINGS.md) |
@@ -43,7 +43,7 @@ the notebook's opening key explains how to read it.
 
 ## Layout
 
-- `paper/`: a self-contained LaTeX preprint extracting the core proofs (Theorems A and B) and main computational tables for specialist readers.
+- `paper/`: a self-contained LaTeX draft extracting the derived ordinarity argument (Theorem A), the conjectured recurrence with its proposed proof (Theorem B), and main computational tables for specialist readers.
 - `results/side_finds/`: the project's record as it was made. Scripts (`.py`) sit beside their kept outputs
   (`.txt`, `.json`, `.jsonl`). Usage lines in the scripts assume this path.
 - `recheck/`: the reviewer's own programs and logs. None of the project's scripts was used for these.

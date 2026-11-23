@@ -5,7 +5,6 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{hyperref}
-\usepackage{microtype}
 
 \hypersetup{
   colorlinks=true,
@@ -44,12 +43,12 @@ Ordinarity, Hida families at weight $-2$, and computations}
 \begin{abstract}
 For a prime $\ell \ge 13$, the partition tower $F_b(z) = \sum_{\ell^b n \equiv -1 \pmod{24}} p((\ell^b n + 1)/24) q^n$ satisfies $F_{b+2} = F_b \mid U(\ell^2)$ and, by work of Folsom--Kent--Ono and Boylan--Webb, obeys modulo every $\ell^m$ a linear recurrence of degree at most $R_\ell = \lfloor(\ell+12)/24\rfloor$. Let $S_\ell$ be the set of normalized newforms of weight $\ell - 3$ on $\Gamma_0(6)$ with Atkin--Lehner eigenvalues $w_2 = -\legendre{2}{\ell}$ and $w_3 = -\legendre{3}{\ell}$.
 
-We present two arguments from published results (not yet peer reviewed):
+We present two unrefereed arguments from published results:
 \begin{enumerate}
-  \item Every newform $f \in S_\ell$ ($\ell \ge 7$) is $\ell$-ordinary, via a theta-cycle reduction to weight $6$ on $\Gamma_0(6)$ (Theorem~\ref{thm:ord}).
-  \item A classical-weight route showing that modulo every $\ell^m$, the two-level operator $U(\ell^2)$ on the deep partition tower satisfies the specialization at weight $\kappa = -2$ of the $\Lambda$-adic characteristic polynomial of $\legendre{3}{\ell} U_\ell$ on the Hida family through $S_\ell$, bypassing overconvergent forms and Ramsey's lift (Theorem~\ref{thm:main}).
+  \item A \emph{derived} argument that every newform $f \in S_\ell$ ($\ell \ge 7$) is $\ell$-ordinary, via a theta-cycle reduction to weight $6$ on $\Gamma_0(6)$ (Theorem~\ref{thm:ord}).
+  \item A proposed classical-weight proof of the \emph{conjectured} recurrence (Theorem~\ref{thm:main}): modulo every $\ell^m$, the two-level operator $U(\ell^2)$ on the deep partition tower satisfies the specialization at weight $\kappa = -2$ of the $\Lambda$-adic characteristic polynomial of $\legendre{3}{\ell} U_\ell$ on the Hida family through $S_\ell$, bypassing overconvergent forms and Ramsey's lift.
 \end{enumerate}
-We summarize numerical confirmations against certified exact partition numbers (via FLINT), record the explanation of Boylan--Webb's rank deficit at $\ell = 607$, note a display erratum in Boylan--Webb for $\ell = 29$, and list new explicit congruences modulo $43$, $67$, and $73$.
+We summarize numerical confirmations against certified exact partition numbers (via FLINT), record the explanation of Boylan--Webb's rank deficit at $\ell = 607$, note an apparent display misprint in Boylan--Webb for $\ell = 29$, and list new explicit congruences modulo $37$, $43$, $67$, and $73$.
 \end{abstract}
 
 \maketitle
@@ -123,7 +122,7 @@ We collect the published theorems used in Sections~\ref{sec:proofA} and~\ref{sec
   \[
     S_t(T_{p^2} F) = \legendre{12}{p} T_p S_t(F) \qquad \text{for every prime } p \ge 5.
   \]
-  (This removes the need for Yang's trace-formula isomorphism~\cite{Y14}, whose published proof omits six residue classes modulo $24$.)
+  (This removes the need for Yang's trace-formula isomorphism~\cite{Y14}, whose arXiv text~\texttt{arXiv:1110.1810} works out only $n \equiv 1, 11 \pmod{24}$ and states that the remaining six residue classes are omitted.)
 
   \item[\textbf{(I3)}] \textbf{Half-integral weight Hecke operators} (e.g.~\cite[\S2]{Y14}). On $S_{\kappa + 1/2}(1, \nu^r)$, for any prime $p \ge 5$,
   \[
@@ -192,14 +191,22 @@ The same proof shows that the classes $(w_2, w_3) = (+\legendre{2}{\ell}, \pm\le
 \section{Proposed proof of Theorem~\ref{thm:main}}\label{sec:proofB}
 
 \subsection{Hida theory on one Atkin--Lehner class}\label{sec:hida}
-Because of level-raising congruences between level $6$ and lower levels (observed in $S_\ell$ at $\ell = 17, 29, 37, 499$), the new-at-$2$-and-$3$ Hecke algebra is a quotient, not a direct factor, of the full ordinary $\Lambda$-adic Hecke algebra over $\Lambda = \Z_\ell[[T]]$. We avoid assuming a direct-factor splitting of the Hecke algebra as follows:
+Because of level-raising congruences between level $6$ and lower levels (observed in $S_\ell$ at $\ell = 17, 29, 499$), the new-at-$2$-and-$3$ Hecke algebra need not be a direct factor of the full ordinary $\Lambda$-adic Hecke algebra over $\Lambda = \Z_\ell[[T]]$. We construct the $\Lambda$-adic newspace directly as a saturated kernel:
 \begin{enumerate}
-  \item Let $S^\ord(6; \Lambda)$ be Hida's ordinary $\Lambda$-adic cusp space of tame level $6$ (finite and free over $\Lambda$ by (I5)). Define the $\Lambda$-adic newspace $M = S^{\ord,\new}(6; \Lambda)$ as the saturated kernel in $S^\ord(6;\Lambda)$ of the level-lowering trace maps to levels $2$ and $3$. Because $\Lambda = \Z_\ell[[T]]$ is a $2$-dimensional regular local ring, every saturated submodule of a free $\Lambda$-module is reflexive, hence \emph{free} over $\Lambda$.
-  \item On $M$, the $\Lambda$-adic Atkin--Lehner involutions $W_2, W_3$ satisfy $W_p^2 = 1$ and commute with the Hecke operators. Since $2 \in \Lambda^\times$ ($\ell \ge 5$), the orthogonal idempotents $(1 \pm W_2)/2$ and $(1 \pm W_3)/2$ split $M$ into four free $\Lambda$-summands $M^{(w_2, w_3)}$.
-  \item On a classical newform of weight $K \ge 3$ and level $6$, $U_p = -w_p p^{(K-2)/2}$ for $p \in \{2,3\}$. Continuity of $U_p$ and $p^{(\ell-1)/2} \equiv \legendre{p}{\ell} \pmod{\ell}$ imply that the Atkin--Lehner signs flip by $\legendre{p}{\ell}$ per step of $\ell - 1$ in $K$.
-  \item By Hida's control theorem (I5) at tame levels $1, 2, 3, 6$ (for $K \ge 3$, avoiding weight-$2$ $\ell$-newforms) and inclusion--exclusion (degeneracy maps $f(z) \mapsto f(dz)$ for $d \mid 6$ preserve ordinarity at $\ell \nmid 6$), we have $(M^{(w_2,w_3)} / P_K) \otimes \Q_\ell \cong S_K^{\ord,\new,(w_2,w_3)}(\Q_\ell)$ for every classical weight $K \ge 3$ in the residue class of $\ell - 3 \pmod{\ell - 1}$.
-  \item Let $\chi(T; x) = \det(x - \legendre{3}{\ell} U_\ell \mid M^{(w_2,w_3)}) \in \Lambda[x]$, where weight $K$ corresponds to $T_K = (1+\ell)^{K - (\ell-3)} - 1$. Since the characteristic polynomial on a $\Z_\ell$-lattice depends only on the $\Q_\ell$-vector space, $\chi(T_K; x)$ is the characteristic polynomial of $\legendre{3}{\ell} U_\ell$ on the ordinary class at weight $K$. By Theorem~\ref{thm:ord}, $\operatorname{rank}_\Lambda M^{(w_2,w_3)} = |S_\ell| = R_\ell$.
-  \item If $K \equiv K' \pmod{(\ell-1)\ell^{t-1}}$, then $(1+\ell)^K \equiv (1+\ell)^{K'} \pmod{\ell^t}$, so $\chi(T_K; x) \equiv \chi(T_{K'}; x) \pmod{\ell^t}$ with no étaleness assumption on the Hecke algebra.
+  \item Let $S^\ord(6; \Lambda)$ be Hida's ordinary $\Lambda$-adic cusp space of tame level $6$ (finite and free over $\Lambda$ by (I5)), where classical weight $K = \ell - 3 + (\ell - 1)x$ corresponds to $T_K = (1+\ell)^{K - (\ell - 3)} - 1$.
+  \item For $p \in \{2, 3\}$, write $p = \omega(p)\langle p \rangle$ in $\Z_\ell^\times$ with $\langle p \rangle = (1+\ell)^{c_p} \in 1 + \ell\Z_\ell$ ($c_p \in \Z_\ell$), and define the $\Lambda$-adic unit
+  \[
+    \sigma_p(T) = p^{(\ell-5)/2} (1 + T)^{c_p/2} \in \Lambda^\times
+  \]
+  (well-defined since $2 \in \Z_\ell^\times$). At weight $K = \ell - 3 + (\ell - 1)x$, $\omega(p)^{(\ell-1)/2} = \legendre{p}{\ell}$ gives $\sigma_p(T_K) = \legendre{p}{\ell}^x p^{(K-2)/2}$, so $\sigma_p(T_K)^2 = p^{K-2}$.
+  \item Define the $\Lambda$-adic newspace
+  \[
+    M = \ker\!\left(U_2^2 - \sigma_2(T)^2\right) \cap \ker\!\left(U_3^2 - \sigma_3(T)^2\right) \subset S^\ord(6;\Lambda).
+  \]
+  Since $S^\ord(6;\Lambda)$ is torsion-free over $\Lambda$, $M$ is a saturated submodule of a free $\Lambda$-module over the $2$-dimensional regular local ring $\Lambda$, hence reflexive and \emph{free} over $\Lambda$.
+  \item At every classical weight $K \ge 3$ (avoiding weight-$2$ $\ell$-newforms), every level-$6$ newform satisfies $U_p^2 = p^{K-2}$ ($p \in \{2,3\}$), whereas by Deligne's bound every eigenvalue of $U_p$ on an oldform (old at $p$) has complex absolute value $p^{(K-1)/2} \neq p^{(K-2)/2}$. Thus $\ker(U_2^2 - 2^{K-2}, U_3^2 - 3^{K-2})$ on $S_K^\ord(\Gamma_0(6\ell); \Q_\ell)$ equals $S_K^{\ord,\new}(6; \Q_\ell)$. By Hida's control theorem (I5) at tame levels $1, 2, 3, 6$ and inclusion--exclusion (degeneracy maps $f(z) \mapsto f(dz)$ for $d \mid 6$ preserve ordinarity at $\ell \nmid 6$), $d = \dim_{\Q_\ell} S_K^{\ord,\new}(6;\Q_\ell)$ is constant in $K \ge 3$. Since a nonzero power series in $\Z_\ell[[T]]$ has only finitely many zeros in $\ell\Z_\ell$ (Weierstrass preparation), the minors of $(U_2^2 - \sigma_2(T)^2, U_3^2 - \sigma_3(T)^2)$ of size above $\operatorname{rank}_\Lambda S^\ord - d$ vanish identically on $\Lambda$, giving $\operatorname{rank}_\Lambda M \ge d$; specialization gives $\operatorname{rank}_\Lambda M \le d$. Hence $(M / P_K) \otimes \Q_\ell \cong S_K^{\ord,\new}(6;\Q_\ell)$ for every classical weight $K \ge 3$.
+  \item On $M$, the explicit $\Lambda$-linear operators $\widetilde{W}_p = -\sigma_p(T)^{-1} U_p$ ($p \in \{2,3\}$) commute with the Hecke operators and satisfy $\widetilde{W}_p^2 = 1$. Since $2 \in \Lambda^\times$ ($\ell \ge 5$), the orthogonal idempotents $(1 \pm \widetilde{W}_2)/2$ and $(1 \pm \widetilde{W}_3)/2$ split $M$ into four free $\Lambda$-summands. At weight $K = \ell - 3 + (\ell-1)x$, $\widetilde{W}_p$ acts as $\legendre{p}{\ell}^x w_p(K)$. Fixing the summand $M^{(w_2,w_3)}$ on which $\widetilde{W}_p = -\legendre{p}{\ell}$ recovers $S_\ell$ at $K_1 = \ell - 3$ ($x=0$), and at weight $K_b$ yields $w_p(K_b) = -\legendre{p}{\ell}^b$ (since $x_b = \ell^{b-1} - 1$ is even for odd $b$ and $x_b = 2\ell^{b-1} - 1$ is odd for even $b$).
+  \item Let $\chi(T; x) = \det(x - \legendre{3}{\ell} U_\ell \mid M^{(w_2,w_3)}) \in \Lambda[x]$. Since the characteristic polynomial on a $\Z_\ell$-lattice depends only on the $\Q_\ell$-vector space, $\chi(T_{K_b}; x)$ is the characteristic polynomial of $\legendre{3}{\ell} U_\ell$ on the ordinary class at weight $K_b$. By Theorem~\ref{thm:ord}, $\operatorname{rank}_\Lambda M^{(w_2,w_3)} = |S_\ell| = R_\ell$. Moreover, if $K \equiv K' \pmod{(\ell-1)\ell^{t-1}}$, then $(1+\ell)^K \equiv (1+\ell)^{K'} \pmod{\ell^t}$, so $\chi(T_K; x) \equiv \chi(T_{K'}; x) \pmod{\ell^t}$ with no \'etaleness assumption on the Hecke algebra.
 \end{enumerate}
 
 \subsection{Proof of Theorem~\ref{thm:main}}
@@ -268,11 +275,11 @@ $31$ & \textbf{30}, 6, 2, 28, 1, 8, 3, 15, 15, 13, 16, \dots & $5$ & $1$ \cite{N
 \end{tabular}
 \end{table}
 
-\begin{remark}[Erratum in Boylan--Webb~\cite{BW} at $\ell = 29$]
-In~\cite[\S6.1]{BW}, the three displayed constants for $\ell = 29$ are $10 \pmod{29}$, $329 \pmod{29^2}$, and $14706 \pmod{29^3}$. The first two are inverses of $\alpha_{29}$ ($10 \cdot 3 \equiv 1 \pmod{29}$ and $329 \cdot (3 + 14\cdot 29) \equiv 1 \pmod{29^2}$), whereas $14706 = 3 + 14\cdot 29 + 17\cdot 29^2$ is $\alpha_{29} \pmod{29^3}$ itself (matching Table~\ref{tab:constants}). Thus the third display runs in the opposite direction from the first two, and its printed offsets $806$ and $19308$ correspond to levels $2$ and $3$ rather than levels $3$ and $5$.
+\begin{remark}[Apparent misprint in Boylan--Webb~\cite{BW} at $\ell = 29$]
+In~\cite[\S6.1]{BW}, the three displayed constants for $\ell = 29$ are $10 \pmod{29}$, $329 \pmod{29^2}$, and $14706 \pmod{29^3}$. The first two are inverses of $\alpha_{29}$ ($10 \cdot 3 \equiv 1 \pmod{29}$ and $329 \cdot (3 + 14\cdot 29) \equiv 1 \pmod{29^2}$), whereas $14706 = 3 + 14\cdot 29 + 17\cdot 29^2$ is $\alpha_{29} \pmod{29^3}$ itself (matching Table~\ref{tab:constants}). Thus the third display runs in the opposite direction from the first two, and the printed offsets $806$ and $19308$ in the $29^3$ and $29^5$ progressions correspond to levels $2$ and $3$ rather than levels $3$ and $5$.
 \end{remark}
 
-For $37 \le \ell \le 61$ ($R_\ell = 2, 3$), $Q_\ell(x)$ was computed to $20$ $\ell$-adic digits from the Hida families and confirmed against exact partition numbers modulo $\ell, \ell^2, \ell^3$ (and against Boylan--Webb's printed relations for $\ell = 53$ and periods $c_{37} = 36, c_{41} = 10$).
+For $37 \le \ell \le 61$ ($R_\ell = 2, 3$), $Q_\ell(x)$ was computed to $20$ $\ell$-adic digits from the Hida families and confirmed against exact partition numbers modulo $\ell, \ell^2, \ell^3$ for $37 \le \ell \le 59$ and modulo $61, 61^2$ for $\ell = 61$ (and against Boylan--Webb's printed relations for $\ell = 53$ and periods $c_{37} = 36, c_{41} = 10$).
 
 \subsection{The rank exception at $\ell = 607$}\label{sec:607}
 Theorem~\ref{thm:ord} rules out non-ordinarity as a cause of rank deficiency. Modulo $\ell$, the tower levels span at most $\deg(\operatorname{minpoly}(T_\ell \mid S_\ell \bmod \ell))$ directions. Computation over $37 \le \ell \le 1297$ shows that this minimal polynomial has full degree $R_\ell$ at every prime except $\ell = 607$, where two Frobenius-conjugate newforms in $S_{607}$ share the same $a_{607}$ eigenvalue in $\F_{607}$ (separated by $T_5$), dropping the minimal polynomial degree to $24 = R_{607} - 1$—matching Boylan--Webb's computed rank $r_{607}(1) = 24$.
@@ -281,27 +288,33 @@ Theorem~\ref{thm:ord} rules out non-ordinarity as a cause of rank deficiency. Mo
 By Ahlgren--Allen--Tang~\cite[Lemma~5.1]{AAT}, if $\legendre{3}{Q} a_Q(f) \equiv c \pmod{\ell}$ for all $f \in S_\ell$ with $c \equiv \varepsilon \legendre{-3}{Q} Q^{-2}$ or $c \equiv 0 \pmod{\ell}$, one obtains explicit Ramanujan-type congruences modulo $\ell$. Exhaustive searches using the class spaces $S_\ell$ yielded previously unlisted congruences for $\ell \ge 37$, each verified on exact partition numbers and controls via FLINT, including:
 \begin{itemize}
   \item $\ell = 37$, $Q = 2999$: $p(N) \equiv 0 \pmod{37}$ whenever $24N - 1 = 37 \cdot 2999^3 \cdot m$ with $2999 \nmid m$ (e.g.\ $p(540584055355) \equiv 0 \pmod{37}$);
-  \item $\ell = 43$, $Q = 4049, 8941$: Atkin-type congruences with sign $\varepsilon = -1$;
-  \item $\ell = 67$: $p(19728144816847346813\,n + 6177904563614) \equiv 0 \pmod{67}$;
-  \item $\ell = 73$: $p(107239327321929851108449\,n + 9040523964878168) \equiv 0 \pmod{73}$, where $107239327321929851108449 = 73 \cdot 11367817^3$.
+  \item $\ell = 43$: Atkin-type congruences at $Q = 4049$ ($\varepsilon = +1$ for $M = (24N-1)/Q^2$) and $Q = 8941$ ($\varepsilon = -1$);
+  \item $\ell = 67$:
+  \[
+    p(19728144816847346813\,n + 6177904563614) \equiv 0 \pmod{67};
+  \]
+  \item $\ell = 73$ (with $107239327321929851108449 = 73 \cdot 11367817^3$):
+  \[
+    p(107239327321929851108449\,n + 9040523964878168) \equiv 0 \pmod{73}.
+  \]
 \end{itemize}
 
 \begin{thebibliography}{99}
-\bibitem{AAT} S. Ahlgren, P. B. Allen, and S. Tang, \emph{Ono's conjecture on partition congruences}, Trans. Amer. Math. Soc. Ser. B \textbf{9} (2022), 1152--1177.
-\bibitem{AAD} S. Ahlgren, N. Andersen, and R. Dicks, \emph{The Shimura lift and congruences for modular forms with the eta multiplier}, Adv. Math. \textbf{447} (2024), 109693.
+\bibitem{AAT} S. Ahlgren, P. B. Allen, and S. Tang, \emph{Congruences like Atkin's for the partition function}, Trans. Amer. Math. Soc. Ser. B \textbf{9} (2022), 1044--1064.
+\bibitem{AAD} S. Ahlgren, N. Andersen, and R. Dicks, \emph{The Shimura lift and congruences for modular forms with the eta multiplier}, Adv. Math. \textbf{447} (2024), 109655.
 \bibitem{BW} M. Boylan and J. Webb, \emph{The partition function modulo prime powers}, Trans. Amer. Math. Soc. \textbf{365} (2013), 2169--2206.
 \bibitem{Cal13} F. Calegari, \emph{Congruences between modular forms}, Arizona Winter School 2013 lecture notes.
 \bibitem{CDHS} W. Y. C. Chen, D. K. Du, Q.-H. Hou, and L. H. Sun, \emph{Congruences of multipartition functions modulo powers of primes}, arXiv:1206.6642 (2012).
 \bibitem{DS} P. Deligne and J.-P. Serre, \emph{Formes modulaires de poids $1$}, Ann. Sci. \'Ecole Norm. Sup. (4) \textbf{7} (1974), 507--530.
 \bibitem{E92} B. Edixhoven, \emph{The weight in Serre's conjectures on modular forms}, Invent. Math. \textbf{109} (1992), 563--594.
 \bibitem{FKO} A. Folsom, Z. Kent, and K. Ono, \emph{$\ell$-adic properties of the partition function}, Adv. Math. \textbf{229} (2012), 1586--1609 (with an appendix by N. Ramsey).
-\bibitem{GO} L. Guo and K. Ono, \emph{The partition function and the arithmetic of certain modular $L$-functions}, J. Number Theory \textbf{79} (1999), 1--28.
+\bibitem{GO} L. Guo and K. Ono, \emph{The partition function and the arithmetic of certain modular $L$-functions}, Int. Math. Res. Not. IMRN (1999), no.~21, 1179--1197.
 \bibitem{H86a} H. Hida, \emph{Iwasawa modules attached to congruences of cusp forms}, Ann. Sci. \'Ecole Norm. Sup. (4) \textbf{19} (1986), 231--273.
 \bibitem{H86b} H. Hida, \emph{Galois representations into $\mathrm{GL}_2(\Z_p[[X]])$ attached to ordinary cusp forms}, Invent. Math. \textbf{85} (1986), 545--613.
-\bibitem{Jam} M. Jameson, \emph{A refinement of Ramanujan's congruences modulo powers of $7$ and $11$}, preprint.
+\bibitem{Jam} M. Jameson, \emph{A refinement of Ramanujan's congruences modulo powers of $7$ and $11$}, Int. J. Number Theory \textbf{8} (2012), no.~4, 865--879.
 \bibitem{J82} N. Jochnowitz, \emph{A study of the local components of the Hecke algebra mod $l$}, Trans. Amer. Math. Soc. \textbf{270} (1982), 253--267.
 \bibitem{K77} N. M. Katz, \emph{A result on modular forms in characteristic $p$}, Lecture Notes in Math. \textbf{601} (1977), 53--61.
-\bibitem{Nar19} S. Narayanan, \emph{Modular forms and the partition function}, Harvard Univ. senior thesis (2019).
+\bibitem{Nar19} S. Narayanan, \emph{Modular forms and modular congruences of the partition function}, Harvard Univ. senior thesis (2019).
 \bibitem{Ono00} K. Ono, \emph{Distribution of the partition function modulo $m$}, Ann. of Math. (2) \textbf{151} (2000), 293--307.
 \bibitem{W88} A. Wiles, \emph{On ordinary $\lambda$-adic representations associated to modular forms}, Invent. Math. \textbf{94} (1988), 529--573.
 \bibitem{Y11} Y. Yang, \emph{Congruences of the partition function}, Int. Math. Res. Not. IMRN (2011), no.~14, 3261--3288.
