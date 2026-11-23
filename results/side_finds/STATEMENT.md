@@ -288,8 +288,11 @@ With 1–4, A1 and B follow for every ℓ ≤ 1297 except possibly 607, and C fo
 
 ## What would make the statements fail (and did not)
 
-- A form of lower level sharing the class's numbers on lane ℓ: it happens (17, 29, 37, 499), and is set aside exactly by its
-  U₂, U₃ values (Deligne's bound forbids exact equality). It never changes a constant.
+- A form of lower level sharing the class's numbers on lane ℓ: it happens (17, 29, 499), and is set aside exactly by its
+  U₂, U₃ values (Deligne's bound forbids exact equality). It never changes a constant. *(Corrected 23 Nov 2026: this
+  list read "17, 29, 37, 499". On lane 37 the class at weight 34 has exactly its 2 forms: the project's sweeps, the
+  reviewer's census and a PARI test agree, `recheck/logs/pr6_review.log`. The 37 came from Dig 18, where a piece along the
+  families at higher weight had 6 forms; what the extra ones are has not been determined. A2 above already said 17, 29, 499.)*
 - A non-ordinary form in S_ℓ: none up to 1297. **Never, for any ℓ ≥ 7** (12 Nov; derived, `second_kind.py`):
   - Theta cycles turn a non-ordinary class form of weight ℓ − 3 into a weight-6 form on Γ0(6) with U₂ ≡ 4, U₃ ≡ 9, and
     none exists.

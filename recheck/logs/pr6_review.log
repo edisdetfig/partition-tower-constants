@@ -1,0 +1,83 @@
+# Reviewer's checks for pull request 6, run 23 Nov 2026. Scripts: recheck/scripts/week3/
+
+## pr6_quick.py
+1. lambda_b even, K_b formula, K_b>=10, K_b/2-1>=b, signs: failures = 0
+2a. p(29n+23)-10p(29^3n+X) mod 29, X=806 then 19308: [0, 14, 17, 0, 0, 0]
+2b. p(29^3n+X)-329p(29^5n+Y) mod 29^2, (806,19308) then (19308,16237993): [567, 336, 264, 0, 0, 0]
+2c. as printed p(29^5n+Y)-14706p(29^7n+d7) mod 29^3, Y=19308 then 16237993: [1754, 15352, 23407, 17095]
+2d. reversed p(29^7n+d7)-14706p(29^5n+d5) mod 29^3: [0, 0]
+3. 73*11367817^3 == True ; 67*665279^3 == True
+    67 665279 24N0-1 divisible by Q^2: True by l: True (M/Q^2|Q)= -1 (l|Q)= -1
+    73 11367817 24N0-1 divisible by Q^2: True by l: True (M/Q^2|Q)= -1 (l|Q)= 1
+   37*2999^3*13+1 == 24*540584055355: True
+   (43|4049) = -1  Q^-2 mod 43 = 36  (-1|Q)= 1  (-3|Q)= -1  (3|Q)= -1
+   (43|8941) = 1  Q^-2 mod 43 = 24  (-1|Q)= 1  (-3|Q)= 1  (3|Q)= 1
+4. p(540584055355) mod 37 = 0
+
+## pr6_sigma.py
+sigma_p checks: 84 failures: 0
+
+## pr6_h6_small.py
+newforms at level 6 weight 6: 1
+h6 = q +4q^2 -9q^3 +16q^4 -66q^5 -36q^6 ; Atkin-Lehner (2,3): [-1, 1]
+a_859 mod 859 = 0 ; a_p mod p at 853, 857, 863 = [179, 728, 285]
+primes 5 <= p <= 863 with p | a_p(h6): [859]
+h3 = q -6q^2 +9q^3 ; dim M_6(Gamma0(6)) = 7 ; dim S_6 at levels 1, 2 = 0 0 ; Eisenstein dim = 4
+
+## pr6_level_raising.py
+l=17 weight 14: level-6 orbits [(1, (-1, 1))]; lower-level orbits [(2, 1), (2, 1), (3, 1), (3, 2)]
+   new orbit dim 1 signs (-1, 1)  <-- the class S_l: congruent lower-level orbits: [('level 3 dim 1', [1, 1, 1, 1], [(2, True)])]
+l=29 weight 26: level-6 orbits [(1, (-1, 1)), (1, (1, -1)), (1, (1, 1))]; lower-level orbits [(1, 1), (2, 1), (2, 2), (3, 2), (3, 3)]
+   new orbit dim 1 signs (-1, 1): congruent lower-level orbits: none
+   new orbit dim 1 signs (1, -1): congruent lower-level orbits: none
+   new orbit dim 1 signs (1, 1)  <-- the class S_l: congruent lower-level orbits: [('level 2 dim 1', [1, 1, 1, 1], [(3, True)])]
+l=37 weight 34: level-6 orbits [(1, (-1, -1)), (1, (-1, 1)), (1, (1, 1)), (2, (1, -1))]; lower-level orbits [(1, 2), (2, 1), (2, 2), (3, 3), (3, 3)]
+   new orbit dim 1 signs (-1, -1): congruent lower-level orbits: none
+   new orbit dim 1 signs (-1, 1): congruent lower-level orbits: none
+   new orbit dim 1 signs (1, 1): congruent lower-level orbits: none
+   new orbit dim 2 signs (1, -1)  <-- the class S_l: congruent lower-level orbits: none
+
+## pr6_h6_to_1e7.py (run of 23 Nov, 288 s)
+euler products 3
+candidate eta quotients [(-4, 14, 4, -2), (-3, 9, 9, -3), (-2, 4, 14, -4), (0, 6, 0, 6), (1, 1, 5, 5), (4, -2, -4, 14), (5, 5, 1, 1), (6, 0, 6, 0), (9, -3, -3, 9), (14, -4, -2, 4)]
+using [(6, 0, 6, 0), (0, 6, 0, 6), (1, 1, 5, 5)]
+forms 3 286
+combination built 288
+agreement with PARI on a_1..a_3000: True ; coefficients x (centred): [1, -8, 18]
+primes below 10^7: 664579
+Deligne bound violations: 0
+checks: a5,a7,a11,a13 = [-66, 176, -60, -658]
+primes 5 <= p < 10^7 with p | a_p(h6): [859]
+total seconds 288
+
+## pr6_four_classes.py at 859 and 857 (run of 23 Nov)
+l=859 partition class (-(2|l),-(3|l)): forms on lane l = 36; T_l eigenvalue 0 with multiplicity 0
+l=859 class (-(2|l),+(3|l)), the one h6 predicts: forms on lane l = 35; T_l eigenvalue 0 with multiplicity 1
+l=859 class (+(2|l),-(3|l)): forms on lane l = 36; T_l eigenvalue 0 with multiplicity 0
+l=859 class (+(2|l),+(3|l)): forms on lane l = 36; T_l eigenvalue 0 with multiplicity 0
+seconds 151
+l=857 partition class (-(2|l),-(3|l)): forms on lane l = 36; T_l eigenvalue 0 with multiplicity 0
+l=857 class (-(2|l),+(3|l)), the one h6 predicts: forms on lane l = 35; T_l eigenvalue 0 with multiplicity 0
+l=857 class (+(2|l),-(3|l)): forms on lane l = 35; T_l eigenvalue 0 with multiplicity 0
+l=857 class (+(2|l),+(3|l)): forms on lane l = 35; T_l eigenvalue 0 with multiplicity 0
+seconds 148
+
+## pr6_four_classes.py at 17, 29, 37
+l=17 partition class (-(2|l),-(3|l)): forms on lane l = 2; T_l eigenvalue 0 with multiplicity 0
+l=17 class (-(2|l),+(3|l)), the one h6 predicts: empty
+l=17 class (+(2|l),-(3|l)): empty
+l=17 class (+(2|l),+(3|l)): empty
+l=29 partition class (-(2|l),-(3|l)): forms on lane l = 2; T_l eigenvalue 0 with multiplicity 0
+l=29 class (-(2|l),+(3|l)), the one h6 predicts: forms on lane l = 1; T_l eigenvalue 0 with multiplicity 0
+l=29 class (+(2|l),-(3|l)): forms on lane l = 1; T_l eigenvalue 0 with multiplicity 0
+l=29 class (+(2|l),+(3|l)): empty
+l=37 partition class (-(2|l),-(3|l)): forms on lane l = 2; T_l eigenvalue 0 with multiplicity 0
+l=37 class (-(2|l),+(3|l)), the one h6 predicts: forms on lane l = 1; T_l eigenvalue 0 with multiplicity 0
+l=37 class (+(2|l),-(3|l)): forms on lane l = 1; T_l eigenvalue 0 with multiplicity 0
+l=37 class (+(2|l),+(3|l)): forms on lane l = 1; T_l eigenvalue 0 with multiplicity 0
+
+## pr6_theta4_at_859.py 859
+class dim 35 ; kernel of T_l has dimension 1
+a_0, a_1 of the T_l-kernel form: 0 293
+n^4 * a_n(f) = a_n(h6) mod 859 for n = 1..4000: 4000 of 4000
+seconds 135

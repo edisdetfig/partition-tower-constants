@@ -50,6 +50,17 @@ scripts/week2/  (checks of 14 and 20 Nov 2026; see section 8 of the survey)
   braid8.py      607: the first-digit polynomial of the group of 8 is irreducible; its roots cycle
   Requirements beyond the first week: cypari2 (PARI 2.17).
 
+Added 23 Nov 2026 (review of pull request 6; scripts/week3/, one log logs/pr6_review.log):
+  pr6_quick.py          lambda_b even and the K_b formulas (160 cases); Boylan-Webb's three relations at 29 on exact p(N);
+                        the arithmetic of the note's sample congruences; p(540584055355) mod 37
+  pr6_sigma.py          the unit sigma_p(T) of NOTE.md (R2) at 6 primes, p = 2 and 3, 7 weights each (84 cases)
+  pr6_level_raising.py  PARI: which level-6 newforms at weight l-3 are congruent mod l to a form of level 1, 2 or 3 (17, 29, 37)
+  pr6_h6_small.py       the weight-6 forms h6 and h3 used in Theorem A's proof; a_859(h6) mod 859
+  pr6_h6_to_1e7.py      a_p(h6) exactly at every prime below 10^7 (series modulo 2^61-1); only 859 divides its a_p
+  pr6_four_classes.py   vr2.py's census run on all four sign classes: forms on lane l and zero eigenvalues of T_l
+  pr6_theta4_at_859.py  at 859, the non-ordinary form f of the class (-(2|l),+(3|l)) satisfies n^4 a_n(f) = a_n(h6) mod 859
+  The last two start from a copy of vr2.py's first 84 lines.
+
 Paths: the scripts were written in the reviewer's sandbox. Absolute sandbox paths were replaced with relative ones on
 20 Nov 2026 (cmpP.py, census.sh, twins.py, consts.py, and one traceback line in logs/lucky.log); nothing else in them
 was changed. consts.py and twins.py now write their .json beside wherever they are run. The files in logs/ are the
