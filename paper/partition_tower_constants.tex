@@ -122,7 +122,7 @@ We collect the published theorems used in Sections~\ref{sec:proofA} and~\ref{sec
   \[
     S_t(T_{p^2} F) = \legendre{12}{p} T_p S_t(F) \qquad \text{for every prime } p \ge 5.
   \]
-  (This removes the need for Yang's trace-formula isomorphism~\cite{Y14}, whose arXiv text~\texttt{arXiv:1110.1810} works out only $n \equiv 1, 11 \pmod{24}$ and states that the remaining six residue classes are omitted.)
+  (This removes the need for Yang's trace-formula isomorphism~\cite{Y14}, whose arXiv version (\texttt{arXiv:1110.1810}) works out only $n \equiv 1, 11 \pmod{24}$ and states that the remaining six residue classes are omitted.)
 
   \item[\textbf{(I3)}] \textbf{Half-integral weight Hecke operators} (e.g.~\cite[\S2]{Y14}). On $S_{\kappa + 1/2}(1, \nu^r)$, for any prime $p \ge 5$,
   \[
@@ -213,7 +213,7 @@ Because of level-raising congruences between level $6$ and lower levels (observe
 \begin{proof}[Proposed proof of Theorem~\ref{thm:main}]
 Fix $m \ge 1$, and choose one integer $b_0 \ge m$ in each parity class. Set $b = b_0$.
 
-\emph{Step 1 (Classical representative and weight).} By (I1), $F_b \equiv G_b \pmod{\ell^b}$ where $G_b = \eta(24z)^{\gamma_b}\varphi_b(24z) \in S_{\gamma_b, \lambda_b} \subset S_{\kappa_b + 1/2}(1, \nu^{\gamma_b})$ with $\kappa_b = (\gamma_b + 2\lambda_b - 1)/2$. Note that $\lambda_b$ is always even: for odd $b$, $\gamma_b \equiv -\ell \pmod{4}$ matches the parity of $(\ell^b - \ell^{b-1})/2$ with that of $(\gamma_b+1)/2$; for even $b$, $\ell^b - \ell^{b-1}$ is even and $\gamma_b \equiv -1 \pmod{4}$. Setting $K_b = 2\kappa_b = \gamma_b + 2\lambda_b - 1$, (I1) gives
+\emph{Step 1 (Classical representative and weight).} By (I1), $F_b \equiv G_b \pmod{\ell^b}$ where $G_b = \eta(24z)^{\gamma_b}\varphi_b(24z)$ lies in $S_{\gamma_b, \lambda_b} \subset S_{\kappa_b + 1/2}(1, \nu^{\gamma_b})$ with $\kappa_b = (\gamma_b + 2\lambda_b - 1)/2$. Note that $\lambda_b$ is always even: for odd $b$, $\gamma_b \equiv -\ell \pmod{4}$ matches the parity of $(\ell^b - \ell^{b-1})/2$ with that of $(\gamma_b+1)/2$; for even $b$, $\ell^b - \ell^{b-1}$ is even and $\gamma_b \equiv -1 \pmod{4}$. Setting $K_b = 2\kappa_b = \gamma_b + 2\lambda_b - 1$, (I1) gives
 \[
   K_b = \begin{cases}
     (\ell - 1)\ell^{b-1} - 2 & \text{if $b$ is odd,}\\
@@ -285,7 +285,7 @@ For $37 \le \ell \le 61$ ($R_\ell = 2, 3$), $Q_\ell(x)$ was computed to $20$ $\e
 Theorem~\ref{thm:ord} rules out non-ordinarity as a cause of rank deficiency. Modulo $\ell$, the tower levels span at most $\deg(\operatorname{minpoly}(T_\ell \mid S_\ell \bmod \ell))$ directions. Computation over $37 \le \ell \le 1297$ shows that this minimal polynomial has full degree $R_\ell$ at every prime except $\ell = 607$, where two Frobenius-conjugate newforms in $S_{607}$ share the same $a_{607}$ eigenvalue in $\F_{607}$ (separated by $T_5$), dropping the minimal polynomial degree to $24 = R_{607} - 1$—matching Boylan--Webb's computed rank $r_{607}(1) = 24$.
 
 \subsection{New explicit congruences}
-By Ahlgren--Allen--Tang~\cite[Lemma~5.1]{AAT}, if $\legendre{3}{Q} a_Q(f) \equiv c \pmod{\ell}$ for all $f \in S_\ell$ with $c \equiv \varepsilon \legendre{-3}{Q} Q^{-2}$ or $c \equiv 0 \pmod{\ell}$, one obtains explicit Ramanujan-type congruences modulo $\ell$. Exhaustive searches using the class spaces $S_\ell$ yielded previously unlisted congruences for $\ell \ge 37$, each verified on exact partition numbers and controls via FLINT, including:
+By Ahlgren--Allen--Tang~\cite[Lemma~5.1]{AAT}, if $\legendre{3}{Q} a_Q(f) \equiv c \pmod{\ell}$ for all $f \in S_\ell$ with $c \equiv \varepsilon \legendre{-3}{Q} Q^{-2}$ or $c \equiv 0 \pmod{\ell}$, one obtains explicit Ramanujan-type congruences modulo $\ell$. Exhaustive searches using the class spaces $S_\ell$ yielded previously unlisted congruences for $\ell \ge 37$; the examples below were checked on exact partition numbers and controls via FLINT (for $\ell = 73$, at $n = 0$):
 \begin{itemize}
   \item $\ell = 37$, $Q = 2999$: $p(N) \equiv 0 \pmod{37}$ whenever $24N - 1 = 37 \cdot 2999^3 \cdot m$ with $2999 \nmid m$ (e.g.\ $p(540584055355) \equiv 0 \pmod{37}$);
   \item $\ell = 43$: Atkin-type congruences at $Q = 4049$ ($\varepsilon = +1$ for $M = (24N-1)/Q^2$) and $Q = 8941$ ($\varepsilon = -1$);
