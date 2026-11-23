@@ -37,8 +37,7 @@ denote the U_ℓ-eigenvalue, at ℓ-adic weight κ, of the Hida family through f
 
 **Theorem A [derived].** For every prime ℓ ≥ 7, every f ∈ S_ℓ is ordinary at every prime above ℓ.
 
-**Theorem B [conjectured: this is A1 of `STATEMENT.md`; a proposed proof is in §4, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)). For every
-m ≥ 1 there are b₀ and j₀ such that, for each parity class of b ≥ b₀ and all j ≥ j₀,
+**Theorem B [conjectured: this is A1 of `STATEMENT.md`; a proposed proof is in §4, from (I1), (I2′), (I3)–(I5)].** Let Q_ℓ(x) ∈ ℤ_ℓ[x] be the specialization at ℓ-adic weight κ = −2 of the Λ-adic characteristic polynomial χ(T; x) of (3|ℓ)·U_ℓ on the ordinary Λ-adic newspace M^(w₂,w₃) through S_ℓ (§8, R2–R3). Over Q̄_ℓ, Q_ℓ(x) = ∏_{f ∈ S_ℓ} (x − (3|ℓ)·u_f(−2)) (with u_f(−2) the roots of χ(T_(−2); x), avoiding any assumption that individual branches are unramified at −2). For every m ≥ 1 there are b₀ and j₀ such that, for each parity class of b ≥ b₀ and all j ≥ j₀,
 
   Σ_i c_i·F_(b+2j+2i) ≡ 0 (mod ℓᵐ), where Q_ℓ(x) = Σ_i c_i xⁱ.
 
@@ -184,13 +183,15 @@ Hence a_ℓ(f) is a λ-unit. ∎
 ## 4. Proposed proof of Theorem B [conjectured (A1); the argument is the project's, from (I1)–(I5), and unchecked]
 
 **4.1 Each level is classical.**
-- By (I1) with r = 1 and k = b, F_b ≡ G_b (mod ℓᵇ), with G_b = η(24z)^(γ_b)·φ_b(24z) ∈ S_(γ_b, λ_b) (if λ_b is odd,
-  M_(λ_b) = 0 and F_b ≡ 0).
+- By (I1) with r = 1 and k = b, F_b ≡ G_b (mod ℓᵇ), with G_b = η(24z)^(γ_b)·φ_b(24z) ∈ S_(γ_b, λ_b). Note that λ_b is
+  always even: for odd b, γ_b ≡ −ℓ (mod 4), so (ℓᵇ − ℓᵇ⁻¹)/2 and (γ_b + 1)/2 have the same parity; for even b,
+  ℓᵇ − ℓᵇ⁻¹ is even and γ_b ≡ −1 (mod 4), so (γ_b + 1)/2 is even.
 - Its weight under Yang's map is K_b = γ_b + 2λ_b − 1. From (I1)'s formulas for λ:
   - K_b = (ℓ − 1)ℓ^(b−1) − 2 for odd b;
   - K_b = 2(ℓ − 1)ℓ^(b−1) − 2 for even b.
 
-  So K_b ≡ −2 (mod (ℓ − 1)ℓ^(b−1)) exactly, K₁ = ℓ − 3 is the class's own weight, and K_b → −2 ℓ-adically [derived, from the
+  So K_b ≡ −2 (mod (ℓ − 1)ℓ^(b−1)) exactly, K₁ = ℓ − 3 is the class's own weight, K_b ≥ 10 > 2 for all ℓ ≥ 13 and
+  b ≥ 1 (avoiding weight-2 ℓ-newforms in Hida's control theorem), and K_b → −2 ℓ-adically [derived, from the
   formulas]. Example, ℓ = 13: b = 1 gives γ = 11, λ = 0, K = 10; b = 2 gives γ = 23, λ = 144, K = 310 = 2·156 − 2.
 - The signs are −(8/γ_b) = −(2|ℓ)ᵇ and −(12/γ_b) = −(3|ℓ)ᵇ. That is the class S_ℓ's for odd b, and (−1, −1) for even b.
 
@@ -216,22 +217,28 @@ Hence a_ℓ(f) is a λ-unit. ∎
   half-integral side), which the theorem does not use.
 
 **4.4 Only the ordinary part survives.**
+- Fix m ≥ 1, and choose one integer b₀ ≥ m in each parity class (so b₀ ≥ m and K_(b₀) − 1 ≥ m). Set b = b₀.
 - Split P_(K_b) = P^ord·P^non over ℤ_ℓ (Hensel): the roots that are ℓ-adic units, and those with positive valuation.
-  The two factors are coprime modulo ℓ.
-- On the P^non part, T(ℓ²)^(deg P^non) ≡ 0 (mod ℓ). So for each m there is j₀ with the P^non component of
-  G_b | T(ℓ²)^j ≡ 0 (mod ℓᵐ) for j ≥ j₀.
-- So for j ≥ j₀ the tower obeys P^ord modulo ℓ^(min(b, m)).
-- The roots of P^ord are (3|ℓ)·a_ℓ(f) for the ordinary newforms f of weight K_b in the class.
-- For such f, a_ℓ(f) = α_f + ℓ^(K_b−1)/α_f with α_f the unit root, so a_ℓ(f) ≡ α_f (mod ℓ^(K_b−1)), and K_b − 1 ≥ m once b
-  is large.
+  The two factors are coprime modulo ℓ, so by CRT over ℤ_ℓ[x] there exist A, B ∈ ℤ_ℓ[x] with A·P^ord + B·P^non = 1,
+  splitting G_b = G_b^ord + G_b^non with both summands ℓ-integral and annihilated by P^ord(T(ℓ²)) and P^non(T(ℓ²))
+  respectively.
+- Since P^non(x) ≡ x^(deg P^non) (mod ℓ), we have T(ℓ²)^(deg P^non)·G_b^non ≡ 0 (mod ℓ), hence
+  T(ℓ²)^j·G_b^non ≡ 0 (mod ℓᵐ) for all j ≥ j₀ := m·deg P^non. (Here j₀ depends on b₀ and m, not on a varying b.)
+- Thus for all j ≥ j₀, F_(b₀+2j) ≡ G_(b₀)^ord | T(ℓ²)^j (mod ℓᵐ), so the sequence F_(b₀+2j) obeys P^ord modulo ℓᵐ.
+- Moreover, for any b ≥ b₀ of the same parity, writing b = b₀ + 2r (r ≥ 0) gives F_(b+2j+2i) = F_(b₀+2(j+r)+2i) with
+  j + r ≥ j₀, so the same recurrence modulo ℓᵐ holds uniformly for all b ≥ b₀ and all j ≥ j₀.
+- The roots of P^ord are (3|ℓ)·a_ℓ(f) for the ordinary newforms f of weight K_(b₀) in the class.
+- For such f, a_ℓ(f) = α_f + ℓ^(K_(b₀)−1)/α_f with α_f the unit root, so a_ℓ(f) ≡ α_f (mod ℓ^(K_(b₀)−1)), and
+  K_(b₀) − 1 ≥ m.
 
 **4.5 The values move to weight −2.**
-- By (I5), the ordinary newforms of weight K_b in the class are the members, at K_b, of the ordinary families through the
-  class at weight ℓ − 3. The Atkin–Lehner signs move along a family by (2|ℓ)ˣ and (3|ℓ)ˣ, since 2^((ℓ−1)/2) ≡ (2|ℓ); this
-  is how both parities of b land in the families through S_ℓ.
-- By Theorem A all of S_ℓ is ordinary, so these are exactly the families through S_ℓ, R_ℓ of them.
-- And α_f(K_b) = A_f(K_b) → A_f(−2) = u_f(−2), since K_b → −2.
-- So modulo ℓᵐ, for b ≥ b₀ and j ≥ j₀, the sequence F_(b+2j) satisfies the recurrence of ∏_f (x − (3|ℓ)·u_f(−2)) = Q_ℓ(x). ∎
+- By (I5) and (R2), the specialization of the Λ-adic characteristic polynomial χ(T; x) = det(x − (3|ℓ)·U_ℓ | M^(w₂,w₃))
+  at weight K_(b₀) equals ∏_f (x − (3|ℓ)·α_f), where f runs over the ordinary newforms of weight K_(b₀) in the class
+  (signs −(2|ℓ)^(b₀), −(3|ℓ)^(b₀)), and by §4.4 this agrees with P^ord modulo ℓ^(K_(b₀)−1) (hence modulo ℓᵐ).
+- By Theorem A all of S_ℓ is ordinary, so rank_Λ M^(w₂,w₃) = |S_ℓ| = R_ℓ.
+- By (R3), since K_(b₀) ≡ −2 (mod (ℓ − 1)ℓ^(b₀−1)) and b₀ ≥ m, χ(T_(K_(b₀)); x) ≡ χ(T_(−2); x) = Q_ℓ(x) (mod ℓᵐ).
+- Hence P^ord ≡ Q_ℓ (mod ℓᵐ), so for each parity class of b ≥ b₀ and all j ≥ j₀, the sequence F_(b+2j) satisfies the
+  recurrence of Q_ℓ(x) modulo ℓᵐ. ∎
 
 **4.6 What is not used.** Overconvergent forms, Ramsey's lift, Calegari's Lemma 4.6.4, half-integral multiplicity one
 (in families or at a single weight), cuspidality of the limit, and Yang's isomorphism. Only divisibility of the minimal
@@ -283,16 +290,34 @@ and unchecked.
 - θ, U, V and T_p (p ∤ 6ℓ) commute with the ⟨d⟩. So every statement of (I6) used in §3 holds on Γ₀(6).
 - Taking ⟨d⟩-invariants is exact here, since |(ℤ/6)^×| = 2 is prime to ℓ.
 
-**(R2) Hida's theory on one Atkin–Lehner class.**
-- The ordinary Λ-adic Hecke algebra of tame level 6 [H86a, H86b; W88] contains U₂ and U₃, which commute with everything
-  else.
-- The part new at 2 and 3 is a direct factor: Λ-adic newforms of tame level 6, whose specializations at classical weights
-  k ≥ 2 are the ordinary ℓ-stabilized newforms of level 6.
-- On a Λ-adic newform new at p ∈ {2, 3}, the U_p-eigenvalue specializes at weight k to −w_p(k)·p^((k−2)/2), and it is
-  ℓ-adically continuous in k. As p^((ℓ−1)/2) ≡ (p|ℓ) (mod ℓ), the sign moves by (p|ℓ) per step of ℓ − 1 in k.
-- So the class at weight K, with signs set by K, is the set of specializations at K of a fixed set of Λ-adic newforms:
-  the families through the class at weight ℓ − 3. Restricting Hida's control isomorphism to that set is restricting it to
-  a sum of components, which commutes with specialization.
+**(R2) Hida's theory on one Atkin–Lehner class.** *(Revised 23 Nov 2026: an earlier version called the new-at-2-and-3
+part a "direct factor" of the ordinary Λ-adic Hecke algebra of tame level 6; because of level-raising congruences with
+levels 1, 2, 3 — observed at ℓ = 17, 29, 499 — it need not be a direct factor over Λ. The saturated-kernel construction
+below avoids that claim.)*
+- Let S^ord(6; Λ) be Hida's ordinary Λ-adic cusp space of tame level 6 [H86a, H86b; W88], which is finite and free over
+  Λ = ℤ_ℓ[[T]] (with classical weight K = ℓ − 3 + (ℓ − 1)x corresponding to T_K = (1 + ℓ)^(K − (ℓ − 3)) − 1).
+- For p ∈ {2, 3}, write p = ω(p)⟨p⟩ in ℤ_ℓ^× with ⟨p⟩ = (1 + ℓ)^(c_p) ∈ 1 + ℓℤ_ℓ (c_p ∈ ℤ_ℓ), and define the explicit
+  Λ-adic unit σ_p(T) = p^((ℓ−5)/2)·(1 + T)^(c_p/2) ∈ Λ^× (using 2 ∈ ℤ_ℓ^×). At classical weight K = ℓ − 3 + (ℓ − 1)x,
+  σ_p(T_K) = (p|ℓ)^x·p^((K−2)/2), so σ_p(T_K)² = p^(K−2).
+- Define the Λ-adic newspace M = ker(U₂² − σ₂(T)²) ∩ ker(U₃² − σ₃(T)²) ⊂ S^ord(6; Λ). Because S^ord(6; Λ) is
+  torsion-free over Λ, M is a saturated submodule of a free Λ-module over the 2-dimensional regular local ring Λ, hence
+  reflexive and free over Λ.
+- At every classical weight K ≥ 3 (avoiding weight-2 ℓ-newforms), every newform of level 6 satisfies U_p² = p^(K−2)
+  (p ∈ {2, 3}), whereas by Deligne's bound every oldform eigenvalue of U_p (when old at p) has complex absolute value
+  p^((K−1)/2) ≠ p^((K−2)/2). Thus ker(U₂² − 2^(K−2), U₃² − 3^(K−2)) on S_K^ord(Γ₀(6ℓ); Q_ℓ) is precisely
+  S_K^(ord,new)(6; Q_ℓ). By Hida's control theorem at tame levels 1, 2, 3, 6 and inclusion–exclusion (degeneracy maps
+  f(z) ↦ f(dz) for d | 6 preserve ordinarity at ℓ ∤ 6), d = dim_(Q_ℓ) S_K^(ord,new)(6; Q_ℓ) is constant in K ≥ 3. Since
+  a nonzero element of ℤ_ℓ[[T]] has only finitely many zeros in ℓℤ_ℓ (Weierstrass preparation), the minors of
+  (U₂² − σ₂(T)², U₃² − σ₃(T)²) of size above rank S^ord − d vanish identically on Λ, giving rank_Λ M ≥ d; specialization
+  gives rank_Λ M ≤ d, so (M/P_K) ⊗ Q_ℓ ≅ S_K^(ord,new)(6; Q_ℓ) for every K ≥ 3.
+- On M, the explicit Λ-linear operators W̃_p = −σ_p(T)⁻¹·U_p (p ∈ {2, 3}) commute with the Hecke operators and satisfy
+  W̃_p² = 1. Since 2 ∈ Λ^× (ℓ ≥ 5), the orthogonal idempotents (1 ± W̃₂)/2 and (1 ± W̃₃)/2 split M into four free
+  Λ-summands. At classical weight K = ℓ − 3 + (ℓ − 1)x, W̃_p acts as (p|ℓ)^x·w_p(K). Fixing the summand M^(w₂,w₃) where
+  W̃_p = −(p|ℓ) matches S_ℓ at K₁ = ℓ − 3 (x = 0), and at weight K_b gives w_p(K_b) = −(p|ℓ)^b (since x_b = ℓ^(b−1) − 1
+  is even for odd b and x_b = 2ℓ^(b−1) − 1 is odd for even b).
+- Since the characteristic polynomial of (3|ℓ)·U_ℓ on a ℤ_ℓ-lattice depends only on the Q_ℓ-vector space, the
+  specialization of χ(T; x) = det(x − (3|ℓ)·U_ℓ | M^(w₂,w₃)) ∈ Λ[x] at weight K_b equals the characteristic polynomial
+  of (3|ℓ)·U_ℓ on the ordinary class at weight K_b. By Theorem A, rank_Λ M^(w₂,w₃) = |S_ℓ| = R_ℓ.
 
 **(R3) The continuity modulus, with no assumption on ramification.**
 - Q_ℓ is not built from individual families' values but from the Λ-adic characteristic polynomial of U_ℓ on those

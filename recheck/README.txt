@@ -34,6 +34,11 @@ Notes
     and was rerun alone as colours511.py.
   * The polynomials P_l inside twins.py, three.py and loops.py are the project's numbers,
     copied from its output files; they are inputs to the check, not results of it.
+  * [Note added 23 Nov 2026 during PR #6 review] vr2.py takes generalized (U_2, U_3)-eigenspaces
+    on all of M_k(Gamma0(6)) mod l without separating oldforms, so level-raising oldforms appear
+    in census_now.log at l = 17 and 29 (class dim 2 vs floor 1; STATEMENT.md notes these). Its
+    float64 FFT multiplication has an ~1000-fold rounding margin in the range run (l <= 607,
+    max convolution entry ~3.4e10 vs 2^53), and the 11-squaring loop in genleft assumes l <= 2050.
 
 scripts/week2/  (checks of 14 and 20 Nov 2026; see section 8 of the survey)
   example13.py   the worked example at 13: level 3 = 6 x level 1 (mod 13), level 5 = 45 x level 3 (mod 169)
